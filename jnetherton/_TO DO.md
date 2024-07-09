@@ -1,0 +1,38 @@
+- VLL Retrofit
+	- ==Check files and protection settings
+- RVA Retrofit
+- 103220 - Leconte
+	- ==SAT - waiting for peer review
+	- Communicate with rep/customer
+- 109465 - Sioux Valley - ==safevu delay
+	- Pick Date - 06/12
+	- Ship Date - 06/14
+- 114601 - Hilcorp Alaska
+	- Pick Date - 08/20
+- 108629 - Meralco
+- 108630 - Meralco
+- 108631 - Meralco
+- 111587 - Pantex - ==safevu delay
+	- Pick Date - 08/23
+	- FAT - 
+	- Ship Date - 09/30
+	- POD - 100875 , 106174
+- 116007 - AMPTEK BNSF
+	- Pick Date - 10/07
+	- Ship Date - 12/06
+	- ==Programming Spec - waiting for peer review
+- ==451 ATC Update
+	- Update excel map with all variables
+- 109336 - Quinnipiac University
+	- Pick Date - 07/15
+	- FAT - 08/01-08/02
+	- ==Survalent HMI help - waiting for license
+- 111321 - Camp Humphreys
+	- Pick Date - 8/26
+	- Ship Date - 09/20
+- Kentucky electric coop
+	- 651R
+	- Form 6 testing
+	- Arco
+
+- look into python scripting for editing RDB's

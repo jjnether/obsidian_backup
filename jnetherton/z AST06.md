@@ -1,0 +1,21 @@
+ALT15S := R_TRIG <span class="ob-html-comment" id="comment-4c0c3fb2-6e64-48fb-bf9a-9d8e7e2b1d54" data-tags="[comment,]"><span class="ob-html-comment-body">S1 live</span>ASV107</span> AND <span class="ob-html-comment" id="comment-aaf4e185-9109-41bf-b799-3d81c7bed013" data-tags="[comment,]"><span class="ob-html-comment-body">S1 open</span>ASV102</span> AND <span class="ob-html-comment" id="comment-6c8f92a9-806c-43a1-9bdb-f65ed92a2a2d" data-tags="[comment,]"><span class="ob-html-comment-body">S1 preferred</span>ALT21</span> AND <span class="ob-html-comment" id="comment-90c0177f-9c1c-4b17-ae8f-e3a5285276c1" data-tags="[comment,]"><span class="ob-html-comment-body">S2 dead</span>ASV116</span> AND <span class="ob-html-comment" id="comment-5e313d1a-d8c4-48d0-9586-a102f98698cd" data-tags="[comment,]"><span class="ob-html-comment-body">S2 closed</span>ASV111</span> AND NOT AST08Q # RETURN TO SOURCE 1
+ALT15R := (ASV101 OR ACT10Q) AND ALT15
+
+
+ACT23PU := AMV002
+ACT23DO := 0.000000
+ACT23IN := NOT ACT24Q AND ASV076 # CLOSE S1 AFTER OPEN DUE TO ASV019 = 1
+
+
+
+ASV199 := ((<span class="ob-html-comment" id="comment-6bde5af1-ae76-492a-82ed-f83d4762b979" data-tags="[comment,]"><span class="ob-html-comment-body">ITS</span>ASV197</span> OR <span class="ob-html-comment" id="comment-44fa96ed-c66f-4103-aac8-3573a239c698" data-tags="[comment,]"><span class="ob-html-comment-body">RTS</span>ASV198</span> OR <span class="ob-html-comment" id="comment-e1553eeb-5b1c-40a8-a148-803406eaf9a8" data-tags="[comment,]"><span class="ob-html-comment-body">close after open due to ASV019 = 1</span>ACT23Q</span>) AND (AST06Q OR ALT15)) OR <span class="ob-html-comment" id="comment-c2196859-1f14-4fc2-9621-0b92483e351d" data-tags="[comment,]"><span class="ob-html-comment-body">close original during ITS transfer fail</span>AST08Q</span> # SOURCE 1 CLOSE
+
+
+
+AST06PT := 3.000000 # AMV003 / 60.000000 # SECONDS
+AST06R := (<span class="ob-html-comment" id="comment-23e59397-793e-44e4-bb10-1d61c95450f3" data-tags="[comment,]"><span class="ob-html-comment-body">S1 dead</span>NOT ASV107</span> OR F_TRIG ASV107)
+AST06IN := <span class="ob-html-comment" id="comment-c7c2aaf7-dea1-4b74-b74a-260330a71b13" data-tags="[comment,]"><span class="ob-html-comment-body">S1 live</span>ASV107</span> AND <span class="ob-html-comment" id="comment-957558d5-0d91-446c-bfd0-04141901804c" data-tags="[comment,]"><span class="ob-html-comment-body">test or auto mode</span>ASV055</span> # CLOSE DESTINATION SOURCE AFTER LOSS AND RETURN OF VOLTAGE DURING TRANSFER
+
+AST08PT := AMV001 # S1 IT TIME
+AST08R := NOT (ASV107 AND ALT07 AND (ASV112 AND NOT ASV010) AND ASV055 AND NOT ASV019) OR (<span class="ob-html-comment" id="comment-d1987303-40b7-45f5-93ad-3c2671eb1b8b" data-tags="[comment,]"><span class="ob-html-comment-body">S2 live</span>ASV117</span> AND <span class="ob-html-comment" id="comment-f12d46ba-71be-49d6-ad7e-0f269c63da8d" data-tags="[comment,]"><span class="ob-html-comment-body">test or auto mode</span>ASV055</span>)
+AST08IN := <span class="ob-html-comment" id="comment-a62b5766-1bb8-4ad3-b7a7-ae4b8d9c244d" data-tags="[comment,]"><span class="ob-html-comment-body">S1 live</span>ASV107</span> AND <span class="ob-html-comment" id="comment-f63520aa-7a04-4f3d-b5fb-5ab454bbba78" data-tags="[comment,]"><span class="ob-html-comment-body">ITS to S2</span>ALT07</span> AND (<span class="ob-html-comment" id="comment-96d08ad5-8d82-4687-a5eb-cdbc5a072cea" data-tags="[comment,]"><span class="ob-html-comment-body">S2 52B</span>ASV112</span> AND <span class="ob-html-comment" id="comment-9c92ed4a-88d1-4e98-a282-52afd51c3312" data-tags="[comment,]"><span class="ob-html-comment-body">OBC</span>NOT ASV010</span>) AND <span class="ob-html-comment" id="comment-7fdbded2-0bae-48c5-8d24-3325c46c9941" data-tags="[comment,]"><span class="ob-html-comment-body">test or auto mode</span>ASV055</span> AND <span class="ob-html-comment" id="comment-9b201831-4d9c-4a29-90ff-fc9bf8fe5339" data-tags="[comment,]"><span class="ob-html-comment-body">open both ways when lost voltage OFF</span>NOT ASV019</span> # CLOSE ORIGINAL SOURCE DURING ITS TRANSFER FAIL TO SECONDARY SOURCE
