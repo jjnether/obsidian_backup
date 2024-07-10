@@ -15,8 +15,10 @@ Siemens Siprotec
 -   RTU (remote terminal unit) - SICAM A8000
     -   Can connect with browser or software
 
+`U:\_ISO\GWI\523\GWI523-369CD.zip`
+- Motor programming cable driver
 
-X:\SWG_Eng\EE Folder\Product\SEL
+`X:\SWG_Eng\EE Folder\Product\SEL`
 - Part number is relay part number in control BOM
 
 JDE Order type for Lazer is **SA**
