@@ -2,7 +2,9 @@
 	- ==Check files and protection settings
 - RVA Retrofit
 - 103220 - Leconte
-	- ==SAT - waiting for peer review
+	- ==SAT
+		- Ask what equipment S/N's and such I need to verify and have on the SAT plan
+		- Ask if I need to send out the FSR form or if I just need to add extra fields to the SAT plan
 	- Communicate with rep/customer
 - 109465 - Sioux Valley - ==safevu delay
 	- Pick Date - 06/12
@@ -28,8 +30,11 @@
 	- FAT - 08/01-08/02
 	- ==Survalent HMI help - waiting for license
 - 111321 - Camp Humphreys
-	- Pick Date - 8/26
-	- Ship Date - 09/20
+	- Pick Date - 09/09??
+	- FAT - 10/03-10/04
+	- Ship Date -
+	- 3 switches for customer FAT
+	- 3 switches for internal FAT
 - Kentucky electric coop
 	- 651R
 	- Form 6 testing
