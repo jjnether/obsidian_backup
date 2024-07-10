@@ -30,8 +30,11 @@
 	- FAT - 08/01-08/02
 	- ==Survalent HMI help - waiting for license
 - 111321 - Camp Humphreys
-	- Pick Date - 8/26
-	- Ship Date - 09/20
+	- Pick Date - 09/09??
+	- FAT - 10/03-10/04
+	- Ship Date -
+	- 3 switches for customer FAT
+	- 3 switches for internal FAT
 - Kentucky electric coop
 	- 651R
 	- Form 6 testing
