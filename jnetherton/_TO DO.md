@@ -2,7 +2,9 @@
 	- ==Check files and protection settings
 - RVA Retrofit
 - 103220 - Leconte
-	- ==SAT - waiting for peer review
+	- ==SAT
+		- Ask what equipment S/N's and such I need to verify and have on the SAT plan
+		- Ask if I need to send out the FSR form or if I just need to add extra fields to the SAT plan
 	- Communicate with rep/customer
 - 109465 - Sioux Valley - ==safevu delay
 	- Pick Date - 06/12
