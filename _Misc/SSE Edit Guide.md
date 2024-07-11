@@ -18,10 +18,10 @@
 		    - <.esp file>
 - Zip the top level folder, and that is what you upload to nexus
 
-Guide for script editing in SSEEdit: https://www.youtube.com/watch?v=5wMl6TY_Oqg&list=LL&index=1172
+[Guide for script editing in SSEEdit](https://www.youtube.com/watch?v=5wMl6TY_Oqg&list=LL&index=1172)
 
 
 For adding a FOMOD to your mod:
 - First download FOMOD Creation Tool from FO4 nexus
 
-Guide: https://www.youtube.com/watch?v=rr79YmimJW0
+[Guide](https://www.youtube.com/watch?v=rr79YmimJW0)
