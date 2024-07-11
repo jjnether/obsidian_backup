@@ -1,25 +1,25 @@
 - VLL Retrofit
 	- ==Check files and protection settings
 - RVA Retrofit
-- 103220 - Leconte
+- [[103220 - Baker Electric Leconte]]
 	- ==SAT
 		- Ask what equipment S/N's and such I need to verify and have on the SAT plan
 		- Ask if I need to send out the FSR form or if I just need to add extra fields to the SAT plan
 	- Communicate with rep/customer
-- 109465 - Sioux Valley - ==safevu delay
+- [[109465 - Sioux Valley]] - ==safevu delay
 	- Pick Date - 06/12
 	- Ship Date - 06/14
-- 114601 - Hilcorp Alaska
+- [[114601 - Hilcorp]]
 	- Pick Date - 08/20
-- 108629 - Meralco
-- 108630 - Meralco
-- 108631 - Meralco
+- [[108629 - Meralco]]
+	- 108630 - Meralco
+	- 108631 - Meralco
 - 111587 - Pantex - ==safevu delay
 	- Pick Date - 08/23
 	- FAT - 
 	- Ship Date - 09/30
 	- POD - 100875 , 106174
-- 116007 - AMPTEK BNSF
+- [[116007 - Amptek BNSF]]
 	- Pick Date - 10/07
 	- Ship Date - 12/06
 	- ==Programming Spec - waiting for peer review

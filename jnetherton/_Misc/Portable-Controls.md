@@ -18,20 +18,15 @@ Who can move stack code ahead for shipping? Ask kristen
 Have Paperwork ready to go
 
 Deliver it all to shipping once stack code is moved forward
-
 -   Jeff Thompson
 
-
-
 Next Iteration:
-
 -   Expand panel out as much as possible while it still fitting through the top of the case
 -   Add some kind of gasket to go around the edge of the panel to seal the sides
 -   ADD NAMEPLATE (A37171138BL0) TO ASSEMBLY
 -   Add zip ties and adhesives to assembly?
 
 List of new parts:
-
 -   125 VDC indicator light red domed
     -   656-3105-304F
 -   125 VDC indicator light green domed
@@ -39,15 +34,9 @@ List of new parts:
 -   125 VDC indicator light yellow domed
     -   656-3305-304F
 
-```{=html}
-<!-- -->
-```
 -   Black Pushbutton
     -   2AF2
 
-```{=html}
-<!-- -->
-```
 -   Contact Block
     -   S1
 -   Banana Plugs black
@@ -64,7 +53,6 @@ Get quote for getting dimonte to build these
 
 
 Testing plan
-
 -   Plug in controls AC power and control cable and ground unit
 -   Verify 125VDC LED is on
 -   Use and test LED pushbutton
@@ -91,10 +79,9 @@ Steady State:
 
 40 W per heater = .35
 
-![Machine generated alternative text: ](Quick-Notes-Portable-Controls-image2.png){width="7.447916666666667in" height="7.322916666666667in"}
+![Machine generated alternative text: ](Quick-Notes-Portable-Controls-image2.png)
 
 Panel:
-
 -   Do we want the user panel facing towards or away from the wheels? (currently it's facing away)
 -   3/16'' 6061-T6 aluminum
 -   7.75" x 1.7" - for terminal strip
@@ -118,7 +105,6 @@ Panel:
 
 
 
-![Machine generated alternative text: Electric SOLID DIELECTRIC AUTOMATIC RECLOSER CONTROL G8W PART NUMBER SERIAL NO. MANUF ACTURE DATE NOMINAL INPUT VOLTAGE POWER I REMENT WE IGHT B54010101AOO 2205180 MAY 2022 115 0.35 80 VAC LBS 50-60 Hz 9.04 APEAK 36.3 KGS A3717 1138 BLO ](Quick-Notes-Portable-Controls-image3.png){width="7.5in" height="7.510416666666667in"}![2 36. o Ho 60 26 es 9 8 4 33.0 F I x ing Details w Ith filter w lfhouf filter ](../media/image4.png){width="11.125in" height="6.03125in"}
-
+![Machine generated alternative text: Electric SOLID DIELECTRIC AUTOMATIC RECLOSER CONTROL G8W PART NUMBER SERIAL NO. MANUF ACTURE DATE NOMINAL INPUT VOLTAGE POWER I REMENT WE IGHT B54010101AOO 2205180 MAY 2022 115 0.35 80 VAC LBS 50-60 Hz 9.04 APEAK 36.3 KGS A3717 1138 BLO ](Quick-Notes-Portable-Controls-image3.png)
 
 

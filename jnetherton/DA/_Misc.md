@@ -46,11 +46,11 @@ VER - check version
 STA - check relay status
 STA S - check execution capacity
 MET - see all status
-TAR <wordbit> - see bit status
+TAR `wordbit` - see bit status
 
 **For 651:**
-CON <#> - connect to remote bit
-PRB <#> - pulse remote bit
+CON `#` - connect to remote bit
+PRB `#` - pulse remote bit
 
 **For 751:**
 CON RBnn k - connect to remote bit, where k is S, C, or P for Set, Clear, or Pulse
@@ -125,7 +125,7 @@ Poor Man's Latch:
 
 ---
 
-Looking for options/view points on 1 vs multiple [of the same] relays for a multiway pad mount switch.  We have traditionally (in the Lazer group) been of the opinion that a single relay is the better option.
+Looking for options/view points on 1 vs multiple (of the same) relays for a multiway pad mount switch.  We have traditionally (in the Lazer group) been of the opinion that a single relay is the better option.
 As I see it ..
 
 Pro (single relay):
