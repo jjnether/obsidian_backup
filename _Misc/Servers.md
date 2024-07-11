@@ -13,7 +13,7 @@ Use putty to SSH into the NAS with the port we previously specified:
 
 linuxserver.io has lots of guides and docker containers for use
 
-Run "id" to find PUID and PGID (use these numbers when needed for docker compose)
+Run `id` to find PUID and PGID (use these numbers when needed for docker compose)
 
 You will usually need to run all commands with "sudo" before the command so it has permissions (ex. sudo docker compose up -d)
 
@@ -101,11 +101,11 @@ To update plex server, download proper .deb file, then run it using "dpkg -i pac
 To update docker containers, run "docker compose pull" followed by "docker compose up -d"
 
 In Ubuntu, to see what apt software is ready to update, run "apt list --upgradable"
-- to update, run "apt upgrade"
+- to update, run `apt upgrade`
 
 Also
-- "apt-get update"
-- "apt-get upgrade"
+- `apt-get update`
+- `apt-get upgrade`
 
 To prune unused docker images, run "docker image prune"
 
