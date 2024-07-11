@@ -2,7 +2,6 @@ Office Phone: (708) 297-3769
 Work Phone: (708) 402-8777
 
 Siemens Siprotec
-
 -   Modular expansion units
 -   Flexibility to only get what you need (save money)
 -   Numerical keypad (can configure as pushbuttons)
@@ -21,8 +20,6 @@ Siemens Siprotec
 `X:\SWG_Eng\EE Folder\Product\SEL`
 - Part number is relay part number in control BOM
 
-JDE Order type for Lazer is **SA**
-
 
 PT L-G Voltage = L-L/sqrt(3)
 Internal PT's always have a fuse
@@ -32,8 +29,8 @@ SQRT(3) = 1.732
 CT dot should be on the incoming side
 
 
-LEA PT is typically 10000:1 ratio, but LEA voltage inputs are detected at an 8:300 ratio. So total PT ratio for VS is 266.67 = (10000/1)*(8/300)
-- OR 133.33 = (5000/1)*(8/300)
+LEA PT is typically 10000:1 ratio, but LEA voltage inputs are detected at an 8:300 ratio. So total PT ratio for VS is `266.67 = (10000/1)*(8/300)`
+- OR `133.33 = (5000/1)*(8/300)`
 - For 751's, it wants the actual PT ratio (10000 or 5000)
 
 ![Machine generated alternative text: Capacitive voltage divider Cable SEL-651R VY or VZ-terminal voltage input (8 Vac LEA input) ](DA-Misc-image1.png)
@@ -61,11 +58,9 @@ Z = vertical bushing (usually line side, depends on customer)
 Y = horizontal bushing (usually load side) (ct is always on this side)
 
 
-
-SEL 487 E (transformer differential relay) (6 breakers/windings)
+SEL 487E (transformer differential relay) (6 breakers/windings)
 
 (2 ways of voltage, 6 ways of current)
-
 
 
 Hitachi REC670
@@ -75,13 +70,12 @@ Hitachi REC670
 -   GWI's
 
 
-Bypass Mode
-
+#Bypass_Mode
 This mode is intended to be used when device(s) cannot coordinate with the upstream device. In this mode fault targets will be set, but the overcurrent protection elements will be blocked from tripping the recloser.
 -   Basically, if two switches are too close to coordinate, one will be in bypass mode
 
 
-Hot Line Tag
+#Hot_Line_Tag
 - When hot line tag is enabled if any phase minimum pick is exceeded all phases will immediately trip. If ground is not block while hot line tag is enabled exceeding the ground minimum pickup will also cause all the phases to trip. Enabling hot line tag automatically puts the control into one shot mode.
 
 
@@ -110,7 +104,7 @@ Must enable Telnet in the port setting to communicate with a relay through ether
 Type 1
 Type F Version 1.1 - 487 and rtac - 2 switch loops
 Type F Version 1.2 - siemens relays in larger loops (4, 8, 10, and 11) - install 2025
--   Also a centralized controller form siemens
+-   Also a centralized controller from siemens
 
 HSR - High speed redundancy
 -   RSTP - alternative redundancy
