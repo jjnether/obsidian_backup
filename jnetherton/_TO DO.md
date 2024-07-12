@@ -1,5 +1,3 @@
-- VLL Retrofit
-	- ==Check files and protection settings
 - RVA Retrofit
 - [[103220 - Baker Electric Leconte]]
 	- ==SAT
