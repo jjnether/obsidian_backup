@@ -13,7 +13,7 @@
 	- 108630 - Meralco
 	- 108631 - Meralco
 	- why we weren't able to see anything on the fault circuit indicators?
-- 111587 - Pantex - ==safevu delay
+- [[111587 - Pantex]] - ==safevu delay
 	- Pick Date - 08/23
 	- FAT - 
 	- Ship Date - 09/30
@@ -30,7 +30,7 @@
 	- Pick Date - 07/15
 	- FAT - 08/01-08/02
 	- ==Survalent HMI help - waiting for license
-- 111321 - Camp Humphreys
+- [[111321 - Camp Humphreys]]
 	- Pick Date - 09/09??
 	- FAT - 10/03-10/04
 	- Ship Date -

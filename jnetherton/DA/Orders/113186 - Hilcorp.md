@@ -1,6 +1,10 @@
+
+[file path](<file:///C:\Users\jnetherton\G&W Electric Co\US-PowerGridAutomation - Documents\_Lazer\113186 - Hilcorp Alaska>)
+
 P-P = 13800
 P-N = 7967 - pri
 P-N = 1.59 - sec
+
 
 
 

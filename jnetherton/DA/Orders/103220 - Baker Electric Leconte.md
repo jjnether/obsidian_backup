@@ -1,3 +1,6 @@
+
+[file path](<file:///C:\Users\jnetherton\G&W Electric Co\US-PowerGridAutomation - Documents\_Lazer\103220 - Leconte (CED)>)
+
 FAT:
 - visual inspection
 - general operation

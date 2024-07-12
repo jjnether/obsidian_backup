@@ -1,3 +1,6 @@
+
+[file path](<file:///C:\Users\jnetherton\G&W Electric Co\US-PowerGridAutomation - Documents\_Lazer\109465 - Sioux Valley Energy (RESCO)>)
+
 Top Level - DM80CLLFFAJ0
 Wiring - B13440085DX0
 Relay PN - A13413541JH0
