@@ -18,6 +18,8 @@
 	- FAT - 
 	- Ship Date - 09/30
 	- POD - 100875 , 106174
+	- CNS: 100875 (4 switches), 106174 (1 switch)
+	- Burns and Mac: 108057 (1 switch)
 - [[116007 - Amptek BNSF]]
 	- Pick Date - 10/07
 	- Ship Date - 12/06
