@@ -12,6 +12,7 @@
 - [[108629 - Meralco]]
 	- 108630 - Meralco
 	- 108631 - Meralco
+	- why we weren't able to see anything on the fault circuit indicators?
 - 111587 - Pantex - ==safevu delay
 	- Pick Date - 08/23
 	- FAT - 
@@ -37,6 +38,7 @@
 	- 651R
 	- Form 6 testing
 	- Arco
+
 
 - look into python scripting for editing RDB's
 - ==Ask Nic about paying for FE from DA budget
