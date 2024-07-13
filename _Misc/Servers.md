@@ -139,3 +139,6 @@ To add line comments in VS: CTRL + K + C
 To update vuetorrent:
 - Navigate to `/home/jjnether/docker/qbit/config/theme`
 - Run `git pull`
+
+To download a file from github to the local working directory:
+run `curl -O <url>`
