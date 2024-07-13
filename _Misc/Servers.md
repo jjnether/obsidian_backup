@@ -89,8 +89,11 @@ To see a graph of gpu utilization, use the command `nvtop`
 
 For executing minecraft server commands: `sudo docker exec -i <container_name> rcon-cli`
 
-For hardlinking files: `ln <sourcefile> <destinationfile>`
-For hardlinking all files from one folder to another: `cp -lR <sourcefolder> <destinationfolder>`
+For hardlinking files:
+`ln <sourcefile> <destinationfile>`
+
+For hardlinking all files from one folder to another:
+`cp -lR <sourcefolder> <destinationfolder>`
 - This will place the source folder in the destination folder
 - For torrents: `/media/jjnether/PLEX/data/torrents`
 
