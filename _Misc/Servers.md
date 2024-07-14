@@ -144,4 +144,4 @@ To update vuetorrent:
 - Run `git pull`
 
 To download a file from github to the local working directory:
-run `curl -O <url>`
+run wget `<url>`
