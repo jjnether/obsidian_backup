@@ -21,7 +21,8 @@
 - [[116007 - Amptek BNSF]]
 	- Pick Date - 10/07
 	- Ship Date - 12/06
-	- ==Programming Spec - waiting for peer review
+	- Programming Spec 
+		- ==Waiting for customer feedback
 - ==451 ATC Update
 	- Update excel map with all variables
 - 109336 - Quinnipiac University
