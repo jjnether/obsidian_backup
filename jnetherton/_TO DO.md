@@ -1,9 +1,7 @@
 - RVA Retrofit
 - [[103220 - Baker Electric Leconte]]
-	- ==SAT
-		- Ask what equipment S/N's and such I need to verify and have on the SAT plan
-		- Ask if I need to send out the FSR form or if I just need to add extra fields to the SAT plan
-	- Communicate with rep/customer
+	- SAT
+		- ==Waiting on feedback regarding SAT plan and details from rep
 - [[109465 - Sioux Valley]] - ==safevu delay
 	- Pick Date - 06/12
 	- Ship Date - 06/14
