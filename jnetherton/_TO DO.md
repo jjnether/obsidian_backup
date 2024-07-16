@@ -7,7 +7,7 @@
 	- Pick Date - 06/12
 	- Ship Date - 06/14
 - [[114601 - Hilcorp]]
-	- Pick Date - 08/20
+	- Pick Date - 10/07
 - [[108629 - Meralco]]
 	- 108630 - Meralco
 	- 108631 - Meralco
