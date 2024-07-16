@@ -167,16 +167,16 @@ You would also create Agile goals for each quarter for each goal.  The agile go
 Next year we'll remove "participate" once you have enough of your own projects for which you own the FAT/SAT.
 
 DESIGN TEMPLATE:
-- UV^****** represent design template variables
+- `UV^******` represents design template variables
 	- These can be added and edited from "Manage Design Template Variables"
 	- These typically go on the right side in the equation builder
-	- e.g. [S1^51S1TD] = [UV^S1_51S1TD]
-		- S1^51S1TD represents the Set 1 51S1TD setting to be defined
-		- UV^S1_51S1TD represents the variable that will be sent to the setting
+	- e.g. `[S1^51S1TD] = [UV^S1_51S1TD]`
+		- `S1^51S1TD` represents the Set 1 51S1TD setting to be defined
+		- `UV^S1_51S1TD` represents the variable that will be sent to the setting
 - **^****** represents a setting or line of logic that is set to be defined in the template
 
 For editing faceplates:
-- X:\DA\Dept\_Lazer\_SEL EDITABLE FACEPLATES
+- `X:\DA\Dept\_Lazer\_SEL EDITABLE FACEPLATES`
 
 For commissioning expense reports:
 - Change Expense Type to Field Svc Billable - SWGR [5195]
