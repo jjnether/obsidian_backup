@@ -179,9 +179,9 @@ For editing faceplates:
 - `X:\DA\Dept\_Lazer\_SEL EDITABLE FACEPLATES`
 
 For commissioning expense reports:
-- Change Expense Type to Field Svc Billable - SWGR [5195]
-- Change Department to (000000) Operations
-- Change Sub-Department to (100700) SWITCHGEAR TEAM
+- Change Expense Type to `Field Svc Billable - SWGR [5195]`
+- Change Department to `(000000) Operations`
+- Change Sub-Department to `(100700) SWITCHGEAR TEAM`
 - Project - Paid Field Service
 
 Symbol Shortcuts:

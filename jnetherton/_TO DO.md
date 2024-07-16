@@ -1,4 +1,5 @@
 - RVA Retrofit
+- [[121288 - Minnesota Power Co.]]
 - [[103220 - Baker Electric Leconte]]
 	- SAT
 		- ==Waiting on feedback regarding SAT plan and details from rep

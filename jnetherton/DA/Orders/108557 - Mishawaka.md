@@ -1,6 +1,4 @@
 
----
-
 -   Don't use the IP that's already there (it's already on their network)
 
 MV32 - 0 = Z, 1 = Y (source side)
