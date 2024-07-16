@@ -35,10 +35,6 @@
 	- Ship Date -
 	- 3 switches for customer FAT
 	- 3 switches for internal FAT
-- Kentucky electric coop
-	- 651R
-	- Form 6 testing
-	- Arco
 
 
 - look into python scripting for editing RDB's
