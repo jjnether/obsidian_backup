@@ -1,4 +1,5 @@
 - RVA Retrofit
+- [[121288 - Minnesota Power Co.]]
 - [[103220 - Baker Electric Leconte]]
 	- SAT
 		- ==Waiting on feedback regarding SAT plan and details from rep
@@ -6,11 +7,10 @@
 	- Pick Date - 06/12
 	- Ship Date - 06/14
 - [[114601 - Hilcorp]]
-	- Pick Date - 08/20
+	- Pick Date - 10/07
 - [[108629 - Meralco]]
 	- 108630 - Meralco
 	- 108631 - Meralco
-	- why we weren't able to see anything on the fault circuit indicators?
 - [[111587 - Pantex]] - ==safevu delay
 	- Pick Date - 08/23
 	- FAT - 
@@ -35,11 +35,8 @@
 	- Ship Date -
 	- 3 switches for customer FAT
 	- 3 switches for internal FAT
-- Kentucky electric coop
-	- 651R
-	- Form 6 testing
-	- Arco
 
 
 - look into python scripting for editing RDB's
+	- `U:\Manufacturing Engineering\Test Equipment\RCF Equipment\Program`
 - ==Ask Nic about paying for FE from DA budget
