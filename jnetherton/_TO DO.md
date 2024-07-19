@@ -1,5 +1,7 @@
 - RVA Retrofit
 - [[121288 - Minnesota Power Co.]]
+	- Programming Spec - ~08/15
+	- FAT - ~10/15
 - [[103220 - Baker Electric Leconte]]
 	- SAT
 		- ==Waiting on feedback regarding SAT plan and details from rep
@@ -28,7 +30,7 @@
 - 109336 - Quinnipiac University
 	- Pick Date - 07/15
 	- FAT - 08/01-08/02
-	- ==Survalent HMI help - waiting for license
+	- ==Survalent HMI help
 - [[111321 - Camp Humphreys]]
 	- Pick Date - 09/09??
 	- FAT - 10/03-10/04
