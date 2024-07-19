@@ -232,3 +232,7 @@ IES22GF Setup
 Default IP: 192.168.10.1
 Username: admin
 PW: admin
+
+Default SEL Relay Port 5 IP: 192.168.1.2
+Default FTP User: 2AC (or FTPUSER)
+FTP Password: TAIL
