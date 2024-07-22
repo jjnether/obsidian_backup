@@ -51,3 +51,4 @@
 - After an ITS, local relay goes to manual, but not other relay
 	- goose command to set to manual is only asserted on PB press, auto mode blocked, or the command itself (from other relay)
 	- EDITED - added falling trigger of ITS and both RTS to trigger this
+- Sometimes when killing a source on the switch with tie way closed, it opens tie way then closes again, but not always
