@@ -52,4 +52,4 @@
 - Sometimes when killing a source on the switch with tie way closed, it opens tie way then closes again, but not always
 	- PLT26 should not be asserting
 - BUS 1 LIVE not asserting properly for switch where LB01=1
-	- 
+	- FIXED
