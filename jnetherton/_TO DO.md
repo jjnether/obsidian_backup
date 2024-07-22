@@ -42,3 +42,8 @@
 - look into python scripting for editing RDB's
 	- `U:\Manufacturing Engineering\Test Equipment\RCF Equipment\Program`
 - ==Ask Nic about paying for FE from DA budget
+
+
+- Why does local ITS latch only reset if it's switch 1 (other than timeout) (PLT25R)
+- Why is source voltage not a permissive for entering auto mode
+- Edited PSV16 for opening S2 also when LB01=1
