@@ -41,7 +41,6 @@
 
 - look into python scripting for editing RDB's
 	- `U:\Manufacturing Engineering\Test Equipment\RCF Equipment\Program`
-- ==Ask Nic about paying for FE from DA budget
 
 
 - Why does local ITS latch only reset if it's switch 1 (other than timeout) (PLT25R) - EDITED
@@ -52,3 +51,5 @@
 	- EDITED - added falling trigger of ITS and both RTS to trigger this
 - Sometimes when killing a source on the switch with tie way closed, it opens tie way then closes again, but not always
 	- PLT26 should not be asserting
+- BUS 1 LIVE not asserting properly for switch where LB01=1
+	- 
