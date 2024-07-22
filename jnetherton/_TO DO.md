@@ -48,3 +48,4 @@
 	- WAS `PLT25R := (PSV06 AND PSV07 AND (VB001 AND VB003) AND NOT LB01) OR PCT11Q`
 - Why is source voltage not a permissive for entering auto mode
 - Edited PSV16 for opening S2 also when LB01=1
+- After an ITS, local relay goes to manual, but not other relay
