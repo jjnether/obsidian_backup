@@ -62,3 +62,6 @@ Weapon Based Hands Clip Distance
 Anro's OX Toolkit
 	use F11 to open the Editor panel and change all the critical parameters in real time. Includes a "white" mode for people creating NVR presets
 	(it's great for tweaking AO, shadows, and other effects)
+
+ Energy Visuals Plus 2.0 - NV and TTW
+	This mod is linked to some significant increases in crashing. It doesn’t seem to directly be the mod at fault, but rather something in one of the Script Extender functions it utilizes. I recommend testing this with some form of energy weapon while in god mode in a heavily populated area. If you don’t crash, you’re probably good to go.
