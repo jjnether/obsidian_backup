@@ -10,6 +10,8 @@
 	- FIXED - PSV38 and T_LED
 - Added PB lock to auto/manual mode/set to prefer
 - Fixed preferred mode
+- Discrete Inputs offset by 2?
+- SF6 pressure ok - should be SF6 alarm
 
 Relay IP
 - switch 1 - 192.168.1.11
