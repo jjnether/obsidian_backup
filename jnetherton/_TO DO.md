@@ -53,3 +53,4 @@
 	- PLT26 should not be asserting
 - BUS 1 LIVE not asserting properly for switch where LB01=1
 	- FIXED
+- Added PB lock to auto/manual mode
