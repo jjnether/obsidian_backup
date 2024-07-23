@@ -55,3 +55,13 @@
 	- FIXED - PSV38 and T_LED
 - Added PB lock to auto/manual mode/set to prefer
 - Fixed preferred mode
+
+Relay IP
+- switch 1 - 192.168.1.11
+- switch 2 - 192.168.1.12
+RTAC IP
+- switch 1 - 
+- switch 2 - 
+Ethernet Switch IP
+- switch 1 - 
+- switch 2 - 
