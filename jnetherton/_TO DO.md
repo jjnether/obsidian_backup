@@ -60,8 +60,8 @@ Relay IP
 - switch 1 - 192.168.1.11
 - switch 2 - 192.168.1.12
 RTAC IP
-- switch 1 - 
-- switch 2 - 
+- switch 1 - 192.168.1.2
+- switch 2 - 192.168.1.3
 Ethernet Switch IP
 - switch 1 - 
 - switch 2 - 
