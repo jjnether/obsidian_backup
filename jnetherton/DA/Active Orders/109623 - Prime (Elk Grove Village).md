@@ -10,7 +10,7 @@
 	- FIXED - PSV38 and T_LED
 - Added PB lock to auto/manual mode/set to prefer
 - Fixed preferred mode
-- Fixed preferred return transfer
+- 
 
 Relay IP
 - switch 1 - 192.168.1.11
