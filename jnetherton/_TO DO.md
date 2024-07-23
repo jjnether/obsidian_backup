@@ -54,3 +54,4 @@
 - BUS 1 LIVE not asserting properly for switch where LB01=1
 	- FIXED - PSV38 and T_LED
 - Added PB lock to auto/manual mode/set to prefer
+- Fixed preferred mode
