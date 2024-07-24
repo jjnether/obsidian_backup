@@ -16,7 +16,6 @@
 	- alternately, if no source is preferred, RTS behavior after ITS would just have both sources closed with an open tie point
 - After changing preferred state, must wait 10 sec before changing again due to timer
 - Added a delay timer for entering transfer logic after auto mode (set to 0)
-- Preferred source cannot be set if return transfers are disabled
 
 Relay IP
 - switch 1 - 192.168.1.11
