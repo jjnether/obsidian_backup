@@ -10,6 +10,8 @@
 	- FIXED - PSV38 and T_LED
 - Added PB lock to auto/manual mode/set to prefer
 - Fixed preferred mode
+- The current auto entry logic actually only requires that the local source is closed and any tie is open (not both sources closed)
+	- this ok?
 - 
 
 Relay IP
