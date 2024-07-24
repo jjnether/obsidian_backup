@@ -14,8 +14,8 @@
 - added logic for ITS to accommodate for when we are single ended as a starting point (one src dead)
 - When there's a preferred source, it won't single end itself if both sources are closed and healthy, but after an ITS due to a lost source, it will return to a single ended state fed from the preferred source
 	- alternately, if no source is preferred, RTS behavior after ITS would just have both sources closed with an open tie point
-- After changing preferred state, must wait 10 sec before changing again due to timer
-- Added a delay timer for entering transfer logic after auto mode (set to 0)
+- After changing preferred state, auto, or manual mode, must wait 10 sec before changing again due to timer
+- Added a delay timer for entering transfer logic after auto mode or changing pref mode
 
 Relay IP
 - switch 1 - 192.168.1.11
