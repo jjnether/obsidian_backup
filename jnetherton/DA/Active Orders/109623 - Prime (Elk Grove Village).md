@@ -10,7 +10,7 @@
 	- FIXED - PSV38 and T_LED
 - Added PB lock to auto/manual mode/set to prefer
 - Fixed preferred mode
-- The current auto entry logic actually only requires that the local source is closed and any tie is open (not both sources closed)
+- The current auto entry logic actually only requires that the local source is closed and any tie is open (not both sources closed, doesn't check other source status
 	- this ok?
 - 
 
