@@ -228,7 +228,7 @@ SF6 Ratings:
 ![[Pasted image 20240702102126.png]]
 
 
-IES22GF Setup
+IS5 Ethernet Switch Setup
 Default IP: 192.168.10.1
 Username: admin
 PW: admin
