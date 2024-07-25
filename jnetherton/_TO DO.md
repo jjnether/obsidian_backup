@@ -4,7 +4,7 @@
 	- FAT - ~10/15
 - [[103220 - Baker Electric Leconte]]
 	- SAT
-		- ==Waiting on feedback regarding SAT plan and details from rep
+		- Waiting on feedback regarding SAT plan and details from rep
 - [[109465 - Sioux Valley]] - ==safevu delay
 	- Pick Date - 06/12
 	- Ship Date - 06/14
@@ -24,7 +24,7 @@
 	- Pick Date - 10/07
 	- Ship Date - 12/06
 	- Programming Spec 
-		- ==Waiting for customer feedback
+		- Waiting for customer feedback
 - ==451 ATC Update
 	- Update excel map with all variables
 - 109336 - Quinnipiac University
