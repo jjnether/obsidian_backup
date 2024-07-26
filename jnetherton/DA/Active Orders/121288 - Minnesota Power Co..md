@@ -3,9 +3,5 @@
 
 Programming Spec by middle of August
 
-- ties?
-- which devices do we own?
-- y side and z side?
 - after reconfiguration, does it ever go back to normal state?
-- do they have a DMS?
 - sel tie logic having to do with voltage?
