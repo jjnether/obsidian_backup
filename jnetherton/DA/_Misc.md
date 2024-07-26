@@ -236,3 +236,6 @@ PW: admin
 Default SEL Relay Port 5 IP: 192.168.1.2
 Default FTP User: 2AC (or FTPUSER)
 FTP Password: TAIL
+
+[S1^TDUR3D]
+[UV^TDURD]
