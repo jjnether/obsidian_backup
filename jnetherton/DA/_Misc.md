@@ -139,7 +139,7 @@ Cons (single relay)
 
 - Potentially more expensive (for smaller number of way switches)
 - Single point of failure (ie. single relay goes down operation of the whole switch is lost).  I think this is the probably the biggest point of debate.  I can almost see it both ways.  Single relay = less components to worry about, but if it fails it could disrupt/disable the whole scheme (ie. P2P closed loop depending on how it is programmed).  More relays = more points of potential failure, however they are only taking out "single" ways thus an automation scheme might still be able to isolate a faulted section as desired (or at least not have as big of an outage
--  area [if the automation scheme can accommodate a non communicating relay)
+-  area (if the automation scheme can accommodate a non communicating relay)
 - I agree with the single point of failure argument, though the effect may not be much different depending on the scheme.  If an incoming relay fails, the upstream relay needs to trip for a bus fault.  If the load relay fails and the incoming way is a load break, the upstream relay will still need to trip.  Either way you end up with the whole switch deenergized.  P2P logic can accommodate a relay failure in either case.  
 
 
