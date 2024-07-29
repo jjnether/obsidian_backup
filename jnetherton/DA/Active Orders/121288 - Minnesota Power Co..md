@@ -6,5 +6,4 @@ Programming Spec by middle of August
 - after reconfiguration, does it ever go back to normal state?
 - sel tie logic having to do with voltage?
 
-October install
-potentially end of october for commissioning
+potentially end of October for commissioning
