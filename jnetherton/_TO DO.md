@@ -38,7 +38,8 @@
 	- Ship Date -
 	- 3 switches for customer FAT
 	- 3 switches for internal FAT
-
+- 111262 - QTS (Ellie's FAT)
+	- Possibly help with setup/testing week of 08/19
 
 - look into python scripting for editing RDB's
 	- `U:\Manufacturing Engineering\Test Equipment\RCF Equipment\Program`
