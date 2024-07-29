@@ -5,3 +5,5 @@ Programming Spec by middle of August
 
 - after reconfiguration, does it ever go back to normal state?
 - sel tie logic having to do with voltage?
+
+October install
