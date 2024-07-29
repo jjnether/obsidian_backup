@@ -116,3 +116,6 @@ Get feedback from Enio regarding new test mode with local bits (keep logic intac
 	- describes ATC 451, as it's supoosed to be used
 	- customer copies and puts it in their own spec
 	- let's us put our particulars in
+
+
+(PLT27 AND NOT ASV203) OR ( AND ASV203) # W WAY A PH FAULT
