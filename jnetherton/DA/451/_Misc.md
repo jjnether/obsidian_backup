@@ -118,4 +118,4 @@ Get feedback from Enio regarding new test mode with local bits (keep logic intac
 	- let's us put our particulars in
 
 
-(PLT27 AND NOT ASV203) OR ( AND ASV203) # W WAY A PH FAULT
+(PLT27 AND NOT ASV203) OR (((B1IAFIM > AMV117) OR (B1IAFIM > 51S1P)) AND ASV203) # W WAY A PH FAULT
