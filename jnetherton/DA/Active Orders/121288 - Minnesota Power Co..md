@@ -7,3 +7,4 @@ Programming Spec by middle of August
 - sel tie logic having to do with voltage?
 
 October install
+potentially end of october for commissioning
