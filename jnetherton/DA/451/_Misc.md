@@ -68,9 +68,7 @@ New - PSV26 := (ASV202 AND F_TRIG PLT18 AND ASV001) OR (ASV202 AND F_TRIG PLT19 
 OR
 New - PSV26 := ASV003 and ((ASV202 AND F_TRIG PLT18) OR (ASV202 AND F_TRIG PLT19)) # EXIT AUTO ON "NO RETURN SEQUENCE" VARIABLE
 where:
-ASV001 = S1 Preferred
-ASV002 = S2 Preferred
-ASV003 = Non-Preferred
+
 
 
 Get feedback from Enio regarding new test mode with local bits (keep logic intact, but make it use actual logic instead of its own test logic)
@@ -86,11 +84,15 @@ Get feedback from Enio regarding new test mode with local bits (keep logic intac
 	- customer copies and puts it in their own spec
 	- let's us put our particulars in
 
+ASV001 = S1 Preferred
+ASV002 = S2 Preferred
+ASV003 = Non-Preferred
+ASV101 = SRC 1 52A
+ASV102 = SRC 1 52B
+ASV111 = SRC 2 52A
+ASV112 = SRC 2 52B
 
-ASV101 - SRC 1 52A
-ASV102 - SRC 1 52B
-ASV111 - SRC 2 52A
-ASV112 - SRC 2 52B
-
-(NOT ALT07 OR PCT12Q) AND ((NOT ASV141 AND NOT ALT02 AND ASV061) OR (NOT ASV141 AND ASV055 AND (R_TRIG PCT12Q AND ASV111 OR R_TRIG ASV222))) # SOURCE 2 OPEN
-- 
+NOT ASV141 AND (NOT ALT07 OR PCT12Q) AND ((NOT ALT02 AND ASV061) OR (ASV055 AND (R_TRIG PCT12Q AND ASV111 OR R_TRIG ASV222))) # SOURCE 2 OPEN
+- not in lockout
+- S1 not in ITS or OBW
+- not in auto and 
