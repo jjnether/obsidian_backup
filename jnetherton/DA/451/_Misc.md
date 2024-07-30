@@ -80,7 +80,7 @@ Get feedback from Enio regarding new test mode with local bits (keep logic intac
 - Do we want Aliases?
 	- Add to the GWI
 - Guide spec?
-	- describes ATC 451, as it's supoosed to be used
+	- describes ATC 451, as it's supposed to be used
 	- customer copies and puts it in their own spec
 	- let's us put our particulars in
 
