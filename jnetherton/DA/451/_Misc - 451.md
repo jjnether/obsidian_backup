@@ -47,13 +47,13 @@ Examples:
 
 
 **Don't transfer on a fault** (on source 1 or 2)
-- FCI's currently block transfer, and maybe take it out of auto? (should it take it out of auto?)
+- FCI's currently block transfer, and take it out of auto? (should it take it out of auto?)
 
 **If RTS is CBO and you're timing for a return, but you lose the source you're on, it'll transfer immediately with CBO. In an emergency like this, it always needs to be OBC.**
-- X:\DA\Dept\_Lazer\91484 - City of Columbus - PEPCO\91484_00 - Current Program & Documentation
+- `X:\DA\Dept\_Lazer\91484 - City of Columbus - PEPCO\91484_00 - Current Program & Documentation`
 
 **PPL - sync on CBO return transfer, logic moved to Automation, logic diagrams, test mode removed, removed ITS CBO**
-- X:\DA\Dept\_Lazer\101824 - PPL (ATC Modifications)\0_Current Program and Documentation
+- `X:\DA\Dept\_Lazer\101824 - PPL (ATC Modifications)\0_Current Program and Documentation`
 
 
 Should we keep AST06/AST07? - hardcoded to provide a set buffer - if so, may need to specify in GWI?
