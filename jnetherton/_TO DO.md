@@ -1,7 +1,7 @@
 - ==RVA Retrofit
 - ==VLL Labels
 - [[121288 - Minnesota Power Co.]]
-	- Programming Spec - ~08/15
+	- ==Programming Spec - ~08/15
 	- FAT - ~10/04
 - [[103220 - Baker Electric Leconte]]
 	- SAT
