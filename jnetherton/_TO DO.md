@@ -32,6 +32,11 @@
 	- Pick Date - 07/15
 	- FAT - 08/01-08/02
 	- ==Survalent HMI help
+		- Templates for analogs on each switch
+		- control panel
+			- one for each relay
+				- LED's, PB's, Analogs
+		- fix box on top level
 - [[111321 - Camp Humphreys]]
 	- Pick Date - 09/09??
 	- FAT - 10/03-10/04
