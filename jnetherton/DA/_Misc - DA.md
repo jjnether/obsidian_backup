@@ -54,7 +54,7 @@ CON RBnn k - connect to remote bit, where k is S, C, or P for Set, Clear, or Pul
 PUL n t - pulse output contact n for time t
 
 
-Z = vertical bushing (usually line side, depends on customer)
+Z = vertical bushing (usually line/source side)
 Y = horizontal bushing (usually load side) (ct is always on this side)
 
 
