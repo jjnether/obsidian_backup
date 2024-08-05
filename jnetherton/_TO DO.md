@@ -1,12 +1,12 @@
-- ==RVA Retrofit
-- ==VLL Labels
+- RVA Retrofit
+- VLL Labels
 - [[121288 - Minnesota Power Co.]]
-	- ==Programming Spec - ~08/15
+	- Programming Spec - ~08/15
 	- FAT - ~10/04
 - [[103220 - Baker Electric Leconte]]
 	- SAT
 		- Waiting on feedback regarding SAT plan and details from rep
-- [[109465 - Sioux Valley]] - ==safevu delay
+- [[109465 - Sioux Valley]] - safevu delay
 	- Pick Date - 06/12
 	- Ship Date - 06/14
 - [[114601 - Hilcorp]]
@@ -14,7 +14,7 @@
 - [[108629 - Meralco]]
 	- 108630 - Meralco
 	- 108631 - Meralco
-- [[111587 - Pantex]] - ==safevu delay
+- [[111587 - Pantex]] - safevu delay
 	- Pick Date - 08/23
 	- FAT - 
 	- Ship Date - 09/30
@@ -26,12 +26,12 @@
 	- Ship Date - 12/06
 	- Programming Spec 
 		- Waiting for customer feedback
-- ==451 ATC Update
+- 451 ATC Update
 	- Update excel map with all variables
 - 109336 - Quinnipiac University
 	- Pick Date - 07/15
 	- FAT - 08/01-08/02
-	- ==Survalent HMI help
+	- Survalent HMI help
 		- Templates for analogs on each switch
 		- control panel
 			- one for each relay
