@@ -7,7 +7,6 @@ kanban-plugin: board
 ## Misc Work
 
 - [ ] RVA Retrofit
-- [ ] VLL Labels
 - [ ] look into python scripting for editing RDB's
 	- `U:\Manufacturing Engineering\Test Equipment\RCF Equipment\Program`
 
@@ -74,7 +73,11 @@ kanban-plugin: board
 	- 108631 - Meralco
 
 
+***
 
+## Archive
+
+- [ ] VLL Labels
 
 %% kanban:settings
 ```
