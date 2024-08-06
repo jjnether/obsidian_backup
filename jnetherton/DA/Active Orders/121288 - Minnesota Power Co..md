@@ -19,3 +19,4 @@ potentially end of October for commissioning
 - Check changes made between revs - might need to port some over to sectionalizer logic
 - Fix DNP map order
 - Double check all PB and RB assignments
+- Double check alternate settings (Bob's had a comment that SG2 not used in FLISR configuration, not sure what this means?)
