@@ -10,3 +10,8 @@ Programming Spec by middle of August
 - sel tie logic having to do with voltage?
 
 potentially end of October for commissioning
+
+- Should I have voltage status on target LED's?
+- Is there bloat on target LED's I should get rid of?
+
+[SDN-NB Tools and Training](https://securefile.selinc.com/human.aspx?r=3671400639&arg06=897387544&arg12=filelist "SDN-NB Tools and Training")
