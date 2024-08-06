@@ -18,3 +18,4 @@ potentially end of October for commissioning
 - Double check display point - LOV LS timing to close
 - Check changes made between revs - might need to port some over to sectionalizer logic
 - Fix DNP map order
+- Double check all PB and RB assignments
