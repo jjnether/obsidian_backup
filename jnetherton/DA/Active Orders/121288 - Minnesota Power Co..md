@@ -14,3 +14,4 @@ potentially end of October for commissioning
 - Should I have voltage status on target LED's?
 - Is there bloat on target LED's I should get rid of?
 - Add battery test PB?
+- Should trip PB be blocked by PB lock?
