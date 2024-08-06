@@ -17,3 +17,4 @@ potentially end of October for commissioning
 - Should trip PB be blocked by PB lock?
 - Double check display point - LOV LS timing to close
 - Check changes made between revs - might need to port some over to sectionalizer logic
+- Fix DNP map order
