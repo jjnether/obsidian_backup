@@ -15,3 +15,5 @@ potentially end of October for commissioning
 - Is there bloat on target LED's I should get rid of?
 - Add battery test PB?
 - Should trip PB be blocked by PB lock?
+- Double check display point - LOV LS timing to close
+- Check changes made between revs - might need to port some over to sectionalizer logic
