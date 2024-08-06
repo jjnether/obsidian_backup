@@ -7,8 +7,6 @@ kanban-plugin: board
 ## Misc Work
 
 - [ ] RVA Retrofit
-- [ ] look into python scripting for editing RDB's
-	- `U:\Manufacturing Engineering\Test Equipment\RCF Equipment\Program`
 
 
 ## Programming Spec
@@ -71,6 +69,8 @@ kanban-plugin: board
 - [ ] [[108629 - Meralco]]
 	- 108630 - Meralco
 	- 108631 - Meralco
+- [ ] look into python scripting for editing RDB's
+	- `U:\Manufacturing Engineering\Test Equipment\RCF Equipment\Program`
 
 
 ***
