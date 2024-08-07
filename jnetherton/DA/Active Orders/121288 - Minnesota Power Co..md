@@ -3,6 +3,8 @@
 
 - Maggie Nevrly
 - Kurt Blomquist
+- Use in-house controls
+- Virtual FAT?
 
 Programming Spec by middle of August
 

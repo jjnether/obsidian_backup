@@ -73,8 +73,6 @@ Inrush - cycles
 -   Energizing of the transformer
 -   2nd harmonic, sometimes 5th harmonic
 
-
-
 Sectionalizer
 -   Traditionally a loadbreak, couldn't interrupt a fault
 
