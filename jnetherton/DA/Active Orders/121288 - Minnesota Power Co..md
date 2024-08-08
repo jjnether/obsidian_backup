@@ -22,3 +22,11 @@ potentially end of October for commissioning
 - Fix DNP map order
 - Double check all PB and RB assignments
 - Double check alternate settings (Bob's had a comment that SG2 not used in FLISR configuration, not sure what this means?)
+
+Sectionalizer
+- LOV
+	- Upstream device tripped for upstream fault
+- FC
+	- Downstream fault 
+- LOV + FC
+	- Upstream device tripped for downstream fault
