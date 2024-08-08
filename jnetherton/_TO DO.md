@@ -43,7 +43,10 @@ kanban-plugin: board
 	- Pick Date - 08/26
 	- FAT - 10/03-10/04
 	- 3 switches for customer FAT
-	- 3 switches for internal FAT @{2024-10-03}
+	- 3 switches for internal FAT
+	- 351S Program
+	- FAT Plan
+	@{2024-10-03}
 - [ ] 111262 - QTS (Ellie's FAT)
 	- Possibly help with setup/testing week of 08/19
 
