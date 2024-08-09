@@ -25,8 +25,7 @@ potentially end of October for commissioning
 - Add to template time to look for a trip after closing due to healthy voltage?
 - Tie acts as a recloser or sectionalizer after it's been closed?
 - So the tie auto close time is a 30s delay ...in this example?  
-  
-We might want to check with Erich and/or Bob on events they have seen. During reclosing depending on logic I'm not sure if the Tie will see voltage re-established to restated it's auto close timer. If not the auto close timer might need to be extened longer than the reclosers total reclose cycle.
+	- We might want to check with Erich and/or Bob on events they have seen. During reclosing depending on logic I'm not sure if the Tie will see voltage re-established to restated it's auto close timer. If not the auto close timer might need to be extened longer than the reclosers total reclose cycle.
 
 Sectionalizer
 - LOV
