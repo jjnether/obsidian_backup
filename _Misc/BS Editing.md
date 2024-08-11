@@ -1,0 +1,6 @@
+Banned Characters:
+- …
+- —
+- –
+- “
+- ”
