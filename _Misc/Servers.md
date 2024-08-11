@@ -119,7 +119,7 @@ To run plex media scanner commands, start with "sudo -u plex -s /usr/lib/plexmed
 - to find section ID, go to http://[PMS_IP_Address]:32400/library/sections?X-Plex-Token=[YourTokenGoesHere] , and the "key=" number at the end of each library is the section id for that library
 
 To run PMM:
-First exec into container, then run: `python plex_meta_manager.py --run`
+First exec into container, then run: `python kometa.py --run`
 
 To login with adminer:
 - For server, use the name of the database container (mariadb) (not container_name, but the actual container name in the compose file)
