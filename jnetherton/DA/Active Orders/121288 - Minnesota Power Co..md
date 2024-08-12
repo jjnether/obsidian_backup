@@ -37,17 +37,14 @@ Sectionalizer
 Tie
 
 
-- How to distinguish RTAC VLL3A vs VLL3A1? - their labelling wasn't clear
-- Do we leave Batt test PB as is? - no batteries as they're non motorized
-
 - 50P4TC
 	- `LB01 # MAINT MODE`
-- LT28 - set to 0
+- LT28 - NA
 - SV09
 	- `PB01_PUL # MANUAL BATTERY TEST`
 - SV18 - 0
 	- `0 # LOCAL/REMOTE MASTER`
-- SC01 - set to NA
+- SC03 - set to 1, NA
 - ELB - 1
 - TLED4
 	- `LB01 # MAINT MODE`
@@ -55,5 +52,9 @@ Tie
 	- `0 # NOT IN303 #BATT OKAY`
 	- `0 # IN303 #BATT FAIL`
 - DP19
-	- LB01,,"MAINTENANCE MODE"
+	- `LB01,,"MAINTENANCE MODE"`
 - LB01
+	- `MAINT. MODE`
+	- `DISABLE`
+	- `ENABLE`
+	- `0`
