@@ -41,16 +41,19 @@ Tie
 - Do we leave Batt test PB as is? - no batteries as they're non motorized
 
 - 50P4TC
-LB01 # MAINT MODE
+	- `LB01 # MAINT MODE`
 - LT28 - set to 0
-- SV09 - PB01_PUL
+- SV09
+	- `PB01_PUL # MANUAL BATTERY TEST`
 - SV18 - 0
-0 # LOCAL/REMOTE MASTER
+	- `0 # LOCAL/REMOTE MASTER`
 - SC01 - set to NA
+- ELB - 1
 - TLED4
-LB01 # MAINT MODE
+	- `LB01 # MAINT MODE`
 - PB1 - GO, RO
-0 # NOT IN303 #BATT OKAY
-0 # IN303 #BATT FAIL
-- DP18 - LB01
+	- `0 # NOT IN303 #BATT OKAY`
+	- `0 # IN303 #BATT FAIL`
+- DP19
+	- LB01,,"MAINTENANCE MODE"
 - LB01
