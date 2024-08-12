@@ -35,3 +35,7 @@ Sectionalizer
 	- Upstream device tripped for downstream fault
 
 Tie
+
+
+- How to distinguish RTAC VLL3A vs VLL3A1? - their labelling wasn't clear
+- 
