@@ -43,10 +43,12 @@ Tie
 - 50P4 - set to LB01
 - LT28 - set to 0
 - SV09 - PB01_PUL
-- SV18 - .05
+- SV18 - 0
 0 # LOCAL/REMOTE MASTER
 - SC01 - set to NA
 - TLED4
 LB01 # MAINT MODE
+- PB1 - GO, RO
+0 # NOT IN303 #BATT OKAY
 - DP18 - LB01
 - LB01
