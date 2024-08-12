@@ -40,7 +40,8 @@ Tie
 - How to distinguish RTAC VLL3A vs VLL3A1? - their labelling wasn't clear
 - Do we leave Batt test PB as is? - no batteries as they're non motorized
 
-- 50P4 - set to LB01
+- 50P4TC
+LB01 # MAINT MODE
 - LT28 - set to 0
 - SV09 - PB01_PUL
 - SV18 - 0
@@ -50,5 +51,6 @@ Tie
 LB01 # MAINT MODE
 - PB1 - GO, RO
 0 # NOT IN303 #BATT OKAY
+0 # IN303 #BATT FAIL
 - DP18 - LB01
 - LB01
