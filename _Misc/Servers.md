@@ -146,4 +146,4 @@ To update vuetorrent:
 To download a file from github to the local working directory:
 run wget `<url>`
 
-To run plex theme uploader, simply navigate to the directory and run `bash uploader.command`
+To run plex theme uploader, run `bash /home/jjnether/docker/theme-music-manager-for-plex-1.0/plex-themer/uploader.command`
