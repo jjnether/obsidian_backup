@@ -23,4 +23,6 @@ Euler's trig identity: $R(cos\theta + jsin\theta)$
 	- $(A+jB)-(C+jD)=(A-C)+j(B-D)$
 - Multiplication, division, and exponents easier in polar
 	- $A\angle B(C\angle D)=A(C)\angle (B+D)$
-	- $$
+	- $\frac{A\angle B}{C\angle D}=\frac{A}{C} \angle (B-D)$
+	- $(A\angle B)^{n}=A^{n}\angle B(n)$
+	-
