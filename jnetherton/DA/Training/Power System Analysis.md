@@ -44,7 +44,7 @@ Balanced 3$\phi$ system
 $\vec S=\vec V \vec I^{*}$
 - `* means complex conjugate`
 - $\vec V = |V|e^{j\theta_V}$
-- $/vec I^{*}|I|e^{-j\}
+- $\vec I^{*}=|I|e^{-j\theta_I}$
 $S=V_{rms}I_{rms}cos(\theta_V-\theta_I)+jsin(\theta_V-\theta_I)$
 
 $S=P+jQ$
