@@ -73,3 +73,12 @@ power factor depends on wording
 - 0.9 lagging (consume Q)
 
 measure I,V -> calculate P,Q
+
+###### Wye 3ph calculations
+$\vec S_{3ph}=\vec V_{AG} \vec I^{*}_A+\vec V_{BG} \vec I^{*}_B+\vec V_{CG} \vec I^{*}_C$
+- or if balanced system:
+	- $\vec S_{3ph}=3
+	- Only have to do math on 
+- VIn normal operation
+
+###### Delta 3ph calculations
