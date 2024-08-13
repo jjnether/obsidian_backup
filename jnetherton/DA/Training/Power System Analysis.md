@@ -80,7 +80,7 @@ $\vec S_{3ph}=\vec V_{AG} \vec I^{*}_A+\vec V_{BG} \vec I^{*}_B+\vec V_{CG} \vec
 	- Only have to do math on single phsae
 - $V_{AG}=V_{AN}$ in normal operation
 - $V_{AB}=V_{AG}-V_{BG}$
- - $V_{LL}=\sqrt 3 V_L
+ - $V_{A}=\sqrt 3 V_L$
 
 ###### Delta
 ![[Pasted image 20240813132941.png]]
@@ -96,3 +96,14 @@ $\vec S_{3ph}=\vec V_{AB} \vec I^{*}_{AB}+\vec V_{BC} \vec I^{*}_{BC}+\vec V_{CA
 
 Horsepower
 - .746 KW=1 HP
+
+###### Per Unit
+Usually nominal voltage is 1pu
+Transformer turns:
+- $V_H=nV_L$
+	- $n=\frac {\#turnsHV} {\#turnsLV}$
+- $I_H=\frac{1}{n}I_L$
+- $Z_H=n^2Z_L$
+- transformer turns ratios = 1 in per unit domain
+
+Per Unit quantity = Actual (has angle)/Base (no angle)
