@@ -17,7 +17,7 @@ Euler's trig identity: $R(cos\theta + jsin\theta)$
 - $R=\sqrt{A^2+B^2}$
 - $\theta=tan^{-1}\frac{B}{A}$
 
-###### Arithmetic
+###### Phasor Arithmetic
 - Addition and subtraction easier in polar
 	- $(A+jB)+(C+jD)=(A+C)+j(B+D)$
 	- $(A+jB)-(C+jD)=(A-C)+j(B-D)$
@@ -25,4 +25,9 @@ Euler's trig identity: $R(cos\theta + jsin\theta)$
 	- $A\angle B(C\angle D)=A(C)\angle (B+D)$
 	- $\frac{A\angle B}{C\angle D}=\frac{A}{C} \angle (B-D)$
 	- $(A\angle B)^{n}=A^{n}\angle B(n)$
-	-
+
+![[Pasted image 20240813101011.png]]
+
+- phase voltage = line voltage
+- phase current $\neq$ phase voltage
+- 
