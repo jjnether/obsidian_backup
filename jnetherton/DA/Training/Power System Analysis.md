@@ -45,6 +45,7 @@ $S=P+jQ$
 	- Energy needed to support electric and magnetic fields
 		- $v(t)$ proportional to electric field
 		- $i(t)$ proportional to magnetic field
+power factor: $pf=\frac {P}{Q}$
 
 $P=|S|cos\theta$
 - $\theta = \theta_V-\theta_I$
