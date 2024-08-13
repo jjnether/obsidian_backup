@@ -80,7 +80,7 @@ $\vec S_{3ph}=\vec V_{AG} \vec I^{*}_A+\vec V_{BG} \vec I^{*}_B+\vec V_{CG} \vec
 	- Only have to do math on single phsae
 - $V_{AG}=V_{AN}$ in normal operation
 - $V_{AB}=V_{AG}-V_{BG}$
- - 
+ - $V_{LL}=\sqrt 3 V_L
 
 ###### Delta
 ![[Pasted image 20240813132941.png]]
