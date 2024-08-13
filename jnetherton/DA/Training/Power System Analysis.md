@@ -26,19 +26,6 @@ Euler's trig identity: $R(cos\theta + jsin\theta)=Re^{j\theta}$
 	- $\frac{A\angle B}{C\angle D}=\frac{A}{C} \angle (B-D)$
 	- $(A\angle B)^{n}=A^{n}\angle B(n)$
 
-Delta
-![[Pasted image 20240813101011.png]]
-- line-to-line voltage only
-	- phase voltage $=$ line voltage
-- line currents and phase currents
-	- phase current $\neq$ line current
-
-
-Wye
-![[Pasted image 20240813101504.png]]
-- line-to-line voltage and line-to-neutral voltage
-- phase currents $=$ line currents
-
 Balanced 3$\phi$ system
 - All average power components are equal
 - double frequency terms sum to 0
@@ -82,7 +69,10 @@ Balanced system if:
 - Equal voltage magnitude on each phase
 - Equal current magnitude on each phase
 - 120$\degree$ phase shift between adjacent phase voltage and currents
-###### Wye 3ph calculations
+###### Wye
+![[Pasted image 20240813133021.png]]
+- line-to-line voltage and line-to-neutral voltage
+- phase currents $=$ line currents
 $\vec S_{3ph}=\vec V_{AG} \vec I^{*}_A+\vec V_{BG} \vec I^{*}_B+\vec V_{CG} \vec I^{*}_C$
 - or if balanced system:
 	- $\vec S_{3ph}=3\vec V_{AG} \vec I^{*}_A$
@@ -91,7 +81,12 @@ $\vec S_{3ph}=\vec V_{AG} \vec I^{*}_A+\vec V_{BG} \vec I^{*}_B+\vec V_{CG} \vec
 - $V_{AB}=V_{AG}-V_{BG}$
  - $V_{AB}=\sqrt{3}V_{AG}$
 
-###### Delta 3ph calculations
+###### Delta
+![[Pasted image 20240813132941.png]]
+- line-to-line voltage only
+	- phase voltage $=$ line voltage
+- line currents and phase currents
+	- phase current $\neq$ line current
 $\vec S_{3ph}=\vec V_{AB} \vec I^{*}_{AB}+\vec V_{BC} \vec I^{*}_{BC}+\vec V_{CA} \vec I^{*}_{CA}$
 - or if balanced system:
 	- $\vec S_{3ph}=3\vec V_{AB} \vec I^{*}_{AB}$
