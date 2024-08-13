@@ -71,3 +71,5 @@ Capacitive Load ($-jQ$)
 power factor depends on wording
 - 0.9 leading (supply Q)
 - 0.9 lagging (consume Q)
+
+measure I,V -> calculate P,Q
