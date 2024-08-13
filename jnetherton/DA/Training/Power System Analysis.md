@@ -33,7 +33,7 @@ Delta
 
 Wye
 ![[Pasted image 20240813101504.png]]
-
+- phase currents 
 
 Balanced 3$\phi$ system
 - All average power components are equal
@@ -74,11 +74,17 @@ power factor depends on wording
 
 measure I,V -> calculate P,Q
 
+Balanced system if:
+- Equal voltage magnitude on each phase
+- Equal current magnitude on each phase
+- 120$\degree$ phase shift between adjacent phase voltage and currents
 ###### Wye 3ph calculations
 $\vec S_{3ph}=\vec V_{AG} \vec I^{*}_A+\vec V_{BG} \vec I^{*}_B+\vec V_{CG} \vec I^{*}_C$
 - or if balanced system:
-	- $\vec S_{3ph}=3
-	- Only have to do math on 
-- VIn normal operation
+	- $\vec S_{3ph}=3\vec V_{AG} \vec I^{*}_A$
+	- Only have to do math on single phsae
+- $V_{AG}=V_{AN}$ in normal operation
+- $V_{AB}=V_{AG}-V_{BG}$
 
 ###### Delta 3ph calculations
+$\vec S_{3ph}=\vec V_{AB} \vec I^{*}_{AB}+\vec V_{BC} \vec I^{*}_{BC}+\vec V_{CA} \vec I^{*}_{CA}$
