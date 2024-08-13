@@ -80,7 +80,7 @@ $\vec S_{3ph}=\vec V_{AG} \vec I^{*}_A+\vec V_{BG} \vec I^{*}_B+\vec V_{CG} \vec
 	- Only have to do math on single phsae
 - $V_{AG}=V_{AN}$ in normal operation
 - $V_{AB}=V_{AG}-V_{BG}$
- - $V_{A}=\sqrt 3 V_L$
+ - $V_{AB}=\sqrt 3 V_{AG}$
 
 ###### Delta
 ![[Pasted image 20240813132941.png]]
@@ -93,6 +93,7 @@ $\vec S_{3ph}=\vec V_{AB} \vec I^{*}_{AB}+\vec V_{BC} \vec I^{*}_{BC}+\vec V_{CA
 - or if balanced system:
 	- $\vec S_{3ph}=3\vec V_{AB} \vec I^{*}_{AB}$
 - $I_A=I_{AB}-I_{CA}$
+- $I_A = \sqrt3 I_{AB}$
 
 Horsepower
 - .746 KW=1 HP
