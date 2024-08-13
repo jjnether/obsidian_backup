@@ -33,3 +33,19 @@ Delta
 
 Wye
 ![[Pasted image 20240813101504.png]]
+
+
+Balanced 3$\phi$ system
+- All average power components are equal
+- double frequency terms sum to 0
+
+
+###### Complex Power
+$\vec S=\vec V \vec I^{*}$
+- `* means complex conjugate`
+
+
+$S=P+jQ$
+- S: Complex Power (Volt-Amperes, VA)
+- P: Real Power (power, watts)
+- Q: Reactive Power (Volt-Amperes Reactive, VAR)
