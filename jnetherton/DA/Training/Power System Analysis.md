@@ -33,6 +33,7 @@ Delta
 - line currents and phase currents
 	- phase current $\neq$ line current
 
+
 Wye
 ![[Pasted image 20240813101504.png]]
 - line-to-line voltage and line-to-neutral voltage
@@ -88,10 +89,11 @@ $\vec S_{3ph}=\vec V_{AG} \vec I^{*}_A+\vec V_{BG} \vec I^{*}_B+\vec V_{CG} \vec
 	- Only have to do math on single phsae
 - $V_{AG}=V_{AN}$ in normal operation
 - $V_{AB}=V_{AG}-V_{BG}$
-
+ - $V_{AB}=\sqrt{3}V_{AG}$
 
 ###### Delta 3ph calculations
 $\vec S_{3ph}=\vec V_{AB} \vec I^{*}_{AB}+\vec V_{BC} \vec I^{*}_{BC}+\vec V_{CA} \vec I^{*}_{CA}$
 - or if balanced system:
 	- $\vec S_{3ph}=3\vec V_{AB} \vec I^{*}_{AB}$
-	- 
+- $I_{AB}=\sqrt{3}I_{A}$
+- 
