@@ -58,12 +58,16 @@ $P=|S|cos\theta$
 - $\theta = \theta_V-\theta_I$
 - unity power if $cos\theta=1$
 
-Inductive Load
+Inductive Load ($jQ$)
 - lagging power factor
 - power triangle in first quadrant (positive)
 - consuming reactive power
 
-Capacitive Load
+Capacitive Load ($-jQ$)
 - leading power factor
 - power triangle in fourth quadrant (negative)
-- 
+- supplying reactive power
+
+power factor depends on wording
+- 0.9 leading (supply Q)
+- 0.9 lagging (consume Q)
