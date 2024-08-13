@@ -26,8 +26,10 @@ Euler's trig identity: $R(cos\theta + jsin\theta)$
 	- $\frac{A\angle B}{C\angle D}=\frac{A}{C} \angle (B-D)$
 	- $(A\angle B)^{n}=A^{n}\angle B(n)$
 
+Delta
 ![[Pasted image 20240813101011.png]]
+- phase voltage $=$ line voltage
+- phase current $\neq$ line current
 
-- phase voltage = line voltage
-- phase current $\neq$ phase voltage
-- 
+Wye
+![[Pasted image 20240813101504.png]]
