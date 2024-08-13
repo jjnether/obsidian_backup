@@ -1,36 +1,18 @@
-# Energy University
-
-Created: 2023-09-14 09:34:26 -0500
-
-Modified: 2023-09-22 09:54:58 -0500
-
----
-
 SCADA - Supervisory control and data acquisition
 
 DMS - (advanced) distribution management system
 -   Volt/VAR
     -   Controlled with voltage regulators, capacitor banks, and sensors (getting a feel for where the voltage is at)
 
-
-
 FLISR
-
 -   Biggest thing it does is partial restoration
 -   Rarely both overhead and underground
-
-
-
-
 
 CAIDI
 
 SAIDI
 
 SAIFI
-
-
-
 
 
 Script based
@@ -68,11 +50,6 @@ Communication is not a must for FLISR
     -   Zero communications, not even peer to peer
 
 Decentralized could mean communication within the system
-
-
-
-
-
 
 
 Microgrid
