@@ -93,4 +93,6 @@ $\vec S_{3ph}=\vec V_{AB} \vec I^{*}_{AB}+\vec V_{BC} \vec I^{*}_{BC}+\vec V_{CA
 - or if balanced system:
 	- $\vec S_{3ph}=3\vec V_{AB} \vec I^{*}_{AB}$
 - $I_A=I_{AB}-I_{CA}$
-- 
+
+Horsepower
+- .746 KW=1 HP
