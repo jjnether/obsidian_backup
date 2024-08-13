@@ -11,7 +11,7 @@ Polar: $R\angle \theta$
 - $R=\frac{R_m}{\sqrt{2}}$
 Cartesian: $A+jB$
 Exponential: $Re^{j\theta}$
-Euler's trig identity: $R(cos\theta + jsin\theta)$
+Euler's trig identity: $R(cos\theta + jsin\theta)=Re^{j\theta}$
 - $A=Rcos\theta$
 - $B=Rsin\theta$
 - $R=\sqrt{A^2+B^2}$
@@ -43,9 +43,14 @@ Balanced 3$\phi$ system
 ###### Complex Power
 $\vec S=\vec V \vec I^{*}$
 - `* means complex conjugate`
-
+- $\vec V = |V|e^{j\theta_V}$
+- $/vec I^{*}|I|e^{-j\}
+$S=V_{rms}I_{rms}cos(\theta_V-\theta_I)+jsin(\theta_V-\theta_I)$
 
 $S=P+jQ$
 - S: Complex Power (Volt-Amperes, VA)
 - P: Real Power (power, watts)
 - Q: Reactive Power (Volt-Amperes Reactive, VAR)
+	- Energy needed to support electric and magnetic fields
+		- $v(t)$ proportional to electric field
+		- $i(t)$ proportional to magnetic field
