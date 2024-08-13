@@ -7,6 +7,7 @@ synchrophasors - Time synchronized phasor measurements
 
 
 Sinusoidal signal: $r(t)=R_mcos(\omega t+\theta)$
+- $R_m$ is peak value
 Polar: $R\angle \theta$
 - $R=\frac{R_m}{\sqrt{2}}$
 Cartesian: $A+jB$
@@ -79,10 +80,11 @@ $\vec S_{3ph}=\vec V_{AG} \vec I^{*}_A+\vec V_{BG} \vec I^{*}_B+\vec V_{CG} \vec
 	- Only have to do math on single phsae
 - $V_{AG}=V_{AN}$ in normal operation
 - $V_{AB}=V_{AG}-V_{BG}$
- - $V_{AB}=\sqrt{3}V_{AG}$
+ - 
 
 ###### Delta
 ![[Pasted image 20240813132941.png]]
+- note that for this diagram $I_{BA}=I_a$ and $V_{AB}=E_{AB}$
 - line-to-line voltage only
 	- phase voltage $=$ line voltage
 - line currents and phase currents
@@ -90,5 +92,5 @@ $\vec S_{3ph}=\vec V_{AG} \vec I^{*}_A+\vec V_{BG} \vec I^{*}_B+\vec V_{CG} \vec
 $\vec S_{3ph}=\vec V_{AB} \vec I^{*}_{AB}+\vec V_{BC} \vec I^{*}_{BC}+\vec V_{CA} \vec I^{*}_{CA}$
 - or if balanced system:
 	- $\vec S_{3ph}=3\vec V_{AB} \vec I^{*}_{AB}$
-- $I_{AB}=\sqrt{3}I_{A}$
+- $I_A=I_{AB}-I_{CA}$
 - 
