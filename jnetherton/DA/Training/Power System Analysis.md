@@ -4,3 +4,5 @@ Easier to work with phasor domain than time domain
 We assume frequency is the same across the system
 
 synchrophasors - Time synchronized phasor measurements
+
+$$r(t)=R$$
