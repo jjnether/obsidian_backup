@@ -13,6 +13,14 @@ Cartesian: $A+jB$
 Exponential: $Re^{j\theta}$
 Euler's trig identity: $R(cos\theta + jsin\theta)$
 - $A=Rcos\theta$
-- $B=\sqrt{A^2+B^2}$
+- $B=Rsin\theta$
+- $R=\sqrt{A^2+B^2}$
 - $\theta=tan^{-1}\frac{B}{A}$
-- 
+
+###### Arithmetic
+- Addition and subtraction easier in polar
+	- $(A+jB)+(C+jD)=(A+C)+j(B+D)$
+	- $(A+jB)-(C+jD)=(A-C)+j(B-D)$
+- Multiplication, division, and exponents easier in polar
+	- $A\angle B(C\angle D)=A(C)\angle (B+D)$
+	- $$
