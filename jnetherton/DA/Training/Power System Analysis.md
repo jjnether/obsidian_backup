@@ -5,4 +5,7 @@ We assume frequency is the same across the system
 
 synchrophasors - Time synchronized phasor measurements
 
-$$r(t)=R$$
+
+Sinusoidal signal - $r(t)=R_mcos(\omega t+\theta)$
+Polar - $R\angle \theta$
+- 
