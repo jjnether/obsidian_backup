@@ -138,4 +138,6 @@ Per Unit quantity = Actual (has angle)/Base (no angle)
 		- this unbalance will pass some 2nd harmonic content to the line
 
 ###### Symmetrical Components
-- 
+- Balanced 3-ph circuits are analyzed on a single-phase basis
+- For unbalanced 3-ph circuits, the unbalanced phasors must be resolved into balanced components so the single-ph equivalent method can be used
+	- then add by linear superposition
