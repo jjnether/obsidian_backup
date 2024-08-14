@@ -135,4 +135,7 @@ Per Unit quantity = Actual (has angle)/Base (no angle)
 - 2nd harmonic magnetizing inrush
 	- transformer draws large current to try to get flux to match applied voltage (mismatch due to hysteresis loop)
 	- if doing a 3-ph close on a transformer, each phase will have different magnitude of 2nd harmonic content due to different voltage levels
-		- this unbalance will pass some 2nd harmonic content to the line 
+		- this unbalance will pass some 2nd harmonic content to the line
+
+###### Symmetrical Components
+- 
