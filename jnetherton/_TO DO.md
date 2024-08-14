@@ -19,6 +19,7 @@ kanban-plugin: board
 	- Ship Date - 12/06
 	- Programming Spec 
 		- Waiting for customer feedback @{2024-11-01}
+- [ ] [[110306 - Fort Meade]]
 
 
 ## Programming
