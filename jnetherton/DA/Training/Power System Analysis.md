@@ -150,7 +150,20 @@ Per Unit quantity = Actual (has angle)/Base (no angle)
 - Residual current: $I_R=3I_0=I_A+I_B+I_C$
 
 Impedance diagrams
-- For building out a zero-seq impedance diagram, you need to know the transformer configuration (delta or wye) for each side
 - For motors, you only include the source if you want to simulate the fact that it produces current for a short time until it winds down
 - When going from positive to negative diagram, simply short sources
-- When going from negative to ground diagram, 
+- When going from negative to ground diagram:
+	- For transformers:
+		- You need to know the configuration (delta, wye with/without neutral) for each side
+		- If grounded Wye
+			- Do nothing
+		- If Wye (no neutral)
+			- Open circuit on that side
+		- If Delta
+			- Open circuit and short to reference bus on that side
+	- For sources:
+		- You need to know configurations of each source (delta, wye, wye with Xn for neutral connection)
+		- If grounded wye with Xn for neutral
+			- Multiply Xn by 3 and add to source impedance
+		- If delta
+			- Open circuit on side not facing reference bus
