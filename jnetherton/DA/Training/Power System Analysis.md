@@ -141,6 +141,9 @@ Per Unit quantity = Actual (has angle)/Base (no angle)
 - Balanced 3-ph circuits are analyzed on a single-phase basis
 - For unbalanced 3-ph circuits, the unbalanced phasors must be resolved into balanced components so the single-ph equivalent method can be used
 	- then add by linear superposition
+- Voltages must be line to ground voltages
+- Currents must be line currents
+
 ![[Pasted image 20240814110033.png|200]]
 ![[Pasted image 20240814110604.png|200]]
 
