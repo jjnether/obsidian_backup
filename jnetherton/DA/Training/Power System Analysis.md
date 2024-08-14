@@ -148,4 +148,9 @@ Per Unit quantity = Actual (has angle)/Base (no angle)
 ![[Pasted image 20240814110604.png|200]]
 
 - Residual current: $I_R=3I_0=I_A+I_B+I_C$
-- 
+
+Impedance diagrams
+- For building out a zero-seq impedance diagram, you need to know the transformer configuration (delta or wye) for each side
+- For motors, you only include the source if you want to simulate the fact that it produces current for a short time until it winds down
+- When going from positive to negative diagram, simply short sources
+- When going from negative to ground diagram, 
