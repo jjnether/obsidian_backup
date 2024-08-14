@@ -48,7 +48,7 @@ kanban-plugin: board
 	- FAT Plan
 	@{2024-10-03}
 - [ ] 111262 - QTS (Ellie's FAT)
-	- Possibly help with setup/testing week of 08/19
+	- Possibly help with setup/testing @{2024-08-22}
 
 
 ## SAT/GWI
