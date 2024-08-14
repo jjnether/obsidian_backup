@@ -153,20 +153,15 @@ Impedance diagrams
 - For motors, you only include the source if you want to simulate the fact that it produces current for a short time until it winds down
 - When going from positive to negative diagram, simply short sources
 - When going from negative to ground diagram:
-	- For transformers:
-		- You need to know the configuration (delta, wye with/without neutral) for each side
-		- If grounded Wye
-			- Do nothing
-		- If Wye (no neutral)
-			- Open circuit on that side
-		- If Delta
-			- Open circuit and short to reference bus on that side
-	- For sources:
-		- You need to know configurations of each source (delta, wye, wye with Xn for neutral connection)
-		- If grounded wye with Xn for neutral
-			- Multiply Xn by 3 and add to source impedance
-		- If delta
-			- Open circuit on side not facing reference bus
+	- You need to know the configuration (delta, wye with/without neutral, wye with Xn for neutral connection) for each side
+	- If Delta
+		- Open circuit and short to reference bus on the side device side
+	- If Wye (no neutral)
+		- Open circuit on that side
+	- If grounded Wye
+		- Do nothing
+	- If grounded wye with Xn for neutral
+		- Multiply Xn by 3 and add to device impedance
 	
 ![[Pasted image 20240814162543.png]]
 
