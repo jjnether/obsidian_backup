@@ -131,3 +131,6 @@ Per Unit quantity = Actual (has angle)/Base (no angle)
 	- Introduces phase shift
 	- ANSI standard- Vln on HV side leads Vln on LV side by 30 degrees
 	- IEC notation: Yd or Dy (upper case letter shows HV side) — follow by clock position
+
+- 2nd harmonic magnetizing inrush
+	- transformer draws large current to try to get flux to match applied voltage (mismatch due to histeresis loop)
