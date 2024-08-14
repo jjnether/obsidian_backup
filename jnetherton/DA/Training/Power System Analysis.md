@@ -115,8 +115,13 @@ Per Unit quantity = Actual (has angle)/Base (no angle)
 
 ###### Transformer Polarity and Phase Shift
 - Delta-Delta
-	- 
+	- No neutral unless 4-wire secondary is used
+	- All winding insulation must withstand L-L voltage
 - Wye-Wye
 	- 
 - Delta-Wye
-	- 
+	- a
+
+- Triplen harmonics
+	- odd multiples of 3rd phase harmonics (3rd, 9th, 15th, etc.)
+	- only singl ephase loads
