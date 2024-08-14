@@ -118,10 +118,16 @@ Per Unit quantity = Actual (has angle)/Base (no angle)
 	- No neutral unless 4-wire secondary is used
 	- All winding insulation must withstand L-L voltage
 - Wye-Wye
-	- 
+	- MUST have at least one side grounded to be stable
+	- Allows propagation of triplen harmonics if both sides grounded
+		- If one side ungrounded, triplen harmonics will be blocked, but will cause voltage distortion instead
 - Delta-Wye
-	- a
-
-- Triplen harmonics
-	- odd multiples of 3rd phase harmonics (3rd, 9th, 15th, etc.)
-	- only singl ephase loads
+	- Blocks balanced triplen harmonics
+		- Triplen harmonics
+			- odd multiples of 3rd phase harmonics (3rd, 9th, 15th, etc.)
+		- Harmonic only circulates in the delta circuit, doesn't go beyond it
+	- Provides neutral to accommodate single-phase loads
+	- Provide ground fault current phase
+	- Introduces phase shift
+	- ANSI standard- Vln on HV side leads Vln on LV side by 30 degrees
+	- IEC notation: Yd or Dy (upper case letter shows HV side) — follow by clock position
