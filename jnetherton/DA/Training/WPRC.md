@@ -83,11 +83,6 @@ Symmetrical Components
         -   V0 = 1/3*(Va + Vb + Vc)
 -   Ia = I0 + I1 + I2
 
-
-
-
-
-
 -   Transformer interconnections
     -   Z0 = Z1 = Z2
     -   Z0 = infinity, depending on grounding connection
@@ -95,10 +90,6 @@ Symmetrical Components
     -   Z1 = Z2
     -   Z0 is always different from Z1 because it is loop impedance (conductor plus ground)
     -   For transmission lines, Z0 usually 3 times Z1
-
-
-
-
 
 Methods of interrupting faults
 
