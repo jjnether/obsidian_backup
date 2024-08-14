@@ -167,3 +167,6 @@ Impedance diagrams
 			- Multiply Xn by 3 and add to source impedance
 		- If delta
 			- Open circuit on side not facing reference bus
+	
+![[Pasted image 20240814162543.png]]
+
