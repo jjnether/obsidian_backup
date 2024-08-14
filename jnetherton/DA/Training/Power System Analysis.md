@@ -112,3 +112,11 @@ Transformer turns:
 - transformer turns ratios = 1 in per unit domain
 
 Per Unit quantity = Actual (has angle)/Base (no angle)
+
+###### Transformer Polarity and Phase Shift
+- Delta-Delta
+	- 
+- Wye-Wye
+	- 
+- Delta-Wye
+	- 
