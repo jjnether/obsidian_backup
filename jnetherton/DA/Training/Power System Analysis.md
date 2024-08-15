@@ -154,17 +154,17 @@ Impedance diagrams
 - For calculating the thevenin equivalent impedance Xeq at point A:
 	- B---X1---A---X2---X3---B (where B is bus and X's are impedances)
 	- Xeq=X1||(X2+X3)
-- When going from positive to negative diagram, simply short sources
-- When going from negative to ground diagram:
+- When going from positive to negative sequence diagram, simply short sources
+- When going from negative to zero sequence diagram:
 	- You need to know the configuration (delta, wye with/without neutral, wye with Xn for neutral connection) for each side
 	- If Delta
-		- Open circuit and short to reference bus on the side device side
+		- Open circuit and short to reference bus on the device side
 	- If Wye (no neutral)
 		- Open circuit on that side
 	- If grounded Wye
 		- Do nothing
 	- If grounded wye with Xn for neutral
-		- Multiply Xn by 3 and add to device impedance
+		- Multiply Xn by 3 and add to device impedance only
 	
 ![[Pasted image 20240814162543.png]]
 
