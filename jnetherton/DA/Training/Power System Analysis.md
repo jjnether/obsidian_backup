@@ -196,11 +196,15 @@ Fault types:
 	- $I_0=I_1=I_2$ (all sequence networks  in series)
 	- $I_0=\frac{V_f}{Z_1+Z_2+Z_0+3Z_F}$
 - Double line to ground fault (B-ph and C-ph)
+	- $I_A=0$ (fault current)
 	- $V_B=V_C=0$ (phases tied to ground)
 	- $V_0=V_1=V_2$ (sequence networks are in parallel)
 	![[Pasted image 20240815085734.png|400]]
-- Line to Line Faults
+- Line to Line Faults (B-ph to C-ph)
+	- $I_A=0$ (fault current)
+	- $I_B=-I_C$ (fault current)
 	- $V_1=V_2$ (positive and negative sequence)
 	- $I_1=\frac{V_F}{Z_1+Z_2+Z_F}$
 	- $I_2=-I_1$
 	- $I_0=0$
+
