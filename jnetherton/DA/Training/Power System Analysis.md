@@ -187,6 +187,7 @@ Impedance diagrams
 Fault types:
 - For Impedances, be sure to use the proper angle
 	- If it's only inductive reactance, than would simply be $\angle 90 \degree$
+- After finding the sequence voltages and currents, the method of diving into each network to find the specific voltage and current at the relay is the same no matter what fault type
 - Three-ph fault (tied together or to ground)
 	- Only $I_1$ is used ($I_0=I_2=0$)
 	- $I_A=\frac{V_f}{Z_1+Z_F}$
@@ -211,3 +212,12 @@ Fault types:
 	- $I_2=-I_1$
 	- $I_0=0$
 	![[Pasted image 20240815115122.png|300]]
+
+###### Series Faults - Open Circuit Conditions
+- Possible causes
+	- Broken conductor
+	- Intentional single pole tripping
+	- Breaker failure to trip (two poles open)
+	- Breaker failure to close (one pole open)
+- Requires two port Thevenin equivalent circuit
+- 
