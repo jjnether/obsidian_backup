@@ -195,4 +195,3 @@ Fault types:
 	- $I_1=\frac{V_F}{Z_1+Z_2+Z_F}$
 	- $I_2=-I_1$
 	- $I_0=0$
-- 
