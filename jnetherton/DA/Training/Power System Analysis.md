@@ -191,14 +191,12 @@ Fault types:
 		- $V_f$ is Thevenin voltage (prefault)
 		- $Z_1$ is Thevenin impedance
 		- $Z_F$ is fault impedance (usually resistive)
-	- $I_B=
 - Single line to ground fault (A-ph)
 	- $I_B=I_C=0$ (fault current)
 	- $I_0=I_1=I_2$ (all sequence networks  in series)
 	- $I_0=\frac{V_f}{Z_1+Z_2+Z_0+3Z_F}$
 - Double line to ground fault (B-ph and C-ph)
 	- $I_A=0$ (fault current)
-	- $I_B\angle x=I_C\angle -x$
 	- $V_B=V_C=0$ (phases tied to ground)
 	- $V_0=V_1=V_2$ (sequence networks are in parallel)
 	![[Pasted image 20240815085734.png|400]]
