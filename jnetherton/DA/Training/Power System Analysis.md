@@ -136,7 +136,8 @@ Per Unit quantity = Actual (has angle)/Base (no angle)
 	- transformer draws large current to try to get flux to match applied voltage (mismatch due to hysteresis loop)
 	- if doing a 3-ph close on a transformer, each phase will have different magnitude of 2nd harmonic content due to different voltage levels
 		- this unbalance will pass some 2nd harmonic content to the line
-
+- Metering CT's are very accurate, but only for a small range above nominal (then it saturates)
+- Protection CT's are not as accurate, but have higher ceiling of saturation, so they can detect faults that are much higher levels than nominal
 ###### Symmetrical Components
 - Balanced 3-ph circuits are analyzed on a single-phase basis
 - For unbalanced 3-ph circuits, the unbalanced phasors must be resolved into balanced components so the single-ph equivalent method can be used
@@ -166,7 +167,7 @@ Impedance diagrams
 	- If grounded wye with Xn for neutral
 		- Multiply Xn by 3 and add to device impedance only
 	
-![[Pasted image 20240814162543.png]]
+![[Pasted image 20240814162543.png|400]]
 
 ###### Fault Current
 - Breakers depend on naturally occurring current zeroes to clear a fault
