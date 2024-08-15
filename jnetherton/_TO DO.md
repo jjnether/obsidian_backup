@@ -23,7 +23,7 @@ kanban-plugin: board
 		- Waiting for customer feedback @{2024-11-01}
 - [ ] [[107747 - Ft Meade Visitor Center]] @{2024-10-24}
 - [ ] [[110306 - Fort Meade UR]]
-- [ ] [[110307 - Fort Meade]]
+- [ ] [[110307 - Fort Meade]] @{2024-12-06}
 
 
 ## Programming
