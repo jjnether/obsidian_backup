@@ -167,3 +167,5 @@ Impedance diagrams
 	
 ![[Pasted image 20240814162543.png]]
 
+###### Fault Current
+- Breakers depend on naturally occu
