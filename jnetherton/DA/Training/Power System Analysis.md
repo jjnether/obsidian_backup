@@ -185,6 +185,8 @@ Impedance diagrams
 	- Short one or more phases either to ground or another conductor
 
 Fault types:
+- For Impedances, be sure to use the proper angle
+	- If it's only inductive reactance, than would simply be $\angle 90 \degree$
 - Three-ph fault (tied together or to ground)
 	- Only $I_1$ is used ($I_0=I_2=0$)
 	- $I_A=\frac{V_f}{Z_1+Z_F}$
@@ -202,7 +204,6 @@ Fault types:
 	![[Pasted image 20240815085734.png|400]]
 - Line to Line Faults (B-ph to C-ph)
 	- $I_A=0$ (fault current)
-	- $I_B=-I_C$ (fault current)
 	- $V_1=V_2$ (positive and negative sequence)
 	- $I_1=\frac{V_F}{Z_1+Z_2+Z_F}$
 	- $I_2=-I_1$
