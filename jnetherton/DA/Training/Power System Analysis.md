@@ -227,4 +227,3 @@ Fault types:
 
 - Two Line Open
 	![[Pasted image 20240815133312.png|400]]
-
