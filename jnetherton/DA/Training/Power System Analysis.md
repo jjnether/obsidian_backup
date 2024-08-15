@@ -168,4 +168,7 @@ Impedance diagrams
 ![[Pasted image 20240814162543.png]]
 
 ###### Fault Current
-- Breakers depend on naturally occu
+- Breakers depend on naturally occurring current zeroes to clear a fault
+	- So a fault with a large enough DC offset that it doesn't cross zero can cause problems
+		- They have to put in logic for it to wait to interrupt until it finally crosses zero. Otherwise, it will just arc across the contacts
+- 
