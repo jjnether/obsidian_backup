@@ -172,6 +172,15 @@ Impedance diagrams
 - Breakers depend on naturally occurring current zeroes to clear a fault
 	- So a fault with a large enough DC offset that it doesn't cross zero can cause problems
 		- They have to put in logic for it to wait to interrupt until it finally crosses zero. Otherwise, it will just arc across the contacts
+- Maximum Fault Current
+	- Zero fault impedance ($Z_F=0$)
+	- All generation online
+	- Maximum load level
+- Minimum Fault Current
+	- 25$\ohm$ to 40$\ohm$ fault impedance
+		- many utilities have standard values they apply
+	- Minimum generation online
+	- Minimum load level
 - Short Circuit Fault
 	- Short one or more phases either to ground or another conductor
 
