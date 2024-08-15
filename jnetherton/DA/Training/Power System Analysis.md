@@ -144,8 +144,8 @@ Per Unit quantity = Actual (has angle)/Base (no angle)
 - Voltages must be line to ground voltages
 - Currents must be line currents
 
-![[Pasted image 20240814110033.png|200]]
-![[Pasted image 20240814110604.png|200]]
+	![[Pasted image 20240814110033.png|200]]
+	![[Pasted image 20240814110604.png|200]]
 
 - Residual current: $I_R=3I_0=I_A+I_B+I_C$
 
@@ -225,5 +225,5 @@ Fault types:
 	![[Pasted image 20240815133228.png|400]]
 
 - Two Line Open
-![[Pasted image 20240815133312.png|400]]
+	![[Pasted image 20240815133312.png|400]]
 
