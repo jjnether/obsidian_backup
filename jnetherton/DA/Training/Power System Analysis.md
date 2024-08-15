@@ -175,15 +175,16 @@ Impedance diagrams
 - Short Circuit Fault
 	- Short one or more phases either to ground or another conductor
 
-- Three-ph fault
+- Three-ph fault (tied together or to ground)
 	- Only $I_1$
-	- $I_a=\frac{V_f}{Z_1+Z_f}$
+	- $I_a=\frac{V_f}{Z_1+Z_F}$
 		- $V_f$ is Thevenin voltage (prefault)
 		- $Z_1$ is Thevenin impedance
-		- $Z_f$ is fault impedance (usually resistive)
+		- $Z_F$ is fault impedance (usually resistive)
 - Single line to ground fault
 	- $I_0=I_1=I_2$ (sequence networks are in series)
-	- $I_0=\frac{V_f}{Z_1+Z_2+Z_0+3Z_f}
+	- $I_0=\frac{V_f}{Z_1+Z_2+Z_0+3Z_F}$
 - Double line to ground fault
 	- $V_0=V_1=V_2$ (sequence networks are in parallel)
-- 
+	![[Pasted image 20240815085734.png|400]]
+- Line to Line Faults
