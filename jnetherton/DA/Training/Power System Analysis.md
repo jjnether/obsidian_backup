@@ -151,6 +151,8 @@ Per Unit quantity = Actual (has angle)/Base (no angle)
 
 Impedance diagrams
 - For motors, you only include the source if you want to simulate the fact that it produces current for a short time until it winds down
+- For calculating the thevenin equivalent impedance at point A:
+	- B---X1---A---X2---X3---B (where B is bus and X are)
 - When going from positive to negative diagram, simply short sources
 - When going from negative to ground diagram:
 	- You need to know the configuration (delta, wye with/without neutral, wye with Xn for neutral connection) for each side
