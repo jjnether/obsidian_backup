@@ -220,4 +220,10 @@ Fault types:
 	- Breaker failure to trip (two poles open)
 	- Breaker failure to close (one pole open)
 - Requires two port Thevenin equivalent circuit
-- 
+
+- One Line Open
+	![[Pasted image 20240815133228.png|400]]
+
+- Two Line Open
+![[Pasted image 20240815133312.png|400]]
+
