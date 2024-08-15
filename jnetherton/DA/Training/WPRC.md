@@ -21,12 +21,6 @@ Multizone feeder differential protection
     -   Dependable
     -   Future-ready
 
-
-
-
-
-
-
 Marginalia - Ralph Barone
 -   Margins
     -   Coordinating margins exist to prevent multiple relays from operating simultaneously, and to let the intended ones clear the fault first
@@ -34,62 +28,6 @@ Marginalia - Ralph Barone
         -   If you choose to sum all the error factors, you leave too much performance on the floor
     -   The effect of a too small margin is obvious, the effect of one which is too large is much more subtle
     -   The impact of a given margin number needs to be proven by the passage of time
-
-
-
-Symmetrical Components
-
--   Symmetrical (balanced) system
-    -   All current and voltage phasors have equal amplitude and 120 degree phase shifts
--   Normal condition power system is symmetric
--   Common fault types
-    -   Shunt
-        -   Phase to ground
-            -   Most common
-            -   Faulted phase is very large
-            -   Unfaulted phases are small, almost zero
-            -   Connect sequence networks in series (
-        -   Phase to phase
-            -   Connected positive and negative sequence networks in parallel (zero sequence is 0)
-        -   Phase to phase to ground
-            -   Connect all 3 sequence networks in parallel
-        -   Three phase
-            -   All phases have a large current and they're all equal
-            -   Only see positive sequence network (negative and zero are 0)
-    -   Open - single phase
-    -   Cross country
--   Sequence networks
-    -   Combine positive, negative, and zero sequence networks
-
-
-
-
-
-
--   a = 120 degrees
--   a2 = 240 degrees
--   Positive sequence
-    -   A-B-C phase counter clockwise sequence
-    -   120 degree phase separation
-    -   V1 = 1/3*(Va + a*Vb + a2 *Vc)
--   Negative sequence
-    -   A-C-B phase counter clockwise sequence
-    -   120 degree phase separation
-    -   V2 = 1/3*(Va + a2*Vb + a*Vc)
--   Zero Sequence
-    -   No sequence
-    -   All phasors in phase
-    -   I and V = sum of phasors divided by 3
-        -   V0 = 1/3*(Va + Vb + Vc)
--   Ia = I0 + I1 + I2
-
--   Transformer interconnections
-    -   Z0 = Z1 = Z2
-    -   Z0 = infinity, depending on grounding connection
--   Transmission and distribution lines
-    -   Z1 = Z2
-    -   Z0 is always different from Z1 because it is loop impedance (conductor plus ground)
-    -   For transmission lines, Z0 usually 3 times Z1
 
 Methods of interrupting faults
 
@@ -113,12 +51,10 @@ Instantaneous Overcurrent (50)
 -   Add short delay of 200 ms to blow downstream fuses (fuse-blowing scheme)
 
 Timed-Overcurrent (51)
-
 -   Multiplier or time dial shifts curve up and down
 -   Pickup shifts left or right
 
 Directional Overcurrent (67)
-
 -   Sense power-flow direction
 -   Enable OC on power flowing in tripping direction
 -   Establishes forward via polarizing quantity or with shaped regions
@@ -131,7 +67,6 @@ Directional Overcurrent (67)
             -   REV LA = 80 - reverse limit angle, +- angular limit from ECA for operation
 
 Ground-fault detection
-
 -   Balanced load has near-zero ground current
 -   Fault increases circulating ground current
 -   Set ground overcurrent element to 25-40% of load current
@@ -141,25 +76,18 @@ Ground-fault detection
     -   Pass conductors through CT window
 
 High-impedance faults
-
 -   Major safety and public hazard
 -   Conventional overcurrent schemes cannot detect Hi-Z faults (small, intermittent currents)
 -   Modern relays incorporate algorithms to detect Hi-Z faults quickly and reliably
     -   Pattern recognition
     -   Load learning and subtraction
 
-
-
 No curve crossovers
-
 -   Use discrimination
 
 
 
-
-
 Pilot Protection
-
 -   Aka teleprotection
 -   Closely connected to an evolution of communication channel technologies
 -   Overcurrent protection alternative
@@ -239,12 +167,9 @@ Pilot Protection
 
 
 Duke Distribution Substation
-
 -   CPC - centralized protection and control
 -   Direct CPC - small systems
     -   Full copper
 -   P2P CPC - medium
     -   Fiber from CPC to merging units, then copper
 -   IEC 61850 - large
-
-

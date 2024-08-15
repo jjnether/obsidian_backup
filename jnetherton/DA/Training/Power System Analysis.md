@@ -175,6 +175,7 @@ Impedance diagrams
 - Short Circuit Fault
 	- Short one or more phases either to ground or another conductor
 
+Fault types:
 - Three-ph fault (tied together or to ground)
 	- Only $I_1$ is used ($I_0=I_2=0$)
 	- $I_a=\frac{V_f}{Z_1+Z_F}$
@@ -191,4 +192,5 @@ Impedance diagrams
 	- $V_1=V_2$ (positive and negative sequence)
 	- $I_1=\frac{V_F}{Z_1+Z_2+Z_F}$
 	- $I_2=-I_1$
-	- 
+	- $I_0=0$
+- 
