@@ -22,6 +22,9 @@ potentially end of October for commissioning
 - So the tie auto close time is a 30s delay ...in this example?  
 	- We might want to check with Erich and/or Bob on events they have seen. During reclosing depending on logic I'm not sure if the Tie will see voltage re-established to restated it's auto close timer. If not the auto close timer might need to be extened longer than the reclosers total reclose cycle.
 - Directional Ties??
+- For sectionalizer, reclose will be permanently off, but label will still be there for consistency
+
+
 
 Recloser
 - After it closes and holds it would act like a traditional recloser (only operating for faults no LOV)
