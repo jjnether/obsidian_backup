@@ -21,15 +21,15 @@ potentially end of October for commissioning
 - Double check alternate settings (Bob's had a comment that SG2 not used in FLISR configuration, not sure what this means?)
 - So the tie auto close time is a 30s delay ...in this example?  
 	- We might want to check with Erich and/or Bob on events they have seen. During reclosing depending on logic I'm not sure if the Tie will see voltage re-established to restated it's auto close timer. If not the auto close timer might need to be extened longer than the reclosers total reclose cycle.
-- Directional Ties??
+- Regarding Directional Ties, customer could instead choose to coordinate with different tie timings
 - For sectionalizer, reclose will be permanently off, but label will still be there for consistency
-- No normal/alternate profile - check in logic
+- No normal/alternate profile - check in logic/DNP maps
 - I assume after tie closes, it's identical to recloser logic in every way including auto open/auto close?
+- what is low/middle/high word?
 
 
 
 Recloser
-- After it closes and holds it would act like a traditional recloser (only operating for faults no LOV)
 
 Sectionalizer
 - LOV
@@ -40,7 +40,7 @@ Sectionalizer
 	- Upstream device tripped for downstream fault
 
 Tie
-
+- After it closes and holds it would act like a traditional recloser (only operating for faults no LOV)
 
 - 50P4TC
 	- `LB01 # MAINT MODE`
