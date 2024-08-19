@@ -28,6 +28,7 @@ potentially end of October for commissioning
 - what is low/middle/high word?
 - single phase reclosing can be enabled, but lockout will always be 3-phase
 - Can sectionalizer also operate with single phase reclosers? (open single phases?)
+- yellow handle display point, remove PB
 
 
 
