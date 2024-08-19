@@ -30,6 +30,8 @@ potentially end of October for commissioning
 - Can sectionalizer also operate with single phase reclosers? (open single phases?)
 - yellow handle display point, remove PB
 - is trip to lockout after closing a template setting or hardcoded?
+- ask for recloser and breaker reclosing settings
+	- we can that make suggestions and have discussion on proper LOV timings
 
 
 
