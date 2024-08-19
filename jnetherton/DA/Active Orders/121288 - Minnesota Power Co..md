@@ -24,6 +24,7 @@ potentially end of October for commissioning
 - Directional Ties??
 - For sectionalizer, reclose will be permanently off, but label will still be there for consistency
 - No normal/alternate profile - check in logic
+- I assume after tie closes, it's identical to recloser logic in every way including auto open/auto close?
 
 
 
