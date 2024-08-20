@@ -73,5 +73,3 @@ Tie
 	- `DISABLE`
 	- `ENABLE`
 	- `0`
-
-fix tie trip to lockout exit loop scheme
