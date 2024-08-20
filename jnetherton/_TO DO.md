@@ -31,11 +31,13 @@ kanban-plugin: board
 		- fix box on top level @{2024-09-13}
 - [ ] [[121288 - Minnesota Power Co.]]
 	- Programming Spec - waiting for customer feedback
-	- FAT - ~10/04 @{2024-10-04}
+	- FAT - 10/04 @{2024-10-04}
 - [ ] 451 ATC Update
 	- Update excel map with all variables @{2024-09-30}
 - [ ] [[114601 - Hilcorp]]
-	- Pick Date - 10/07 @{2024-10-07}
+	- Pick Date - 10/07
+	- Ship Date - 10/23
+	@{2024-10-07}
 
 
 ## FAT
