@@ -53,8 +53,9 @@ kanban-plugin: board
 	- Secondary current
 	@{2024-08-22}
 - [ ] [[107747 - Ft Meade Visitor Center]] @{2024-10-24}
-- [ ] [[110306 - Fort Meade UR]]
 - [ ] [[110307 - Fort Meade]] @{2024-12-06}
+- [ ] [[110306 - Fort Meade UR]]
+	- Shouldn't need anything from DA
 
 
 ## SAT/GWI
