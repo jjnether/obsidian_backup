@@ -12,9 +12,6 @@ kanban-plugin: board
 
 ## Programming Spec
 
-- [ ] [[121288 - Minnesota Power Co.]]
-	- Programming Spec - 08/12
-	- FAT - ~10/04 @{2024-08-12}
 - [ ] [[116007 - Amptek BNSF]]
 	- Pick Date - 11/01
 	- Ship Date - 12/06
@@ -32,6 +29,9 @@ kanban-plugin: board
 			- one for each relay
 				- LED's, PB's, Analogs
 		- fix box on top level @{2024-09-13}
+- [ ] [[121288 - Minnesota Power Co.]]
+	- Programming Spec - waiting for customer feedback
+	- FAT - ~10/04 @{2024-10-04}
 - [ ] 451 ATC Update
 	- Update excel map with all variables @{2024-09-30}
 - [ ] [[114601 - Hilcorp]]
