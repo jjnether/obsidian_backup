@@ -7,3 +7,10 @@
 	- lots of pictures
 	- send to woody/tom
 - Prepare 351S program
+
+
+- Test remote commands?
+- DNP map?
+- Battery test PB?
+- Trip PB?
+- Load break/FI status on relay?
