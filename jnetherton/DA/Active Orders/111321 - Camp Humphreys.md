@@ -14,3 +14,6 @@
 - Battery test PB?
 - Trip PB?
 - Load break/FI status on relay?
+- Anything to verify on type 4 when there's a trip?
+- Any way to manually trip with type 4?
+- For overcurrent, do we have to do different types of faults? Do we have to do each phase?
