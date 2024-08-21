@@ -17,3 +17,16 @@
 - Anything to verify on type 4 when there's a trip?
 - Any way to manually trip with type 4?
 - For overcurrent, do we have to do different types of faults? Do we have to do each phase?
+
+Kirk Keys:
+- TNI
+	- Way 1
+		- 2 cylinders
+		- 1 key can be withdrawn when locked in open position
+	- Way 2
+		- 1 cylinder
+		- key can be withdrawn when locked in open position
+- GNI
+	- Way 2/3/4
+		- 1 cylinder
+		- key can be withdrawn when locked in open position
