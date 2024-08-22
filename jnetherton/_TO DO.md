@@ -41,6 +41,10 @@ kanban-plugin: board
 
 ## FAT
 
+- [ ] 111262 - QTS (Ellie's FAT)
+	- Possibly help with setup/testing
+	- Secondary current
+	@{2024-08-22}
 - [ ] [[111321 - Camp Humphreys]]
 	- Pick Date - 08/26
 	- FAT - 10/03-10/04
@@ -49,10 +53,6 @@ kanban-plugin: board
 	- 351S Program
 	- FAT Plan
 	@{2024-10-03}
-- [ ] 111262 - QTS (Ellie's FAT)
-	- Possibly help with setup/testing
-	- Secondary current
-	@{2024-08-22}
 - [ ] [[107747 - Ft Meade Visitor Center]] @{2024-10-24}
 - [ ] [[110307 - Fort Meade]] @{2024-12-06}
 - [ ] [[110306 - Fort Meade UR]]
