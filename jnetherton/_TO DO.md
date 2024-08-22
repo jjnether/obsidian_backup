@@ -7,7 +7,6 @@ kanban-plugin: board
 ## Misc Work
 
 - [ ] RVA Retrofit
-- [ ] Test HMI 2 and 3 @{2024-08-20}
 
 
 ## Programming Spec
