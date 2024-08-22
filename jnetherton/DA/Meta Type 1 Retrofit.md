@@ -2,9 +2,10 @@ Default Programs - X:\DA\Dept\_Lazer\_Facebook - All Sales Orders\00 - Current P
 Retrofit Folder - \\gwfs04.loc.gwelec.com\New-Dept\DA\Dept\_Lazer\_Facebook - All Sales Orders\Prot. Settings Updates and MM Updates_
 My Retrofit Folder - C:\Users\jnetherton\Downloads\Meta\Retrofit
 
-Rev. 1.3 - JN - 03/07/24
+Rev 5.1 - JN - 8/23/2024
 - Changes made per project DCI 1434
-- Added ERMS status to MODBUS map
+- Added ERMS registers to MODBUS maps
+- Added ERMS entries to tag processor
 
 
 RTAC:
