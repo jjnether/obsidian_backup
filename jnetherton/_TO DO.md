@@ -31,12 +31,12 @@ kanban-plugin: board
 - [ ] [[121288 - Minnesota Power Co.]]
 	- Programming Spec - waiting for customer feedback
 	- FAT - 10/04 @{2024-10-04}
-- [ ] 451 ATC Update
-	- Update excel map with all variables @{2024-09-30}
 - [ ] [[114601 - Hilcorp]]
 	- Pick Date - 10/07
 	- Ship Date - 10/23
 	@{2024-10-07}
+- [ ] 451 ATC Update
+	- Update excel map with all variables @{2024-09-30}
 
 
 ## FAT
