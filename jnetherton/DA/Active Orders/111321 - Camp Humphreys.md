@@ -8,21 +8,11 @@
 	- send to woody/tom
 - Prepare 351S program
 
-
-- DNP map?
-	- none, ignore
-- Battery test PB?
-	- yes - see front panel pod
-- Trip PB?
-	- yes
-- Load break/FI status on relay?
-- Anything to verify on type 4 when there's a trip?
-- Any way to manually trip with type 4?
-- For overcurrent, do we have to do different types of faults? Do we have to do each phase?
-	- Just do a phase to phase, and phase to ground
-- Add test for PB lock
-- camp henry 62311 - pod?
-	- SAT as left
+- For Way 3 open/close, indication is only through PB LED's, not display points - I assume this is fine?
+- Check PB layout if it's ok?
+- I'll leave remote enabled PB for LED indication even though PB doesn't do anything because of selector switch
+	- this ok?
+- PB lock says hold for 3 sec, but logic doesn't really show any timer
 
 Kirk Keys:
 - TNI
