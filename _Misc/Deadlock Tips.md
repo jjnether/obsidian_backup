@@ -1,0 +1,23 @@
+- Weapon falloff is very high compared to other shooters. Outside of a few instances/heroes you won't be doing much damage at all at max range.
+- Headshots are important. Leading your shot is important. Positioning and listening for footsteps / watching the minimap is hugely important.
+- In the heroes sheet you can see the base stats for each hero. Movement speed in particular is different and some heroes don't have sprint (a speed increase you receive once you are out of combat). Hold alt when hovering over stats/items/etc to see additional info.
+- Last hitting is important. If you last hit a creep with melee it will automatically consume their spirit orb, securing your farm. In early laning, last hitting the enemies orange orbs is extremely powerful and is usually better than harassing them directly.
+- Creeps that die but you didn't last hit will have a small window where their head lights up. If you hit them in that moment (range or melee) you will get credit for the last hit and gain their soul orb.
+- Heroes with AoE are naturally good at farming and maintaining farm is important, so find some way to keep your hero on track. For Weapon based heroes/builds that can be Monster Rounds, Close Quarters, Alchemist Fire, etc. For Spirit based heroes/builds that could be Alchemist Fire, Mystic Burst and Mystic Vulnerability.
+- There is no mana in Deadlock. Just cooldowns. Use your abilities to their fullest.
+- Divine Barrier can be a good active to keep you alive. Use it.
+- Dash+Jump is the best way to get in and out of combat quickly. It is also the movement combo necessary to trigger Kinetic Dash, one of the better all around items in the game. Spend time getting used to the movement and stamina system and getting on/off zip lines.
+- You can slide in certain instances by hitting crouch. It is particularly good after a Dash+Jump combo. When sliding your gun does not consume ammo. Blast em.
+- Towers generally feel much weaker than dota and won't last long on their own. They also offer a significant amount of souls, usually enough to get a needed upgrade.
+- Fighting another hero amongst their defending troopers feels like fighting under an enemy tower in dota (although they recently tuned the troopers down) so be aware or you will melt quickly.
+- After the first Guardian (Tower 1) is killed the defending lane will drop an extra wave of troopers. Stay and kill this wave or it will push your lane all the way back to your own Guardian.
+- Ziplines extend as far as the lane is pushed for each side. It's easy to shoot off/get shot off a zip in combat so use cover to escape and then zip when far enough away. Once a lane is pushed all the way to the enemy shrines (sort of like a pre-ancient in dotes) the zip lines will have the speed boost always on.
+- There are one-way teleport stations underground located between the blue and purple lane and between the yellow and orange lane. They are located just behind the midline of the map for each side. They teleport you back to just north of your base between the orange and blue lines.
+- A lot of the more abusive heroes can be nullified by breaking line of sight. Try to leave yourself a way out of whatever situation you're entering.
+- MM servers down/updating and want to play a bot game?
+	- Press F7 to bring up the developer console, and run these commands: `map street_test` `exec citadel_botmatch_practice_6v6_hard`
+- You're able to check if an ultimate is available by looking under someone's hero icon, but it's also important to know that the soul cutoff for unlocking ult is 3k souls
+- If you see your lane opponent go to the shop, always check what they're buying by pressing tab and hovering over their hero icon
+- If you have a tier 1 camp nearby, try to work on farming that in between waves. They start spawning 2 minutes into the game and continue respawning every 4 minutes
+- The boxes around the map have a chance of dropping souls or upgrades at the 2 minute mark. Make sure to take the time to break any boxes you see to get a small advantage in lane.
+- The zipline boost is a buff that stays on you even if you get off. So you can use it to get back to base, buy and heal and still have the boost as youre going back to lane
