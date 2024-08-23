@@ -14,6 +14,7 @@
 	- this ok?
 - PB lock says hold for 3 sec, but logic doesn't really show any timer
 - Voltage Live DP used to be logic from an input contact. Ok to leave out, or do I use 59 element somehow?
+- Batt test is on 8 hour timer, that ok?
 
 Kirk Keys:
 - TNI
@@ -27,3 +28,5 @@ Kirk Keys:
 	- Way 2/3/4
 		- 1 cylinder
 		- key can be withdrawn when locked in open position
+
+![[Pasted image 20240823151508.png|700]]
