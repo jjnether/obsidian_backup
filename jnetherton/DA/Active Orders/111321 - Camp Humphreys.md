@@ -13,6 +13,7 @@
 - I'll leave remote enabled PB for LED indication even though PB doesn't do anything because of selector switch
 	- this ok?
 - PB lock says hold for 3 sec, but logic doesn't really show any timer
+- Voltage Live DP used to be r
 
 Kirk Keys:
 - TNI
