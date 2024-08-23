@@ -11,11 +11,6 @@ kanban-plugin: board
 
 ## Programming Spec
 
-- [ ] [[116007 - Amptek BNSF]]
-	- Pick Date - 11/01
-	- Ship Date - 12/06
-	- Programming Spec 
-		- Waiting for customer feedback @{2024-11-01}
 
 
 ## Programming
@@ -37,6 +32,11 @@ kanban-plugin: board
 	@{2024-10-07}
 - [ ] 451 ATC Update
 	- Update excel map with all variables @{2024-09-30}
+- [ ] [[116007 - Amptek BNSF]]
+	- Pick Date - 11/01
+	- Ship Date - 12/06
+	- Programming Spec 
+		- Waiting for customer feedback @{2024-11-01}
 
 
 ## FAT
@@ -47,7 +47,7 @@ kanban-plugin: board
 	- 3 switches for customer FAT
 	- 3 switches for internal FAT
 	- 351S Program
-	- FAT Plan
+	- Sent FAT Plan - waiting for feedback
 	@{2024-10-03}
 - [ ] [[107747 - Ft Meade Visitor Center]] @{2024-10-24}
 - [ ] [[110307 - Fort Meade]] @{2024-12-06}
