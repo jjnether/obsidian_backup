@@ -88,6 +88,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false,false,false,false],"new-line-trigger":"shift-enter","move-dates":true,"show-relative-date":true,"show-checkboxes":false,"full-list-lane-width":true,"show-set-view":false}
+{"kanban-plugin":"board","list-collapse":[false,true,false,false,false,false],"new-line-trigger":"shift-enter","move-dates":true,"show-relative-date":true,"show-checkboxes":false,"full-list-lane-width":true,"show-set-view":false}
 ```
 %%
