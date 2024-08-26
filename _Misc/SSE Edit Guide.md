@@ -13,9 +13,9 @@
 - Hit Ok, and it should replace every record you edited
 - Hit ctrl + s to save, then grab your new .esp from the game data folder (or overwrite directory if using MO2)
 - For uploading to nexus, folder convention must be:
-    <top level folder>
-	    - Data
-		    - <.esp file>
+    `<top level folder>`
+	    - `Data`
+		    - `<.esp file>`
 - Zip the top level folder, and that is what you upload to nexus
 
 [Guide for script editing in SSEEdit](https://www.youtube.com/watch?v=5wMl6TY_Oqg&list=LL&index=1172)
