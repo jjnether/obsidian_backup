@@ -1,41 +1,24 @@
 Office Phone: (708) 297-3769
 Work Phone: (708) 402-8777
 
-Siemens Siprotec
--   Modular expansion units
--   Flexibility to only get what you need (save money)
--   Numerical keypad (can configure as pushbuttons)
--   Printer cable to connect to relay
--   Relays that end in 5 or higher are modular
--   Utilities moving towards more centralized protection?
-    -   Use single relay for protecting many switches
--   Digital twin - Can test up to 20 devices
-    -   Visualize and interact with devices using simulation
--   RTU (remote terminal unit) - SICAM A8000
-    -   Can connect with browser or software
-
 `U:\_ISO\GWI\523\GWI523-369CD.zip`
 - Motor programming cable driver
 
 `X:\SWG_Eng\EE Folder\Product\SEL`
 - Part number is relay part number in control BOM
 
-
-PT L-G Voltage = L-L/sqrt(3)
+$V_{L-G} = \frac{V_{L-L}}{\sqrt{3}}$
+$\sqrt{3}=1.732$
 Internal PT's always have a fuse
 System voltage is typically given as L-L
 PT ratio applies to L-G - should get 120 VAC
-SQRT(3) = 1.732
 CT dot should be on the incoming side
-
 
 LEA PT is typically 10000:1 ratio, but LEA voltage inputs are detected at an 8:300 ratio. So total PT ratio for VS is `266.67 = (10000/1)*(8/300)`
 - OR `133.33 = (5000/1)*(8/300)`
 - For 751's, it wants the actual PT ratio (10000 or 5000)
 
 ![Machine generated alternative text: Capacitive voltage divider Cable SEL-651R VY or VZ-terminal voltage input (8 Vac LEA input) ](DA-Misc-image1.png)
-
-
 
 **SEL terminal commands:**
 (SELboot) FID - check SELboot and firmware

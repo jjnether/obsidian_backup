@@ -7,7 +7,6 @@ Rev 5.1 - JN - 8/23/2024
 - Added ERMS registers to MODBUS maps
 - Added ERMS entries to tag processor
 
-
 RTAC:
 - Update Project Name (eg. CCO1_Non-Motorized_ERMS_MVS-1X1_Rev1.2_03-07-24_R143)
 - Enable LB01 and LT28 metering under both relays in RTAC, but ensure the rest of the local bits are disabled
@@ -18,7 +17,6 @@ RTAC:
 	- HREG_00078_W3_ERMS_ENABLED
 	- HREG_00079_W4_ERMS_ENABLED
 	- ![[Pasted image 20240119113213.png|500]]
-
 
 - Add lines to the tag processor, converting the LB01 status from each relay to a modbus output (OR it also with LT28 status)
 	- HREG_00078_W3_ERMS_ENABLED.status.stVal
