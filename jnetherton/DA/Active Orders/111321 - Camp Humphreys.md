@@ -14,6 +14,8 @@
 	- this ok?
 - PB lock says hold for 3 sec, but logic doesn't really show any timer
 - Voltage Live DP used to be logic from an input contact. Ok to leave out, or do I use 59 element somehow?
+	- YES, place back in for DP
+	- also put back local bit logic
 - Batt test is on 8 hour timer, that ok?
 - Lockout equation - should any trips put switch in lockout?
 	- does there need to be a lockout?
@@ -21,10 +23,11 @@
 		- low sf6
 		- open fail
 		- 51p2 trip
-		- 51g2 trip
+		- 51g2 trip - remove
 - Can't trip with PB if low SF6 (can still trip with O/C) - this ok?
 - O/C is just 2x51P and 2x51G
 	- any 50 elements?
+	- 1 level of 50 elements
 
 Kirk Keys:
 - TNI
