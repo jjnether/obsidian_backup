@@ -17,6 +17,12 @@
 - Batt test is on 8 hour timer, that ok?
 - Lockout equation - should any trips put switch in lockout?
 	- does there need to be a lockout?
+	- consists of:
+		- low sf6
+		- open fail
+		- close/open fail
+		- 51p2 trip
+		- 51g2 trip
 - Can't trip with PB if low SF6 (can still trip with O/C)
 - O/C is just 2x51P and 2x51G
 	- any 50 elements?

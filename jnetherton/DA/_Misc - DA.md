@@ -112,9 +112,7 @@ HSR - High speed redundancy
 RTDS - real time digital simulation
 
 Poor Man's Latch:
--   PSV01:= {ON CONDITION} OR (PSV01 AND NOT 52A AND NOT SV01T) #
--   SV01 := PSV01
--   SV01PU := 6SEC
+-   SVXX := {SET CONDITIONS} OR {SVXX} AND NOT {RESET CONDITIONS}
 
 
 ---
