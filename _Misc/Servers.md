@@ -116,7 +116,7 @@ To prune unused #docker images, run `docker image prune`
 To run plex media scanner commands, start with "sudo -u plex -s /usr/lib/plexmediaserver/Plex\ Media\ Scanner"
 - this will run the command as the plex user
 - to activate a manual scan (for credits), tack on "--analyze --manual --server-action credits --section [insert section ID]"
-- to find section ID, go to http://[PMS_IP_Address]:32400/library/sections?X-Plex-Token=[YourTokenGoesHere] , and the "key=" number at the end of each library is the section id for that library
+- to find section ID, go to `http://[PMS_IP_Address]:32400/library/sections?X-Plex-Token=[YourTokenGoesHere]` , and the `key=` number at the end of each library is the section id for that library
 
 To run PMM:
 First exec into container, then run: `python kometa.py --run`
