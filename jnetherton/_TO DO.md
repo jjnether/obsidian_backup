@@ -27,7 +27,9 @@ kanban-plugin: board
 	- Update excel map with all variables @{2024-09-30}
 - [ ] [[121288 - Minnesota Power Co.]]
 	- Programming Spec - waiting for customer feedback
-	- FAT - 10/04 @{2024-10-04}
+	- FAT - 10/04 
+	- Maybe implement tie not closing (SEL paper) - follow up with Nic
+	@{2024-10-04}
 - [ ] [[114601 - Hilcorp]]
 	- Pick Date - 10/07
 	- Ship Date - 10/23
