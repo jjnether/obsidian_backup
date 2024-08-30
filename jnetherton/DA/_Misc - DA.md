@@ -56,14 +56,12 @@ Hitachi REC670
 -   GWI's
 
 
-#Bypass_Mode
-This mode is intended to be used when device(s) cannot coordinate with the upstream device. In this mode fault targets will be set, but the overcurrent protection elements will be blocked from tripping the recloser.
--   Basically, if two switches are too close to coordinate, one will be in bypass mode
+**Bypass Mode**
+- This mode is intended to be used when device(s) cannot coordinate with the upstream device. In this mode fault targets will be set, but the overcurrent protection elements will be blocked from tripping the recloser.
+	- Basically, if two switches are too close to coordinate, one will be in bypass mode
 
-
-#Hot_Line_Tag
+Hot Line Tag
 - When hot line tag is enabled if any phase minimum pick is exceeded all phases will immediately trip. If ground is not block while hot line tag is enabled exceeding the ground minimum pickup will also cause all the phases to trip. Enabling hot line tag automatically puts the control into one shot mode.
-
 
 **Order Sequence**
 - Business development manager (BDM) (Alex and Tia) provides quote with scope
@@ -100,6 +98,7 @@ RTDS - real time digital simulation
 Poor Man's Latch:
 -   SVXX := {SET CONDITIONS} OR {SVXX} AND NOT {RESET CONDITIONS}
 
+Can use a sequencing timer (AST) as a conditioning timer (ACT) by notting the IN value in the reset equation
 
 ---
 
@@ -181,16 +180,16 @@ For DA GWI Creation in ETQ:
 - Save to generate GWI number, then under Document Body, select GWI template, then download and edit
 
 
-TRGTR asserts when TARGET RESET is pushed
-RSTTRGT is a command that can be sent to reset targets
+`TRGTR` asserts when TARGET RESET is pushed
+`RSTTRGT` is a command that can be sent to reset targets
 
 TCC Curves:
 ![[Pasted image 20240223151615.png]]
 
 Wiring Statuses:
-SF6 - high when good SF6
-AC Status - high when AC is active
-Battery Alarm - high when bad batteries
+- SF6 - high when good SF6
+- AC Status - high when AC is active
+- Battery Alarm - high when bad batteries or no good test yet
 
 ---
 
@@ -217,6 +216,3 @@ PW: admin
 Default SEL Relay Port 5 IP: 192.168.1.2
 Default FTP User: 2AC (or FTPUSER)
 FTP Password: TAIL
-
-[S1^TDUR3D]
-[UV^TDURD]

@@ -12,6 +12,8 @@ kanban-plugin: board
 - [ ] [[109465 - Sioux Valley]]
 	- Pick Date - 09/30
 	- Ship Date - 10/03 @{2024-09-30}
+- [ ] [[451 ATC Update]]
+	- Update excel map with all variables @{2024-09-30}
 - [ ] look into python scripting for editing RDB's
 	- `U:\Manufacturing Engineering\Test Equipment\RCF Equipment\Program`
 
@@ -30,8 +32,6 @@ kanban-plugin: board
 			- one for each relay
 				- LED's, PB's, Analogs
 		- fix box on top level @{2024-09-13}
-- [ ] 451 ATC Update
-	- Update excel map with all variables @{2024-09-30}
 - [ ] [[121288 - Minnesota Power Co.]]
 	- Programming Spec - waiting for customer feedback
 	- FAT - 10/04 

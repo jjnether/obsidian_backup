@@ -2,22 +2,16 @@
 [file path](<file:///C:\Users\jnetherton\G&W Electric Co\US-PowerGridAutomation - Documents\_Lazer\451 ATC GWI UPDATE>)
 
 QUESTIONS:
-- There's always lockout active when there's external fault indication - do we want this?
-
-
 - Need to double check logic for emergency transfer
 	- emergency transfer is when we're on the alternate source, and we lose it, but the primary is back
 	- should always be an OBC because we don't want to close into whatever caused us to lose the alternate
+
+
 -   Protection logic
     -   Guaranteed to execute in 1/8th of a cycle
     -   2 ms update times
-    -   Custom protection functions
 -   Automation logic
-    -   Not guaranteed
-    -   (70-75 ms update time)
-
-**Tips:**
-- Can sorta use a sequencing timer as a conditioning timer by notting the IN value in the reset
+    -   ~75 ms update time , variable time (can check with `STA S` command)
 
 Remove 51 timing and fault targeting
 Remove single ph mech fail? - never used
