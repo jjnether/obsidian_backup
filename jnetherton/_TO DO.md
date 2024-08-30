@@ -83,11 +83,7 @@ kanban-plugin: board
 - [ ] 121288 - Meralco
 
 
-***
 
-## Archive
-
-- [ ] VLL Labels
 
 %% kanban:settings
 ```
