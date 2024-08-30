@@ -6,6 +6,11 @@ kanban-plugin: board
 
 ## Misc Work
 
+- [ ] [[109465 - Sioux Valley]] - safevu delay
+	- Pick Date - 09/30
+	- Ship Date - 10/03 @{2024-09-30}
+- [ ] look into python scripting for editing RDB's
+	- `U:\Manufacturing Engineering\Test Equipment\RCF Equipment\Program`
 
 
 ## Programming Spec
@@ -50,6 +55,13 @@ kanban-plugin: board
 	- 351S Program
 	- Sent FAT Plan - waiting for feedback
 	@{2024-10-03}
+- [ ] [[111587 - Pantex]] - safevu delay
+	- Pick Date - 10/15
+	- FAT - 
+	- Ship Date - 11/12
+	- POD - 100875 , 106174
+	- CNS: 100875 (4 switches), 106174 (1 switch)
+	- Burns and Mac: 108057 (1 switch) @{2024-10-15}
 - [ ] [[107747 - Ft Meade Visitor Center]] @{2024-10-24}
 - [ ] [[110307 - Fort Meade]] @{2024-12-06}
 - [ ] [[110306 - Fort Meade UR]]
@@ -64,21 +76,6 @@ kanban-plugin: board
 
 ## HOLD
 
-- [ ] [[111587 - Pantex]] - safevu delay
-	- Pick Date - 08/23
-	- FAT - 
-	- Ship Date - 09/30
-	- POD - 100875 , 106174
-	- CNS: 100875 (4 switches), 106174 (1 switch)
-	- Burns and Mac: 108057 (1 switch) @{2024-08-23}
-- [ ] [[109465 - Sioux Valley]] - safevu delay
-	- Pick Date - 06/12
-	- Ship Date - 06/14
-- [ ] [[108629 - Meralco]]
-	- 108630 - Meralco
-	- 108631 - Meralco
-- [ ] look into python scripting for editing RDB's
-	- `U:\Manufacturing Engineering\Test Equipment\RCF Equipment\Program`
 
 
 ***
@@ -89,6 +86,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[true,true,false,false,false,false],"new-line-trigger":"shift-enter","move-dates":true,"show-relative-date":true,"show-checkboxes":false,"full-list-lane-width":true,"show-set-view":false}
+{"kanban-plugin":"board","list-collapse":[false,true,false,false,false,true],"new-line-trigger":"shift-enter","move-dates":true,"show-relative-date":true,"show-checkboxes":false,"full-list-lane-width":true,"show-set-view":false}
 ```
 %%
