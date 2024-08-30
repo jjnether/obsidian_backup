@@ -17,50 +17,35 @@ System voltage is typically given as L-L
 PT ratio applies to L-G - should get 120 VAC
 CT dot should be on the incoming side
 
-LEA PT is typically 10000:1 ratio, but LEA voltage inputs are detected at an 8:300 ratio. So total PT ratio for VS is `266.67 = (10000/1)*(8/300)`
-- OR `133.33 = (5000/1)*(8/300)`
+LEA PT is typically 10000:1 ratio, but LEA voltage inputs are detected at an 8:300 ratio. So total PT ratio for VS is     $266.66 = (\frac{10000}{1})(\frac{8}{300})$    OR      $133.33 = (\frac{5000}{1})(\frac{8}{300})$
 - For 751's, it wants the actual PT ratio (10000 or 5000)
 
 ![Machine generated alternative text: Capacitive voltage divider Cable SEL-651R VY or VZ-terminal voltage input (8 Vac LEA input) ](DA-Misc-image1.png)
 
 **SEL terminal commands:**
-(SELboot) FID - check SELboot and firmware
-VER - check version
-STA - check relay status
-STA S - check execution capacity
-MET - see all status
-TAR `wordbit` - see bit status
+(SELboot) `FID` - check SELboot and firmware
+`VER` - check version
+`STA` - check relay status
+`STA S` - check execution capacity
+`MET` - see all status
+`TAR <wordbit>` - see bit status
 
 **For 651:**
-CON `#` - connect to remote bit
-PRB `#` - pulse remote bit
+`CON <#>` - connect to remote bit
+`PRB <#>` - pulse remote bit
 
 **For 751:**
-CON RBnn k - connect to remote bit, where k is S, C, or P for Set, Clear, or Pulse
-PUL n t - pulse output contact n for time t
-
+`CON RB<nn> <k>` - connect to remote bit, where k is S, C, or P for Set, Clear, or Pulse
+`PUL <n> <t>` - pulse output contact n for time t
 
 Z = vertical bushing (usually line/source side)
 Y = horizontal bushing (usually load side) (ct is always on this side)
-
-
-SEL 487E (transformer differential relay) (6 breakers/windings)
-
-(2 ways of voltage, 6 ways of current)
-
-
-Hitachi REC670
--   Spec
--   Development time
--   Testing time
--   GWI's
-
 
 **Bypass Mode**
 - This mode is intended to be used when device(s) cannot coordinate with the upstream device. In this mode fault targets will be set, but the overcurrent protection elements will be blocked from tripping the recloser.
 	- Basically, if two switches are too close to coordinate, one will be in bypass mode
 
-Hot Line Tag
+**Hot Line Tag**
 - When hot line tag is enabled if any phase minimum pick is exceeded all phases will immediately trip. If ground is not block while hot line tag is enabled exceeding the ground minimum pickup will also cause all the phases to trip. Enabling hot line tag automatically puts the control into one shot mode.
 
 **Order Sequence**
@@ -137,18 +122,6 @@ U3
 300 A
 400 A
 
-**CSC Rooms:**
-CSC 2
-Arrends
-
-We have a couple of "standard" Automation Engineer goals that are project related.  Here are some modified versions you should each plan to use  in Cornerstone:
-1. Participate or complete 3 FATs/SATs per quarter.
-2. Create 1 or modify 2 programs per quarter.
-
-You would also create Agile goals for each quarter for each goal.  The agile goal for the quarter will list the orders/projects you worked on that quarter.
-
-Next year we'll remove "participate" once you have enough of your own projects for which you own the FAT/SAT.
-
 DESIGN TEMPLATE:
 - `UV^******` represents design template variables
 	- These can be added and edited from "Manage Design Template Variables"
@@ -179,7 +152,6 @@ For DA GWI Creation in ETQ:
 - Wait to place effective date until you're ready to send it through approval process
 - Save to generate GWI number, then under Document Body, select GWI template, then download and edit
 
-
 `TRGTR` asserts when TARGET RESET is pushed
 `RSTTRGT` is a command that can be sent to reset targets
 
@@ -208,11 +180,11 @@ SF6 Ratings:
 ![[Pasted image 20240702102126.png]]
 
 
-IS5 Ethernet Switch Setup
-Default IP: 192.168.10.1
-Username: admin
-PW: admin
+**IS5 Ethernet Switch Setup**
+Default IP: `192.168.10.1`
+Username: `admin`
+PW: `admin`
 
-Default SEL Relay Port 5 IP: 192.168.1.2
-Default FTP User: 2AC (or FTPUSER)
-FTP Password: TAIL
+Default SEL Relay Port 5 IP: `192.168.1.2`
+Default FTP User: `2AC` (or `FTPUSER`)
+FTP Password: `TAIL`
