@@ -6,7 +6,10 @@ kanban-plugin: board
 
 ## Misc Work
 
-- [ ] [[109465 - Sioux Valley]] - safevu delay
+- [ ] [[108629 - Meralco]]
+	- also 108630/108631
+	- edit program for trident and throw in production folder
+- [ ] [[109465 - Sioux Valley]]
 	- Pick Date - 09/30
 	- Ship Date - 10/03 @{2024-09-30}
 - [ ] look into python scripting for editing RDB's
@@ -55,7 +58,7 @@ kanban-plugin: board
 	- Finished 351S Program
 	- Sent FAT Plan - waiting for feedback
 	@{2024-10-03}
-- [ ] [[111587 - Pantex]] - safevu delay
+- [ ] [[111587 - Pantex]]
 	- Pick Date - 10/15
 	- FAT - 10/22
 	- Ship Date - 11/12
