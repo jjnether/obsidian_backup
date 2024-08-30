@@ -57,7 +57,7 @@ kanban-plugin: board
 	@{2024-10-03}
 - [ ] [[111587 - Pantex]] - safevu delay
 	- Pick Date - 10/15
-	- FAT - 
+	- FAT - 10/22
 	- Ship Date - 11/12
 	- POD - 100875 , 106174
 	- CNS: 100875 (4 switches), 106174 (1 switch)
@@ -66,6 +66,7 @@ kanban-plugin: board
 - [ ] [[110307 - Fort Meade]] @{2024-12-06}
 - [ ] [[110306 - Fort Meade UR]]
 	- Shouldn't need anything from DA
+	- Pick Date - 12/31 @{2024-12-31}
 
 
 ## SAT/GWI
