@@ -7,6 +7,9 @@ Work Phone: (708) 402-8777
 `X:\SWG_Eng\EE Folder\Product\SEL`
 - Part number is relay part number in control BOM
 
+`X:\DA\Dept\_Lazer\_SEL EDITABLE FACEPLATES`
+- SEL Editable Faceplates (labels)
+
 $V_{L-G} = \frac{V_{L-L}}{\sqrt{3}}$
 $\sqrt{3}=1.732$
 Internal PT's always have a fuse
@@ -155,9 +158,6 @@ DESIGN TEMPLATE:
 		- `S1^51S1TD` represents the Set 1 51S1TD setting to be defined
 		- `UV^S1_51S1TD` represents the variable that will be sent to the setting
 - **^****** represents a setting or line of logic that is set to be defined in the template
-
-For editing faceplates:
-- `X:\DA\Dept\_Lazer\_SEL EDITABLE FACEPLATES`
 
 For commissioning expense reports:
 - Change Expense Type to `Field Svc Billable - SWGR [5195]`

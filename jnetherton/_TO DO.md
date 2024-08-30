@@ -78,15 +78,10 @@ kanban-plugin: board
 	- Waiting on feedback regarding SAT plan and details from rep
 
 
-## HOLD
-
-- [ ] 121288 - Meralco
-
-
 
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,true,false,false,false,false],"new-line-trigger":"shift-enter","move-dates":true,"show-relative-date":true,"show-checkboxes":false,"full-list-lane-width":true,"show-set-view":false}
+{"kanban-plugin":"board","list-collapse":[false,true,false,false,false],"new-line-trigger":"shift-enter","move-dates":true,"show-relative-date":true,"show-checkboxes":false,"full-list-lane-width":true,"show-set-view":false}
 ```
 %%
