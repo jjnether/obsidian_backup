@@ -35,6 +35,7 @@ kanban-plugin: board
 - [ ] [[114601 - Hilcorp]]
 	- Pick Date - 10/07
 	- Ship Date - 10/23
+	- Production program completed
 	@{2024-10-07}
 - [ ] [[116007 - Amptek BNSF]]
 	- Pick Date - 11/01
