@@ -130,17 +130,11 @@ STC Explorer (Survalent SCADA explorer)
     -   Events - statuses where you checked "Event Data Recording"
     -   SOE (Sequence of events) (separate application)
 
-
-
-
-
 Status Point Viewer
 -   Set manual - right click and hit this for manual operation of a point
     -   Can set permissions for each point to specific zone groups
 
 Analog Point Viewer
-
-
 
 Alarms
 -   Alarm format
@@ -149,8 +143,6 @@ Alarms
     -   Priority is from 0-10, with 10 being highest priority (will show first in alarm review)
     -   Format01 is the most common alarm format used
     -   Remote alarms (for SMS and email)
-
-
 
 P-Macros
 -   Utilizes fonts, colors, and symbols to dynamically enhance the map
