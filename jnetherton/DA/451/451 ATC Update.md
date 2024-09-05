@@ -1,7 +1,8 @@
 
 [file path](<file:///C:\Users\jnetherton\G&W Electric Co\US-PowerGridAutomation - Documents\_Lazer\451 ATC GWI UPDATE>)
 
-Source 1 IT/ITS = transferring TO source 1
+Source 1 ITS = transferring FROM source 1 TO source 2
+Source 1 RTS = transferring BACK TO source 1
 
 QUESTIONS:
 - Need to double check logic for emergency transfer
