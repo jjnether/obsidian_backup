@@ -24,7 +24,7 @@ kanban-plugin: board
 
 ## Programming
 
-- [ ] 109336 - Quinnipiac University
+- [ ] [[109336 - Quinnipiac University]]
 	- Survalent HMI help
 	@{2024-09-13}
 - [ ] [[121288 - Minnesota Power Co.]]

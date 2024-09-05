@@ -1,5 +1,4 @@
 Setup:
-
 -   Run ScadaFireWall.bat and ScadaAdvFireWall.bat in the ScadaServer folder
 -   Exclude Survalent folder from Windows Defender
 -   Database folder can be named anything, but make sure STC Explorer is pointing to it
@@ -9,20 +8,18 @@ Setup:
 SCADA - Supervisory control and data acquisition
 
 SCADA Server - Hardware where software is stored
--   It stores the data into **[one database]{.underline}**
+-   It stores the data into one database
 -   Every machine can have its own graphics
     -   Can use reservation function to synchronize standard folders
 
 OMS - outage management system
 
 Important to have regular database backups
-
 -   ADMS manager can be running for this backup utility
 -   Standard folder not backed up with this utility
 -   Just select backup in STC Explorer, then select the folder where backup will be located
 
 SmartVU
-
 -   It's the ADMS graphical user interface for Survalent
 -   Operates as a client to the ADMS active host
 -   Uses local copy of the map on which it overlays dynamic analog and status data
@@ -35,10 +32,6 @@ SmartVU
 -   To open a new map:
     -   Editor > Library > Map
     -   100k is most used
-
-```{=html}
-<!-- -->
-```
 -   Fonts
     -   Library > new font > edit/save
 -   Colors
@@ -56,7 +49,6 @@ SmartVU
 
 
 STC Explorer (Survalent SCADA explorer)
-
 -   Default login is (scada, scada)
     -   Permissions based on your login credentials
     -   Built-in users (guest, admin, scada)
@@ -106,9 +98,6 @@ STC Explorer (Survalent SCADA explorer)
         -   Required for the creation of communication lines/RTU's/DE servers
         -   Good practice to have all pseudo points in one station
 
-    ```{=html}
-    <!-- -->
-    ```
     -   Analog Points
         -   Support alarm limits
         -   Optional limits:
@@ -117,9 +106,6 @@ STC Explorer (Survalent SCADA explorer)
             -   Unreasonable
         -   Deadband - absorbs chatter in a band
 
-```{=html}
-<!-- -->
-```
 -   Automation
     -   Calculations - be sure to update and commit
     -   Templates
@@ -154,7 +140,6 @@ STC Explorer (Survalent SCADA explorer)
 
 
 Status Point Viewer
-
 -   Set manual - right click and hit this for manual operation of a point
     -   Can set permissions for each point to specific zone groups
 
@@ -163,7 +148,6 @@ Analog Point Viewer
 
 
 Alarms
-
 -   Alarm format
     -   Format strings that specify what an alarm should look like
     -   Controls the way alarms are being displayed in SmartVU
@@ -174,7 +158,6 @@ Alarms
 
 
 P-Macros
-
 -   Utilizes fonts, colors, and symbols to dynamically enhance the map
     -   Link Point ID 1 to device property
     -   Status symbol - simulating a device such as a Circuit breaker
@@ -199,7 +182,6 @@ P-Macros
     -   Time Value
 
 Control Panels
-
 -   It's a tool that allows you to populate a substation drawing with all of the IED's points in just a few keystrokes
 -   P-macro > Station Image
     -   Alarm Images
@@ -210,7 +192,7 @@ Control Panels
 
 **Comm lines**
 
-![Machine generated alternative text: scan task performs regular round-robin polling time to wait between each poll time to wait for each valid frame of the response from the RTU Time to wait for a socket connection on TCP/IP n orks how often the scan task is to interrupt its round robin polling to perform a fast-scan poll Communication Line General Connections DNP Statistics Name LinkStatus COMMUNICATION.COM STATUS 1 1 Protocol Connection Mode Poll Time Between Scans, msec Short Response Timeout, msec Long Response Timeout, msec 011 Short Response Ti ok;d DNP 3.0 Use RTLI Settings All Data, sec Accumulator, sec Hourly Offset, sec x ok;d Oil esponse Timeout, msec Poll Retry Count Interleave Factor Idle Time, msec Error Recovery Time, sec Apply Defaults Demand Average Interval, sec Time Sync Interval, sec o start automatically when the SCADA system starts up How frequently you want integrity polls on this communication line. minimum time to wait, in milliseconds, between consecutive polls Confidential & Proprietary Display Extra Configuration Switches ](DA-SCADA-System-Refresher-image1.png){width="17.635416666666668in" height="5.333333333333333in"}
+![Machine generated alternative text: scan task performs regular round-robin polling time to wait between each poll time to wait for each valid frame of the response from the RTU Time to wait for a socket connection on TCP/IP n orks how often the scan task is to interrupt its round robin polling to perform a fast-scan poll Communication Line General Connections DNP Statistics Name LinkStatus COMMUNICATION.COM STATUS 1 1 Protocol Connection Mode Poll Time Between Scans, msec Short Response Timeout, msec Long Response Timeout, msec 011 Short Response Ti ok;d DNP 3.0 Use RTLI Settings All Data, sec Accumulator, sec Hourly Offset, sec x ok;d Oil esponse Timeout, msec Poll Retry Count Interleave Factor Idle Time, msec Error Recovery Time, sec Apply Defaults Demand Average Interval, sec Time Sync Interval, sec o start automatically when the SCADA system starts up How frequently you want integrity polls on this communication line. minimum time to wait, in milliseconds, between consecutive polls Confidential & Proprietary Display Extra Configuration Switches ](DA-SCADA-System-Refresher-image1.png)
 
 
 
