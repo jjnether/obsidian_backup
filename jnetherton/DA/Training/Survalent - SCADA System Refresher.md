@@ -101,7 +101,6 @@ STC Explorer (Survalent SCADA explorer)
             -   Emergency
             -   Unreasonable
         -   Deadband - absorbs chatter in a band
-
 -   Automation
     -   Calculations - be sure to update and commit
     -   Templates
