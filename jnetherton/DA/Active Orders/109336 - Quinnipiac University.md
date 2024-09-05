@@ -5,4 +5,4 @@
 	- control panel
 		- one for each relay
 			- LED's, PB's, Analogs
-	- fix box on top level 
+	- ~~fix box on top level 

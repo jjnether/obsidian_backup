@@ -44,10 +44,6 @@ SmartVU
     -   Can be hand drawn images or stored images (but saved as a symbol
     -   Can be used with a p-macro
 
-
-
-
-
 STC Explorer (Survalent SCADA explorer)
 -   Default login is (scada, scada)
     -   Permissions based on your login credentials
