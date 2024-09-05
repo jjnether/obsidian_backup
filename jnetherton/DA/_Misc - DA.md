@@ -197,7 +197,7 @@ This logic will apply to any device that auto closes.
 `RESET LT01 := SV01T`
 `SV01IN := 3P59Y`
 `SV01PU := 30 seconds`
-- To be .75% of auto close delay time, or potentially 95%.
+- To be 75% of auto close delay time, or potentially 95%.
 - Example:  Alternate source is faulted, but line is restored at the same time as the primary is lost.  We do not want the tie auto close to be delayed even further waiting for the lockout from the previous fault to be cleared, or does it not matter?
 `SV02IN := (27YA1 or 27YB1 or 27YC1) and not 3P27Y`
 - Should the individual phases be under voltage and the 3 phase check be dead?
