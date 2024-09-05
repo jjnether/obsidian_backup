@@ -58,7 +58,7 @@ kanban-plugin: board
 	- Finished 351S Program
 	- Sent FAT Plan - waiting for feedback
 	@{2024-10-03}
-- [ ] [[111587 - Pantex]]
+- [ ] [[111587 - Pantex]] (Ryan Sales)
 	- Pick Date - 10/15
 	- FAT - 10/22
 	- Ship Date - 11/12
@@ -76,6 +76,8 @@ kanban-plugin: board
 
 - [ ] [[103220 - Baker Electric Leconte]]
 	- Waiting on feedback regarding SAT plan and details from rep
+- [ ] 100875 - Pantex (CNS)
+	- SAT - 09/26-09/27
 
 
 
