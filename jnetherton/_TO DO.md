@@ -25,13 +25,8 @@ kanban-plugin: board
 ## Programming
 
 - [ ] 109336 - Quinnipiac University
-	- Commissioning Date - 
 	- Survalent HMI help
-		- Templates for analogs on each switch
-		- control panel
-			- one for each relay
-				- LED's, PB's, Analogs
-		- fix box on top level @{2024-09-13}
+	@{2024-09-13}
 - [ ] [[121288 - Minnesota Power Co.]]
 	- Programming Spec - waiting for customer feedback
 	- FAT - 10/04 
