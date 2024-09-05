@@ -188,3 +188,18 @@ PW: `admin`
 Default SEL Relay Port 5 IP: `192.168.1.2`
 Default FTP User: `2AC` (or `FTPUSER`)
 FTP Password: `TAIL`
+
+
+Additional Non Communicating Logic To Help Prevent Closing Into A Fault.  It will not preventing closing into all faults (3 phases faults will have to be closed into).
+This logic will apply to any device that auto closes.
+
+`SET LT01 := SV02T`
+`RESET LT01 := SV01T`
+`SV01IN := 3P59Y`
+`SV01PU := 30 seconds`
+- To be .75% of auto close delay time, or potentially 95%.
+- Example:  Alternate source is faulted, but line is restored at the same time as the primary is lost.  We do not want the tie auto close to be delayed even further waiting for the lockout from the previous fault to be cleared, or does it not matter?
+`SV02IN := (27YA1 or 27YB1 or 27YC1) and not 3P27Y`
+- Should the individual phases be under voltage and the 3 phase check be dead?
+`SV02PU := 5 cycles`
+- Can this be lowered?  It is here to try and account for variation in upstream mechanism not opening all phases/extinguishing the Arc at the same time, but has to be short enough to not be over ridden by a three phase trip operation
