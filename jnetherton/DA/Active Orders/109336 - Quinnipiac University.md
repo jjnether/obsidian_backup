@@ -4,5 +4,5 @@
  Templates for analogs on each switch
 	- control panel
 		- one for each relay
-			- LED's, PB's, Analogsw
+			- LED's, PB's, Analogs
 	- ~~fix box on top level 
