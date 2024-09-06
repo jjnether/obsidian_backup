@@ -3,7 +3,7 @@
 	- In SmartVU folder (`C:\Program Files (x86)\Survalent\SmartVU`) open `svsetup.exe` to change where SmartVU is looking (use `localhost`)
 
 Control Panel
-- To place on map, place any pmacro, then change `Dialog Code` to `(1) Control Panel`, then change `Control Panel File` and `Alarm Images`
+- To place on map, place any pmacro, then change `Dialog Code` to `(1) Control Panel`, then change `Control Panel File` and `Images`  and `Alarm Images`
 	- Also change `Point Id 1` to proper station
 - While editing:
 	- to change control panel background, go to `Map Properties` (top left) and change `Image`
