@@ -7,4 +7,4 @@ Control Panel
 	- Also change `Point Id 1` to proper station
 - While editing:
 	- to change control panel background, go to `Map Properties` (top left) and change `Image`
-	- For each status symbol, rather than `Point Id`, use `Control Panel Pt Name` to route proper status (does not specify station, but station will be specified with the PMacro on the map itself)
+	- For each element, rather than `Point Id`, use `Control Panel Pt Name` to route proper status (does not specify station, but station will be specified on the map itself)
