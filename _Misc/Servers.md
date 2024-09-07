@@ -151,5 +151,6 @@ To run plex theme uploader, run `bash /home/jjnether/docker/theme-music-manager-
 
 
 - make sure you have proper merging between sections using keywords, and keywords are bolded and capitalized
+	- every section in a block of dialogue should be routed somewhere
 - no use of "default" in imp notes, you have to specify the condition
 - make sure objectives use the correct format
