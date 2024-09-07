@@ -147,3 +147,9 @@ To download a file from github to the local working directory:
 run wget `<url>`
 
 To run plex theme uploader, run `bash /home/jjnether/docker/theme-music-manager-for-plex-1.0/plex-themer/uploader.command`
+
+
+
+- make sure you have proper merging between sections using keywords, and keywords are bolded and capitalized
+- no use of "default" in imp notes, you have to specify the condition
+- make sure objectives use the correct format
