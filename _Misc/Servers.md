@@ -151,6 +151,7 @@ To run plex theme uploader, run `bash /home/jjnether/docker/theme-music-manager-
 
 
 - make sure you have proper merging between sections using keywords, and keywords are bolded and capitalized
-	- every section in a block of dialogue should be routed somewhere
+	- every section in a block of dialogue should be routed somewhere, or should indicate end dialogue
 - no use of "default" in imp notes, you have to specify the condition
 - make sure objectives use the correct format
+- Be sure that the PC always has an option (to decline a quest for instance), and make sure you consider if/how the PC would talk to the quest giver to possibly accept the quest
