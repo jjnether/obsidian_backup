@@ -13,7 +13,7 @@ Nice job editing! A few tips and things to keep in mind. @editor also good for y
 - Make sure objectives use the correct format
 - Be sure that the PC always has an option (to decline a quest for instance), and make sure you consider if/how the PC would talk to the quest giver to possibly accept the quest
 - Make sure to specify actions in PC dialogue if needed
-	- For instance, if dialogue option will result in combat, dialogue option should have (Attack) at the end
+	- For instance, if dialogue choice will result in combat, dialogue option should have (Attack) at the end
 - Remember that VA notes use brackets
 - Be sure to follow the `QUEST NOTATION` section of the style guide
 - Be sure to double check for extra spaces at the end of the line (use the find feature with regular expressions)
