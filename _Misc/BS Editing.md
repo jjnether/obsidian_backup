@@ -23,3 +23,6 @@ Questions:
 - There needs to be one more condition for if ASA is completed, but not DT?
 - Is it fair that if PC declines so strongly, he won't get another chance at this quest? If not, who should PC approach to get the quest again?
 - The book must remain in Cyrodiil in order to retain its living connection to Garlas Agea. The ties would be severed. I cannot allow that to happen.
+
+
+I didn't initially realize how complicated this quest was as there were many different conditions, so nice job @maruta8268 in giving it a pass, was quite a difficult one! I'd encourage you to give a skim through the quest as it is and look through the comments for your own learning. But I'll also add some tips below got some general tips below I think would be good for @Editor to keep in mind while editing:
