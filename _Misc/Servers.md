@@ -147,16 +147,3 @@ To download a file from github to the local working directory:
 run wget `<url>`
 
 To run plex theme uploader, run `bash /home/jjnether/docker/theme-music-manager-for-plex-1.0/plex-themer/uploader.command`
-
-
-Nice job editing! A few tips and things to keep in mind. @editor also good for you to look over and watch out for
-- make sure you have proper merging between sections using keywords, and keywords are bolded and capitalized
-	- every section in a block of dialogue should be routed somewhere (merge, end dialogue, or back to options/root)
-- no use of "default" "stays on option" in imp notes, you have to specify the condition
-- make sure objectives use the correct format
-- Be sure that the PC always has an option (to decline a quest for instance), and make sure you consider if/how the PC would talk to the quest giver to possibly accept the quest
-- Make sure to specify actions in PC dialogue if needed
-	- For instance, if dialogue option will result in combat, dialogue option should have (Attack) at the end
-- Remember that VA notes use brackets
-- Be sure to follow the `QUEST NOTATION` section of the style guide
-- Be sure to double check for extra spaces at the end of the line (use the find feature with regular expressions)
