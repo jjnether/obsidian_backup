@@ -10,3 +10,7 @@
 |       |
 | ----- |
 | **∠** |
+- change angle symbols
+- fix batt PB's
+- add IG
+- add control panel analogs
