@@ -6,3 +6,7 @@
 		- one for each relay
 			- LED's, PB's, Analogs
 	- ~~fix box on top level 
+
+|       |
+| ----- |
+| **∠** |
