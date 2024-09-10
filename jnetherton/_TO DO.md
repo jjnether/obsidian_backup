@@ -6,16 +6,17 @@ kanban-plugin: board
 
 ## Misc Work
 
-- [ ] [[108629 - Meralco]]
-	- also 108630/108631
-	- edit program for trident and throw in production folder
+- [ ] [[109336 - Quinnipiac University]]
+	- Survalent HMI help
+	@{2024-09-13}
 - [ ] [[109465 - Sioux Valley]]
 	- Pick Date - 09/30
 	- Ship Date - 10/03 @{2024-09-30}
 - [ ] [[451 ATC Update]]
 	- Update excel map with all variables @{2024-09-30}
-- [ ] look into python scripting for editing RDB's
-	- `U:\Manufacturing Engineering\Test Equipment\RCF Equipment\Program`
+- [ ] [[108629 - Meralco]]
+	- also 108630/108631
+	- edit program for trident and throw in production folder @{2024-12-31}
 
 
 ## Programming Spec
@@ -24,9 +25,6 @@ kanban-plugin: board
 
 ## Programming
 
-- [ ] [[109336 - Quinnipiac University]]
-	- Survalent HMI help
-	@{2024-09-13}
 - [ ] [[121288 - Minnesota Power Co.]]
 	- Programming Spec - waiting for customer feedback
 	- FAT - 10/04 
