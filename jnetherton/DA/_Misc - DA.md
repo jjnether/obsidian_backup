@@ -203,3 +203,6 @@ This logic will apply to any device that auto closes.
 - Should the individual phases be under voltage and the 3 phase check be dead?
 `SV02PU := 5 cycles`
 - Can this be lowered?  It is here to try and account for variation in upstream mechanism not opening all phases/extinguishing the Arc at the same time, but has to be short enough to not be over ridden by a three phase trip operation
+
+
+- If 651 is powered but doesn't seem to be turning on, hit `TARGET RESET` and it should wake from sleep
