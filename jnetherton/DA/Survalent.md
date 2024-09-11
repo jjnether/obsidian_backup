@@ -14,7 +14,10 @@ Control Panel
 
 For Custom Dialogue Boxes:
 - Add a command-state strings under point resources in STC explorer
-- 
+	- Commands are the pushbuttons
+- In STC explorer, go to the station for the specific way, locate the proper status and edit
+- Select the proper command-state you just made
+- Update telemetry as needed
 
 angle symbol:
 ∠
