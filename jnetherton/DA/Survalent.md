@@ -25,3 +25,11 @@ angle symbol:
 If having issues with ADMS manager on local PC:
 - hold ctrl + shift and left click the time at the top
 - Disable OTS, OMS, and QAS, then restart server
+
+Simulating
+- Force scanX in ADMS manager to simulate telemetry
+- Can use command sequences (STC explorer - automation) to simulate values for analog/digital points
+- Can set analog point by selecting analog value and hitting set manual
+	- Hit activate to get rid of `M` (in production setting, activate will ask field for the new value)
+- For alarms, hit the analog point, then properties and ensure alarms are enabled
+	- Can set limits with the limit button after hitting the analog point
