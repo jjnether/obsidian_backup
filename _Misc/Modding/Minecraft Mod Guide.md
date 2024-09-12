@@ -46,5 +46,6 @@ Mods list:
 - Fabric API (requires Fabric launcher)(https://www.mc-mod.net/fabric-api-mod/)
 - Mod Menu (requires Fabric)(https://www.curseforge.com/minecraft/mc-mods/modmenu)
 - Shulker Box Tooltip Mod (requires Fabric)(https://www.9minecraft.net/shulkerboxtooltip-mod/)
+- Freecam (requires Fabric API)(https://www.curseforge.com/minecraft/mc-mods/free-cam)
 - Malilib (a library to support other mods)
 - Minihud (requires malilib)
