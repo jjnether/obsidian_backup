@@ -89,6 +89,8 @@ Features
 
 Redundancy mechanisms
 - RSTP
+	- IT friendly, widely adopted, very interoperable
+	- lower priority is stronger
 	- good for SCADA
 	- maybe not good for blocking
 - MRP
