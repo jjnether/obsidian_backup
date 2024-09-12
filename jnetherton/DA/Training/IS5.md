@@ -26,3 +26,5 @@ OSI Model
 		- Default Gateway
 			- device responsible for connecting two networks
 			- a local host trying to communicate to a different network will send it's traffic to its default gateway
+				- (if I don't know where to go)
+			- best practice is first or last number in range (.1 or .255)
