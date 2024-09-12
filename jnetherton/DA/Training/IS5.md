@@ -89,8 +89,16 @@ Features
 
 Redundancy mechanisms
 - RSTP
+	- good for SCADA
+	- maybe not good for blocking
 - MRP
 - DLR
 - PRP
 - HSR
 - VRRP
+
+Naming:
+- 6xxx = din mounted
+- 7xxx = rack mounted
+- x4xx = standard
+- x5xx = extra firewall features
