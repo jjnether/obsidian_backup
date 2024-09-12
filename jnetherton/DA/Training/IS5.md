@@ -45,5 +45,30 @@ OSI Model
 				- rapid fire information, doesn't wait for acknowledgement
 				- quicker, but relatively less reliable
 
+IT - enterprise
+- sometimes administrates/has responsibility of OT networks
+- networks don't necessarily need 100% uptime
+- firmware updates tends to be prioritized
+OT - where the equipment goes
+- less PC, and more stuff
+- something that has a physical job (not a laptop/server/printer)
+- focuses on reliability/uptime
+- factory setting
+
 Features
-- VLAN's
+- VLANs
+	- 2 byte tag inserted into packet and EthType adjusted
+		- tag defines VLAN ID & quality of Service traffic priority
+			- QoS relevant when netowrk very congested
+			- "Fast pass" to cut to front of buffer / queue
+		- End devices don't "process VLAN tags"
+			- switches do and forward packets to member ports as needed
+		- ports can be members of multiple VLANs, but their traffic gets tagged by only one when entering switch
+	- useful for:
+		- organize end devices
+		- segment your network (when used in L3 device)
+		- manage traffic / broadcast/ multicast
+		- Implement QoS / traffic prioritization
+	- never designed as a security tool
+	- not great in OT unless you understand them and know what they are NOT
+		- good in IT
