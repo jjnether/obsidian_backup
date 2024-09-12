@@ -23,3 +23,6 @@ OSI Model
 		- Subnet Mask
 			- four octets
 			- ranges from 255.0.0.0 - 255.255.255.255 (CIDR = /8 - /32)
+		- Default Gateway
+			- device responsible for connecting two networks
+			- a local host trying to communicate to a different network will send it's traffic to its default gateway
