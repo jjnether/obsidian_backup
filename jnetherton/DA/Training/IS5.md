@@ -9,7 +9,7 @@ OSI Model
 			- There are special MAC addresses reserved for specific applications:
 				- True source is almost always true source, but you'll see GOOSE group as destination
 				- GOOSE multicast
-				- RSTD
+				- RSTP
 		- Devices that read MAC addresses and facilitate communications within the same subnet are "switches"
 			- managed and unmanaged
 		- GOOSE never gets to layer 3, just sees every device on a big network
@@ -78,4 +78,19 @@ Features
 		- extremely important to have a well thought out VLAN plan in electric power applications
 			- EP7400 has VLAN as a core configuration component
 	- (at layer 3)
-		- VLANs part of layer 2 portion of packet, but used for layer 3 
+		- VLANs part of layer 2 portion of packet, but used for layer 3 applications
+		- on routers, interfaces are assigned VLANs
+		- VLAN routing then setup
+		- easy way to group ports in order to:
+			- assign DHCP addresses
+			- setup routing tables
+			- access security features
+			- implement firewall access control lists
+
+Redundancy mechanisms
+- RSTP
+- MRP
+- DLR
+- PRP
+- HSR
+- VRRP
