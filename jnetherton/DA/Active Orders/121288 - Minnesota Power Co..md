@@ -1,6 +1,10 @@
 
 [file path](<file:///C:\Users\jnetherton\G&W Electric Co\US-PowerGridAutomation - Documents\_Lazer\121288 - Minnesota Power Co>)
 
+POD:
+- 66402
+- 107931
+
 - Maggie Nevrly
 - Kurt Blomquist
 - Use in-house controls
