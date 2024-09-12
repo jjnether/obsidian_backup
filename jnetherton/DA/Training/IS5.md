@@ -101,8 +101,6 @@ Redundancy mechanisms
 	- 0 down time
 - VRRP
 
-Layer 3 Features
-
 
 Naming:
 - 6xxx = din mounted
