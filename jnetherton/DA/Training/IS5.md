@@ -91,6 +91,7 @@ Redundancy mechanisms
 - RSTP
 	- IT friendly, widely adopted, very interoperable
 	- lower priority is stronger
+		- physical port number is considered when looking at where to break at the device itself
 	- good for SCADA
 	- maybe not good for blocking
 - MRP
