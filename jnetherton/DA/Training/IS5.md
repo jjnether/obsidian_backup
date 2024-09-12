@@ -55,7 +55,7 @@ OT - where the equipment goes
 - focuses on reliability/uptime
 - factory setting
 
-Features
+Layer 2 Features
 - VLANs
 	- 2 byte tag inserted into packet and EthType adjusted
 		- tag defines VLAN ID & quality of Service traffic priority
@@ -100,6 +100,9 @@ Redundancy mechanisms
 - HSR
 	- 0 down time
 - VRRP
+
+Layer 3 Features
+
 
 Naming:
 - 6xxx = din mounted
