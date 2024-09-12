@@ -12,6 +12,9 @@ OSI Model
 				- RSTD
 		- Devices that read MAC addresses and facilitate communications within the same subnet are "switches"
 			- managed and unmanaged
+		- GOOSE never gets to layer 3, just sees every device on a big network
+			- Unless you have routable GOOSE, if you want it to go between networks, you have to wrap it (maybe a tunnel)
+				- GRE - tunnel protocol, really good for layer 2 stuff
 	- 3. Network Layer
 		- This layer deals with inter network communication or end-to-end
 		- Internet Protocol (IP) addresses
@@ -28,3 +31,16 @@ OSI Model
 			- a local host trying to communicate to a different network will send it's traffic to its default gateway
 				- (if I don't know where to go)
 			- best practice is first or last number in range (.1 or .255)
+	- 4. Transport Layer
+		- Deals with service-to-service network communication
+		- oversees the session requirements of a communication link and determines what services are being requested
+		- devices that read port numbers and direct communications to different services are called "hosts"
+		- by using a source and destination port, the session is directed to the appropriate service within the host
+		- services use ports by one of two protocols
+			- Transmission Control Protocol (TCP)
+				- establishes connections via handshakes and acknowledgments
+				- more reliable, but slower
+				- HTTP/HTTPS/MODBUS: 80/443/502
+			- User Datagram Protocol (UDP)
+				- rapid fire information, doesn't wait for acknowledgement
+				- quicker, but relatively less reliable
