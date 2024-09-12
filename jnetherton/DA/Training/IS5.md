@@ -98,6 +98,7 @@ Redundancy mechanisms
 - DLR
 - PRP
 - HSR
+	- 0 down time
 - VRRP
 
 Naming:
