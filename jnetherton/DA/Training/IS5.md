@@ -57,6 +57,13 @@ OT - where the equipment goes
 
 Layer 2 Features
 - VLANs
+	- Switch Configuration:
+		- Ingress Filtering - if enabled, as soon as it sees an unknown VLAN, drops the packet
+		- Frame Type:
+			- Tagged - only taking tagged
+			- Untagged - only taking untagged
+			- All - taking both tagged and untagged
+		- 
 	- 2 byte tag inserted into packet and EthType adjusted
 		- tag defines VLAN ID & quality of Service traffic priority
 			- QoS relevant when netowrk very congested
