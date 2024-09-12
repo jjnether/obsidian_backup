@@ -17,7 +17,9 @@ OSI Model
 		- Internet Protocol (IP) addresses
 			- four octets
 			- private addresses can range from:
-				- 10.0.0.0 - 10.255.255.255
-				- 172.16.0.0 - 172.31.255.255
-				- 192.168.0.0 - 192.168.255.255
-			- 
+				- Class A: 10.0.0.0 - 10.255.255.255
+				- Class B: 172.16.0.0 - 172.31.255.255
+				- Class C: 192.168.0.0 - 192.168.255.255
+		- Subnet Mask
+			- four octets
+			- ranges from 255.0.0.0 - 255.255.255.255 (CIDR = /8 - /32)
