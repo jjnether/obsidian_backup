@@ -63,7 +63,6 @@ Layer 2 Features
 			- Tagged - only taking tagged
 			- Untagged - only taking untagged
 			- All - taking both tagged and untagged
-		- 
 	- 2 byte tag inserted into packet and EthType adjusted
 		- tag defines VLAN ID & quality of Service traffic priority
 			- QoS relevant when netowrk very congested
