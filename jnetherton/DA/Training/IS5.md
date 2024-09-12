@@ -72,3 +72,10 @@ Features
 	- never designed as a security tool
 	- not great in OT unless you understand them and know what they are NOT
 		- good in IT
+	- (at layer 2)
+		- logically groups ports on the switch into separate LANs
+		- communication between VLANs is not possible unless a router is present
+		- extremely important to have a well thought out VLAN plan in electric power applications
+			- EP7400 has VLAN as a core configuration component
+	- (at layer 3)
+		- VLANs part of layer 2 portion of packet, but used for layer 3 
