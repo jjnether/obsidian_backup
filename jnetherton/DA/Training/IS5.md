@@ -44,3 +44,6 @@ OSI Model
 			- User Datagram Protocol (UDP)
 				- rapid fire information, doesn't wait for acknowledgement
 				- quicker, but relatively less reliable
+
+Features
+- VLAN's
