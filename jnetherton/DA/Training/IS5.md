@@ -6,5 +6,18 @@ OSI Model
 			- 48 bit address given to each physical network interface
 				- first 24 bits define the device's manufacturer (OUI)
 				- last 24 bits are specific to the physical network interface
+			- There are special MAC addresses reserved for specific applications:
+				- True source is almost always true source, but you'll see GOOSE group as destination
+				- GOOSE multicast
+				- RSTD
 		- Devices that read MAC addresses and facilitate communications within the same subnet are "switches"
 			- managed and unmanaged
+	- 3. Network Layer
+		- This layer deals with inter network communication or end-to-end
+		- Internet Protocol (IP) addresses
+			- four octets
+			- private addresses can range from:
+				- 10.0.0.0 - 10.255.255.255
+				- 172.16.0.0 - 172.31.255.255
+				- 192.168.0.0 - 192.168.255.255
+			- 
