@@ -1,10 +1,20 @@
 
 [file path](<file:///C:\Users\jnetherton\G&W Electric Co\US-PowerGridAutomation - Documents\_Lazer\121288 - Minnesota Power Co>)
 
-POD:
+CPS POD:
 - 66402
 - 76820
 - 107931
+
+Other MP switches:
+- 117837
+	- D8706PT3LEH0
+	- D8706PT1LNP0
+	- D8706PT1LNR0
+- 117456
+	- D8706PT2LJE0
+
+Relay MOT: 0651R22CXGAXAE1112B302
 
 - Maggie Nevrly
 - Kurt Blomquist
