@@ -43,7 +43,8 @@ To Do:
 
 Notes:
 - Regarding Directional Ties, customer could instead choose to coordinate with different tie timings
-- - For sectionalizer, reclose will be permanently off, but label will still be there for consistency
+- For sectionalizer, reclose will be permanently off, but label will still be there for consistency
+- Remote mode does not block local PB commands (that is for PB lock to do)
 
 For Fault on A:
 - Will want to review this closely with them. At this point if the tie and recloser are too close to coordinate they will both trip … if the tie is in the reset state it should recloser back in an hold … just a matter of curve coordination and settings timing coordination (which right now with a 15s auto close and 60s reset from lockout they would not coordinate).
