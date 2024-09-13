@@ -34,8 +34,6 @@ To Do:
 - No normal/alternate profile - check in logic/DNP maps
 - I assume after tie closes, it's identical to recloser logic in every way including auto open/auto close?
 - what is low/middle/high word?
-- single phase reclosing can be enabled, but lockout will always be 3-phase
-- Can sectionalizer also operate with single phase reclosers? (open single phases?)
 - yellow handle display point, remove PB
 - is trip to lockout after closing a template setting or hardcoded?
 - based on provided breaker reclosing settings, make suggestions and have discussion on proper LOV timings
