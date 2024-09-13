@@ -38,7 +38,6 @@ To Do:
 - is trip to lockout after closing a template setting or hardcoded?
 - based on provided breaker reclosing settings, make suggestions and have discussion on proper LOV timings
 
-
 Notes:
 - Regarding Directional Ties, customer could instead choose to coordinate with different tie timings
 - For sectionalizer, reclose will be permanently off, but label will still be there for consistency
@@ -76,7 +75,9 @@ Tie
 	- `0`
 
 
-
+Extra Testing:
+- Temporary faults
+	- 
 Multi - fault scenario in FAT
 
 CPS:
