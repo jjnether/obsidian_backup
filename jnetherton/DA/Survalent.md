@@ -10,7 +10,8 @@ Control Panel
 - While editing:
 	- to change control panel background, go to `Map Properties` (top left) and change `Image`
 	- For each element, rather than `Point Id`, use `Control Panel Pt Name` to route proper status (does not specify station, but station will be specified on the map itself)
-- To have a pushbutton route to a specific control panel
+- To have a pushbutton route to a specific control panel:
+	- In pushbutton PMacro settings, edit `Menu File` and navigate to the proper `.cplt` file (may have to change folders)
 
 For Custom Dialogue Boxes:
 - Add a command-state strings under point resources in STC explorer
