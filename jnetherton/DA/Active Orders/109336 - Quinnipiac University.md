@@ -4,3 +4,8 @@
 - add control panel analogs
 
 for loops - delay 1 sec
+
+
+WRONG LABELS:
+- There are are no FI ways with battery test, but not motor
+- Way 5 is an LB way with no batt test, but with motor

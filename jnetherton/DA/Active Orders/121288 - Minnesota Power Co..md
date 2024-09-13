@@ -1,15 +1,14 @@
 
 [file path](<file:///C:\Users\jnetherton\G&W Electric Co\US-PowerGridAutomation - Documents\_Lazer\121288 - Minnesota Power Co>)
 
+POD:
+- 66402
+- 107931
+
 - Maggie Nevrly
 - Kurt Blomquist
-- Use in-house controls
-- Virtual FAT?
 
-Programming Spec by middle of August
-
-potentially end of October for commissioning
-
+To Do:
 - Should I have voltage status on target LED's?
 - Is there bloat on target LED's I should get rid of?
 - Add battery test PB?
@@ -21,8 +20,6 @@ potentially end of October for commissioning
 - Double check alternate settings (Bob's had a comment that SG2 not used in FLISR configuration, not sure what this means?)
 - So the tie auto close time is a 30s delay ...in this example?  
 	- We might want to check with Erich and/or Bob on events they have seen. During reclosing depending on logic I'm not sure if the Tie will see voltage re-established to restated it's auto close timer. If not the auto close timer might need to be extened longer than the reclosers total reclose cycle.
-- Regarding Directional Ties, customer could instead choose to coordinate with different tie timings
-- For sectionalizer, reclose will be permanently off, but label will still be there for consistency
 - No normal/alternate profile - check in logic/DNP maps
 - I assume after tie closes, it's identical to recloser logic in every way including auto open/auto close?
 - what is low/middle/high word?
@@ -30,24 +27,18 @@ potentially end of October for commissioning
 - Can sectionalizer also operate with single phase reclosers? (open single phases?)
 - yellow handle display point, remove PB
 - is trip to lockout after closing a template setting or hardcoded?
-- ask for recloser and breaker reclosing settings
-	- we can that make suggestions and have discussion on proper LOV timings
+- based on provided breaker reclosing settings, make suggestions and have discussion on proper LOV timings
+
+
+Notes:
+- Regarding Directional Ties, customer could instead choose to coordinate with different tie timings
+- - For sectionalizer, reclose will be permanently off, but label will still be there for consistency
 
 For Fault on A:
 - Will want to review this closely with them. At this point if the tie and recloser are too close to coordinate they will both trip … if the tie is in the reset state it should recloser back in an hold … just a matter of curve coordination and settings timing coordination (which right now with a 15s auto close and 60s reset from lockout they would not coordinate).
 For Fault on G:
 - They seem fair enough away but ties need to coordinate with REC so that only 1 trips … if not and they both trip one of the SEC will open ...
 
-
-Recloser
-
-Sectionalizer
-- LOV
-	- Upstream device tripped for upstream fault
-- FC
-	- Downstream fault 
-- LOV + FC
-	- Upstream device tripped for downstream fault
 
 Tie
 - After it closes and holds it would act like a traditional recloser (only operating for faults no LOV)
