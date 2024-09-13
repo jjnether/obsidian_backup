@@ -6,9 +6,6 @@ kanban-plugin: board
 
 ## Misc Work
 
-- [ ] [[109336 - Quinnipiac University]]
-	- Survalent HMI help
-	@{2024-09-13}
 - [ ] [[109465 - Sioux Valley]]
 	- Pick Date - 09/30
 	- Ship Date - 10/03 @{2024-09-30}
