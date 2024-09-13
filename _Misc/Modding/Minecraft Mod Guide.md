@@ -49,3 +49,4 @@ Mods list:
 - Freecam (requires Fabric API)(https://www.curseforge.com/minecraft/mc-mods/free-cam)
 - Malilib (a library to support other mods)
 - Minihud (requires malilib)
+- Inventory sorting (requires Fabric API)
