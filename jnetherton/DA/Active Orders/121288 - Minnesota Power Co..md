@@ -78,3 +78,7 @@ Tie
 
 
 Multi - fault scenario in FAT
+
+CPS:
+- Why didn't Bob use logic to help preventing close in on fault scenarios?
+- Will I be making a custom program for each device?
