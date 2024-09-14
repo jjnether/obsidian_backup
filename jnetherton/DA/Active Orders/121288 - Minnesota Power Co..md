@@ -77,8 +77,10 @@ Tie
 
 Extra Testing:
 - Temporary faults
-	- 
-Multi - fault scenario in FAT
+	- will have to increase sectionalizer shot counts by 1
+- Multi - fault scenario
+	- in close succession to the previous fault?
+	- or another fault after system has already reconfigured and isolated initial fault?
 
 CPS:
 - Why didn't Bob use logic to help preventing close in on fault scenarios?
