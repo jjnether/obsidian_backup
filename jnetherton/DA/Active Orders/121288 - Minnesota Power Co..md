@@ -43,6 +43,7 @@ To Do:
 - How to simulate something closing into a fault?
 	- Maybe sequencer?
 - What if we have LOV on CB3 and system reconfigures, but then there's a fault on G? Both sectionalizers would see fault current, but SEC 2 would lock out before SEC 1 or REC 2. - we don't want this. How do we fix?
+- Is timer better to use than directional tie, to account for more outage scenarios probably?
 
 Notes:
 - Regarding Directional Ties, customer could instead choose to coordinate with different tie timings
@@ -50,7 +51,7 @@ Notes:
 - Remote mode does not block local PB commands (that is for PB lock to do)
 - No single phase operations
 - Won't use the extra logic for blocking closes into faults because we're doing all 3 phase operations
-- 
+- Will add a section for customer settings in FAT doc later
 
 For Fault on A:
 - Will want to review this closely with them. At this point if the tie and recloser are too close to coordinate they will both trip … if the tie is in the reset state it should recloser back in an hold … just a matter of curve coordination and settings timing coordination (which right now with a 15s auto close and 60s reset from lockout they would not coordinate).
