@@ -39,7 +39,7 @@ To Do:
 - based on provided breaker reclosing settings, make suggestions and have discussion on proper LOV timings
 - Would be nice to give option for tie to be a sectionalizer rather than recloser once it closes
 - I assume tie exiting loop scheme once it stays closed is same conditions as recloser/sectionalizer?
-- Am I ok to just hide 
+- Will I be making a custom program for each device?
 
 Notes:
 - Regarding Directional Ties, customer could instead choose to coordinate with different tie timings
@@ -79,16 +79,3 @@ Tie
 	- `DISABLE`
 	- `ENABLE`
 	- `0`
-
-
-Extra Testing:
-- Temporary faults
-	- will have to increase sectionalizer shot counts by 1
-- Multi - fault scenario
-	- in close succession to the previous fault?
-	- or another fault after system has already reconfigured and isolated initial fault?
-- 3ph fault (to show that it will have to be closed into)
-
-CPS:
-- Why didn't Bob use logic to help preventing close in on fault scenarios?
-- Will I be making a custom program for each device?
