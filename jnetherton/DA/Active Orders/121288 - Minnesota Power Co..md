@@ -37,16 +37,17 @@ To Do:
 - yellow handle display point, remove PB
 - is trip to lockout after closing a template setting or hardcoded?
 - based on provided breaker reclosing settings, make suggestions and have discussion on proper LOV timings
-- !!!! How does exiting loop scheme work when we add extra logic so that switches don't close into faults? Maybe just time out if switch opened due to LOV? Or does it just stay in loop scheme?
-	- When would viper see voltage loss on just single phase but not all 3? If there's a fault upstream, wouldn't the switch upstream of the fault open all 3 phases, so our device would see voltage loss on all 3?
-- If there's a loss of one source and system reconfigures, they will have to manually reconfigure. Is there ever a time they wouldn't?
-- Sectionalizing for Tie? - I assume this option lets tie act as a sectionalizer rather than a recloser when it closes
-	- Do we want this?
+- Would be nice to give option for tie to be a sectionalizer rather than recloser once it closes
+- I assume tie exiting loop scheme once it stays closed is same conditions as recloser/sectionalizer?
+- Am I ok to just hide 
 
 Notes:
 - Regarding Directional Ties, customer could instead choose to coordinate with different tie timings
 - For sectionalizer, reclose will be permanently off, but label will still be there for consistency
 - Remote mode does not block local PB commands (that is for PB lock to do)
+- No single phase operations
+- Won't use the extra logic for blocking closes into faults because we're doing all 3 phase operations
+- 
 
 For Fault on A:
 - Will want to review this closely with them. At this point if the tie and recloser are too close to coordinate they will both trip … if the tie is in the reset state it should recloser back in an hold … just a matter of curve coordination and settings timing coordination (which right now with a 15s auto close and 60s reset from lockout they would not coordinate).
