@@ -37,8 +37,9 @@ To Do:
 - yellow handle display point, remove PB
 - is trip to lockout after closing a template setting or hardcoded?
 - based on provided breaker reclosing settings, make suggestions and have discussion on proper LOV timings
-- !!!! How does exiting loop scheme work when we add extra logic so that switches don't close into faults? Maybe just time out if switch opened due to LOV?
+- !!!! How does exiting loop scheme work when we add extra logic so that switches don't close into faults? Maybe just time out if switch opened due to LOV? Or does it just stay in loop scheme?
 	- When would viper see voltage loss on just single phase but not all 3? If there's a fault upstream, wouldn't the switch upstream of the fault open all 3 phases, so our device would see voltage loss on all 3?
+- If there's a loss of one source and system reconfigures, they will have to manually reconfigure to 
 
 Notes:
 - Regarding Directional Ties, customer could instead choose to coordinate with different tie timings
