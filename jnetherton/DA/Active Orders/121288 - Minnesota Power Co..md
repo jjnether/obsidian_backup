@@ -81,6 +81,7 @@ Extra Testing:
 - Multi - fault scenario
 	- in close succession to the previous fault?
 	- or another fault after system has already reconfigured and isolated initial fault?
+- 3ph fault (to show that it will have to be closed into)
 
 CPS:
 - Why didn't Bob use logic to help preventing close in on fault scenarios?
