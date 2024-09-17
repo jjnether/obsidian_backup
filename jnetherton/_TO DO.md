@@ -35,7 +35,9 @@ kanban-plugin: board
 	- Pick Date - 11/01
 	- Ship Date - 12/06
 	- Programming Spec 
-		- Waiting for customer feedback @{2024-11-01}
+		- Waiting for customer feedback
+	- There is an FAT
+	@{2024-11-01}
 
 
 ## FAT
