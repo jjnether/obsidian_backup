@@ -40,13 +40,11 @@ To Do:
 - Would be nice to give option for tie to be a sectionalizer rather than recloser once it closes  
 - Will I be making a custom program for each device?  
 - How to simulate something closing into a fault?  
-- Maybe sequencer?  
-- What if we have LOV on CB3 and system reconfigures, but then there's a fault on G? Both sectionalizers would see fault current, but SEC 2 would lock out before SEC 1 or REC 2. - we don't want this. How do we fix?  
+- Maybe sequencer?
 - Should ties drop out of auto when closing?  
-- depends on if ties should be able to auto open - will have to ask customer - for now will assume no auto open  
-- will have recloser/sectionalizer protection regardless  
+	- depends on if ties should be able to auto open - will have to ask customer - for now will assume no auto open  
+	- will have recloser/sectionalizer protection regardless
 - Check how many 651's have the extra IO card needed for the output contacts we'll use for voltage/current simulation  
-- Check if program trips immediately upon exceeding OC PU for hot line tag - (nic question)  
   
 Notes:  
 - For sectionalizer, reclose will be permanently off, but label will still be there for consistency  
@@ -57,7 +55,10 @@ Notes:
 - usually with a tie up against substation breaker, you want it to be directional and not close to backfeed sub  
 - Need to ask customer if there is load on that segment of the line  
 - Will just stagger close timings for ties, no directional tie (in case there's a scenario where we lose both other sources )  
-- We will ignore/disable inrush, but can mention it in case customer needs it.  
+- We will ignore/disable inrush, but can mention it in case customer needs it
+- HLT trips immediately upon exceeding any pickup
+- If we have LOV on CB3 and system reconfigures, but then there's a fault on G, both sectionalizers would see fault current, but SEC 2 would lock out before SEC 1 or REC 2
+	- would need another settings group to account - could be dependent on directional current
   
 For Fault on A:  
 - Will want to review this closely with them. At this point if the tie and recloser are too close to coordinate they will both trip … if the tie is in the reset state it should recloser back in an hold … just a matter of curve coordination and settings timing coordination (which right now with a 15s auto close and 60s reset from lockout they would not coordinate).  
