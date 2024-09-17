@@ -43,6 +43,8 @@ To Do:
 - How to simulate something closing into a fault?
 	- Maybe sequencer?
 - What if we have LOV on CB3 and system reconfigures, but then there's a fault on G? Both sectionalizers would see fault current, but SEC 2 would lock out before SEC 1 or REC 2. - we don't want this. How do we fix?
+- Should ties drop out of auto when closing?
+	- should the ties also be able to even auto open?
 
 Notes:
 - Regarding Directional Ties, customer could instead choose to coordinate with different tie timings
