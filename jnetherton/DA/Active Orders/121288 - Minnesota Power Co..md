@@ -52,7 +52,7 @@ Notes:
 - Won't use the extra logic for blocking closes into faults because we're doing all 3 phase operations
 - Will add a section for customer settings in FAT doc later
 - usually with a tie up against substation breaker, you want it to be directional and not close to backfeed sub
-	- Need to check if there is load on that sgement of the line
+	- Need to check if there is load on that segment of the line
 - just stagger tie timings
 
 For Fault on A:
