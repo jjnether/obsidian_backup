@@ -52,6 +52,7 @@ Notes:
 - No single phase operations
 - Won't use the extra logic for blocking closes into faults because we're doing all 3 phase operations
 - Will add a section for customer settings in FAT doc later
+- usually with a tie up against substation breaker, you want it to be directional and not close to backfeed sub
 
 For Fault on A:
 - Will want to review this closely with them. At this point if the tie and recloser are too close to coordinate they will both trip … if the tie is in the reset state it should recloser back in an hold … just a matter of curve coordination and settings timing coordination (which right now with a 15s auto close and 60s reset from lockout they would not coordinate).
