@@ -23,9 +23,8 @@ kanban-plugin: board
 ## Programming
 
 - [ ] [[121288 - Minnesota Power Co.]]
-	- Programming Spec - waiting for customer feedback
-	- FAT - 10/04 
-	- Maybe implement tie not closing (SEL paper) - follow up with Nic
+	- FAT - 10/10-10/11
+		- Waiting for feedback from Nic
 	@{2024-10-04}
 - [ ] [[114601 - Hilcorp]]
 	- Pick Date - 10/07
