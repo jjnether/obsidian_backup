@@ -52,8 +52,9 @@ kanban-plugin: board
 	@{2024-10-03}
 - [ ] [[111587 - Pantex]] (Ryan Sales)
 	- Pick Date - 10/15
-	- FAT - 10/22
+	- FAT - 10/22 (probably delayed)
 	- Ship Date - 11/12
+	- Production programs in folders
 	- POD - 100875 , 106174
 	- CNS: 100875 (4 switches), 106174 (1 switch)
 	- Burns and Mac: 108057 (1 switch) @{2024-10-15}
