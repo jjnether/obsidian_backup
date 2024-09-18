@@ -47,7 +47,7 @@ kanban-plugin: board
 	- FAT - 10/03-10/04
 	- 3 switches for customer FAT
 	- 3 switches for internal FAT
-	- Finished 351S Program
+	- Finished 351S Program (in production folder)
 	- Sent FAT Plan - waiting for feedback
 	@{2024-10-03}
 - [ ] [[111587 - Pantex]] (Ryan Sales)
