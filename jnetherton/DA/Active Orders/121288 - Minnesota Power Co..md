@@ -45,6 +45,7 @@ To Do:
 	- depends on if ties should be able to auto open - will have to ask customer - for now will assume no auto open  
 	- will have recloser/sectionalizer protection regardless 
 	- update programming spec based on this
+	- How many shots should TIE have? Bob mentioned they are often just 1 shot?
   
 Notes:  
 - For sectionalizer, reclose will be permanently off, but label will still be there for consistency  
