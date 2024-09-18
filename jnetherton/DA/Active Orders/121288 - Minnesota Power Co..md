@@ -32,21 +32,23 @@ To Do:
 - So the tie auto close time is a 30s delay ...in this example?  
 - We might want to check with Erich and/or Bob on events they have seen. During reclosing depending on logic I'm not sure if the Tie will see voltage re-established to restated it's auto close timer. If not the auto close timer might need to be extended longer than the reclosers total reclose cycle.  
 - No normal/alternate profile - check in logic/DNP maps  
-- I assume after tie closes, it's identical to recloser logic in every way including auto open/auto close?  
 - what is low/middle/high word?  
-- yellow handle display point, remove PB  
-- is trip to lockout after closing a template setting or hardcoded?  
+- yellow handle display point, remove PB
 - based on provided breaker reclosing settings, make suggestions and have discussion on proper LOV timings  
 - Would be nice to give option for tie to be a sectionalizer rather than recloser once it closes  
 - Will I be making a custom program for each device?  
 - How to simulate something closing into a fault?  
 	- Maybe sequencer?
+
+Customer Questions:
 - Should ties drop out of auto when closing?  
 	- depends on if ties should be able to auto open - will have to ask customer - for now will assume no auto open  
 	- will have recloser/sectionalizer protection regardless 
 	- update programming spec based on this
 	- How many shots should TIE have? Bob mentioned they are often just 1 shot?
-  
+- Is there any load on line between Tie and substation?
+	- If not, will make the tie directional so that it doesn't ever backfeed the substation
+
 Notes:  
 - For sectionalizer, reclose will be permanently off, but label will still be there for consistency  
 - Remote mode does not block local PB commands (that is for PB lock to do)  
