@@ -73,7 +73,7 @@ NOTES:
 - For testing SF6, pull IN107 (451)
 
 QUESTIONS:
-- - SCADA aliases?
+- SCADA aliases?
 - Is it ok that DNP maps match even though one is 3 way, so it has points for a way that doesn't exist?
 - will power supply automatically run battery test upon startup, or does relay need logic for that to happen?
 - FAT said to set batt test to every hour and verify with SER?
