@@ -22,15 +22,15 @@ kanban-plugin: board
 
 ## Programming
 
-- [ ] [[121288 - Minnesota Power Co.]]
-	- FAT - 10/10-10/11
-		- Waiting for feedback from Nic
-	@{2024-10-04}
 - [ ] [[114601 - Hilcorp]]
 	- Pick Date - 10/07
 	- Ship Date - 10/23
 	- Production program completed
 	@{2024-10-07}
+- [ ] [[121288 - Minnesota Power Co.]]
+	- FAT - 10/10-10/11
+		- Plan sent to Bill
+	@{2024-10-10}
 - [ ] [[116007 - Amptek BNSF]]
 	- Pick Date - 11/01
 	- Ship Date - 12/06
