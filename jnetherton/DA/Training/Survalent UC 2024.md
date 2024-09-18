@@ -1,2 +1,1 @@
-Common Operating Picture (COP)
-situational awareness vs situational blindness
+To import CAD file to SmartVU, import the CAD file (conversion)
