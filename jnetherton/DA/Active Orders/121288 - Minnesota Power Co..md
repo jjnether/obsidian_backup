@@ -24,7 +24,7 @@ To Do:
 - Is there bloat on target LED's I should get rid of?  
 - Add battery test PB?  
 - Should trip PB be blocked by PB lock?  
-- Double check display point - LOV LS timing to close  
+- Double check display point - LOV LS timing to close
 - Check changes made between revs - might need to port some over to sectionalizer logic  
 - Fix DNP map order  
 - Double check all PB and RB assignments  
@@ -34,11 +34,11 @@ To Do:
 - No normal/alternate profile - check in logic/DNP maps  
 - what is low/middle/high word?  
 - yellow handle display point, remove PB
-- based on provided breaker reclosing settings, make suggestions and have discussion on proper LOV timings  
-- Would be nice to give option for tie to be a sectionalizer rather than recloser once it closes  
+- based on provided breaker reclosing settings, make suggestions and have discussion on proper LOV timings 
 - Will I be making a custom program for each device?  
 - How to simulate something closing into a fault?  
 	- Maybe sequencer?
+- Double check tie closing in and acting as sectionalizer logic
 
 Customer Questions:
 - Should ties drop out of auto when closing?  
