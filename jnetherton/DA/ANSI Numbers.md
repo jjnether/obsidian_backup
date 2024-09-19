@@ -5,8 +5,8 @@
 27 = Undervoltage
 50 = Instantaneous Overcurrent
 51 = AC Time Overcurrent (uses TCC)
-52A - high = closed
-52B - high = open
+52A = closed
+52B = open
 59 = Overvoltage
 67 = AC Directional Overcurrent
 79 = AC Reclosing Relay (reclosing state)
