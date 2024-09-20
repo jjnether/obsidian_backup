@@ -20,13 +20,11 @@ Relay MOT: 0651R22CXGAXAE1112B302
 - Kurt Blomquist  
   
 To Do:
-- Should trip PB be blocked by PB lock?  
 - Double check display point - LOV LS timing to close
 - Check changes made between revs - might need to port some over to sectionalizer logic  
 - Fix DNP map order  
 - Double check all PB and RB assignments  
 - Double check alternate settings (Bob's had a comment that SG2 not used in FLISR configuration, not sure what this means?)  
-- So the tie auto close time is a 30s delay ...in this example?  
 - We might want to check with Erich and/or Bob on events they have seen. During reclosing depending on logic I'm not sure if the Tie will see voltage re-established to restated it's auto close timer. If not the auto close timer might need to be extended longer than the reclosers total reclose cycle.  
 - No normal/alternate profile - check in logic/DNP maps  
 - what is low/middle/high word?  
@@ -63,6 +61,7 @@ Notes:
 	- Check how many 651's have the extra IO card needed for the output contacts we'll use for voltage/current simulation
 - When closing into a fault after an auto open, switch will trip if current exceeds 51 pickup value
 - Reclose NOT supervised by healthy batt
+- trip PB is not blocked by PB lock - for safety
   
 For Fault on A:  
 - Will want to review this closely with them. At this point if the tie and recloser are too close to coordinate they will both trip … if the tie is in the reset state it should recloser back in an hold … just a matter of curve coordination and settings timing coordination (which right now with a 15s auto close and 60s reset from lockout they would not coordinate).  
