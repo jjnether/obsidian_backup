@@ -65,6 +65,7 @@ Notes:
 - In prior test that have had the relcoser this step would including inject primary current. Since you only have the control you will have to string the current between controls and use an output for feedback to the test set to indicate when the current should stop.
 	- Check how many 651's have the extra IO card needed for the output contacts we'll use for voltage/current simulation
 - When closing into a fault after an auto open, switch will trip if current exceeds 51 pickup value
+- Reclose not supervised by healthy batt
   
 For Fault on A:  
 - Will want to review this closely with them. At this point if the tie and recloser are too close to coordinate they will both trip … if the tie is in the reset state it should recloser back in an hold … just a matter of curve coordination and settings timing coordination (which right now with a 15s auto close and 60s reset from lockout they would not coordinate).  
