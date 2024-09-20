@@ -20,7 +20,6 @@ Relay MOT: 0651R22CXGAXAE1112B302
 - Kurt Blomquist  
   
 To Do:
-- Double check display point - LOV LS timing to close
 - Check changes made between revs - might need to port some over to sectionalizer logic  
 - Fix DNP map order  
 - Double check all PB and RB assignments  
@@ -29,6 +28,7 @@ To Do:
 - No normal/alternate profile - check in logic/DNP maps  
 - what is low/middle/high word?  
 - yellow handle display point, remove PB
+	- double check all yellow handle logic
 - based on provided breaker reclosing settings, make suggestions and have discussion on proper LOV timings 
 - Will I be making a custom program for each device?  
 - How to simulate something closing into a fault?  
