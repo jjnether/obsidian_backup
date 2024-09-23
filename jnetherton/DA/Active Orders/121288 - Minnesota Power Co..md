@@ -43,6 +43,7 @@ Customer Questions:
 	- How many shots should TIE have? Bob mentioned they are often just 1 shot?
 - Is there any load on line between Tie and substation?
 	- If not, will make the tie directional so that it doesn't ever backfeed the substation
+- Check conditions for going into loop scheme
 
 Notes:  
 - For sectionalizer, reclose will be permanently off, but label will still be there for consistency  
