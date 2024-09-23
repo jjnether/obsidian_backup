@@ -67,16 +67,7 @@ Y = horizontal bushing (usually load side) (ct is always on this side)
 	- Ideally done 2-4 weeks after commissioning
 
 
-
 Must enable Telnet in the port setting to communicate with a relay through ethernet
-
-Type 1
-Type F Version 1.1 - 487 and rtac - 2 switch loops
-Type F Version 1.2 - siemens relays in larger loops (4, 8, 10, and 11) - install 2025
--   Also a centralized controller from siemens
-
-HSR - High speed redundancy
--   RSTP - alternative redundancy
 
 RTDS - real time digital simulation
 
