@@ -34,10 +34,12 @@ To Do:
 - How to simulate something closing into a fault?  
 	- Maybe sequencer?
 - Double check tie closing in and acting as sectionalizer logic
+- When tie closes
 
 Customer Questions:
 - Should ties drop out of auto when closing?  
-	- depends on if ties should be able to auto open - will have to ask customer - for now will assume no auto open  
+	- depends on if ties should be able to auto open - will have to ask customer - for now will assume no auto open
+		- Actually, lets use auto open - doesn't hurt anything and will let system react to more possible scenarios
 	- will have recloser/sectionalizer protection regardless 
 	- update programming spec based on this
 	- How many shots should TIE have? Bob mentioned they are often just 1 shot?
@@ -52,13 +54,14 @@ Notes:
 - Won't use the extra logic for blocking closes into faults because we're doing all 3 phase operations  
 - Will add a section for customer settings in FAT doc later  
 - usually with a tie up against substation breaker, you want it to be directional and not close to backfeed sub  
-- Need to ask customer if there is load on that segment of the line  
+	- Need to ask customer if there is load on that segment of the line  
 - Will just stagger close timings for ties, no directional tie (in case there's a scenario where we lose both other sources )  
 - We will ignore/disable inrush, but can mention it in case customer needs it
 - HLT trips immediately upon exceeding any pickup
+	- REMOVE REDUNDANT LOGIC IN TR3P
 - If we have LOV on CB3 and system reconfigures, but then there's a fault on G, both sectionalizers would see fault current, but SEC 2 would lock out before SEC 1 or REC 2
 	- would need another settings group to account - could be dependent on directional current
-- In prior test that have had the relcoser this step would including inject primary current. Since you only have the control you will have to string the current between controls and use an output for feedback to the test set to indicate when the current should stop.
+- In prior test that have had the recloser this step would including inject primary current. Since you only have the control you will have to string the current between controls and use an output for feedback to the test set to indicate when the current should stop.
 	- Check how many 651's have the extra IO card needed for the output contacts we'll use for voltage/current simulation
 - When closing into a fault after an auto open, switch will trip if current exceeds 51 pickup value
 - Reclose NOT supervised by healthy batt
