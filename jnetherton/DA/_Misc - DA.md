@@ -43,7 +43,7 @@ Y = horizontal bushing (usually load side) (ct is always on this side)
 
 **Bypass Mode**
 - This mode is intended to be used when device(s) cannot coordinate with the upstream device. In this mode fault targets will be set, but the overcurrent protection elements will be blocked from tripping the recloser.
-	- Basically, if two switches are too close to coordinate, one will be in bypass mode
+	- Basically, if two switches are too close to coordinate, one may be in bypass mode
 
 **Hot Line Tag**
 - When hot line tag is enabled if any phase minimum pick is exceeded all phases will immediately trip. If ground is not block while hot line tag is enabled exceeding the ground minimum pickup will also cause all the phases to trip. Enabling hot line tag automatically puts the control into one shot mode.
