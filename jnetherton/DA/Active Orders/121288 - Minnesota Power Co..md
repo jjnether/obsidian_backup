@@ -20,26 +20,21 @@ Relay MOT: 0651R22CXGAXAE1112B302
 - Kurt Blomquist  
   
 To Do:
-- Check changes made between revs - might need to port some over to sectionalizer logic  
 - Fix DNP map order  
-- Double check all PB and RB assignments  
-- We might want to check with Erich and/or Bob on events they have seen. During reclosing depending on logic I'm not sure if the Tie will see voltage re-established to restated it's auto close timer. If not the auto close timer might need to be extended longer than the reclosers total reclose cycle.
-- No normal/alternate profile - check in logic/DNP maps
+- Double check all PB and RB assignments
+- 
 - yellow handle display point, remove PB
 	- double check all yellow handle logic
 - based on provided breaker reclosing settings, make suggestions and have discussion on proper LOV timings
 - add a section for customer settings in FAT doc
+- double check programming spec based on changes
 
 Customer Questions:
-- Should ties drop out of auto when closing?  
-	- depends on if ties should be able to auto open - will have to ask customer - for now will assume no auto open
-		- Actually, lets use auto open - doesn't hurt anything and will let system react to more possible scenarios
-	- will have recloser/sectionalizer protection regardless 
-	- update programming spec based on this
-	- How many shots should TIE have? Bob mentioned they are often just 1 shot?
-- Is there any load on line between Tie and substation?
-	- If not, will make the tie directional so that it doesn't ever backfeed the substation
-- Check conditions for going into loop scheme
+- Tie behavior after closing:
+	- LOV open?
+	- Sectionalize/Reclose/1-shot protection?
+- Load between device and substation?
+	- If not, should disable backfeeding toward source in template
 
 Nic Questions:
 - Double check logic for kicking TIE/SEC out of LS when closing
@@ -55,6 +50,7 @@ Nic Questions:
 	- do reclosing settings need to be in programming spec? - there's some I didn't include
 - Should there be permissives for putting devices in LS? (i.e. sectionalizer will only enter LS if it's closed, and tie if it's open - when would a recloser?)
 - HLT only trips when elements time out, should it be on pickup?
+- ???We might want to check with Erich and/or Bob on events they have seen. During reclosing depending on logic I'm not sure if the Tie will see voltage re-established to restated it's auto close timer. If not the auto close timer might need to be extended longer than the reclosers total reclose cycle.
 
 Notes:  
 - For sectionalizer, reclose will be permanently off, but label will still be there for consistency
@@ -64,7 +60,6 @@ Notes:
 - Will just stagger close timings for ties, no directional tie (in case there's a scenario where we lose both other sources)  
 - We will ignore/disable inrush, but can mention it in case customer needs it
 - HLT trips immediately upon exceeding any pickup
-	- REMOVE REDUNDANT LOGIC IN TR3P
 - If we have LOV on CB3 and system reconfigures, but then there's a fault on G, both sectionalizers would see fault current, but SEC 2 would lock out before SEC 1 or REC 2
 	- would need another settings group to account - could be dependent on directional current
 - In prior test that have had the recloser this step would including inject primary current. Since you only have the control you will have to string the current between controls and use an output for feedback to the test set to indicate when the current should stop.
@@ -72,12 +67,13 @@ Notes:
 - When closing into a fault after an auto open, switch will trip if current exceeds 51 pickup value
 - Reclose NOT supervised by healthy batt
 - trip PB is not blocked by PB lock - for safety
+- No normal/alternate profile
 
 
 For Fault on A:  
 - Will want to review this closely with them. At this point if the tie and recloser are too close to coordinate they will both trip … if the tie is in the reset state it should recloser back in an hold … just a matter of curve coordination and settings timing coordination (which right now with a 15s auto close and 60s reset from lockout they would not coordinate).  
 For Fault on G:  
-- They seem fair enough away but ties need to coordinate with REC so that only 1 trips … if not and they both trip one of the SEC will open ...  
+- They seem fair enough away but ties need to coordinate with REC so that only 1 trips … if not and they both trip one of the SEC will open ...
   
   
 # Recloser
