@@ -34,7 +34,11 @@ To Do:
 - How to simulate something closing into a fault?  
 	- Maybe sequencer?
 - Double check tie closing in and acting as sectionalizer logic
-- When tie closes
+- When tie closes, check to see if it drops out of auto
+- Compare recloser trip equation to tie/sectionalizer
+	- recloser should have more in it for protection
+	- will have to consider this if we want tie to act as a recloser when it closes
+	- could also just have tie do one shot - would just need the proper 50/51 elements in trip equation
 
 Customer Questions:
 - Should ties drop out of auto when closing?  
