@@ -26,7 +26,7 @@ To Do:
 - Double check alternate settings (Bob's had a comment that SG2 not used in FLISR configuration, not sure what this means?)  
 - We might want to check with Erich and/or Bob on events they have seen. During reclosing depending on logic I'm not sure if the Tie will see voltage re-established to restated it's auto close timer. If not the auto close timer might need to be extended longer than the reclosers total reclose cycle.  
 - No normal/alternate profile - check in logic/DNP maps  
-- what is low/middle/high word?  
+- 
 - yellow handle display point, remove PB
 	- double check all yellow handle logic
 - based on provided breaker reclosing settings, make suggestions and have discussion on proper LOV timings 
@@ -53,6 +53,7 @@ Customer Questions:
 
 Nic Questions:
 - Double check logic for kicking TIE/SEC out of LS when closing
+- what is low/middle/high word? ()
 
 Notes:  
 - For sectionalizer, reclose will be permanently off, but label will still be there for consistency  
