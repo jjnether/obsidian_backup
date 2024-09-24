@@ -49,12 +49,15 @@ Customer Questions:
 Nic Questions:
 - Double check logic for kicking TIE/SEC out of LS when closing
 	- TIE/SEC drop out of auto on LS close if LOV open and sectionalizing is disabled
+- When TIE closes, how could I add reclosing/protection functionality as an option?
+	- 
 - what is low/middle/high word? - they're in dnp map
 - easiest way to hide group 2 template settings?
 - How to simulate something closing into a fault? - maybe sequencer?
 - cold load/inrush?
 - I assume I need to add all the template settings to programming spec?
 	- do reclosing settings need to be in programming spec? - there's some I didn't include
+- Should there be permissives for putting devices in LS? (i.e. sectionalizer will only enter LS if it's closed, and tie if it's open - when would a recloser?)
 
 Notes:  
 - For sectionalizer, reclose will be permanently off, but label will still be there for consistency
