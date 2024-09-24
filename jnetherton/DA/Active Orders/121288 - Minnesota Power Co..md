@@ -41,6 +41,7 @@ Nic Questions:
 - When TIE closes, how could I add reclosing/protection functionality as an option?
 	- maybe template setting for protection enable when tie is closed and another setting for enabling reclosing when tie closes
 	- should ground be enabled for TIE/SEC if we enable protection? - currently hardcoded to 0
+	- if we allow reclosing to be enabled, how to handle fast curve?
 - what is low/middle/high word? - they're in dnp map
 - easiest way to hide group 2 template settings?
 - How to simulate something closing into a fault? - maybe sequencer?
@@ -49,6 +50,7 @@ Nic Questions:
 	- do reclosing settings need to be in programming spec? - there's some I didn't include
 - Should there be permissives for putting devices in LS? (i.e. sectionalizer will only enter LS if it's closed, and tie if it's open - when would a recloser?)
 - ???We might want to check with Erich and/or Bob on events they have seen. During reclosing depending on logic I'm not sure if the Tie will see voltage re-established to restated it's auto close timer. If not the auto close timer might need to be extended longer than the reclosers total reclose cycle.
+- Ground trip and fast curve were hardcoded in Bob's program - I assume it's fine to let them be handled normally?
 
 Notes:  
 - For sectionalizer, reclose will be permanently off, but label will still be there for consistency
