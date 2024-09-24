@@ -22,8 +22,6 @@ Relay MOT: 0651R22CXGAXAE1112B302
 To Do:
 - Fix DNP map order  
 - Double check all PB and RB assignments
-- yellow handle display point, remove PB
-	- double check all yellow handle logic
 - based on provided breaker reclosing settings, make suggestions and have discussion on proper LOV timings
 - add a section for customer settings in FAT doc
 - double check programming spec based on changes
@@ -51,6 +49,7 @@ Nic Questions:
 - Should there be permissives for putting devices in LS? (i.e. sectionalizer will only enter LS if it's closed, and tie if it's open - when would a recloser?)
 - ???We might want to check with Erich and/or Bob on events they have seen. During reclosing depending on logic I'm not sure if the Tie will see voltage re-established to restated it's auto close timer. If not the auto close timer might need to be extended longer than the reclosers total reclose cycle.
 - Ground trip and fast curve were hardcoded in Bob's program - I assume it's fine to let them be handled normally?
+- Bob's program had high current logic - just an alarm when pickup is exceeded. Should this stay?
 
 Notes:  
 - For sectionalizer, reclose will be permanently off, but label will still be there for consistency
