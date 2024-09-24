@@ -49,9 +49,11 @@ Customer Questions:
 
 Nic Questions:
 - Double check logic for kicking TIE/SEC out of LS when closing
+	- TIE/SEC drop out of auto on LS close if LOV open and sectionalizing is disabled
 - what is low/middle/high word? - they're in dnp map
 - easiest way to hide group 2 template settings?
 - How to simulate something closing into a fault? - maybe sequencer?
+- cold load/inrush?
 
 Notes:  
 - For sectionalizer, reclose will be permanently off, but label will still be there for consistency
