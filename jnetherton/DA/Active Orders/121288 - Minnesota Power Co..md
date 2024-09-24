@@ -59,6 +59,7 @@ Nic Questions:
 - I assume I need to add all the template settings to programming spec?
 	- do reclosing settings need to be in programming spec? - there's some I didn't include
 - Should there be permissives for putting devices in LS? (i.e. sectionalizer will only enter LS if it's closed, and tie if it's open - when would a recloser?)
+- HLT only trips when elements time out, should it be on pickup?
 
 Notes:  
 - For sectionalizer, reclose will be permanently off, but label will still be there for consistency
