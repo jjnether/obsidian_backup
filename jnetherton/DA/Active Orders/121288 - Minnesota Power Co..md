@@ -22,7 +22,6 @@ Relay MOT: 0651R22CXGAXAE1112B302
 To Do:
 - Fix DNP map order  
 - Double check all PB and RB assignments
-- 
 - yellow handle display point, remove PB
 	- double check all yellow handle logic
 - based on provided breaker reclosing settings, make suggestions and have discussion on proper LOV timings
@@ -49,7 +48,6 @@ Nic Questions:
 - I assume I need to add all the template settings to programming spec?
 	- do reclosing settings need to be in programming spec? - there's some I didn't include
 - Should there be permissives for putting devices in LS? (i.e. sectionalizer will only enter LS if it's closed, and tie if it's open - when would a recloser?)
-- HLT only trips when elements time out, should it be on pickup?
 - ???We might want to check with Erich and/or Bob on events they have seen. During reclosing depending on logic I'm not sure if the Tie will see voltage re-established to restated it's auto close timer. If not the auto close timer might need to be extended longer than the reclosers total reclose cycle.
 
 Notes:  
@@ -59,7 +57,7 @@ Notes:
 	- Won't use the extra logic for blocking closes into faults - requires single phase operation
 - Will just stagger close timings for ties, no directional tie (in case there's a scenario where we lose both other sources)  
 - We will ignore/disable inrush, but can mention it in case customer needs it
-- HLT trips immediately upon exceeding any pickup
+- HLT trips when the specified elements time out
 - If we have LOV on CB3 and system reconfigures, but then there's a fault on G, both sectionalizers would see fault current, but SEC 2 would lock out before SEC 1 or REC 2
 	- would need another settings group to account - could be dependent on directional current
 - In prior test that have had the recloser this step would including inject primary current. Since you only have the control you will have to string the current between controls and use an output for feedback to the test set to indicate when the current should stop.
