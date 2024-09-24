@@ -51,6 +51,9 @@ Customer Questions:
 	- If not, will make the tie directional so that it doesn't ever backfeed the substation
 - Check conditions for going into loop scheme
 
+Nic Questions:
+- Double check logic for kicking TIE/SEC out of LS when closing
+
 Notes:  
 - For sectionalizer, reclose will be permanently off, but label will still be there for consistency  
 - Remote mode does not block local PB commands (that is for PB lock to do)  
