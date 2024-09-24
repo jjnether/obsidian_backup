@@ -23,22 +23,18 @@ To Do:
 - Check changes made between revs - might need to port some over to sectionalizer logic  
 - Fix DNP map order  
 - Double check all PB and RB assignments  
-- Double check alternate settings (Bob's had a comment that SG2 not used in FLISR configuration, not sure what this means?)  
-- We might want to check with Erich and/or Bob on events they have seen. During reclosing depending on logic I'm not sure if the Tie will see voltage re-established to restated it's auto close timer. If not the auto close timer might need to be extended longer than the reclosers total reclose cycle.  
-- No normal/alternate profile - check in logic/DNP maps  
-- 
+- We might want to check with Erich and/or Bob on events they have seen. During reclosing depending on logic I'm not sure if the Tie will see voltage re-established to restated it's auto close timer. If not the auto close timer might need to be extended longer than the reclosers total reclose cycle.
+- No normal/alternate profile - check in logic/DNP maps
 - yellow handle display point, remove PB
 	- double check all yellow handle logic
 - based on provided breaker reclosing settings, make suggestions and have discussion on proper LOV timings 
-- Will I be making a custom program for each device?  
-- How to simulate something closing into a fault?  
-	- Maybe sequencer?
 - Double check tie closing in and acting as sectionalizer logic
 - When tie closes, check to see if it drops out of auto
 - Compare recloser trip equation to tie/sectionalizer
 	- recloser should have more in it for protection
 	- will have to consider this if we want tie to act as a recloser when it closes
 	- could also just have tie do one shot - would just need the proper 50/51 elements in trip equation
+- add a section for customer settings in FAT doc
 
 Customer Questions:
 - Should ties drop out of auto when closing?  
@@ -53,17 +49,16 @@ Customer Questions:
 
 Nic Questions:
 - Double check logic for kicking TIE/SEC out of LS when closing
-- what is low/middle/high word? ()
+- what is low/middle/high word? - they're in dnp map
+- easiest way to hide group 2 template settings?
+- How to simulate something closing into a fault? - maybe sequencer?
 
 Notes:  
-- For sectionalizer, reclose will be permanently off, but label will still be there for consistency  
-- Remote mode does not block local PB commands (that is for PB lock to do)  
-- No single phase operations  
-- Won't use the extra logic for blocking closes into faults because we're doing all 3 phase operations  
-- Will add a section for customer settings in FAT doc later  
-- usually with a tie up against substation breaker, you want it to be directional and not close to backfeed sub  
-	- Need to ask customer if there is load on that segment of the line  
-- Will just stagger close timings for ties, no directional tie (in case there's a scenario where we lose both other sources )  
+- For sectionalizer, reclose will be permanently off, but label will still be there for consistency
+- Remote mode does not block local PB commands (that is for PB lock to do)
+- No single phase operations
+	- Won't use the extra logic for blocking closes into faults - requires single phase operation
+- Will just stagger close timings for ties, no directional tie (in case there's a scenario where we lose both other sources)  
 - We will ignore/disable inrush, but can mention it in case customer needs it
 - HLT trips immediately upon exceeding any pickup
 	- REMOVE REDUNDANT LOGIC IN TR3P
