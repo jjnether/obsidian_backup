@@ -51,7 +51,7 @@ Nic Questions:
 	- TIE/SEC drop out of auto on LS close if LOV open and sectionalizing is disabled
 - When TIE closes, how could I add reclosing/protection functionality as an option?
 	- maybe template setting for protection enable when tie is closed and another setting for enabling reclosing when tie closes
-	- should ground be enabled for TIE/SEC? - currently hardcoded to 0
+	- should ground be enabled for TIE/SEC if we enable protection? - currently hardcoded to 0
 - what is low/middle/high word? - they're in dnp map
 - easiest way to hide group 2 template settings?
 - How to simulate something closing into a fault? - maybe sequencer?
