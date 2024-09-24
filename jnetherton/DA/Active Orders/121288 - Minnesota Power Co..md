@@ -48,7 +48,8 @@ Nic Questions:
 - Should there be permissives for putting devices in LS? (i.e. sectionalizer will only enter LS if it's closed, and tie if it's open - when would a recloser?)
 - ???We might want to check with Erich and/or Bob on events they have seen. During reclosing depending on logic I'm not sure if the Tie will see voltage re-established to restated it's auto close timer. If not the auto close timer might need to be extended longer than the reclosers total reclose cycle.
 - Ground trip and fast curve were hardcoded in Bob's program - I assume it's fine to let them be handled normally?
-- Bob's program had high current logic - just an alarm when pickup is exceeded. Should this stay?
+- Bob's program had high current alarm logic (50p4/50g4) - just an alarm when pickup is exceeded. Should this stay?
+	- 50p2 is high current trip
 
 Notes:  
 - For sectionalizer, reclose will be permanently off, but label will still be there for consistency
@@ -66,6 +67,7 @@ Notes:
 - Reclose NOT supervised by healthy batt
 - trip PB is not blocked by PB lock - for safety
 - No normal/alternate profile
+- Removed high current alarm (50p4/50g4) - was added by bob and only went to scada
 
 
 For Fault on A:  
