@@ -27,12 +27,7 @@ To Do:
 - No normal/alternate profile - check in logic/DNP maps
 - yellow handle display point, remove PB
 	- double check all yellow handle logic
-- based on provided breaker reclosing settings, make suggestions and have discussion on proper LOV timings 
-- When tie closes, check to see if it drops out of auto
-- Compare recloser trip equation to tie/sectionalizer
-	- recloser should have more in it for protection
-	- will have to consider this if we want tie to act as a recloser when it closes
-	- could also just have tie do one shot - would just need the proper 50/51 elements in trip equation
+- based on provided breaker reclosing settings, make suggestions and have discussion on proper LOV timings
 - add a section for customer settings in FAT doc
 
 Customer Questions:
@@ -77,34 +72,40 @@ Notes:
 - When closing into a fault after an auto open, switch will trip if current exceeds 51 pickup value
 - Reclose NOT supervised by healthy batt
 - trip PB is not blocked by PB lock - for safety
-  
+
+
 For Fault on A:  
 - Will want to review this closely with them. At this point if the tie and recloser are too close to coordinate they will both trip … if the tie is in the reset state it should recloser back in an hold … just a matter of curve coordination and settings timing coordination (which right now with a 15s auto close and 60s reset from lockout they would not coordinate).  
 For Fault on G:  
 - They seem fair enough away but ties need to coordinate with REC so that only 1 trips … if not and they both trip one of the SEC will open ...  
   
   
-Tie  
-- After it closes and holds it would act like a traditional recloser (only operating for faults no LOV)  
-  
-- 50P4TC  
-- `LB01 # MAINT MODE`  
-- LT28 - NA  
-- SV09  
-- `PB01_PUL # MANUAL BATTERY TEST`  
-- SV18 - 0  
-- `0 # LOCAL/REMOTE MASTER`  
-- SC03 - set to 1, NA  
-- ELB - 1  
-- TLED4  
-- `LB01 # MAINT MODE`  
-- PB1 - GO, RO  
-- `0 # NOT IN303 #BATT OKAY`  
-- `0 # IN303 #BATT FAIL`  
-- DP19  
-- `LB01,,"MAINTENANCE MODE"`  
-- LB01  
-- `MAINT. MODE`  
-- `DISABLE`  
-- `ENABLE`  
-- `0`
+# Recloser
+SV14T OR OC3 AND LT03 OR 81D1T OR SV58 OR 51PT OR 50P2T OR (51G1T OR 50G2T) AND NOT (SPE AND SV26T) # 3-PHASE TRIP CONDITIONS
+
+R_TRIG SV22T AND MV17 <> 0.00 OR R_TRIG SV04T OR R_TRIG SV40T OR SV23 OR SV25 OR NOT LT06 AND SV35T AND (TRIPA OR TRIPB OR TRIPC) OR SV64T # MORE 3-PH TRIP CONDITIONS
+
+RST32 := (((PB04_PUL AND LT05) OR (R_TRIG RB14 AND LT03)) AND LT32) OR NOT LT06 OR (TRIP3P AND SV64T AND MV25 = 0.00) OR SV55
+SV55 := (79LO3P AND (SV26 OR 51P OR 51G1) AND TRIP3P) OR (52A3P AND SV56T AND MV26 = 0.00) # EXTRA EQUATION FOR LOOP SCHEME RESET
+# Sectionalizer
+SV14T OR OC3 AND LT03 OR 81D1T OR SV58 OR (51PT OR 50P2T OR 51G1T OR 50G2T) AND NOT LT06 # 3-PHASE TRIP CONDITIONS
+
+R_TRIG SV22T AND MV17 <> 0.00 OR R_TRIG SV04T OR R_TRIG SV40T OR SV23 OR SV25 OR NOT LT06 AND SV35T AND (TRIPA OR TRIPB OR TRIPC) OR SV64T OR (SC02QU AND LT27) # MORE 3-PH TRIP CONDITIONS
+- YELLOW HANDLE PULLED AND ENABLE 3 PHASE TRIP FROM YELLOW HANDLE (TEMPLATE)
+- PHASE DISCORDANCE
+- 3-PH OPERATOR TRIP FOR LOCKOUT MODE
+- 3-PH TRIP AND DTL LOGIC FOR LO MODE 2-3
+
+RST32 := (((PB04_PUL AND LT05) OR (R_TRIG RB14 AND LT03)) AND LT32) OR NOT LT06 OR (TRIP3P AND SV64T AND MV25 = 0.00) OR SV55
+SV55 := (79LO3P AND (SV26 OR 51P OR 51G1) AND TRIP3P) OR ==(52A3P AND SV56T AND MV26 = 0.00 AND MV23 = 0.00)== OR (SC02QU AND LT27) # EXTRA EQUATION FOR LOOP SCHEME RESET
+- LOV close command and LS auto close is disabled and sectionalizing is disabled
+
+# Tie
+SV14T OR OC3 AND LT03 OR 81D1T OR SV58 OR (51PT OR 50P2T OR 51G1T OR 50G2T) AND NOT LT06 OR ==SV36== # 3-PHASE TRIP CONDITIONS
+
+SV36 := (51PT OR 50P2T OR (51G1T OR 50G2T) AND NOT (SPE AND SV26T)) AND MV28 = 1.00 AND MV23 = 0.00
+- (overcurrent settings) and protection enabled and sectionalizing disabled
+
+(PB02_PUL AND LT05 OR RB04 AND LT03 OR ==(52A3P AND SV56T AND MV28 = 1.00 AND MV29 = 1.00 AND MV23 = 0.00)==) AND NOT LT02 AND LT06 OR R_TRIG LT06 # RECLOSE ENABLED
+- LOV close command and protection enabled and reclosing enabled and sectionalizing disabled
+(PB02_PUL AND LT05 OR RB04 AND LT03) AND LT02 OR NOT LT06 OR SV02 # LAST TERM IS "RECLOSING RELAY DEFEATED"
