@@ -20,8 +20,7 @@ Relay MOT: 0651R22CXGAXAE1112B302
 - Kurt Blomquist  
   
 To Do:
-- Fix DNP map order  
-- Double check all PB and RB assignments
+- Fix DNP map order
 - based on provided breaker reclosing settings, make suggestions and have discussion on proper LOV timings
 - add a section for customer settings in FAT doc
 - double check programming spec based on changes
