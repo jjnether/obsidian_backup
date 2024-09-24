@@ -40,7 +40,7 @@ Nic Questions:
 	- maybe template setting for protection enable when tie is closed and another setting for enabling reclosing when tie closes
 	- should ground be enabled for TIE/SEC if we enable protection? - currently hardcoded to 0
 	- if we allow reclosing to be enabled, how to handle fast curve?
-- what is low/middle/high word? - they're in dnp map
+- what is low/middle/high word (fault time/date stamp)? - they're in dnp map
 - easiest way to hide group 2 template settings?
 - How to simulate something closing into a fault? - maybe sequencer?
 - cold load/inrush?
