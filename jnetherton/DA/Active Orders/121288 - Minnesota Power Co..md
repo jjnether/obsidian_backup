@@ -28,7 +28,6 @@ To Do:
 - yellow handle display point, remove PB
 	- double check all yellow handle logic
 - based on provided breaker reclosing settings, make suggestions and have discussion on proper LOV timings 
-- Double check tie closing in and acting as sectionalizer logic
 - When tie closes, check to see if it drops out of auto
 - Compare recloser trip equation to tie/sectionalizer
 	- recloser should have more in it for protection
@@ -54,6 +53,8 @@ Nic Questions:
 - easiest way to hide group 2 template settings?
 - How to simulate something closing into a fault? - maybe sequencer?
 - cold load/inrush?
+- I assume I need to add all the template settings to programming spec?
+	- do reclosing settings need to be in programming spec? - there's some I didn't include
 
 Notes:  
 - For sectionalizer, reclose will be permanently off, but label will still be there for consistency
