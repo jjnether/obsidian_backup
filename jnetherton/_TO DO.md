@@ -8,7 +8,8 @@ kanban-plugin: board
 
 - [ ] [[109465 - Sioux Valley]]
 	- Pick Date - 09/30
-	- Ship Date - 10/03 @{2024-09-30}
+	- Ship Date - 10/03
+	- follow up with bill@{2024-09-30}
 - [ ] [[451 ATC Update]]
 	- Update excel map with all variables @{2024-09-30}
 - [ ] [[108629 - Meralco]]
