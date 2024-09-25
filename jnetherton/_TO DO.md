@@ -27,6 +27,8 @@ kanban-plugin: board
 	- Pick Date - 10/07
 	- Ship Date - 10/23
 	- Production program completed
+	- keep track of testing for all switches
+		- just spot checking for other 2
 	@{2024-10-07}
 - [ ] [[121288 - Minnesota Power Co.]]
 	- FAT - 10/10-10/11
