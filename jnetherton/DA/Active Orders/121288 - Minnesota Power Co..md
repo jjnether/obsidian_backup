@@ -110,4 +110,6 @@ SV36 := (51PT OR 50P2T OR (51G1T OR 50G2T) AND NOT (SPE AND SV26T)) AND MV28 = 1
 
 - IF SECTIONALIZING IS ENABLED, IT DISABLES RECLOSING
 	- IF SECTIONALIZING IS NOT ENABLED, IT ALLOWS YOU TO ENABLE RECLOSING
-- make sure when it opens due to HLT or L
+- make sure when it opens due to HLT or LS, it goes to lcokout and doesn't reclose
+- If sectionalizing is enabled, force fast curve to 0
+- We can either hide everything in group 2, or make it a simple recloser for all devices and tell them that
