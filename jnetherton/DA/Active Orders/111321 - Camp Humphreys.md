@@ -15,3 +15,19 @@ Kirk Keys:
 		- key can be withdrawn when locked in open position
 
 ![[Pasted image 20240823151508.png|700]]
+
+Protection Settings:
+- 50P1P = 4.9
+- 67P1D = 2
+- 50G1P = .58
+- 67G1D = 2
+- 51P1P = .55 (U4)
+- 51P1TD = 6
+- 51G1P = .23 (U4)
+- 51G1TD = 1
+
+- 51 = 11 (600A) E SPEED SLOW
+- 50 = NA
+- 51N = 5 (30%) E SPEED SLOW
+- INRUSH = 4 (X5)
+- PHASE INRUSH RESTRAINT TIME ADDER = 1.75
