@@ -45,7 +45,7 @@ Nic Questions:
 - cold load/inrush?
 - I assume I need to add all the template settings to programming spec?
 	- do reclosing settings need to be in programming spec? - there's some I didn't include
-- Should there be permissives for putting devices in LS? (i.e. sectionalizer will only enter LS if it's closed, and tie if it's open - when would a recloser?)
+- Should there be permissives for putting devices in LS? (i.e. sectionalizer will only enter LS if it's closed, and tie if it's open - when would a recloser?) - NO
 - ???We might want to check with Erich and/or Bob on events they have seen. During reclosing depending on logic I'm not sure if the Tie will see voltage re-established to restated it's auto close timer. If not the auto close timer might need to be extended longer than the reclosers total reclose cycle.
 - Ground trip and fast curve were hardcoded in Bob's program - I assume it's fine to let them be handled normally?
 - Bob's program had high current alarm logic (50p4/50g4) - just an alarm when pickup is exceeded. Should this stay?
@@ -113,3 +113,4 @@ SV36 := (51PT OR 50P2T OR (51G1T OR 50G2T) AND NOT (SPE AND SV26T)) AND MV28 = 1
 - make sure when it opens due to HLT or LS, it goes to lcokout and doesn't reclose
 - If sectionalizing is enabled, force fast curve to 0
 - We can either hide everything in group 2, or make it a simple recloser for all devices and tell them that
+- Check to make sure we're preventing LOV close if we're in the reclose cycle
