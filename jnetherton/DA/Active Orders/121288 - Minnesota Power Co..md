@@ -114,3 +114,5 @@ SV36 := (51PT OR 50P2T OR (51G1T OR 50G2T) AND NOT (SPE AND SV26T)) AND MV28 = 1
 - If sectionalizing is enabled, force fast curve to 0
 - We can either hide everything in group 2, or make it a simple recloser for all devices and tell them that
 - Check to make sure we're preventing LOV close if we're in the reclose cycle
+- specify that temporary means recloser trips once and closes back in, etc
+- make sure immediately means just exceeding pickup, not timing out
