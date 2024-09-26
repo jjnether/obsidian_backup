@@ -37,3 +37,4 @@ Question:
 - Currently blocking open PB if PB is blocked
 - Currently blocking manual operation (remote and local) if low SF6
 - Only settings group 1, right?
+- Logic doesn't show it, but PB5 for PB lock does indeed require a hold
