@@ -22,9 +22,9 @@ Protection Settings:
 - 50G1P = .58 (290A)
 - 67G1D = 2 (1000A)
 - 51P1P = .55 (U4) (275A)
-- 51P1TD = 6 s
+- 51P1TD = 6
 - 51G1P = .23 (U4) (115A)
-- 51G1TD = 1 s
+- 51G1TD = 1
 
 - 51 = 600A E SPEED SLOW
 - 51N = 30% E SPEED SLOW (180A)
