@@ -31,3 +31,6 @@ Protection Settings:
 - 51N = 5 (30%) E SPEED SLOW
 - INRUSH = 4 (X5)
 - PHASE INRUSH RESTRAINT TIME ADDER = 1.75
+
+Question:
+- Inrush timer only allows for 1 decimal, do you want 1.7 or 1.8? (asked for 1.75)
