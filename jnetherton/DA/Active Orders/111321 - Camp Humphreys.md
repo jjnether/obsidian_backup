@@ -17,20 +17,19 @@ Kirk Keys:
 ![[Pasted image 20240823151508.png|700]]
 
 Protection Settings:
-- 50P1P = 4.9
-- 67P1D = 2
-- 50G1P = .58
-- 67G1D = 2
-- 51P1P = .55 (U4)
-- 51P1TD = 6
-- 51G1P = .23 (U4)
-- 51G1TD = 1
+- 50P1P = 4.9 (2450A)
+- 67P1D = 2 (1000A)
+- 50G1P = .58 (290A)
+- 67G1D = 2 (1000A)
+- 51P1P = .55 (U4) (275A)
+- 51P1TD = 6 s
+- 51G1P = .23 (U4) (115A)
+- 51G1TD = 1 s
 
-- 51 = 11 (600A) E SPEED SLOW
-- 50 = NA
-- 51N = 5 (30%) E SPEED SLOW
-- INRUSH = 4 (X5)
-- PHASE INRUSH RESTRAINT TIME ADDER = 1.75
+- 51 = 600A E SPEED SLOW
+- 51N = 30% E SPEED SLOW (180A)
+- INRUSH = X5
+- PHASE INRUSH RESTRAINT TIME ADDER = 1.7 s (asked for 1.75)
 
 Question:
 - Inrush timer only allows for 1 decimal, do you want 1.7 or 1.8? (asked for 1.75)
