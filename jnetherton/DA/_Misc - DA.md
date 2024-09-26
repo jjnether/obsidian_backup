@@ -199,5 +199,5 @@ This logic will apply to any device that auto closes.
 
 - If 651 is powered but doesn't seem to be turning on, hit `TARGET RESET` and it should wake from sleep
 
-POTT = ?
-DCB = ?
+POTT = Permissive overreach transfer trip
+DCB = directional comparison blocking
