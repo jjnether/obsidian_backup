@@ -35,3 +35,4 @@ Question:
 - Inrush timer only allows for 1 decimal, do you want 1.7 or 1.8? (asked for 1.75)
 - Logic doesn't show it, but PB5 for PB lock does indeed require a hold
 - 67 element requested??
+- Is it ok I used 50P1 instead of 50P2 like they put in their spec? (50P1 was empty, and other values were identical - same for other elements)
