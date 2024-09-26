@@ -18,9 +18,9 @@ Kirk Keys:
 
 Protection Settings:
 - 50P1P = 4.9 (2450A)
-- 67P1D = 2 (1000A)
+- 67P1D = 2 cyc
 - 50G1P = .58 (290A)
-- 67G1D = 2 (1000A)
+- 67G1D = 2 cyc
 - 51P1P = .55 (U4) (275A)
 - 51P1TD = 6
 - 51G1P = .23 (U4) (115A)
