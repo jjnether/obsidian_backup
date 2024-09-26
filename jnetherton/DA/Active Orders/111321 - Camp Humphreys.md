@@ -34,6 +34,4 @@ Protection Settings:
 
 Question:
 - Inrush timer only allows for 1 decimal, do you want 1.7 or 1.8? (asked for 1.75)
-- Currently blocking open PB if PB is blocked
-- Currently blocking manual operation (remote and local) if low SF6
 - Logic doesn't show it, but PB5 for PB lock does indeed require a hold
