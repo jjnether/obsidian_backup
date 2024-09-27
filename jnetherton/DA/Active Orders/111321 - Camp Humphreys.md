@@ -1,6 +1,8 @@
 
 [file path](<file:///C:\Users\jnetherton\G&W Electric Co\US-PowerGridAutomation - Documents\_Lazer\Camp Humphreys (KK Interlock) - 111321>)
 
+351 PN: A1341359YM0
+
 Kirk Keys:
 - TNI
 	- Way 1
@@ -15,6 +17,8 @@ Kirk Keys:
 		- key can be withdrawn when locked in open position
 
 ![[Pasted image 20240823151508.png|700]]
+
+
 
 Protection Settings:
 - 50P1P = 4.9 (2450A)
@@ -34,5 +38,5 @@ Protection Settings:
 Question:
 - Inrush timer only allows for 1 decimal, do you want 1.7 or 1.8? (asked for 1.75)
 - Logic doesn't show it, but PB5 for PB lock does indeed require a hold
-- 67 element requested??
-- Is it ok I used 50P1 instead of 50P2 like they put in their spec? (50P1 was empty, and other values were identical - same for other elements)
+- inst LED vs 50 LED??
+- UPLOAD NEW SETTINGS FOR INST LED
