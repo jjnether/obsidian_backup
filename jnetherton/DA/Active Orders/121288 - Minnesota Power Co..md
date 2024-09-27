@@ -103,14 +103,13 @@ SV36 := (51PT OR 50P2T OR (51G1T OR 50G2T) AND NOT (SPE AND SV26T)) AND MV28 = 1
 - (overcurrent settings) and protection enabled and sectionalizing disabled
 - remove option to turn off sectionalizing
 
-(PB02_PUL AND LT05 OR RB04 AND LT03 OR ==(52A3P AND SV56T AND MV28 = 1.00 AND MV29 = 1.00 AND MV23 = 0.00)==) AND NOT LT02 AND LT06 OR R_TRIG LT06 # RECLOSE ENABLED
-- LOV close command and protection enabled and reclosing enabled and sectionalizing disabled
+((PB02_PUL AND LT05 OR RB03 AND LT03) AND NOT LT02 AND LT06 OR R_TRIG LT06) AND MV23 = 0.00 # RECLOSE ENABLED
 (PB02_PUL AND LT05 OR RB04 AND LT03) AND LT02 OR NOT LT06 OR SV02 # LAST TERM IS "RECLOSING RELAY DEFEATED"
 
 
 - IF SECTIONALIZING IS ENABLED, IT DISABLES RECLOSING
 	- IF SECTIONALIZING IS NOT ENABLED, IT ALLOWS YOU TO ENABLE RECLOSING
-- make sure when it opens due to HLT or LS, it goes to lcokout and doesn't reclose
+- make sure when it opens due to HLT or LS, it goes to lockout and doesn't reclose
 - If sectionalizing is enabled, force fast curve to 0
 - We can either hide everything in group 2, or make it a simple recloser for all devices and tell them that
 - Check to make sure we're preventing LOV close if we're in the reclose cycle
