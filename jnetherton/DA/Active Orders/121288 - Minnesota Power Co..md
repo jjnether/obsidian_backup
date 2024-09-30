@@ -51,7 +51,7 @@ Notes:
 - Alternate profile only does reclosing
 	- Sectionalizing set to 0 in template
 	- Hardcode loop scheme latch to 0
-- Blocking LS auto close if recloser is in 79 cycle
+- Blocking LS auto close if recloser is in 79 cycle (79CY3P)
 - Applicable to all LOV timers - when does this time start? Is it upon 3 phase LOV, or is it upon losing at least 1 phase (which could happen upon initial fault before the recloser opens - ie voltage sag due to high fault current - also think about how this timer reacts for a system that might reclosers single phase but lockout 3 phase incase they would like to move to that method of operation).
 
 
@@ -94,4 +94,3 @@ SV36 := (51PT OR 50P2T OR (51G1T OR 50G2T) AND NOT (SPE AND SV26T)) AND MV28 = 1
 (PB05_PUL AND LT05 OR RB06 AND LT03 OR MV23 = 1.00) AND LT04 # FAST CURVE DISABLE
 
 - make sure when it opens due to HLT or LS, it goes to lockout and doesn't reclose
-- We can either hide everything in group 2, or make it a simple recloser for all devices and tell them that
