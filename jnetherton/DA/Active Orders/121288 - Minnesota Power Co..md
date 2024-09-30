@@ -66,8 +66,10 @@ Notes:
 - When closing into a fault after an auto open, switch will trip if current exceeds 51 pickup value
 - Reclose NOT supervised by healthy batt
 - trip PB is not blocked by PB lock - for safety
-- No normal/alternate profile
-- Removed high current alarm (50p4/50g4) - was added by bob and only went to scada
+- No normal/alternate profile (forced to group 1 settings)
+- If sectionalizing is enabled, sets reclosing and fast curve to 0
+- Can only activate reclosing and fast curve if sectionalizing is disabled
+- 
 
 
 For Fault on A:  
@@ -110,10 +112,7 @@ SV36 := (51PT OR 50P2T OR (51G1T OR 50G2T) AND NOT (SPE AND SV26T)) AND MV28 = 1
 (PB05_PUL AND LT05 OR RB06 AND LT03 OR MV23 = 1.00) AND LT04 # FAST CURVE DISABLE
 
 
-- IF SECTIONALIZING IS ENABLED, IT DISABLES RECLOSING
-	- IF SECTIONALIZING IS NOT ENABLED, IT ALLOWS YOU TO ENABLE RECLOSING
 - make sure when it opens due to HLT or LS, it goes to lockout and doesn't reclose
-- If sectionalizing is enabled, force fast curve to 0
 - We can either hide everything in group 2, or make it a simple recloser for all devices and tell them that
 - Check to make sure we're preventing LOV close if we're in the reclose cycle
 - specify that temporary means recloser trips once and closes back in, etc

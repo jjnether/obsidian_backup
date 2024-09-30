@@ -39,5 +39,3 @@ Protection Settings:
 Question:
 - Inrush timer only allows for 1 decimal, do you want 1.7 or 1.8? (asked for 1.75)
 - Logic doesn't show it, but PB5 for PB lock does indeed require a hold
-- inst LED vs 50 LED??
-- UPLOAD NEW SETTINGS FOR INST LED
