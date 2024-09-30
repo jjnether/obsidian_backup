@@ -31,39 +31,16 @@ Customer Questions:
 	- Sectionalize/Reclose/1-shot protection?
 - Load between device and substation?
 	- If not, should disable backfeeding toward source in template
+- Do you want HLT to trip instantaneously upon exceeding the pickup, or to trip upon the element timing out?
+	- I misspoke in the programming spec - typically HLT trips upon the element timing out
 
-Nic Questions:
-- Double check logic for kicking TIE/SEC out of LS when closing
-	- TIE/SEC drop out of auto on LS close if LOV open and sectionalizing is disabled
-- When TIE closes, how could I add reclosing/protection functionality as an option?
-	- maybe template setting for protection enable when tie is closed and another setting for enabling reclosing when tie closes
-	- should ground be enabled for TIE/SEC if we enable protection? - currently hardcoded to 0
-	- if we allow reclosing to be enabled, how to handle fast curve?
-- what is low/middle/high word (fault time/date stamp)? - they're in dnp map
-- easiest way to hide group 2 template settings?
-- How to simulate something closing into a fault? - maybe sequencer?
-- cold load/inrush?
-- I assume I need to add all the template settings to programming spec?
-	- do reclosing settings need to be in programming spec? - there's some I didn't include
-- Should there be permissives for putting devices in LS? (i.e. sectionalizer will only enter LS if it's closed, and tie if it's open - when would a recloser?) - NO
-- ???We might want to check with Erich and/or Bob on events they have seen. During reclosing depending on logic I'm not sure if the Tie will see voltage re-established to restated it's auto close timer. If not the auto close timer might need to be extended longer than the reclosers total reclose cycle.
-- Ground trip and fast curve were hardcoded in Bob's program - I assume it's fine to let them be handled normally?
-- Bob's program had high current alarm logic (50p4/50g4) - just an alarm when pickup is exceeded. Should this stay?
-	- 50p2 is high current trip
-
-Notes:  
-- For sectionalizer, reclose will be permanently off, but label will still be there for consistency
-- Remote mode does not block local PB commands (that is for PB lock to do)
-- No single phase operations
-	- Won't use the extra logic for blocking closes into faults - requires single phase operation
-- Will just stagger close timings for ties, no directional tie (in case there's a scenario where we lose both other sources)  
-- We will ignore/disable inrush, but can mention it in case customer needs it
+Notes:
 - HLT trips when the specified elements time out
+- When closing into a fault after an auto open, switch will trip if current exceeds 51 pickup value
+- Remote mode does not block local PB commands (that is for PB lock to do)
+- We will ignore/disable inrush, but can mention it in case customer needs it
 - If we have LOV on CB3 and system reconfigures, but then there's a fault on G, both sectionalizers would see fault current, but SEC 2 would lock out before SEC 1 or REC 2
 	- would need another settings group to account - could be dependent on directional current
-- In prior test that have had the recloser this step would including inject primary current. Since you only have the control you will have to string the current between controls and use an output for feedback to the test set to indicate when the current should stop.
-	- Check how many 651's have the extra IO card needed for the output contacts we'll use for voltage/current simulation
-- When closing into a fault after an auto open, switch will trip if current exceeds 51 pickup value
 - Reclose NOT supervised by healthy batt
 - trip PB is not blocked by PB lock - for safety
 - If sectionalizing is enabled, sets reclosing and fast curve to 0
