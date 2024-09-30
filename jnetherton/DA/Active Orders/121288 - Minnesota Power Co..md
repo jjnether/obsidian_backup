@@ -53,6 +53,7 @@ Notes:
 	- Hardcode loop scheme latch to 0
 - Blocking LS auto close if recloser is in 79 cycle (79CY3P)
 - Applicable to all LOV timers - when does this time start? Is it upon 3 phase LOV, or is it upon losing at least 1 phase (which could happen upon initial fault before the recloser opens - ie voltage sag due to high fault current - also think about how this timer reacts for a system that might reclosers single phase but lockout 3 phase incase they would like to move to that method of operation).
+- If customer wants protection on Tie, they simply add it to the template (protection will be disabled when sectionalizing is enabled)
 
 
 For Fault on A:  
@@ -83,9 +84,8 @@ SV55 := (79LO3P AND (SV26 OR 51P OR 51G1) AND TRIP3P) OR ==(52A3P AND SV56T AND 
 # Tie
 SV14T OR OC3 AND LT03 OR 81D1T OR SV58 OR (51PT OR 50P2T OR 51G1T OR 50G2T) AND NOT LT06 OR ==SV36== # 3-PHASE TRIP CONDITIONS
 
-SV36 := (51PT OR 50P2T OR (51G1T OR 50G2T) AND NOT (SPE AND SV26T)) AND MV28 = 1.00 AND MV23 = 0.00
-- (overcurrent settings) and protection enabled and sectionalizing disabled
-- remove option to turn off sectionalizing
+SV36 := (51PT OR 50P2T OR (51G1T OR 50G2T) AND NOT (SPE AND SV26T)) AND MV23 = 0.00
+- (overcurrent settings) and sectionalizing disabled
 
 ((PB02_PUL AND LT05 OR RB03 AND LT03) AND NOT LT02 AND LT06 OR R_TRIG LT06) AND MV23 = 0.00 # RECLOSE ENABLED
 (PB02_PUL AND LT05 OR RB04 AND LT03) AND LT02 OR NOT LT06 OR MV23 = 1.00 OR SV02 # LAST TERM IS "RECLOSING RELAY DEFEATED"
