@@ -33,6 +33,7 @@ Customer Questions:
 	- If not, should disable backfeeding toward source in template
 - Do you want HLT to trip instantaneously upon exceeding the pickup, or to trip upon the element timing out?
 	- I misspoke in the programming spec - typically HLT trips upon the element timing out
+- Make customer aware that when they enable auto-close, they should pay attention to coordinating timings so that there aren't paralleled sources on a temporary fault (a switch closes due to LS, then the recloser recloses and parallels them)
 
 Notes:
 - HLT trips when the specified elements time out
@@ -49,7 +50,6 @@ Notes:
 	- Sectionalizing set to 0 in template
 	- Hardcode loop scheme latch to 0
 - Blocking LS auto close if recloser is in 79 cycle
-- 
 - Applicable to all LOV timers - when does this time start? Is it upon 3 phase LOV, or is it upon losing at least 1 phase (which could happen upon initial fault before the recloser opens - ie voltage sag due to high fault current - also think about how this timer reacts for a system that might reclosers single phase but lockout 3 phase incase they would like to move to that method of operation).
 
 
@@ -93,4 +93,3 @@ SV36 := (51PT OR 50P2T OR (51G1T OR 50G2T) AND NOT (SPE AND SV26T)) AND MV28 = 1
 
 - make sure when it opens due to HLT or LS, it goes to lockout and doesn't reclose
 - We can either hide everything in group 2, or make it a simple recloser for all devices and tell them that
-- make sure immediately means just exceeding pickup, not timing out
