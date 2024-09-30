@@ -19,6 +19,7 @@ Kirk Keys:
 ![[Pasted image 20240823151508.png|700]]
 
 8 hour timer for battery
+system voltage = 13321V (inject 120.8V)
 
 Protection Settings:
 - 50P1P = 4.9 (2450A)
