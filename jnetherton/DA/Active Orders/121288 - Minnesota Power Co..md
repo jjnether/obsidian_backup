@@ -46,9 +46,11 @@ Notes:
 - If sectionalizing is enabled, sets reclosing and fast curve to 0
 - Can only activate reclosing and fast curve if sectionalizing is disabled
 - Alternate profile only does reclosing
-	- All automation settings hidden
 	- Sectionalizing set to 0 in template
 	- Hardcode loop scheme latch to 0
+- Blocking LS auto close if recloser is in 79 cycle
+- 
+- Applicable to all LOV timers - when does this time start? Is it upon 3 phase LOV, or is it upon losing at least 1 phase (which could happen upon initial fault before the recloser opens - ie voltage sag due to high fault current - also think about how this timer reacts for a system that might reclosers single phase but lockout 3 phase incase they would like to move to that method of operation).
 
 
 For Fault on A:  
