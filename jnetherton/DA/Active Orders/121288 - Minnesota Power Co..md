@@ -66,10 +66,12 @@ Notes:
 - When closing into a fault after an auto open, switch will trip if current exceeds 51 pickup value
 - Reclose NOT supervised by healthy batt
 - trip PB is not blocked by PB lock - for safety
-- No normal/alternate profile (forced to group 1 settings)
 - If sectionalizing is enabled, sets reclosing and fast curve to 0
 - Can only activate reclosing and fast curve if sectionalizing is disabled
-- 
+- Alternate profile only does reclosing
+	- All automation settings hidden
+	- Sectionalizing set to 0 in template
+	- Hardcode loop scheme latch to 0
 
 
 For Fault on A:  
@@ -85,6 +87,8 @@ R_TRIG SV22T AND MV17 <> 0.00 OR R_TRIG SV04T OR R_TRIG SV40T OR SV23 OR SV25 OR
 
 RST32 := (((PB04_PUL AND LT05) OR (R_TRIG RB14 AND LT03)) AND LT32) OR NOT LT06 OR (TRIP3P AND SV64T AND MV25 = 0.00) OR SV55
 SV55 := (79LO3P AND (SV26 OR 51P OR 51G1) AND TRIP3P) OR (52A3P AND SV56T AND MV26 = 0.00) # EXTRA EQUATION FOR LOOP SCHEME RESET
+
+LT32 AND ((LT31 AND LT28) OR (LT30 AND LT29 AND MV24 = 1.00)) AND NOT 52A3P AND MV25 = 1.00 # LS AUTO CLOSE
 # Sectionalizer
 SV14T OR OC3 AND LT03 OR 81D1T OR SV58 OR (51PT OR 50P2T OR 51G1T OR 50G2T) AND NOT LT06 # 3-PHASE TRIP CONDITIONS
 
@@ -98,6 +102,7 @@ RST32 := (((PB04_PUL AND LT05) OR (R_TRIG RB14 AND LT03)) AND LT32) OR NOT LT06 
 SV55 := (79LO3P AND (SV26 OR 51P OR 51G1) AND TRIP3P) OR ==(52A3P AND SV56T AND MV26 = 0.00 AND MV23 = 0.00)== OR (SC02QU AND LT27) # EXTRA EQUATION FOR LOOP SCHEME RESET
 - LOV close command and LS auto open is disabled and sectionalizing is disabled
 
+LT32 AND ((LT31 AND LT28) OR (LT30 AND LT29 AND MV24 = 1.00)) AND NOT 52A3P AND MV25 = 1.00 # LS AUTO CLOSE
 # Tie
 SV14T OR OC3 AND LT03 OR 81D1T OR SV58 OR (51PT OR 50P2T OR 51G1T OR 50G2T) AND NOT LT06 OR ==SV36== # 3-PHASE TRIP CONDITIONS
 
@@ -111,6 +116,7 @@ SV36 := (51PT OR 50P2T OR (51G1T OR 50G2T) AND NOT (SPE AND SV26T)) AND MV28 = 1
 (PB05_PUL AND LT05 OR RB05 AND LT03) AND MV23 = 0.00 AND NOT LT04 # FAST CURVE ENABLE
 (PB05_PUL AND LT05 OR RB06 AND LT03 OR MV23 = 1.00) AND LT04 # FAST CURVE DISABLE
 
+LT32 AND ((LT31 AND LT28) OR (LT30 AND LT29 AND MV24 = 1.00)) AND NOT 52A3P AND MV25 = 1.00 # LS AUTO CLOSE
 
 - make sure when it opens due to HLT or LS, it goes to lockout and doesn't reclose
 - We can either hide everything in group 2, or make it a simple recloser for all devices and tell them that
