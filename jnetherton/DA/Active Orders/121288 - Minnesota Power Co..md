@@ -34,6 +34,8 @@ Customer Questions:
 - Do you want HLT to trip instantaneously upon exceeding the pickup, or to trip upon the element timing out?
 	- I misspoke in the programming spec - typically HLT trips upon the element timing out
 - Make customer aware that when they enable auto-close, they should pay attention to coordinating timings so that there aren't paralleled sources on a temporary fault (a switch closes due to LS, then the recloser recloses and parallels them)
+- Added alternate settings PB
+	- Alternate settings are ONLY for reclosing (loop scheme will be disabled)
 
 Notes:
 - HLT trips when the specified elements time out
@@ -44,8 +46,8 @@ Notes:
 	- would need another settings group to account - could be dependent on directional current
 - Reclose NOT supervised by healthy batt
 - trip PB is not blocked by PB lock - for safety
-- If sectionalizing is enabled, sets reclosing and fast curve to 0
-- Can only activate reclosing and fast curve if sectionalizing is disabled
+- If sectionalizing is enabled, sets reclosing, ground, and fast curve to 0
+- Can only activate reclosing, ground, and fast curve if sectionalizing is disabled
 - Alternate profile only does reclosing
 	- Sectionalizing set to 0 in template
 	- Hardcode loop scheme latch to 0
