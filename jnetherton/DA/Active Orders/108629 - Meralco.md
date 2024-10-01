@@ -93,3 +93,8 @@ TO TEST:
 
 - Check Fault current analog input on 451
 - send scanned FAT to engelbert
+
+
+MEETING:
+- 7 units - 6 installed (5 online, one had flashover)
+- 
