@@ -37,7 +37,7 @@ Customer Questions:
 - Added alternate settings PB
 	- Alternate settings are ONLY for reclosing (loop scheme will be disabled)
 - Made changes to DNP map
-	- Settings group, alternate settings activation, and voltage a
+	- Added settings group, alternate settings activation, and voltage angles
 
 Notes:
 - HLT trips when the specified elements time out
@@ -97,9 +97,11 @@ SV36 := (51PT OR 50P2T OR (51G1T OR 50G2T) AND NOT (SPE AND SV26T)) AND MV23 = 0
 
 
 
-SG1 AND (PB04_PUL AND LT05 OR RB05 AND LT03)
+SG2 AND (PB08_PUL AND LT05 OR RB11 AND LT03) OR SG3 OR SG4 OR SG5 OR SG6 OR SG7 OR SG8 # LAST 6 TERMS PREVENT CHANGING TO UNUSED RELAY GROUPS 3 THRU 8
 
-ADD REMOTE OPTION FOR SG2
+SG1 AND (PB08_PUL AND LT05 OR RB11 AND LT03)
+
+SG2 # ALTERNATE SETTINGS
 
 Changes:
 - front panel
