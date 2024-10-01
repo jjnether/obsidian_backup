@@ -36,6 +36,8 @@ Customer Questions:
 - Make customer aware that when they enable auto-close, they should pay attention to coordinating timings so that there aren't paralleled sources on a temporary fault (a switch closes due to LS, then the recloser recloses and parallels them)
 - Added alternate settings PB
 	- Alternate settings are ONLY for reclosing (loop scheme will be disabled)
+- Made changes to DNP map
+	- Settings group, alternate settings activation, and voltage a
 
 Notes:
 - HLT trips when the specified elements time out
