@@ -42,6 +42,8 @@ Customer Questions:
 	- Alternate settings are ONLY for reclosing (loop scheme will be disabled)
 - Made changes to DNP map
 	- Added settings group, alternate settings activation, and voltage angles
+- Changed placement of target LED's
+	- Saw that the colors were not configurable, had to move a bit
 
 Notes:
 - HLT trips when the specified elements time out
