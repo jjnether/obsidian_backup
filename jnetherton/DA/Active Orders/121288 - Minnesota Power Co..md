@@ -1,6 +1,10 @@
   
 [file path](<file:///C:\Users\jnetherton\G&W Electric Co\US-PowerGridAutomation - Documents\_Lazer\121288 - Minnesota Power Co>)  
-  
+
+IP:
+relays: 192.168.1.5...8
+RTAC: 192.168.1.2
+
 CPS POD:  
 - 66402  
 - 76820  
