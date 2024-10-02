@@ -38,3 +38,5 @@ Protection Settings:
 
 Question:
 - Inrush timer only allows for 1 decimal, do you want 1.7 or 1.8? (asked for 1.75)
+
+MOVE ELLIE'S TABLES
