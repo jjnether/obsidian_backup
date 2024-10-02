@@ -18,12 +18,12 @@ Meta:
 
 **NOTE**: First time boot of RTAC, you have to go to webUI to set first time username and password
 
-- IP in relay port parameters is IP of relay itself
+- IP in relay port parameters (ethernet port settings) is IP of relay itself
 - IP in relay protocol parameters is IP of client port (RTAC)
 	- Connect to RTAC web interface and edit port with proper IP
 		- Don't set as primary connection
 		- use /24 for subnet mask (if using 255.255.255.0)
-- DNP address in relay settings is DNP address of the relay (server)
+- DNP address (DNPADR) in relay settings is DNP address of the relay (server)
 - REPDNP address in relay settings is DNP address relay reports to (RTAC, client)
 
 F6 TO SET
