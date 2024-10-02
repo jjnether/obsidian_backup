@@ -206,5 +206,8 @@ DCB = directional comparison blocking
 PSU - B54020023000
 ![[Pasted image 20241002112435.png|500]]
 
+52A POSITIONS
+![Machine generated alternative text: MAIN V AID PCS va OPEN ORE N/d OCK ON 52A 52b OPEN v C OS D R OR OPERA V VS C OS D OPEN](DA-RTAC-image1.png)
+
 ---
 

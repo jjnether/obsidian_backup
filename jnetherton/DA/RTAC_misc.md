@@ -31,7 +31,7 @@ SHIFT + F6 TO RESET
 
 Data within the RTAC are referenced by database points called tags that may be associated with client or server protocols, system values, global variables (including virtual tags), or values created in user-defined logic.
 
-![Machine generated alternative text: MAIN V AID PCS va OPEN ORE N/d OCK ON 52A 52b OPEN v C OS D R OR OPERA V VS C OS D OPEN ](DA-RTAC-image1.png)
+
 
 Axion Bay Control
 -   Can pick as many as 30 screens through which the display can rotate
