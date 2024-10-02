@@ -24,18 +24,17 @@ system voltage = 13321V (inject 120.8V)
 Protection Settings:
 - 50P1P = 4.9 (2450A)
 - 67P1D = 2 cyc
-- 50G1P = .58 (290A)
+- ==50G1P = .58 (290A)== - inject 300A
 - 67G1D = 2 cyc
-- 51P1P = .55 (U4) (275A)
+- ==51P1P = .55 (U4) (275A)== - inject 375A L-L (39.79s)
 - 51P1TD = 6
-- 51G1P = .23 (U4) (115A)
+- ==51G1P = .23 (U4) (115A)== - inject 200A (2.84s)
 - 51G1TD = 1
 
 - 51 = 600A E SPEED SLOW
-- 51N = 30% E SPEED SLOW (180A)
+- ==51N = 30% E SPEED SLOW (180A)== - inject 300A
 - INRUSH = X5
 - PHASE INRUSH RESTRAINT TIME ADDER = 1.7 s (asked for 1.75)
 
 Question:
 - Inrush timer only allows for 1 decimal, do you want 1.7 or 1.8? (asked for 1.75)
-- Logic doesn't show it, but PB5 for PB lock does indeed require a hold
