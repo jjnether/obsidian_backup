@@ -201,3 +201,10 @@ This logic will apply to any device that auto closes.
 
 POTT = Permissive overreach transfer trip
 DCB = directional comparison blocking
+
+---
+PSU - B54020023000
+![[Pasted image 20241002112435.png|500]]
+
+---
+
