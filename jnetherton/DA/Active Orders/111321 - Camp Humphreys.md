@@ -40,3 +40,13 @@ Question:
 - Inrush timer only allows for 1 decimal, do you want 1.7 or 1.8? (asked for 1.75)
 
 MOVE ELLIE'S TABLES
+
+
+Notes on improvements for control cabinets:
+- Power supply difficult to access due to ethernet switch being mounted on left wall and blocking it
+	- Ethernet switch used to be mounted to swing frame, maybe better?
+- Heater next to batteries - maybe not ideal as it would heat the batteries
+- temperature and fan control are further to the back wall - makes it difficult for technician to see the setting and change it without putting their head inside the control cabinet
+- Big concern is technicians putting their heads inside the control cabinets
+	- are shallower control cabinets possible?
+- OSHA standards??? - NEC70 OSHA
