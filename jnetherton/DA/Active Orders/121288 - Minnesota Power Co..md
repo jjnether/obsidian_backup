@@ -8,6 +8,11 @@ IP:
 Voltage Ratio - 10000:1
 CT Ratio - 1000:1
 
+Settings:
+- Open loss of voltage timer should be longer than longest reclose events (10 seconds for slack accounting for curves)
+- Close due to LOV maybe 10s longer than open from LOV
+- Sectionalizer reset should match the upstream recloser reset timer
+
 CPS POD:  
 - 66402  
 - 76820  
