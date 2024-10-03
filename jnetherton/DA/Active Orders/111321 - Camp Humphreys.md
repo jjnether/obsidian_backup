@@ -50,3 +50,6 @@ Notes on improvements for control cabinets:
 - Big concern is technicians putting their heads inside the control cabinets
 	- are shallower control cabinets possible?
 - OSHA standards??? - NEC70 OSHA
+
+Need to include verbiage in FAT or Test reports that the switches were tested per IEEE C37.72, C37.74, C37.60, & IEEE386
+Need to provide CPC test reports and VI event reports
