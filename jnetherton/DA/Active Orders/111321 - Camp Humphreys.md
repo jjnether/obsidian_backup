@@ -53,3 +53,4 @@ Notes on improvements for control cabinets:
 
 Need to include verbiage in FAT or Test reports that the switches were tested per IEEE C37.72, C37.74, C37.60, & IEEE386
 Need to provide CPC test reports and VI event reports
+VI controls don't have EP/ET, but was asked for in spec?
