@@ -52,6 +52,8 @@ Customer Questions:
 	- Added settings group, alternate settings activation, and voltage angles
 - Changed placement of target LED's
 	- Saw that the colors were not configurable, had to move a bit
+- Subsequent faults will only be tested after system has finished initial reconfiguration
+- Directional Tie or just coordinate timing? Directional will prevent closing for LOV in the direction we don't want, but we also won't be able to restore anything else from that substation if both others go down
 
 Notes:
 - HLT trips when the specified elements time out
