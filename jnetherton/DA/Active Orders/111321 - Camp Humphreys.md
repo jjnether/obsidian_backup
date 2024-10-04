@@ -71,7 +71,9 @@ Dry contact logic in 351 for customer to wire?
     
 - Low SF6 Pushbutton indicator for all TNI switches
     
-- Enclosure spec sheet in each production packet for all switches
+- Enclosure spec sheet in each production packet for all switches which show NEMA 3R rating
+
+- Can of touch-up paint for Durham with exact color to ship with switches
     
 - T-handles for GNI switches - also includes mounting on swing doors for T-handles
     
