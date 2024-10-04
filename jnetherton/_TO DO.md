@@ -37,8 +37,6 @@ kanban-plugin: board
 - [ ] [[116007 - Amptek BNSF]]
 	- Pick Date - 11/01
 	- Ship Date - 12/06
-	- Programming Spec 
-		- Waiting for customer feedback
 	- There is an FAT
 	@{2024-11-01}
 
