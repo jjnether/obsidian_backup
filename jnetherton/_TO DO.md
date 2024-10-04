@@ -61,7 +61,9 @@ kanban-plugin: board
 	- POD - 100875 , 106174
 	- CNS: 100875 (4 switches), 106174 (1 switch)
 	- Burns and Mac: 108057 (1 switch) @{2024-10-15}
-- [ ] [[107747 - Ft Meade Visitor Center]] @{2024-10-24}
+- [ ] [[107747 - Ft Meade Visitor Center]]
+	- Need to make production program
+	- Need to make basic FAT plan@{2024-10-24}
 - [ ] [[110307 - Fort Meade]] @{2024-12-06}
 - [ ] [[110306 - Fort Meade UR]]
 	- Shouldn't need anything from DA
@@ -71,7 +73,7 @@ kanban-plugin: board
 ## SAT/GWI
 
 - [ ] [[103220 - Baker Electric Leconte]]
-	- Waiting on feedback regarding SAT plan and details from rep
+	- Waiting on feedback regarding SAT plan and details from rep @{2024-11-21}
 - [ ] 100875 - Pantex (CNS)
 	- SAT - 09/26-09/27
 
