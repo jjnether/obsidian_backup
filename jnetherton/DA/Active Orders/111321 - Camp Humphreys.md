@@ -55,3 +55,32 @@ Need to include verbiage in FAT or Test reports that the switches were tested pe
 Need to provide CPC test reports and VI event reports
 VI controls don't have EP/ET, but was asked for in spec?
 Dry contact logic in 351 for customer to wire?
+
+
+
+
+
+
+
+
+
+
+
+**Punch-list Items:**
+- External LED label's that say "Fault Indicator" above lamp for all TNI switches
+    
+- Low SF6 Pushbutton indicator for all TNI switches
+    
+- Enclosure spec sheet in each production packet for all switches
+    
+- T-handles for GNI switches - also includes mounting on swing doors for T-handles
+    
+- Low pressure warning device added to GNI switches
+    
+- Scanned FAT report along with overcurrent test reports
+
+- 351 dry contacts for tripping on TNI switches
+
+- Dry contacts for the GNI switches - investigating the spec - will follow up
+
+- Add to the FAT document statement regarding adhering to IEEE standards
