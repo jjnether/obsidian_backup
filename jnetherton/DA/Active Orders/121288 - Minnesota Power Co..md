@@ -6,13 +6,13 @@ IP:
 - RTAC: 192.168.1.2
 
 Voltage Ratio - 10000:1
-System Voltage - 
 CT Ratio - 1000:1
 
-Settings:
-- Open loss of voltage timer should be longer than longest reclose events (10 seconds for slack accounting for curves)
-- Close due to LOV maybe 10s longer than open from LOV
-- Sectionalizer reset should match the upstream recloser reset timer
+System Voltage - 19.92kV
+Live - 15.936kV
+Under - 11.952kV
+Dead - 2.988kV
+
 
 CPS POD:  
 - 66402  
