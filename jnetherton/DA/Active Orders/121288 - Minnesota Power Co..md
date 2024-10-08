@@ -78,3 +78,7 @@ For Fault on A:
 - Will want to review this closely with them. At this point if the tie and recloser are too close to coordinate they will both trip … if the tie is in the reset state it should recloser back in an hold … just a matter of curve coordination and settings timing coordination (which right now with a 15s auto close and 60s reset from lockout they would not coordinate).  
 For Fault on G:  
 - They seem fair enough away but ties need to coordinate with REC so that only 1 trips … if not and they both trip one of the SEC will open ...
+
+QUESTIONS:
+- Fast curve is tripping 3 times when it should only be 2???
+	- It's also ending on fast curve?? - 79SKP3P?
