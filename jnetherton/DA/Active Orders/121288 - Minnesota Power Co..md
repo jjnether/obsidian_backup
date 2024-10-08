@@ -82,3 +82,6 @@ For Fault on G:
 QUESTIONS:
 - Fast curve is tripping 3 times when it should only be 2???
 	- It's also ending on fast curve?? - 79SKP3P?
+
+EXTRA TESTING:
+- Section 3, 2. Permanent Fault on Line Segment C … _l. Verify that TIE 1 does not close_
