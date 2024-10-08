@@ -88,4 +88,4 @@ EXTRA TESTING:
 - Section 3, 2. Permanent Fault on Line Segment C … _l. Verify that TIE 1 does not close_
 
 - 2.5 sec minimum for reclose timers for DER's - due to standard requiring DER's trip after 2sec LOV
-- 
+- Concerned with long recloser timer (45s) - this will push out the restore timing
