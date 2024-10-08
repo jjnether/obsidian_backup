@@ -112,10 +112,21 @@ CIRCUIT AUTOMATION SETTINGS:
 		- RECLOSER - R1-Long Prairie Rural North
 	- Circuit 2
 		- RECLOSER R1 Grosbreak
+			- 45s Auto Open
+			- 60s Auto Close
 		- TIE 514-527 NO
-		- SECTIONALIZER - R2-514-527 TIE 88
-		- SECTIONALIZER - R3-FLENSBERG 88
-		- RECLOSER - R1 SWANVILLE 77
-			- LOV
-		- TIE - 508-514 NO
 			- Directional closing (source facing away from Long Prairie Sub)
+			- 45s Auto Open
+			- 60s Auto Close
+		- SECTIONALIZER - R2-514-527 TIE 88
+			- 75s Auto Open
+			- 90s Auto Close
+		- SECTIONALIZER - R3-FLENSBERG 88
+			- 75s Auto Open
+			- 90s Auto Close
+		- RECLOSER - R1 SWANVILLE 77
+			- 75s Auto Open
+			- 90s Auto Close
+		- TIE - 508-514 NO
+			- 75s Auto Open
+			- 90s Auto Close

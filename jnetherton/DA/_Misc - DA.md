@@ -82,7 +82,6 @@ Looking for options/view points on 1 vs multiple (of the same) relays for a mult
 As I see it ..
 
 Pro (single relay):
-
 - Potentially cheaper
 - Typically when setting up P2P scheme it makes writing the logic easier as nothing has to be pass between relays.
 - Less points of failure
@@ -94,8 +93,7 @@ Pro (single relay):
 - Simpler networking and communications
 - Fewer devices to maintain and simpler/more comprehensive logic
 
-Cons (single relay)
-
+Cons (single relay):
 - Potentially more expensive (for smaller number of way switches)
 - Single point of failure (ie. single relay goes down operation of the whole switch is lost).  I think this is the probably the biggest point of debate.  I can almost see it both ways.  Single relay = less components to worry about, but if it fails it could disrupt/disable the whole scheme (ie. P2P closed loop depending on how it is programmed).  More relays = more points of potential failure, however they are only taking out "single" ways thus an automation scheme might still be able to isolate a faulted section as desired (or at least not have as big of an outage
 -  area (if the automation scheme can accommodate a non communicating relay)
