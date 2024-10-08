@@ -2,10 +2,11 @@
 [file path](<file:///C:\Users\jnetherton\G&W Electric Co\US-PowerGridAutomation - Documents\_Lazer\121288 - Minnesota Power Co>)  
 
 IP:
-- relays: 192.168.1.5...8
+- relays: 192.168.1.5-8
 - RTAC: 192.168.1.2
 
 Voltage Ratio - 10000:1
+System Voltage - 
 CT Ratio - 1000:1
 
 Settings:
@@ -92,7 +93,7 @@ EXTRA TESTING:
 
 
 CIRCUIT AUTOMATION SETTINGS:
-- Pine River
+- Pine River - 34500V (19920V L-G)
 	- Circuit 1
 		- RECLOSER - R1-Akeley 88
 		- TIE - Tie 509-543 NO
@@ -101,12 +102,12 @@ CIRCUIT AUTOMATION SETTINGS:
 	- Circuit 2
 		- RECLOSER - R1-Backus 77
 		- TIE - Tie 516-550 NO
-- West Cohasset
+- West Cohasset - 23000V (13280V L-G)
 	- RECLOSER - R1-Stevens Lake 77
 	- TIE - Boswell 88
 	- RECLOSER - R1-Foxtail 88
 	- RECLOSER - R1-Boswell 99
-- Long Prairie
+- Long Prairie - 34500V (19920V L-G)
 	- Circuit 1
 		- TIE - TIE 501-517 NO
 		- RECLOSER - R1-Long Prairie Rural North

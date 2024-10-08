@@ -208,4 +208,5 @@ PSU - B54020023000
 ![Machine generated alternative text: MAIN V AID PCS va OPEN ORE N/d OCK ON 52A 52b OPEN v C OS D R OR OPERA V VS C OS D OPEN](DA-RTAC-image1.png)
 
 ---
+![[Pasted image 20241008143139.png|400]]
 
