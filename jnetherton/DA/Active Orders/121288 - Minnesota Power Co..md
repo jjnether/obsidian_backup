@@ -91,8 +91,6 @@ EXTRA TESTING:
 - 2.5 sec minimum for reclose timers for DER's - due to standard requiring DER's trip after 2sec LOV
 - Concerned with long recloser timer (45s) - this will push out the restore timing
 
-BOB - Why was your PT ratio not calculating correctly? (had to add an extra 300/8 to the denominator so the 59 and 27 values would be set properly to the secondary)
-
 
 CIRCUIT AUTOMATION SETTINGS:
 - Pine River - 34500V (19920V L-G)
