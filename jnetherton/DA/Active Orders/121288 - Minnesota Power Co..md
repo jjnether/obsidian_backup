@@ -65,7 +65,8 @@ Notes:
 - Reclose NOT supervised by healthy batt
 - trip PB is not blocked by PB lock - for safety
 - If sectionalizing is enabled, sets reclosing, ground, and fast curve to 0
-- Can only activate reclosing, ground, and fast curve if sectionalizing is disabled
+- Can only activate reclosing and fast curve if sectionalizing is disabled
+	- Ground can be activated so it can still be used in HLT for a sectionalizer
 - Alternate profile only does reclosing
 	- Sectionalizing set to 0 in template
 	- Hardcode loop scheme latch to 0
