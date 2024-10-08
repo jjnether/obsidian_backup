@@ -39,7 +39,7 @@ To Do:
 
 Customer Questions:
 - Tie behavior after closing:
-	- LOV open?
+	- Auto open?
 	- Sectionalize/Reclose/1-trip protection?
 - Load between device and substation?
 	- If not, should disable back-feeding toward source in template
@@ -91,9 +91,21 @@ EXTRA TESTING:
 - Concerned with long recloser timer (45s) - this will push out the restore timing
 
 
-CIRCUIT TIMINGS:
+CIRCUIT AUTOMATION SETTINGS:
+- Pine River
+	- Circuit 1
+		- RECLOSER - R1-Akeley 88
+		- TIE - Tie 509-543 NO
+		- SECTIONALIZER - R2 Ten Mile Lake 88
+		- RECLOSER - R1-Hackensack 88
+	- Circuit 2
+		- RECLOSER - R1-Backus 77
+		- TIE - Tie 516-550 NO
 - West Cohasset
-	- 
+	- RECLOSER - R1-Stevens Lake 77
+	- TIE - Boswell 88
+	- RECLOSER - R1-Foxtail 88
+	- RECLOSER - R1-Boswell 99
 - Long Prairie
 	- Circuit 1
 		- TIE - TIE 501-517 NO
@@ -104,4 +116,6 @@ CIRCUIT TIMINGS:
 		- SECTIONALIZER - R2-514-527 TIE 88
 		- SECTIONALIZER - R3-FLENSBERG 88
 		- RECLOSER - R1 SWANVILLE 77
+			- LOV
 		- TIE - 508-514 NO
+			- Directional closing (source facing away from Long Prairie Sub)
