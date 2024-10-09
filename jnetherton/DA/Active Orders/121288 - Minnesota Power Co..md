@@ -65,7 +65,7 @@ Notes:
 	- would need another settings group to account - could be dependent on directional current
 - Reclose NOT supervised by healthy batt
 - trip PB is not blocked by PB lock - for safety
-- If sectionalizing is enabled, sets reclosing, ground, and fast curve to 0
+- If sectionalizing is enabled, sets reclosing and fast curve to 0
 - Can only activate reclosing and fast curve if sectionalizing is disabled
 	- Ground can be activated so it can still be used in HLT for a sectionalizer
 - Alternate profile only does reclosing
@@ -74,7 +74,8 @@ Notes:
 - Blocking LS auto close if recloser is in 79 cycle (79CY3P)
 - Applicable to all LOV timers - when does this time start? Is it upon 3 phase LOV, or is it upon losing at least 1 phase (which could happen upon initial fault before the recloser opens - ie voltage sag due to high fault current - also think about how this timer reacts for a system that might reclosers single phase but lockout 3 phase incase they would like to move to that method of operation).
 - If customer wants protection on Tie, they simply add it to the template (protection will be disabled when sectionalizing is enabled)
-
+- Applicable to all LOV timers - when does this time start? Is it upon 3 phase LOV, or is it upon losing at least 1 phase (which could happen upon initial fault before the recloser opens - ie voltage sag due to high fault current - also think about how this timer reacts for a system that might reclosers single phase but lockout 3 phase incase they would like to move to that method of operation)
+	- The current logic looks at each phase individually for dead voltage on both sides, 52A, and no overcurrent pickup exceeded. In the case of single phase reclosing but 3 phase lockout, we would have to ensure that the LOV trip time is greater than the time between each shot, or maybe we can add blocking, so if phase is in 79 cycle mode, timer will deassert.
 
 For Fault on A:  
 - Will want to review this closely with them. At this point if the tie and recloser are too close to coordinate they will both trip … if the tie is in the reset state it should recloser back in an hold … just a matter of curve coordination and settings timing coordination (which right now with a 15s auto close and 60s reset from lockout they would not coordinate).  
