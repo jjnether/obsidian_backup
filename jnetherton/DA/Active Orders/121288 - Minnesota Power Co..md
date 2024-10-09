@@ -11,7 +11,7 @@ CT Ratio - 1000:1
 System Voltage - 19.92kV
 Live - 15.936kV
 Under - 11.952kV
-Dead - 2.988kV
+Dead - 2.988kV - (8KV for Sec Z side)
 
 
 CPS POD:  
