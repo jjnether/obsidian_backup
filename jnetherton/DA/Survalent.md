@@ -10,6 +10,12 @@ Important Folders:
 - `Survalent\SmartVU\Standard`
 - `Survalent\ScadaServer\Database`
 
+DNP setup:
+- Set Address under General in RTU to the relay's DNP address
+- Set Host Name under Connections in Comm Line to Relay IP
+- Set Master Number under DNP3.0 in Comm Line to the DNP address you want to set for the master device (PC you're on)
+- In Relay, set the DNP IP address (address for the client) to your PC IP
+
 Control Panel
 - To place on map, place any pmacro, then change `Dialog Code` to `(1) Control Panel`, then change `Control Panel File` and `Images`  and `Alarm Images`
 	- Also change `Point Id 1` to proper station
