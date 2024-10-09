@@ -2,7 +2,8 @@
 [file path](<file:///C:\Users\jnetherton\G&W Electric Co\US-PowerGridAutomation - Documents\_Lazer\121288 - Minnesota Power Co>)  
 
 IP:
-- relays: 192.168.1.5-8
+- relays: 192.168.1.5-10
+	- DNP: 1-6
 - RTAC: 192.168.1.2
 
 Voltage Ratio - 10000:1
