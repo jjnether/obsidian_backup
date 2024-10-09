@@ -54,6 +54,8 @@ Customer Questions:
 	- Should TIE 2 be directional? (is there load on F)
 	- Disable REC 1 auto closing to feed A?
 	- Disable REC 2 auto closing to feed G?
+- Reset times for substation reclosers?
+	- Reclosers
 
 Notes:
 - HLT trips when the specified elements time out
