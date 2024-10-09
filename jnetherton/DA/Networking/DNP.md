@@ -1,3 +1,5 @@
 -   Binary inputs are bits from the server (relay) to the client (SCADA)
 -   Binary outputs are bits from the client to the server
 - Binary Pair (a:b)
+	- a - trip pulse
+	- b - close pulse
