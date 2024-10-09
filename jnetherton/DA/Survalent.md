@@ -3,6 +3,11 @@ default username/password is scada/scada
 - Must have ADMS open for SmartVU to run
 	- Use `localhost` under server setup in ADMS
 	- In SmartVU folder (`C:\Program Files (x86)\Survalent\SmartVU`) open `svsetup.exe` to change where SmartVU is looking (use `localhost`)
+- Must also change database to point to the correct location in server setup of ADMS manager
+
+Important Folders:
+- `Survalent\SmartVU\Standard`
+- `Survalent\ScadaServer\Database`
 
 Control Panel
 - To place on map, place any pmacro, then change `Dialog Code` to `(1) Control Panel`, then change `Control Panel File` and `Images`  and `Alarm Images`
