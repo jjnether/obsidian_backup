@@ -10,6 +10,8 @@ Important Folders:
 - `Survalent\SmartVU\Standard`
 - `Survalent\ScadaServer\Database`
 
+Use status point viewer application for troubleshooting
+
 DNP setup:
 - Set Address under General in RTU to the relay's DNP address
 - Set Host Name under Connections in Comm Line to Relay IP
