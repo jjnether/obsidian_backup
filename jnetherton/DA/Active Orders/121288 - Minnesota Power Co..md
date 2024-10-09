@@ -55,7 +55,7 @@ Customer Questions:
 	- Disable REC 1 auto closing to feed A?
 	- Disable REC 2 auto closing to feed G?
 - Reset times for substation reclosers?
-	- Reclosers
+	- Reclosers should have the same reset times
 
 Notes:
 - HLT trips when the specified elements time out
