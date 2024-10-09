@@ -155,3 +155,5 @@ Updated firmware from **R400-V0** to **R400-V2**
 
 Brian Pizzi - Wartsila
 Travis Kahel - Baker Electric
+
+10.0.0/24 network
