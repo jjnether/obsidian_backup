@@ -86,6 +86,8 @@ EXTRA TESTING:
 - Concerned with long recloser timer (45s) - this will push out the restore timing
 
 
+- WHAT SHOULD DICTATE PROPER RECLOSE FROM LOCKOUT TIMES??
+
 CIRCUIT AUTOMATION SETTINGS:
 - Pine River - 34500V (19920V L-G)
 	- Circuit 1
@@ -106,23 +108,6 @@ CIRCUIT AUTOMATION SETTINGS:
 		- TIE - TIE 501-517 NO
 		- RECLOSER - R1-Long Prairie Rural North
 	- Circuit 2
-		- RECLOSER R1 Grosbreak
-			- 45s Auto Open
-			- 60s Auto Close
-		- TIE 514-527 NO
-			- Directional closing (source facing away from Long Prairie Sub)
-			- 45s Auto Open
-			- 60s Auto Close
-		- SECTIONALIZER - R2-514-527 TIE 88
-			- 75s Auto Open
-			- 90s Auto Close
-		- SECTIONALIZER - R3-FLENSBERG 88
-			- 75s Auto Open
-			- 90s Auto Close
-		- RECLOSER - R1 SWANVILLE 77
-			- 75s Auto Open
-			- 90s Auto Close
-		- TIE - 508-514 NO
-			- 75s Auto Open
-			- 90s Auto Close
+		- 75s Auto Open
+		- 90s Auto Close
 
