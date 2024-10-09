@@ -148,5 +148,7 @@ PUNCHLIST ITEMS
 	- NTP
 	- WE NEED IP OF SATELLITE CLOCK
 
+Updated firmware from **R400-V0** to **R400-V2**
+
 ==NOTE
 - Added local mode check to start sequence with dedicated pushbuttons (added to RTAC program, need to upload)
