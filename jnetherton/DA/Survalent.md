@@ -4,6 +4,7 @@ default username/password is scada/scada
 	- Use `localhost` under server setup in ADMS
 	- In SmartVU folder (`C:\Program Files (x86)\Survalent\SmartVU`) open `svsetup.exe` to change where SmartVU is looking (use `localhost`)
 - Must also change database to point to the correct location in server setup of ADMS manager
+- Run SrvAdjust in ADMS Manager after replacing server
 
 Important Folders:
 - `Survalent\SmartVU\Standard`
