@@ -40,12 +40,8 @@ To Do:
 
 Customer Questions:
 - Tie behavior after closing:
-	- Auto open?
+	- Should it be able to auto open?
 	- Sectionalize/Reclose/1-trip protection?
-- Load between device and substation?
-	- If not, should disable back-feeding toward source in template
-- I misspoke in the programming spec - typically HLT trips upon the element timing out
-- Make customer aware that when they enable auto-close, they should pay attention to coordinating timings so that there aren't paralleled sources on a temporary fault (a switch closes due to LS, then the recloser recloses and parallels them)
 - Added alternate settings PB
 	- Alternate settings are ONLY for reclosing (loop scheme will be disabled)
 - Made changes to DNP map
@@ -54,7 +50,10 @@ Customer Questions:
 	- Saw that the colors were not configurable, had to move a bit
 - Changed default settings
 - Subsequent faults will only be tested after system has finished initial reconfiguration
-- Directional Tie or just coordinate timing? Directional will prevent closing for LOV in the direction we don't want, but we also won't be able to restore anything else from that substation if both others go down
+- Directional Ties
+	- Should TIE 2 be directional? (is there load on F)
+	- Disable REC 1 auto closing to feed A?
+	- Disable REC 2 auto closing to feed G?
 
 Notes:
 - HLT trips when the specified elements time out
@@ -65,7 +64,6 @@ Notes:
 	- would need another settings group to account - could be dependent on directional current
 - Reclose NOT supervised by healthy batt
 - trip PB is not blocked by PB lock - for safety
-- If sectionalizing is enabled, sets reclosing and fast curve to 0
 - Can only activate reclosing and fast curve if sectionalizing is disabled
 	- Ground can be activated so it can still be used in HLT for a sectionalizer
 - Alternate profile only does reclosing
@@ -73,18 +71,13 @@ Notes:
 	- Hardcode loop scheme latch to 0
 - Blocking LS auto close if recloser is in 79 cycle (79CY3P)
 - Applicable to all LOV timers - when does this time start? Is it upon 3 phase LOV, or is it upon losing at least 1 phase (which could happen upon initial fault before the recloser opens - ie voltage sag due to high fault current - also think about how this timer reacts for a system that might reclosers single phase but lockout 3 phase incase they would like to move to that method of operation).
-- If customer wants protection on Tie, they simply add it to the template (protection will be disabled when sectionalizing is enabled)
 - Applicable to all LOV timers - when does this time start? Is it upon 3 phase LOV, or is it upon losing at least 1 phase (which could happen upon initial fault before the recloser opens - ie voltage sag due to high fault current - also think about how this timer reacts for a system that might reclosers single phase but lockout 3 phase incase they would like to move to that method of operation)
 	- The current logic looks at each phase individually for dead voltage on both sides, 52A, and no overcurrent pickup exceeded. In the case of single phase reclosing but 3 phase lockout, we would have to ensure that the LOV trip time is greater than the time between each shot, or maybe we can add blocking, so if phase is in 79 cycle mode, timer will deassert.
 
-For Fault on A:  
-- Will want to review this closely with them. At this point if the tie and recloser are too close to coordinate they will both trip … if the tie is in the reset state it should recloser back in an hold … just a matter of curve coordination and settings timing coordination (which right now with a 15s auto close and 60s reset from lockout they would not coordinate).  
-For Fault on G:  
-- They seem fair enough away but ties need to coordinate with REC so that only 1 trips … if not and they both trip one of the SEC will open ...
+Nic Question:
+- For Fault on A:
+	- Will want to review this closely with them. At this point if the tie and recloser are too close to coordinate they will both trip … if the tie is in the reset state it should recloser back in an hold … just a matter of curve coordination and settings timing coordination (which right now with a 15s auto close and 60s reset from lockout they would not coordinate).
 
-QUESTIONS:
-- Fast curve is tripping 3 times when it should only be 2???
-	- It's also ending on fast curve?? - 79SKP3P?
 
 EXTRA TESTING:
 - Section 3, 2. Permanent Fault on Line Segment C … _l. Verify that TIE 1 does not close_
