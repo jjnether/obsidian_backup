@@ -14,6 +14,13 @@ Live - 15.936kV
 Under - 11.952kV
 Dead - 2.988kV - (8KV for Sec Z side)
 
+Auto Timings:
+- Auto Open - 75s
+	- Alternative - 30s
+- Auto Close - 90s
+	- Alternative - 45s
+- For alternative, set total upstream reclosing time to 15s
+
 
 CPS POD:  
 - 66402  
@@ -49,13 +56,13 @@ Customer Questions:
 	- Added settings group, alternate settings activation, and voltage angles
 - Changed placement of target LED's
 	- Saw that the colors were not configurable, had to move a bit
-- Changed default settings
+- Changed default protection/automation settings
 - Subsequent faults will only be tested after system has finished initial reconfiguration
 - Directional Ties
 	- Should TIE 2 be directional? (is there load on F)
 	- Disable REC 1 auto closing to feed A?
 	- Disable REC 2 auto closing to feed G?
-- Reset times for substation reclosers?
+- What are your reset times for substation reclosers?
 	- Reclosers should have the same reset times
 
 Notes:
