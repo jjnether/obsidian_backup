@@ -15,10 +15,10 @@ Under - 11.952kV
 Dead - 2.988kV - (8KV for Sec Z side)
 
 Auto Timings:
-- Auto Open - 75s
-	- Alternative - 30s
-- Auto Close - 90s
-	- Alternative - 45s
+- Auto Open - 75s (4500cyc)
+	- Alternative - 30s (1800cyc)
+- Auto Close - 90s (5400cyc)
+	- Alternative - 45s (2700cyc)
 - For alternative, set total upstream reclosing time to 15s
 
 
