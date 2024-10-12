@@ -1,0 +1,31 @@
+Installation:
+- Download beatsaber if not already downloaded
+- connect headset to PC
+- go to `https://mbf.bsquest.xyz/` and follow direction to downgrade beatsaber to proper version
+- Install the following mods (as of beatsaber version )
+	- BeatLeader
+	- BeatTogether
+	- BetterSongSearch
+	- Clock Mod
+	- Faster Scroll
+	- HitScoreVisualizer
+	- Mapping Extensions
+	- NoPromo
+	- NoodleExtensions
+	- QuestSounds
+	- RandomSongPicker
+	- BeatSaverVoting
+	- Chroma
+	- CrashReporter
+	- MultiplayerCore
+	- ParticleTuner
+	- PlaylistDownloader
+	- PlaylistManager
+	- Replay
+	- SongDetails
+	- SongChartVisualizer
+	- Transitions
+- Install Sidequest and use it to do the following (hit the folder button on the top right to navigate files in Sidequest):
+	- HitScoreVisualizer
+		- Move the `ColoredNumbers_Quest.json` file from your PC to `/sdcard/ModData/com.beatgames.beatsaber/Mods/HitScoreVisualizer`
+		- Select the new
