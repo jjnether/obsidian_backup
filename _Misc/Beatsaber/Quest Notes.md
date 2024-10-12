@@ -38,3 +38,9 @@ Installation:
 		- Move the Cover and Playlist folders and all contents to `/sdcard/ModData/com.beatgames.beatsaber/Mods/PlaylistManager`
 		- In-game, open playlist manager and download missing songs on each playlist (bottom right)
 		- Note that you can use the sync feature for keeping playlist synced with playlist on BeatSaver
+	- Beatleader
+		- Open in-game settings and sign up with a new account name and password (use .xyz)
+		- Open beatleader on your PC browser
+		- Sign in with Steam
+		- Go to Settings>Account>Migrate Account
+		- Login with your login you made on the quest, and now it should be linked
