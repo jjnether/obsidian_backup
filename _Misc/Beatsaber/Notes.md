@@ -25,7 +25,16 @@ Installation:
 	- SongDetails
 	- SongChartVisualizer
 	- Transitions
-- Install Sidequest and use it to do the following (hit the folder button on the top right to navigate files in Sidequest):
+- Install Sidequest then do the following (hit the folder button on the top right to navigate files in Sidequest):
+	- Clock Mod
+		- Enable Battery Percentage
 	- HitScoreVisualizer
 		- Move the `ColoredNumbers_Quest.json` file from your PC to `/sdcard/ModData/com.beatgames.beatsaber/Mods/HitScoreVisualizer`
-		- Select the new
+		- Select the new template in HitScoreVisualizer settings
+	- QuestSounds
+		- Move the `Lofi.ogg` to `/sdcard/ModData/com.beatgames.beatsaber/Mods/QuestSounds/LobbyMusic` and `/sdcard/ModData/com.beatgames.beatsaber/Mods/QuestSounds/MenuMusic`
+		- Select the Lofi song for both Lobby and Menu music
+	- Playlist Manager
+		- Move the Cover and Playlist folders and all contents to `/sdcard/ModData/com.beatgames.beatsaber/Mods/PlaylistManager`
+		- In-game, open playlist manager and download missing songs on each playlist (bottom right)
+		- Note that you can use the sync feature for keeping playlist synced with playlist on BeatSaver
