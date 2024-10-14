@@ -128,4 +128,4 @@ Follow Up-items:
 - What points need to be sent back for ADMS - what Nic introduced to them, what do they need to start implementing?
 - HLT behavior
 - Which devices do we want to be directional?
-- 
+- switch mode for devices before we start doing protection/automation?
