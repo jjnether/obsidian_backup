@@ -1,0 +1,46 @@
+Installation:
+- Download beatsaber if not already downloaded
+- connect headset to PC
+- go to `https://mbf.bsquest.xyz/` and follow direction to downgrade beatsaber to proper version
+- Install the following mods (as of beatsaber version )
+	- BeatLeader
+	- BeatTogether
+	- BetterSongSearch
+	- Clock Mod
+	- Faster Scroll
+	- HitScoreVisualizer
+	- Mapping Extensions
+	- NoPromo
+	- NoodleExtensions
+	- QuestSounds
+	- RandomSongPicker
+	- BeatSaverVoting
+	- Chroma
+	- CrashReporter
+	- MultiplayerCore
+	- ParticleTuner
+	- PlaylistDownloader
+	- PlaylistManager
+	- Replay
+	- SongDetails
+	- SongChartVisualizer
+	- Transitions
+- Install Sidequest then do the following (hit the folder button on the top right to navigate files in Sidequest):
+	- Clock Mod
+		- Enable Battery Percentage
+	- HitScoreVisualizer
+		- Move the `ColoredNumbers_Quest.json` file from your PC to `/sdcard/ModData/com.beatgames.beatsaber/Mods/HitScoreVisualizer`
+		- Select the new template in HitScoreVisualizer settings
+	- QuestSounds
+		- Move the `Lofi.ogg` to `/sdcard/ModData/com.beatgames.beatsaber/Mods/QuestSounds/LobbyMusic` and `/sdcard/ModData/com.beatgames.beatsaber/Mods/QuestSounds/MenuMusic`
+		- Select the Lofi song for both Lobby and Menu music
+	- Playlist Manager
+		- Move the Cover and Playlist folders and all contents to `/sdcard/ModData/com.beatgames.beatsaber/Mods/PlaylistManager`
+		- In-game, open playlist manager and download missing songs on each playlist (bottom right)
+		- Note that you can use the sync feature for keeping playlist synced with playlist on BeatSaver
+	- Beatleader
+		- Open in-game settings and sign up with a new account name and password (use .xyz)
+		- Open beatleader on your PC browser
+		- Sign in with Steam
+		- Go to Settings>Account>Migrate Account
+		- Login with your login you made on the quest, and now it should be linked
