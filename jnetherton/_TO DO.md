@@ -15,10 +15,10 @@ kanban-plugin: board
 - [ ] [[108629 - Meralco]]
 	- also 108630/108631
 	- edit program for trident and throw in production folder @{2024-12-31}
-- [ ] **Misc Work**
-	- IT form for desk monitor
-	- Clean Desk
-	- Check with Mo on 208V outlet
+- [ ] **General Work**
+	- Leconte Settings
+	- Meralco Settings
+	- Humphreys testing
 
 
 ## Programming Spec
