@@ -19,6 +19,7 @@ kanban-plugin: board
 	- Leconte Settings
 	- Meralco Settings
 	- Humphreys testing
+	- Ft Meade Production program and test plan
 
 
 ## Programming Spec
@@ -76,8 +77,6 @@ kanban-plugin: board
 
 - [ ] [[103220 - Baker Electric Leconte]]
 	- Waiting on feedback regarding SAT plan and details from rep @{2024-11-21}
-- [ ] 100875 - Pantex (CNS)
-	- SAT - 09/26-09/27
 
 
 
