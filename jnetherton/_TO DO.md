@@ -20,6 +20,7 @@ kanban-plugin: board
 	- Meralco Settings
 	- Humphreys testing
 	- Ft Meade Production program and test plan
+	- Make Amptek Program
 
 
 ## Programming Spec
