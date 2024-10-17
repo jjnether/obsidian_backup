@@ -129,3 +129,5 @@ Follow Up-items:
 - HLT behavior
 - Which devices do we want to be directional?
 - switch mode for devices before we start doing protection/automation?
+- Check if auto close still works with pushbuttons locked?
+	- I think it works, but didn't deliberately test. Bob mentioned a previous problem where the unlatch close with PB lock was blocking auto close
