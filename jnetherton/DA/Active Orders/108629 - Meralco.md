@@ -98,3 +98,6 @@ TO TEST:
 MEETING:
 - 7 units - 6 installed (5 online, one had flashover)
 
+- Values reported for voltage were in kV (forced scaling to 1.0)
+	- Changed scaling forced to 100, so user can see kV with 2 decimals
+- The pickup values are SETTINGS. These settings are input as secondary values. When sent over DNP, they are scaled by 1000
