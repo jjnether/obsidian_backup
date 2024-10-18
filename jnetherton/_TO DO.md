@@ -18,7 +18,7 @@ kanban-plugin: board
 - [ ] **General Work**
 	- Leconte Settings
 	- Humphreys testing
-	- Ft Meade Production program and test plan
+	- !!!!Ft Meade Production program and test plan
 	- Make Amptek Program
 	- Hilcorp Testing
 	- Meralco Training?
@@ -56,13 +56,13 @@ kanban-plugin: board
 	- Sent FAT Plan - waiting for feedback
 	@{2024-10-03}
 - [ ] [[111587 - Pantex]] (Ryan Sales)
-	- Pick Date - 10/15
-	- FAT - 10/22 (probably delayed)
-	- Ship Date - 11/12
+	- Pick Date - 
+	- Press for modules starting 10/24
 	- Production programs in folders
 	- POD - 100875 , 106174
 	- CNS: 100875 (4 switches), 106174 (1 switch)
-	- Burns and Mac: 108057 (1 switch) @{2024-10-15}
+	- Burns and Mac: 108057 (1 switch)
+		- RMA - be on standby for testing@{2024-10-15}
 - [ ] [[107747 - Ft Meade Visitor Center]]
 	- Need to make production program
 	- Need to make basic FAT plan@{2024-10-24}
