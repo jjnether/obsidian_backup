@@ -37,10 +37,6 @@ kanban-plugin: board
 	- keep track of testing for all switches
 		- just spot checking for other 2
 	@{2024-10-07}
-- [ ] [[121288 - Minnesota Power Co.]]
-	- FAT - 10/10-10/11
-		- Plan sent to Bill
-	@{2024-10-10}
 - [ ] [[116007 - Amptek BNSF]]
 	- Pick Date - 11/01
 	- Ship Date - 12/06
@@ -79,7 +75,12 @@ kanban-plugin: board
 ## SAT/GWI
 
 - [ ] [[103220 - Baker Electric Leconte]]
-	- Waiting on feedback regarding SAT plan and details from rep @{2024-11-21}
+	- Energized SAT@{2024-11-21}
+- [ ] [[121288 - Minnesota Power Co.]]
+	- Sent FAT Report and programs
+	- Awaiting further discussion from customer regarding specific topics
+	- Awaiting commissioning dates
+	@{2024-10-10}
 
 
 
