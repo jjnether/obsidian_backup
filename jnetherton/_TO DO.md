@@ -21,6 +21,7 @@ kanban-plugin: board
 	- Ft Meade Production program and test plan
 	- Make Amptek Program
 	- Hilcorp Testing
+	- Meralco Training?
 
 
 ## Programming Spec
@@ -44,6 +45,7 @@ kanban-plugin: board
 	- Pick Date - 11/01
 	- Ship Date - 12/06
 	- There is an FAT
+	- DELAYED
 	@{2024-11-01}
 
 
