@@ -2,7 +2,7 @@ Installation:
 - Download beatsaber if not already downloaded
 - connect headset to PC
 - go to `https://mbf.bsquest.xyz/` and follow direction to downgrade beatsaber to proper version
-- Install the following mods (as of beatsaber version )
+- Install the following mods (as of beatsaber version 1.37)
 	- BeatLeader
 	- BeatTogether
 	- BetterSongSearch
