@@ -36,6 +36,7 @@ Other MP switches:
 	- D8706PT2LJE0
   
 Relay MOT: 0651R22CXGAXAE1112B302
+New MOT: 0651R22CXGAXAE1112M702
   
 - Maggie Nevrly  
 - Kurt Blomquist  
