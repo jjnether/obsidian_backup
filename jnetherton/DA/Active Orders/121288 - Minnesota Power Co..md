@@ -119,9 +119,6 @@ CIRCUIT AUTOMATION SETTINGS:
 		- 75s Auto Open
 		- 90s Auto Close
 
-
-CHECK HIDDEN SETTINGS SYNC BETWEEN GROUPS 1 AND 2
-
 Follow Up-items:
 - What points need to be sent back for ADMS - what Nic introduced to them, what do they need to start implementing?
 - HLT behavior
