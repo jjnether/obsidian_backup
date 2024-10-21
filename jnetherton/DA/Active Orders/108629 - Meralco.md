@@ -45,27 +45,6 @@ Vnom setting: 19900
 dead voltage: 15920 (80%)
 live voltage: 17910 (90%)
 
-3-WAY RCF:
-Y
-1.123
-1.048
-1.116
-
-Z
-1.118
-1.120
-1.109
-
-4-WAY RCF:
-Y
-1.118
-1.117
-1.114
-
-Z
-1.128
-1.100
-1.126
 
 ==RTAC change time before shipment
 
