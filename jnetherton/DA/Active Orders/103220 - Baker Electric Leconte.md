@@ -1,6 +1,8 @@
 
 [file path](<file:///C:\Users\jnetherton\G&W Electric Co\US-PowerGridAutomation - Documents\_Lazer\103220 - Leconte (CED)>)
 
+
+
 FAT:
 - visual inspection
 - general operation
@@ -160,3 +162,10 @@ Travis Kahel - Baker Electric
 
 RTAC Customer Login:
 - LECONTE/LECONTE
+
+outage starting on the 18th
+- they will put in cables and will be ready for us in 3 days
+
+October 30th - Nov 5th
+
+31st
