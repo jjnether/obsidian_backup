@@ -163,10 +163,5 @@ Travis Kahel - Baker Electric
 RTAC Customer Login:
 - LECONTE/LECONTE
 
-outage starting on the 18th
-- they will put in cables and will be ready for us in 3 days
-
-October 30th - Nov 5th
-
-31st!!!
-
+DA commissioning -  Oct 31
+AMS  on site support - Nov 18
