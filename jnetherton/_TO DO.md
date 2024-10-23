@@ -16,7 +16,6 @@ kanban-plugin: board
 	- also 108630/108631
 	- edit program for trident and throw in production folder @{2024-12-31}
 - [ ] **General Work**
-	- Leconte Settings
 	- Humphreys testing
 	- !!!!Ft Meade Production program and test plan
 	- Make Amptek Program
