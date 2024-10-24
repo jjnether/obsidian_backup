@@ -126,6 +126,9 @@ For commissioning expense reports:
 - Change Sub-Department to `(100700) SWITCHGEAR TEAM`
 - Project - Paid Field Service
 
+For Purchase Req's:
+- Send SEL req's to Sergio or Sean Wilbert
+
 Symbol Shortcuts:
 ° = ALT+0176
 Ω = ALT+8486
