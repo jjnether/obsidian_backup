@@ -127,3 +127,17 @@ Follow Up-items:
 - Check if auto close still works with pushbuttons locked?
 	- I think it works, but didn't deliberately test. Bob mentioned a previous problem where the unlatch close with PB lock was blocking auto close
 - 300 cycles event report length was requested, but longest available is 180 cycles
+
+
+SV14T OR OC3 AND LT03 OR 81D1T OR SV58 OR 51PT OR 50P2T OR (51G1T OR 50G2T) AND NOT (SPE AND SV26T) # 3-PHASE TRIP CONDITIONS
+- PB trip
+	- or
+- remote trip
+	- or
+- 81
+	- or
+- closed into fault from auto close
+	- or
+- 
+
+R_TRIG SV22T AND MV17 <> 0.00 OR R_TRIG SV04T OR R_TRIG SV40T OR SV23 OR SV25 OR NOT LT06 AND SV35T AND (TRIPA OR TRIPB OR TRIPC) OR SV64T # MORE 3-PH TRIP CONDITIONS
