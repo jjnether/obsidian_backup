@@ -17,9 +17,8 @@ kanban-plugin: board
 	- edit program for trident and throw in production folder @{2024-12-31}
 - [ ] **General Work**
 	- Humphreys testing
-	- !!!!Ft Meade Production program and test plan
 	- Make Amptek Program
-	- Hilcorp Testing
+	- CPS Expense Report
 	- Meralco Training?
 
 
