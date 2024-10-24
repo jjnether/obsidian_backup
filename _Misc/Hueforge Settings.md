@@ -10,5 +10,5 @@
 BEST PRINT SIZE
 - about 175 x 245 (5:7 ratio) (portrait)
 
-21.3
-21.9
+27.9
+28.5
