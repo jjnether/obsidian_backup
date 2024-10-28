@@ -11,15 +11,13 @@
 - KND POD
 
 Questions:
-- PTX alarms - only 1 alarm for W2, but 4 different alarms for other ways? (high temp, low/high press., low oil)
-
+-  Do we still want W2 healthy voltage TLED?
+- Ok to leave mech failure TLED's as is?
+- No W2 Maint. Mode Output or Input contact (instructions said to only use PB for W2 maint mode)?
 
 Changes:
 - Commented out W2 close output contact
 - Set W2 close variable to 0
-- Do we still want W2 healthy voltage TLED?
-- Ok to leave mech failure TLED's as is?
-- Ok to remove W2 
 - TLED's
 	- Remove Auto-Blocked and MB Failure
 	- Added W2 PTX Alarm
