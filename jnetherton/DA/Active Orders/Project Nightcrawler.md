@@ -19,8 +19,7 @@ Questions:
 
 - Fix open/close variables
 - Clean up SER triggers?
-- Look over bus logic (W2 is source instead of W1) - not cable tie fault
-- check pct02/09 that they don't block anything
+- Look over bus fault logic (W2 is source instead of W1) - not cable tie fault
 
 
 PSV03 := (((R_TRIG ACT03Q AND PLT01) OR (R_TRIG RB05 AND NOT PLT01)) OR (R_TRIG PSV53 AND PLT02) OR F_TRIG PSV55) AND 52CLS AND SF6_OK AND NOT ALT10 OR (PSV03 AND 52CLS AND NOT PCT06Q) # W2 OPEN
