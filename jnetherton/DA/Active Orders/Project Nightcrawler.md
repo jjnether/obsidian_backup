@@ -8,3 +8,11 @@
 - Make new DNP map and test
 	- No binary outputs (no commands)
 	- Way 2 LEA and current
+- KND POD
+
+Questions:
+- PTX alarms - only 1 alarm for W2, but 4 different alarms for other ways? (high temp, low/high press., low oil)
+
+
+Changes:
+- 
