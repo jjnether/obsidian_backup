@@ -20,6 +20,9 @@ Questions:
 - S1 live purely indication - no timers
 - Add ERMS - shift elements - don't interlock with Local/Remote - ASK
 - Update DP for PSU
+- check pct02/09 that they don't block anything
+- transformer inrush for W1 - are they fine with keeping?
+- Can they provide coordination study so we can take a look at settings?
 
 Changes:
 - Commented out W2 close output contact
