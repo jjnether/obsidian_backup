@@ -8,7 +8,3 @@
 - Make new DNP map and test
 	- No binary outputs (no commands)
 	- Way 2 LEA and current
-
-To Buy
-- converters
-- labels
