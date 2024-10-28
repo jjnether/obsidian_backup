@@ -16,3 +16,8 @@ Questions:
 
 Changes:
 - Commented out W2 close output contact
+- How should I handle mech failure TLED's?
+- TLED's
+	- Remove Auto-Blocked and MB Failure
+	- Added W2 PTX Alarm
+	- Spread out PTX Alarms so each gets a dedicated LED
