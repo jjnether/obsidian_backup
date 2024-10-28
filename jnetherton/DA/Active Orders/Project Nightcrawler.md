@@ -21,3 +21,7 @@ Changes:
 	- Remove Auto-Blocked and MB Failure
 	- Added W2 PTX Alarm
 	- Spread out PTX Alarms so each gets a dedicated LED
+
+
+
+ALT10S := R_TRIG BFITS OR R_TRIG PCT06Q OR ACT10Q OR ACT11Q # W2 MECH ISSUE
