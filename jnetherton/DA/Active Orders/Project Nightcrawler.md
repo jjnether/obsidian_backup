@@ -15,4 +15,4 @@ Questions:
 
 
 Changes:
-- 
+- Commented out W2 close output contact
