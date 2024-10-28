@@ -18,7 +18,6 @@ Questions:
 
 
 - Look over bus logic (W2 is source instead of W1) - not cable tie fault
-- S1 live purely indication - no timers
 - Update DP for PSU
 - check pct02/09 that they don't block anything
 
