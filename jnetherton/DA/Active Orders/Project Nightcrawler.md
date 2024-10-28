@@ -19,6 +19,7 @@ Questions:
 - Look over bus logic (W2 is source instead of W1) - not cable tie fault
 - S1 live purely indication - no timers
 - Add ERMS - shift elements - don't interlock with Local/Remote - ASK
+- Update DP for PSU
 
 Changes:
 - Commented out W2 close output contact
