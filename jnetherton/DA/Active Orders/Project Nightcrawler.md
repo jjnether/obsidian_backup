@@ -24,6 +24,7 @@ Questions:
 - transformer inrush for W1 - are they fine with keeping?
 - Can they provide coordination study so we can take a look at settings?
 
+
 Changes:
 - Commented out W2 close output contact
 - Set W2 close variable to 0
