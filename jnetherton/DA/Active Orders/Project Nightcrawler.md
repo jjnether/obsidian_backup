@@ -15,6 +15,10 @@ Questions:
 - Ok to leave mech failure TLED's as is?
 - No W2 Maint. Mode Output or Input contact (instructions said to only use PB for W2 maint mode)?
 
+
+- Look over bus logic (W2 is source instead of W1) - not cable tie fault
+- S1 live purely indication - no timers
+
 Changes:
 - Commented out W2 close output contact
 - Set W2 close variable to 0
