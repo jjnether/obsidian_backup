@@ -17,6 +17,8 @@ Questions:
 - Does local/remote apply for W2 ERMS PB?
 
 
+- Fix open/close variables
+- Clean up SER triggers?
 - Look over bus logic (W2 is source instead of W1) - not cable tie fault
 - check pct02/09 that they don't block anything
 
