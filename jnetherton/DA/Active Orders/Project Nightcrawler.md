@@ -18,7 +18,6 @@ Questions:
 
 
 - Look over bus logic (W2 is source instead of W1) - not cable tie fault
-- Update DP for PSU
 - check pct02/09 that they don't block anything
 
 
