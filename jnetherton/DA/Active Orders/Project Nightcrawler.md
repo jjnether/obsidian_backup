@@ -15,7 +15,9 @@ Questions:
 - Inrush for W1? - STILL USE HARMONIC BLOCKING
 - Can they provide coordination study so we can take a look at settings?
 - Does local/remote apply for W2 ERMS PB?
-- Bus fault????
+- Bus fault
+	- check how PSV14 asserts
+	- on bus fault, all load ways should open, Way 1 should stay closed and indicate fault
 
 - Fix open/close variables
 - Clean up SER triggers?
@@ -36,3 +38,5 @@ PSV03 := (((R_TRIG ACT03Q AND PLT01) OR (R_TRIG RB05 AND NOT PLT01)) OR F_TRIG P
 PSV05 := (((R_TRIG ACT05Q AND PLT01) OR (R_TRIG RB07 AND NOT PLT01)) OR F_TRIG PSV58) OR (PSV05 AND 52CLT AND NOT ACT28Q) # W3 TRIP
 
 PSV06 := (((R_TRIG ACT07Q AND PLT01) OR (R_TRIG RB08 AND NOT PLT01)) OR F_TRIG PSV58) OR (PSV06 AND 52CLU AND NOT ACT29Q) # W4 TRIP
+
+

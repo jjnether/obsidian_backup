@@ -76,6 +76,8 @@ Poor Man's Latch:
 
 Can use a sequencing timer (AST) as a conditioning timer (ACT) by notting the IN value in the reset equation
 
+Travelling wave fault location - much faster than impedance based fault location
+
 ---
 
 Looking for options/view points on 1 vs multiple (of the same) relays for a multiway pad mount switch.  We have traditionally (in the Lazer group) been of the opinion that a single relay is the better option.
