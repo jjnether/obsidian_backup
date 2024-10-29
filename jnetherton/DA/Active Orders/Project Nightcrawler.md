@@ -12,7 +12,7 @@
 
 Questions:
 - New label layout ok?
-- Inrush for W1?
+- Inrush for W1? - STILL USE HARMONIC BLOCKING
 - Can they provide coordination study so we can take a look at settings?
 - Does local/remote apply for W2 ERMS PB?
 - Bus fault?
