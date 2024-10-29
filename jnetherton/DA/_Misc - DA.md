@@ -7,7 +7,7 @@ Work Phone: (708) 402-8777
 `X:\SWG_Eng\EE Folder\Product\SEL`
 - Part number is relay part number in control BOM
 
-`X:\DA\Dept\_Lazer\_SEL EDITABLE FACEPLATES`
+`\_Lazer\_SEL EDITABLE FACEPLATES`
 - SEL Editable Faceplates (labels)
 
 $V_{L-G} = \frac{V_{L-L}}{\sqrt{3}}$
