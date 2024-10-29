@@ -15,13 +15,14 @@ Questions:
 - Inrush for W1? - STILL USE HARMONIC BLOCKING
 - Can they provide coordination study so we can take a look at settings?
 - Does local/remote apply for W2 ERMS PB?
-- Bus fault?
+- Bus fault????
 
 - Fix open/close variables
 - Clean up SER triggers?
 
 NOTE:
 - PSV58 isn't defined?
+- 14 done within 3-day time-span
 
 
 
