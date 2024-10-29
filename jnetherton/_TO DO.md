@@ -18,8 +18,8 @@ kanban-plugin: board
 - [ ] **General Work**
 	- Humphreys testing
 	- Make Amptek Program
-	- CPS Expense Report
-	- Meralco Training?
+	- Nightcrawler Program
+	- Meralco Training
 
 
 ## Programming Spec
