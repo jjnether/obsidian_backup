@@ -19,6 +19,8 @@ Questions:
 	- check how PSV14 asserts
 	- Actually, we'll use ALT18
 	- on bus fault, all load ways should open, Way 1 should stay closed and indicate fault
+	- what level to set for W1 fault detection?
+		- set in template
 
 - Fix open/close variables
 - Clean up SER triggers?
