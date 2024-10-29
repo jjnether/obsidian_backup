@@ -77,6 +77,7 @@ Poor Man's Latch:
 Can use a sequencing timer (AST) as a conditioning timer (ACT) by notting the IN value in the reset equation
 
 Travelling wave fault location - much faster than impedance based fault location
+Accusense - accuracy - .15 desired, at least .5
 
 ---
 
