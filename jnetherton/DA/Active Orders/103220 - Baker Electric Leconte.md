@@ -165,3 +165,7 @@ RTAC Customer Login:
 
 DA commissioning -  Oct 31
 AMS  on site support - Nov 18
+
+ON-SITE NOTES:
+- 50G1D set to 0 instead of .001 for Way 6
+- TS1 PDF not consistent with other PDF's regarding 51G1P
