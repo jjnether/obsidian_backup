@@ -209,10 +209,17 @@ DCB = directional comparison blocking
 ---
 PSU - B54020023000
 ![[Pasted image 20241002112435.png|500]]
+- No battery test can be initiated if AC power is not present
+- Battery tests must always be initiated by the user
+- The battery test can be initiated by pressing the pushbutton or by providing a closed contact on pins 5 and 6
+- No battery test can be initiated if the battery is already below 21 VDC
+- There is a 15 minute delay between possible initiations of the battery test
+![[Pasted image 20241101112700.png|500]]
 
 52A POSITIONS
 ![Machine generated alternative text: MAIN V AID PCS va OPEN ORE N/d OCK ON 52A 52b OPEN v C OS D R OR OPERA V VS C OS D OPEN](DA-RTAC-image1.png)
 
 ---
+ABC - ACB sequences
 ![[Pasted image 20241008143139.png|400]]
 
