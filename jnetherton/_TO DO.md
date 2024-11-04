@@ -20,6 +20,8 @@ kanban-plugin: board
 	- Make Amptek Program
 	- Nightcrawler Program
 	- Meralco Training
+	- CPS Invoice - ask Bob?
+	- Leconte Invoice
 
 
 ## Programming Spec
