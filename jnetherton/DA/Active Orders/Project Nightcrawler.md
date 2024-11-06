@@ -80,11 +80,17 @@ PSV21 := (PSV11 AND NOT 52CLS AND NOT PSV02 AND NOT ALT02) OR ASV256 # LOCAL CLO
 - W1 not closing
 - W1 not timing to close
 
-PSV31 := NOT ALT09 AND NOT (ALT17 OR ALT18 OR PLT11 OR PLT09) # CONSOLIDATED W1 CLOSE PERMISSIVE
+PSV31 := NOT ALT09 AND NOT (ALT18 OR PLT11) # CONSOLIDATED W1 CLOSE PERMISSIVE
 - no W1 mech issue
-- no bus fault fed by W2
 - no bus fault fed by W1
 - no cable fault
-- no breaker fa
+	- removed:
+- ALT17 - bus fault fed by W2 
+- PLT09 - breaker failure on load way while in auto
+
+PLT11S := R_TRIG ALT15 # LATCH TO INDICATE CABLE FAULT
+- fault on W1
+	- removed:
+- PLT17 - TAKE ACTION FOR CABLE FAULT - TRANSFER TRIP RECEIVED WITH NO FAULT LATCHES
 
 - PSV58 nowhere to be found, used in both W3 and W4 open equations?
