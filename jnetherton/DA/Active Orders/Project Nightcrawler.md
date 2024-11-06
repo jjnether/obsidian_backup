@@ -76,6 +76,15 @@ PSV06 := ((R_TRIG ACT07Q AND PLT01) OR (R_TRIG RB08 AND NOT PLT01)) OR (PSV06 AN
 
 PSV21 := (PSV11 AND NOT 52CLS AND NOT PSV02 AND NOT ALT02) OR ASV256 # LOCAL CLOSE PERMITTED
 - W1 lb open
+- W2 not closed
+- W1 not closing
+- W1 not timing to close
 
+PSV31 := NOT ALT09 AND NOT (ALT17 OR ALT18 OR PLT11 OR PLT09) # CONSOLIDATED W1 CLOSE PERMISSIVE
+- no W1 mech issue
+- no bus fault fed by W2
+- no bus fault fed by W1
+- no cable fault
+- no breaker fa
 
 - PSV58 nowhere to be found, used in both W3 and W4 open equations?
