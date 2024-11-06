@@ -14,7 +14,7 @@ Questions:
 - New label layout ok?
 - Inrush for W1? - STILL USE HARMONIC BLOCKING
 - Can they provide coordination study so we can take a look at settings?
-- Does local/remote apply for W2 ERMS PB?
+- Does local/remote apply for W2 ERMS PB? - keep consistent with other local/remote switches
 - Bus fault
 	- check how PSV14 asserts
 	- Actually, we'll use ALT18
