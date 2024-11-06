@@ -10,24 +10,10 @@
 	- Way 2 LEA and current
 - KND POD
 
-Questions:
-- New label layout ok?
-- Inrush for W1? - STILL USE HARMONIC BLOCKING
-- Can they provide coordination study so we can take a look at settings?
-- Does local/remote apply for W2 ERMS PB? - keep consistent with other local/remote switches
-- Bus fault
-	- check how PSV14 asserts
-	- Actually, we'll use ALT18
-	- on bus fault, all load ways should open, Way 1 should stay closed and indicate fault
-	- what level to set for W1 fault detection?
-		- set in template
-
-- Fix open/close variables
-- Clean up SER triggers?
-
 NOTE:
 - 14 switches done within 3-day time-span
 - PSV58 nowhere to be found, used in W1, W3, and W4 open equations?
+- Clean up SER triggers?
 
 ---
 
