@@ -147,11 +147,13 @@ R_TRIG SV22T AND MV17 <> 0.00 OR R_TRIG SV04T OR R_TRIG SV40T OR SV23 OR SV25 OR
 
 
 - Hot line tag functionality
+	- change the logic so HLT trips to lockout upon current exceeding pickup level
 
 - Shortened auto-close times
 	- Follow up with them with customized logic regarding this, and what pros/cons might be
 
 - Directional devices
+
 
 - Possible switch mode
 	- not needed - they are putting some reclosers up without controls initially
