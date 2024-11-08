@@ -121,7 +121,6 @@ CIRCUIT AUTOMATION SETTINGS:
 
 Follow Up-items:
 - What points need to be sent back for ADMS - what Nic introduced to them, what do they need to start implementing?
-- HLT behavior
 - Which devices do we want to be directional?
 - Check if auto close still works with pushbuttons locked?
 	- I think it works, but didn't deliberately test. Bob mentioned a previous problem where the unlatch close with PB lock was blocking auto close
@@ -153,7 +152,11 @@ R_TRIG SV22T AND MV17 <> 0.00 OR R_TRIG SV04T OR R_TRIG SV40T OR SV23 OR SV25 OR
 	- Follow up with them with customized logic regarding this, and what pros/cons might be
 
 - Directional devices
+	- Don't close to backfeed substations
 
+- Fast Curve and alt settings
+	- Hardcode to always disabled?
+	- Remove from label?
 
 - Possible switch mode
 	- not needed - they are putting some reclosers up without controls initially
