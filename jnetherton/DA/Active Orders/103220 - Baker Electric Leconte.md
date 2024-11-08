@@ -164,7 +164,7 @@ RTAC Customer Login:
 - LECONTE/LECONTE
 
 DA commissioning -  Oct 31
-AMS  on site support - Nov 18 --- 21?
+AMS  on site support - 21
 
 ON-SITE NOTES:
 - 50G1D set to 0 instead of .001 for Way 6
