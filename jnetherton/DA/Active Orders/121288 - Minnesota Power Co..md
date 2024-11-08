@@ -145,3 +145,18 @@ R_TRIG SV22T AND MV17 <> 0.00 OR R_TRIG SV04T OR R_TRIG SV40T OR SV23 OR SV25 OR
 SV14T OR OC3 AND LT03 OR 81D1T OR SV58 OR (51PT OR 50P2T OR 51G1T OR 50G2T) AND NOT LT06 OR SV36 # 3-PHASE TRIP CONDITIONS
 
 R_TRIG SV22T AND MV17 <> 0.00 OR R_TRIG SV04T OR R_TRIG SV40T OR SV23 OR SV25 OR NOT LT06 AND SV35T AND (TRIPA OR TRIPB OR TRIPC) OR SV64T OR (SC02QU AND LT27) # MORE 3-PH TRIP CONDITIONS
+
+
+- Hot line tag functionality
+
+- Shortened auto-close times
+
+- Directional devices
+
+- Possible switch mode
+	- not needed - they are putting 
+
+- Updated SEL-651 faceplate on existing orders
+	- either ship to them or bring with us when commissioning
+
+Next year relays installation (march timeline)
