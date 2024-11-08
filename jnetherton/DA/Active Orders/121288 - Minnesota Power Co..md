@@ -123,7 +123,6 @@ Follow Up-items:
 - What points need to be sent back for ADMS - what Nic introduced to them, what do they need to start implementing?
 - HLT behavior
 - Which devices do we want to be directional?
-- switch mode for devices before we start doing protection/automation?
 - Check if auto close still works with pushbuttons locked?
 	- I think it works, but didn't deliberately test. Bob mentioned a previous problem where the unlatch close with PB lock was blocking auto close
 - 300 cycles event report length was requested, but longest available is 180 cycles
@@ -150,11 +149,12 @@ R_TRIG SV22T AND MV17 <> 0.00 OR R_TRIG SV04T OR R_TRIG SV40T OR SV23 OR SV25 OR
 - Hot line tag functionality
 
 - Shortened auto-close times
+	- Follow up with them with customized logic regarding this, and what pros/cons might be
 
 - Directional devices
 
 - Possible switch mode
-	- not needed - they are putting 
+	- not needed - they are putting some reclosers up without controls initially
 
 - Updated SEL-651 faceplate on existing orders
 	- either ship to them or bring with us when commissioning
