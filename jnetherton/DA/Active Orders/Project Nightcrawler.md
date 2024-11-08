@@ -29,7 +29,7 @@ PSV01 := ((R_TRIG ACT01Q AND PLT01) OR (R_TRIG RB03 AND NOT PLT01)) AND PSV10 AN
 - no W1 operation failure timeout
 	- removed:
 - PLT02 term - auto mode
-- PSV58 - doesn't exist???
+- PSV58 - F_TRIG of all bus fault indications - used to open all ways
 
 PSV02 := ((R_TRIG ACT02Q AND PLT01) OR (R_TRIG RB04 AND NOT PLT01 AND PSV23)) AND PSV11 AND SF6_OK AND PSV31 OR (PSV02 AND NOT PSV10 AND NOT PCT05Q) # W1 CLOSE - LATCHES IN UNTIL SUCCESFUL OR TIMEOUT
 - local and remote open
@@ -45,9 +45,8 @@ PSV02 := ((R_TRIG ACT02Q AND PLT01) OR (R_TRIG RB04 AND NOT PLT01 AND PSV23)) AN
 - PLT02 term - auto mode
 - PCT26Q - DETECT CLOSE IN PROGRESS AT ADJACENT MVS AND CANCEL ANY CLOSE OPERATION
 
-PSV03 := (((R_TRIG ACT03Q AND PLT01) OR (R_TRIG RB05 AND NOT PLT01)) OR F_TRIG PSV55) AND 52CLS AND SF6_OK AND NOT ALT10 OR (PSV03 AND 52CLS AND NOT PCT06Q) # W2 OPEN
+PSV03 := ((R_TRIG ACT03Q AND PLT01) OR (R_TRIG RB05 AND NOT PLT01)) AND 52CLS AND SF6_OK AND NOT ALT10 OR (PSV03 AND 52CLS AND NOT PCT06Q) # W2 OPEN
 - local and remote open
-- 
 - W2 closed
 - sf6 ok
 - no W2 mech issue
@@ -57,6 +56,7 @@ PSV03 := (((R_TRIG ACT03Q AND PLT01) OR (R_TRIG RB05 AND NOT PLT01)) OR F_TRIG P
 - no W2 operation failure timeout
 	- removed:
 - PLT02 term - auto mode
+- PSV55 - Open all ways from breaker failure on load fault fed from Way 1
 
 PSV05 := ((R_TRIG ACT05Q AND PLT01) OR (R_TRIG RB07 AND NOT PLT01)) OR (PSV05 AND 52CLT AND NOT ACT28Q) # W3 TRIP
 - local and remote open
@@ -66,7 +66,7 @@ PSV05 := ((R_TRIG ACT05Q AND PLT01) OR (R_TRIG RB07 AND NOT PLT01)) OR (PSV05 AN
 - no W3 open failure timeout
 	- removed:
 - PLT02 term - auto mode
-- PSV58 - doesn't exist???
+- PSV58 - F_TRIG of all bus fault indications - used to open all ways
 
 PSV06 := ((R_TRIG ACT07Q AND PLT01) OR (R_TRIG RB08 AND NOT PLT01)) OR (PSV06 AND 52CLU AND NOT ACT29Q) # W4 TRIP
 
