@@ -107,10 +107,10 @@ PLT11S := R_TRIG ALT15 # LATCH TO INDICATE CABLE FAULT
 
 ---
 Inrush:
-51 torque control := NOT ((PCT29Q AND NOT 52CLS) OR PCT31Q) # W2 PH TOC WITH INRUSH RESTRAINT
-- W1 Inrush
-- W1 Closed
+51 torque control := NOT (PCT29Q OR PCT31Q) # W2 PH TOC WITH INRUSH RESTRAINT
+- Inrush through W1
 	- or
-- 
+- Load way just closed
 	- removed:
 - PCT28Q - ENERGIZATION OF MVS BUS THRU W2 - BLOCK TRIPPING ON ALL VFI WAYS
+- 52CLS - Way 2 closed
