@@ -12,7 +12,6 @@
 
 NOTE:
 - 14 switches done within 3-day time-span
-- PSV58 nowhere to be found, used in W1, W3, and W4 open equations?
 - Clean up SER triggers?
 
 TESTING:
