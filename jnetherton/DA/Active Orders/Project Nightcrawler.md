@@ -15,6 +15,12 @@ NOTE:
 - PSV58 nowhere to be found, used in W1, W3, and W4 open equations?
 - Clean up SER triggers?
 
+TESTING:
+- 50P - .5
+- 50G - .3
+- 51P - .2
+- 50P Maint Mode - .1
+
 ---
 
 PSV01 := ((R_TRIG ACT01Q AND PLT01) OR (R_TRIG RB03 AND NOT PLT01)) AND PSV10 AND SF6_OK AND NOT PSV18 AND NOT ALT09 OR (PSV01 AND NOT PSV11 AND NOT PCT05Q) # W1 OPEN - LATCHES IN UNTIL SUCCESFUL OR TIMEOUT
