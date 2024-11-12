@@ -18,9 +18,11 @@ kanban-plugin: board
 - [ ] **General Work**
 	- Humphreys testing
 	- Make Amptek Program
-	- Nightcrawler Program
+	- Nightcrawler Protection Settings
 	- Meralco Training
-	- Leconte Invoice
+	- Leconte Program
+	- Meralco 351 Program
+	- MP auto close changes
 
 
 ## Programming Spec
