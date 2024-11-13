@@ -21,7 +21,6 @@ kanban-plugin: board
 	- Nightcrawler Protection Settings
 	- Meralco Training
 	- Leconte Program
-	- Meralco 351 Program
 	- MP auto close changes
 
 

@@ -82,3 +82,8 @@ MEETING:
 - The pickup values are SETTINGS. These settings are input as secondary values. When sent over DNP, they are scaled by 1000. Note that if 50 settings are disabled, they get set to 100. This means the sent DNP value will overflow, showing 32767
 - Tested remote target reset - works
 - Tested binary inputs for 51P/51G - THEY DO NOT LATCH
+
+351R4 - Changes
+- 50A * (TRIP + SG3 * SV13T)
+- 50B * (TRIP + SG3 * SV13T)
+- 50C * (TRIP + SG3 * SV13T)
