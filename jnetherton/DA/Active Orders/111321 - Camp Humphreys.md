@@ -38,12 +38,6 @@ Protection Settings:
 	- INRUSH = X5
 	- PHASE INRUSH RESTRAINT TIME ADDER = 1.7 s (asked for 1.75)
 
-Question:
-- Inrush timer only allows for 1 decimal, do you want 1.7 or 1.8? (asked for 1.75)
-
-MOVE ELLIE'S TABLES
-
-
 Notes on improvements for control cabinets:
 - Power supply difficult to access due to ethernet switch being mounted on left wall and blocking it
 	- Ethernet switch used to be mounted to swing frame, maybe better?
@@ -52,7 +46,6 @@ Notes on improvements for control cabinets:
 - Big concern is technicians putting their heads inside the control cabinets
 	- are shallower control cabinets possible?
 - OSHA standards??? - NEC70 OSHA
-
 
 
 **Punch-list Items:**
