@@ -33,7 +33,7 @@ Protection Settings:
 	- 51G1TD = 1
 
 - GNI
-	- 51 = 600A E SPEED SLOW
+	- ==51 = 600A E SPEED SLOW== - reduce to 180A and inject 300A L-L
 	- ==51N = 30% E SPEED SLOW (180A)== - inject 300A
 	- INRUSH = X5
 	- PHASE INRUSH RESTRAINT TIME ADDER = 1.7 s (asked for 1.75)
