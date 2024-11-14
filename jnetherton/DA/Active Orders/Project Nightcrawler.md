@@ -27,7 +27,6 @@ Settings:
 Questions:
 - 100/5 CT ratio? Should be 500/1
 - No 51G element available...
-- 
 
 
 ---
