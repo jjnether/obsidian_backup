@@ -20,7 +20,6 @@ kanban-plugin: board
 	- Make Amptek Program
 	- Nightcrawler Protection Settings
 	- Meralco Training
-	- Leconte Program
 	- MP auto close changes
 
 
