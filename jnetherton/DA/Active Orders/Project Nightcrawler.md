@@ -21,9 +21,8 @@ TESTING:
 - 50P Maint Mode - .1
 
 Settings:
- 51G01 (0.25-16 x CTR)0.25
-(5A)
- U1, Moderately Inverse0.5
+ 51G01 (0.25-16 x CTR) 0.25 (5A)
+ U1, Moderately Inverse 0.5
 
 Questions:
 - 100/5 CT ratio? Should be 500/1
