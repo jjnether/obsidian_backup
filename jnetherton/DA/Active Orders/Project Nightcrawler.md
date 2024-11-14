@@ -27,6 +27,7 @@ Settings:
 Questions:
 - 100/5 CT ratio? Should be 500/1
 - No 51G element available...
+- 25A pri is the lowest pickup that can be set...
 
 
 ---
