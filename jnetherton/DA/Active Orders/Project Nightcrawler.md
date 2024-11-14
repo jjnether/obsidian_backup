@@ -20,6 +20,16 @@ TESTING:
 - 51P - .2
 - 50P Maint Mode - .1
 
+Settings:
+ 51G01 (0.25-16 x CTR)0.25
+(5A)
+ U1, Moderately Inverse0.5
+
+Questions:
+- 100/5 CT ratio? Should be 500/1
+- No 51G element available...
+
+
 ---
 
 PSV01 := ((R_TRIG ACT01Q AND PLT01) OR (R_TRIG RB03 AND NOT PLT01)) AND PSV10 AND SF6_OK AND NOT PSV18 AND NOT ALT09 OR (PSV01 AND NOT PSV11 AND NOT PCT05Q) # W1 OPEN - LATCHES IN UNTIL SUCCESFUL OR TIMEOUT
