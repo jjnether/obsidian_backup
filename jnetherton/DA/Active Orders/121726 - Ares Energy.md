@@ -27,7 +27,7 @@ subnet (all) - 255.255.254.0
 gateway (all) - 10.31.8.1
 
 Relay IP - 192.168.1.2
-RTAC IP
+RTAC IP (switch 1)
 	port 2, incoming - 192.168.1.101
 	port 1, outgoing - 10.31.8.183
 
