@@ -20,5 +20,9 @@ Protocol Status
 
 Mike
 
-
+Switch 1 - 10.31.8.61 - retrofit on 11-19-24
+Switch 2 - 10.31.8.62
+Switch 3 - 10.31.8.63
+subnet (all) - 255.255.254.0
+gateway (all) - 10.31.8.1
 
