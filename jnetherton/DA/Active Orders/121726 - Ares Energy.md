@@ -1,6 +1,6 @@
 Original - SA# 112388
 
-RTAC - GWELECTRIC/GWLazer!
+RTAC - GWELECTRIC/GWLazer1!
 Moxa - admin/moxa
 - 192.168.127.254
 
@@ -17,6 +17,8 @@ Protocol Status
  - For troubleshooting
  - Go into Modbus TCP traffic
 	 - prove modbus is talking to the Mgate
+
+Mike
 
 
 
