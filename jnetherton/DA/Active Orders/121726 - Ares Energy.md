@@ -18,8 +18,5 @@ Protocol Status
  - Go into Modbus TCP traffic
 	 - prove modbus is talking to the Mgate
 
-12800 Beaumeade Cir  
-Ashburn, VA 20147
-
 
 
