@@ -22,6 +22,7 @@ kanban-plugin: board
 	- Meralco Training
 	- MP auto close changes
 	- MP GWI?
+	- Pantex Switch Updates
 
 
 ## Programming Spec
