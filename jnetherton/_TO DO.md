@@ -21,6 +21,7 @@ kanban-plugin: board
 	- Nightcrawler Protection Settings
 	- Meralco Training
 	- MP auto close changes
+	- MP GWI?
 
 
 ## Programming Spec
