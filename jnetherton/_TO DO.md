@@ -18,7 +18,7 @@ kanban-plugin: board
 - [ ] **General Work**
 	- Make Amptek Program
 	- Meralco Training
-	- MP auto close changes
+	- MP auto close changes program
 	- MP GWI?
 	- Pantex Switch Updates
 	- Ares Energy Switch 2
