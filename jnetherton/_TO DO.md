@@ -16,13 +16,12 @@ kanban-plugin: board
 	- also 108630/108631
 	- edit program for trident and throw in production folder @{2024-12-31}
 - [ ] **General Work**
-	- Humphreys testing
 	- Make Amptek Program
-	- Nightcrawler Protection Settings
 	- Meralco Training
 	- MP auto close changes
 	- MP GWI?
 	- Pantex Switch Updates
+	- Ares Energy Switch 2
 
 
 ## Programming Spec
