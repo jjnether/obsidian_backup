@@ -51,7 +51,7 @@ Y = horizontal bushing (usually load side) (ct is always on this side)
 - When hot line tag is enabled if any phase minimum pick is exceeded all phases will immediately trip. If ground is not block while hot line tag is enabled exceeding the ground minimum pickup will also cause all the phases to trip. Enabling hot line tag automatically puts the control into one shot mode.
 
 **Order Sequence**
-- Business development manager (BDM) (Alex and Tia) provides quote with scope
+- Business development manager provides quote with scope
 - Plan and release and release to production (AE and PE)
 	- Pick date is when order is done
 - Program Spec - due 4 weeks after approval - if it's in ENG or customer approval, we wait - if it's in dating in progress, good to go
