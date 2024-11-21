@@ -76,11 +76,11 @@ kanban-plugin: board
 ## SAT/GWI
 
 - [ ] [[103220 - Baker Electric Leconte]]
-	- Energized SAT@{2024-11-21}
+	- Energized SAT by Tony 11/21@{2024-11-21}
 - [ ] [[121288 - Minnesota Power Co.]]
-	- Sent FAT Report and programs
-	- Awaiting further discussion from customer regarding specific topics
-	- Awaiting commissioning dates
+	- Awaiting decision on adding extra logic for faster auto-closing
+	- Commissioning in March?
+	- Need to make GWI
 	@{2024-10-10}
 
 
