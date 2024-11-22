@@ -23,6 +23,7 @@ kanban-plugin: board
 	- Pantex Switch Updates
 		- Waiting for email response
 	- Ares Energy Switch 2 - waiting to hear it's been wired
+	- omicron training?
 
 
 ## Programming Spec
