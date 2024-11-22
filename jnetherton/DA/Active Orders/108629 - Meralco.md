@@ -87,3 +87,4 @@ MEETING:
 - 50A * (TRIP + SG3 * SV13T)
 - 50B * (TRIP + SG3 * SV13T)
 - 50C * (TRIP + SG3 * SV13T)
+
