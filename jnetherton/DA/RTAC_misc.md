@@ -69,3 +69,10 @@ Function Block - a routine for which a program or calling logic block can have d
 - Function block instances retain any values they use. This makes function blocks unique from functions. For each use of a function block instance, the instance updates values according to inputs and previous results.
 
 Enable FASTOP in relay port settings to allow the use of Remote Bits from the RTAC
+
+PS Boost - connected between PSU and UPS - 40A nominal - can go up to 60A for 5 sec - will reduce charging current to batteries
+- normally charges batteries fast, can pull extra by charging batteries slower
+SGND - ground return for signal
+DC Status - basically AC status
+UPS Alarm - we use it as an equivalent of battery alarm - battery disconnect - ups set into service mode (also disconnects into batteries)
+- if 
