@@ -22,7 +22,7 @@ kanban-plugin: board
 	- MP GWI
 	- Pantex Switch Updates
 		- Waiting for email response
-	- Ares Energy Switch 2
+	- Ares Energy Switch 2 - waiting to hear it's been wired
 
 
 ## Programming Spec
