@@ -70,9 +70,16 @@ Function Block - a routine for which a program or calling logic block can have d
 
 Enable FASTOP in relay port settings to allow the use of Remote Bits from the RTAC
 
+
 PS Boost - connected between PSU and UPS - 40A nominal - can go up to 60A for 5 sec - will reduce charging current to batteries
 - normally charges batteries fast, can pull extra by charging batteries slower
 SGND - ground return for signal
 DC Status - basically AC status
 UPS Alarm - we use it as an equivalent of battery alarm - battery disconnect - ups set into service mode (also disconnects into batteries)
-- if 
+- if under 20%, will throw alarm
+- if you don't have Phenix batteries, state of charge will be blank or it will flash a warning LED
+Enercist - red lids - 16AH usually - we use them with heaters
+Powersonic - blue guys - standard batteries, size ranges (12AH standard, largest is 55AH)
+Phenix - only used Phenix UPS systems
+Below 18V or above 30V - constantly monitoring - Battery management system
+Can handle 125VDC, handles both 120VAC and 240VAC
