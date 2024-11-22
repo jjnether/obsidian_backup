@@ -9,3 +9,8 @@ Relay - A13413539AAW
 MOT - 0487E34248XXC4X1H74141X
 
 R_TRIG PSV10 OR PSV55 OR PCT28Q OR PCT29Q OR PCT31Q
+
+
+
+Walkaway timers - add logic for cancelling timer - both buttons on that way would cancel
+- discuss standard IO later
