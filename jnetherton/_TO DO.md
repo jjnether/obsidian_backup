@@ -16,6 +16,7 @@ kanban-plugin: board
 	- Humphreys Program
 	- Meralco Training
 		- Ask chan questions about agenda
+	- GWI Leconte update
 	- MP auto close changes program
 	- MP GWI
 	- Pantex Switch Updates
