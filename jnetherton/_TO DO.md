@@ -17,6 +17,7 @@ kanban-plugin: board
 	- Humphreys Program
 	- Meralco Training
 		- Ask chan questions about agenda
+	- Default 487 overcurrent program
 	- GWI Leconte update
 	- MP auto close changes program
 	- MP GWI
@@ -24,6 +25,7 @@ kanban-plugin: board
 		- Waiting for email response
 	- Ares Energy Switch 2 - waiting to hear it's been wired
 	- omicron training?
+	- 451 ATC rework
 
 
 ## Programming Spec
