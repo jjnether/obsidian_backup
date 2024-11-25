@@ -13,6 +13,7 @@ kanban-plugin: board
 	- edit program for trident and throw in production folder @{2024-12-31}
 - [ ] **General Work**
 	- Make Amptek Program
+	- Humphreys Program
 	- Meralco Training
 		- Ask chan questions about agenda
 	- MP auto close changes program
