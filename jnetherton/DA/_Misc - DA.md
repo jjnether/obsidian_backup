@@ -24,6 +24,17 @@ LEA PT is typically 10000:1 ratio, but 651 LEA voltage inputs are detected at an
 
 ![Machine generated alternative text: Capacitive voltage divider Cable SEL-651R VY or VZ-terminal voltage input (8 Vac LEA input) ](DA-Misc-image1.png)
 
+Motor boards operating modes:
+- Load Break
+	- 1 - Two Position Enc
+	- 2 - Two Position IF
+	- 3 - Three Position Enc
+	- 4 - Three Position IF
+- Fault Interrupter
+	- 5 - Enc
+	- 6 - IF
+- Fault Interrupter
+
 **SEL terminal commands:**
 (SELboot) `FID` - check SELboot and firmware
 `VER` - check version
