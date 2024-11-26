@@ -12,7 +12,6 @@ R_TRIG PSV10 OR PSV55 OR PCT28Q OR PCT29Q OR PCT31Q
 
 TO DO:
 - FIX ER - TRIP LOGIC
-- open on both contacts, but trip on only protection
 
 
 
