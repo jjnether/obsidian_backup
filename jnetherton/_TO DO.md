@@ -13,7 +13,6 @@ kanban-plugin: board
 	- edit program for trident and throw in production folder @{2024-12-31}
 - [ ] **General Work**
 	- Make Amptek Program
-	- Ares invoice email
 	- Humphreys Program
 	- Meralco Training
 		- Ask chan questions about agenda
@@ -24,6 +23,7 @@ kanban-plugin: board
 	- Pantex Switch Updates
 		- Waiting for email response
 	- Ares Energy Switch 2 - waiting to hear it's been wired
+		- Wait on invoice email until switch 2 is finished
 	- omicron training?
 	- 451 ATC rework
 
