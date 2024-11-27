@@ -15,3 +15,4 @@ WAY 2/3 CT RATIO - 500:1
 PT RATIO - 110.2:1
 
 - Lockout latch only resets remote latch
+- Check all the tripping conditions and torque controls
