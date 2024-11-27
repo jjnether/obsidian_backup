@@ -13,3 +13,5 @@ system voltage = 13321V (inject 120.8V)
 WAY 1/4 CT RATIO - 1000:1
 WAY 2/3 CT RATIO - 500:1
 PT RATIO - 110.2:1
+
+- Lockout latch only resets remote latch
