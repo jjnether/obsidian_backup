@@ -90,7 +90,8 @@ MEETING:
 
 ==VSR???
 Remote events downloading?==
-Add slides for event collection and SER collection?
+Add slides for event collection and SER collection
+	- for laptop to relay and front panel of relay
 
 Training Meeting:
 - Will online training still be 8AM Dec 5 (philippine time)?
@@ -110,6 +111,7 @@ Agenda:
 	- Decoupling of motor (optional)
 	- Installation procedure – before and after inspection
 		- Ask Chan?
+		- How to lift 
 	- Telecoms?
 - Protection Settings
 	- Control and relay navigation
