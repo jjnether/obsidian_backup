@@ -88,11 +88,20 @@ MEETING:
 - 50B * (TRIP + SG3 * SV13T)
 - 50C * (TRIP + SG3 * SV13T)
 
+==VSR???
+Remote events downloading?==
+Add slides for event collection and SER collection?
+
 Training Meeting:
 - Will online training still be 8AM Dec 5 (philippine time)?
 	- Meeting invite?
 	- Chan have everything he needs for this?
 	- Will part of the training be for DSAM to cover, as listed in the agenda?
+- Will in person training also encompass commissioning?
+	- if so, is it energized? Are we following a certain procedure, similar to FAT maybe?
+- PPE?
+	- I was planning to bring hardhat/steel toes/safety glasses. Do I need FR shirt/pants?
+- 
 
 Agenda:
 - Switchgear hands-on operation
@@ -110,5 +119,7 @@ Agenda:
 - Testing
 	- Visual inspection
 	- Electrical tests
+		- Ask Chan?
 	- Relay testing
+		- Testing following FAT procedure? Or something else?
 	- SCADA testing
