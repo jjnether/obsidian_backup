@@ -110,8 +110,9 @@ Agenda:
 	- Operation (switching)
 	- Decoupling of motor (optional)
 	- Installation procedure – before and after inspection
-		- Ask Chan?
-		- How to lift 
+		- How to lift switch properly with lifting point
+		- CT installation
+		- How to install elbow properly - leave to elbow manufacturer
 	- Telecoms?
 - Protection Settings
 	- Control and relay navigation
@@ -121,7 +122,12 @@ Agenda:
 - Testing
 	- Visual inspection
 	- Electrical tests
-		- Ask Chan?
+		- Hi-pot
+			- 36kV L-L
+		- Current Resistance
+			- 
+		- Fault simulation
+		- Primary injection also
 	- Relay testing
 		- Testing following FAT procedure? Or something else?
 	- SCADA testing
