@@ -88,3 +88,27 @@ MEETING:
 - 50B * (TRIP + SG3 * SV13T)
 - 50C * (TRIP + SG3 * SV13T)
 
+Training Meeting:
+- Will online training still be 8AM Dec 5 (philippine time)?
+	- Meeting invite?
+	- Chan have everything he needs for this?
+	- Will part of the training be for DSAM to cover, as listed in the agenda?
+
+Agenda:
+- Switchgear hands-on operation
+	- Visual and labels inspection
+	- Operation (switching)
+	- Decoupling of motor (optional)
+	- Installation procedure – before and after inspection
+		- Ask Chan?
+	- Telecoms?
+- Protection Settings
+	- Control and relay navigation
+	- Updating of relay settings (manually and thru laptop)
+	- TCC Curves
+	- Downloading of events
+- Testing
+	- Visual inspection
+	- Electrical tests
+	- Relay testing
+	- SCADA testing
