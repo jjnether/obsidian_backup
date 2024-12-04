@@ -20,7 +20,7 @@ kanban-plugin: board
 	- MP auto close changes program
 	- MP GWI
 	- Pantex Switch Updates
-		- Waiting for email response
+		- FAT in January
 	- Ares Energy Switch 2 - waiting to hear it's been wired
 		- Wait on invoice email until switch 2 is finished
 	- omicron training?
