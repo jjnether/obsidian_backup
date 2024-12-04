@@ -131,3 +131,7 @@ Agenda:
 	- Relay testing
 		- Testing following FAT procedure? Or something else?
 	- SCADA testing
+
+concierge.manila@marriott.com
+reservationsmanila@marriott.com
+Aram
