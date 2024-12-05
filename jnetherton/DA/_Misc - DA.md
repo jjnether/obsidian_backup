@@ -242,5 +242,5 @@ Default Control Temp settings:
 - Hygrostat - 10C / 65%RH
 
 
-450 - INJECT 600 - 5.08s
-180 - inject 250 - 4.27s
+225 - INJECT 300 - 5.08s
+90 - inject 125 - 4.27s
