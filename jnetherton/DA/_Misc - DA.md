@@ -240,3 +240,7 @@ ABC - ACB sequences
 Default Control Temp settings:
 - Thermostat - 90F
 - Hygrostat - 10C / 65%RH
+
+
+450 - INJECT 600 - 5.08s
+180 - inject 250 - 4.27s
