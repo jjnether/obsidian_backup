@@ -237,6 +237,6 @@ ABC - ACB sequences
 ![[Pasted image 20241008143139.png|400]]
 
 ---
-Default Temp settings:
+Default Control Temp settings:
 - Thermostat - 90F
 - Hygrostat - 10C / 65%RH
