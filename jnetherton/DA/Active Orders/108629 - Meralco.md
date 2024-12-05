@@ -110,7 +110,8 @@ Agenda:
 	- Decoupling of motor (optional)
 	- Installation procedure – before and after inspection
 		- How to lift switch properly with lifting point
-		- CT installation
+			- balanced
+		- CT installation - CT is already attached
 		- How to install elbow properly - leave to elbow manufacturer
 - Testing
 	- Visual inspection
