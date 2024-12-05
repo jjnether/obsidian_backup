@@ -105,6 +105,15 @@ Training Meeting:
 - 
 
 Agenda:
+- Technical Discussion
+	- Meralco Applications of RC switchgear
+	- Roles and responsibilities
+	- Introduction to RC switchgear
+	- Components
+	- Installation Procedure
+	- Operation
+	- Maintenance activities
+	- Q&A
 - Switchgear hands-on operation
 	- Visual and labels inspection
 	- Operation (switching)
@@ -113,12 +122,6 @@ Agenda:
 		- How to lift switch properly with lifting point
 		- CT installation
 		- How to install elbow properly - leave to elbow manufacturer
-	- Telecoms?
-- Protection Settings
-	- Control and relay navigation
-	- Updating of relay settings (manually and thru laptop)
-	- TCC Curves
-	- Downloading of events
 - Testing
 	- Visual inspection
 	- Electrical tests
@@ -131,6 +134,13 @@ Agenda:
 	- Relay testing
 		- Testing following FAT procedure? Or something else?
 	- SCADA testing
+- Protection Settings
+	- Control and relay navigation
+	- Updating of relay settings (manually and thru laptop)
+	- TCC Curves
+	- Downloading of events
+
+
 
 concierge.manila@marriott.com
 reservationsmanila@marriott.com
