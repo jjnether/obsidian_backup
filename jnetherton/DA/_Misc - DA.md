@@ -242,5 +242,5 @@ Default Control Temp settings:
 - Hygrostat - 10C / 65%RH
 
 
-225 - INJECT 300 - 5.08s
-90 - inject 125 - 4.27s
+51P U3 - pickup 225 - inject 300 - 5.08s
+pickup 90 - inject 125 - 4.27s
