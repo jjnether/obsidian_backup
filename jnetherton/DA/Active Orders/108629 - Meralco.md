@@ -113,13 +113,14 @@ Agenda:
 			- balanced
 		- CT installation - CT is already attached
 		- How to install elbow properly - leave to elbow manufacturer
+		- high pot for switch then separate high pot for elbows
 - Testing
 	- Visual inspection
 	- Electrical tests
 		- Hi-pot
-			- 36kV L-L
+			- 50kV for one min with PT primary disconnected
 		- Current Resistance
-			- 
+			- Circuit resistance measurements should be less than 500 micro-ohms between adjacent ways, and there should not be a variance of more than 100 micro-ohms between phases on the same way.
 		- Fault simulation
 		- Primary injection also
 	- Relay testing
