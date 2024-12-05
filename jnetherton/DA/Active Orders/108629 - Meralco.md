@@ -131,7 +131,8 @@ Agenda:
 	- Downloading of events
 
 Chan Questions:
-- highlights on slide 11?
+- highlights on 11?
+- red rectangle on 25?
 
 concierge.manila@marriott.com
 reservationsmanila@marriott.com
