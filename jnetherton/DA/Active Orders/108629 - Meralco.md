@@ -93,16 +93,6 @@ Remote events downloading?==
 Add slides for event collection and SER collection
 	- for laptop to relay and front panel of relay
 
-Training Meeting:
-- Will online training still be 8AM Dec 5 (philippine time)?
-	- Meeting invite?
-	- Chan have everything he needs for this?
-	- Will part of the training be for DSAM to cover, as listed in the agenda?
-- Will in person training also encompass commissioning?
-	- if so, is it energized? Are we following a certain procedure, similar to FAT maybe?
-- PPE?
-	- I was planning to bring hardhat/steel toes/safety glasses. Do I need FR shirt/pants?
-- 
 
 Agenda:
 - Technical Discussion
@@ -140,7 +130,8 @@ Agenda:
 	- TCC Curves
 	- Downloading of events
 
-
+Chan Questions:
+- highlights on slide 11?
 
 concierge.manila@marriott.com
 reservationsmanila@marriott.com
