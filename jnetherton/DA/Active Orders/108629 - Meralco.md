@@ -133,8 +133,11 @@ Agenda:
 Chan Questions:
 - highlights on 11?
 - details on 13?
-- SF6 
+- SF6 GWI's - I assume they just instruct how to degass, fill switch and operation?
+- phasing test pins on 27 - gwi? what's the ratio?
 - red rectangle on 25?
+- what is trip free on 31?
+- Manual operation - it looks like the stick that goes in the hole?
 
 concierge.manila@marriott.com
 reservationsmanila@marriott.com
