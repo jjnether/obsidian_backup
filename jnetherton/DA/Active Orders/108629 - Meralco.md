@@ -132,6 +132,8 @@ Agenda:
 
 Chan Questions:
 - highlights on 11?
+- details on 13?
+- SF6 
 - red rectangle on 25?
 
 concierge.manila@marriott.com
