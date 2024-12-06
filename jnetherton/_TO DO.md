@@ -12,9 +12,8 @@ kanban-plugin: board
 	- also 108630/108631
 	- edit program for trident and throw in production folder @{2024-12-31}
 - [ ] **General Work**
-	- Humphreys Program
+	- Ft Meade Program
 	- Meralco Training
-		- Ask chan questions about agenda
 	- Default 487 overcurrent program
 	- GWI Leconte update
 	- MP auto close changes program
