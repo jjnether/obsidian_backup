@@ -248,4 +248,7 @@ Default Control Temp settings:
 51G U3 - pickup 90A, TD = 1
 - inject 125 - trip in ~4.27s
 
-51
+51P U4 - pickup 540, TD = 1.34
+- inject 1080 - trip in ~2.58s
+51G U4 - pickup 100, TD = 0.68
+- inject 200 - trip in ~1.31s
