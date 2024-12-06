@@ -58,13 +58,13 @@ kanban-plugin: board
 
 ## SAT/GWI
 
-- [ ] [[103220 - Baker Electric Leconte]]
-	- Energized SAT by Tony 11/21@{2024-11-21}
 - [ ] [[121288 - Minnesota Power Co.]]
 	- Awaiting decision on adding extra logic for faster auto-closing
 	- Commissioning in March?
 	- Need to make GWI
 	@{2024-10-10}
+- [ ] [[114822 - Camp Humphreys]]
+	- SAT - early March?
 
 
 

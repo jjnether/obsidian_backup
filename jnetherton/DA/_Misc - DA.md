@@ -242,13 +242,3 @@ Default Control Temp settings:
 - Hygrostat - 10C / 65%RH
 
 
-51P U3 - pickup 225A, TD = 1
-- inject 300 - trip in ~5.08s
-- inrush x5 1s
-51G U3 - pickup 90A, TD = 1
-- inject 125 - trip in ~4.27s
-
-51P U4 - pickup 540, TD = 1.34
-- inject 1080 - trip in ~2.58s
-51G U4 - pickup 100, TD = 0.68
-- inject 200 - trip in ~1.31s
