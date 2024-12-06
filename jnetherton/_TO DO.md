@@ -49,8 +49,6 @@ kanban-plugin: board
 	- CNS: 100875 (4 switches), 106174 (1 switch)
 	- Burns and Mac: 108057 (1 switch)
 		- RMA - be on standby for testing@{2024-10-15}
-- [ ] [[107747 - Ft Meade Visitor Center]]
-	- 1 day FAT and testing @{2024-12-06}
 - [ ] [[110307 - Fort Meade]] @{2024-12-06}
 - [ ] [[110306 - Fort Meade UR]]
 	- Shouldn't need anything from DA @{2024-12-31}
