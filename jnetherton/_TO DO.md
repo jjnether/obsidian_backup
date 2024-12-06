@@ -53,8 +53,7 @@ kanban-plugin: board
 	- 1 day FAT and testing @{2024-12-06}
 - [ ] [[110307 - Fort Meade]] @{2024-12-06}
 - [ ] [[110306 - Fort Meade UR]]
-	- Shouldn't need anything from DA
-	- Pick Date - 12/31 @{2024-12-31}
+	- Shouldn't need anything from DA @{2024-12-31}
 
 
 ## SAT/GWI
