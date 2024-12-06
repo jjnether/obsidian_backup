@@ -24,3 +24,12 @@ PT RATIO - 110.2:1
 - inject 1080 - trip in ~2.58s
 51G U4 - pickup 100, TD = 0.68
 - inject 200 - trip in ~1.31s
+
+WAY 1 - 192.168.101.225
+WAY 4 - 192.168.101.226
+
+
+172.26.1.160
+
+
+ADD DISPLAY POINTS FOR W2/W3 POSITIONS?
