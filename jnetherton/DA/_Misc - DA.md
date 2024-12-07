@@ -37,11 +37,15 @@ Motor boards operating modes:
 
 **SEL terminal commands:**
 (SELboot) `FID` - check SELboot and firmware
+`ID`
 `VER` - check version
 `STA` - check relay status
 `STA S` - check execution capacity
-`MET` - see all status
+`MET` - see all metering statuses
 `TAR <wordbit>` - see bit status
+`HIS` - event history
+`SHO <shortcut>` - shows corresponding settings
+
 
 **For 651:**
 `CON <#>` - connect to remote bit
@@ -240,5 +244,3 @@ ABC - ACB sequences
 Default Control Temp settings:
 - Thermostat - 90F
 - Hygrostat - 10C / 65%RH
-
-
