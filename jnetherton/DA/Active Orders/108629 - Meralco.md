@@ -88,11 +88,6 @@ MEETING:
 - 50B * (TRIP + SG3 * SV13T)
 - 50C * (TRIP + SG3 * SV13T)
 
-==VSR???
-Remote events downloading?==
-Add slides for event collection and SER collection
-	- for laptop to relay and front panel of relay
-
 
 Agenda:
 - Technical Discussion
@@ -131,17 +126,6 @@ Agenda:
 	- Updating of relay settings (manually and thru laptop)
 	- TCC Curves
 	- Downloading of events
-
-Chan Questions:
-- highlights on 11? - test PT at only nominal
-- details on 13?
-- SF6 GWI's - I assume they just instruct how to degass, fill switch and operation?
-- phasing test pins on 27 - gwi? what's the ratio?
-	- we can supply sf6 or they can supply themselves (refill kits)
-- red rectangle on 25?
-- what is trip free on 31?
-	- just means the handle doesn't move if it trips - mainly safety so handle doesn't wack anyone
-- Manual operation - it looks like the stick that goes in the hole?
 
 concierge.manila@marriott.com
 reservationsmanila@marriott.com
