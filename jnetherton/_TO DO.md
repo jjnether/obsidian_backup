@@ -13,9 +13,7 @@ kanban-plugin: board
 	- edit program for trident and throw in production folder @{2024-12-31}
 - [ ] **General Work**
 	- Ft Meade Program
-	- Meralco Training
 	- Default 487 overcurrent program
-	- GWI Leconte update
 	- MP auto close changes program
 	- MP GWI
 	- Pantex Switch Updates
