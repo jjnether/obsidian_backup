@@ -127,6 +127,10 @@ Agenda:
 	- TCC Curves
 	- Downloading of events
 
-concierge.manila@marriott.com
-reservationsmanila@marriott.com
-Aram
+CHANGES
+- HALARM - 451 - changed to normal state 0
+- 700G TLED's for OC - assert even when no trip
+
+
+LT08 through LT13 - 700G - not used?
+
