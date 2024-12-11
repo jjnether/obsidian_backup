@@ -136,6 +136,7 @@ LT08 through LT13 - 700G - not used?
 UPDATE DNP EXCEL MAP - SCALING
 only have CB01 or CB04 active at a time, not both
 send steps for hi-pot from factory
+ASV124/125 - S1/S2 BLOCK - NOTHING WIRED TO IN201/IN202 - SHOULD REMOVE FROM DNP MAP (BI_14/23)
 
 - Jomel
 - Ma'am M
