@@ -135,6 +135,7 @@ CHANGES
 LT08 through LT13 - 700G - not used?
 UPDATE DNP EXCEL MAP - SCALING
 only have CB01 or CB04 active at a time, not both
+send steps for hi-pot from factory
 
 - Jomel
 - Ma'am M
