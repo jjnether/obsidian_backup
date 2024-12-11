@@ -218,7 +218,55 @@ This logic will apply to any device that auto closes.
 `SV02PU := 5 cycles`
 - Can this be lowered?  It is here to try and account for variation in upstream mechanism not opening all phases/extinguishing the Arc at the same time, but has to be short enough to not be over ridden by a three phase trip operation
 ---
+Internal CT Ratings:
+- 1000:1 CT 
+    
 
+- The burden of the CT is 12.5VA 
+    
+
+- Meets accuracy requirements of IEEE to C50 
+    
+
+- Meets accuracy requirements of IEC to 5P10 
+    
+
+- 500:1 CT 
+    
+
+- The burden of the CT is 5VA 
+    
+
+- Meets accuracy requirements of IEEE to C20 
+    
+
+- Meets accuracy requirements of IEC to 5P10 
+    
+
+- 400:1 CT 
+    
+
+- The burden of the CT is 2.5VA 
+    
+
+- Meets accuracy requirements of IEEE to C10 
+    
+
+- Meets accuracy requirements of IEC to 2P10  
+    
+
+- 200:1 CT 
+    
+
+- The burden of the CT is 1.25VA 
+    
+
+- Meets accuracy requirements of IEEE to C5 
+    
+
+- Meets accuracy requirements of IEC to 2P10
+
+---
 - If 651 is powered but doesn't seem to be turning on, hit `TARGET RESET` and it should wake from sleep
 
 POTT = Permissive overreach transfer trip
