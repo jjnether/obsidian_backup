@@ -87,6 +87,7 @@ Y = horizontal bushing (usually load side) (ct is always on this side)
 Must enable Telnet in the port setting to communicate with a relay through ethernet
 
 RTDS - real time digital simulation
+LPWD pickup at different levels depending on device, but all dropout at 5 PSI
 
 Poor Man's Latch:
 -   SVXX := {SET CONDITIONS} OR {SVXX} AND NOT {RESET CONDITIONS}
