@@ -140,6 +140,7 @@ ASV124/125 - S1/S2 BLOCK - NOTHING WIRED TO IN201/IN202 - SHOULD REMOVE FROM DNP
 ASV122/123 - S1/S2 FCI - NOT USED (IN215/IN216)
 700GW - left labels need to be blank
 wrong column for nameplate kA ratings?
+Check on how they should handle bushings during hi-pot?
 
 - Jomel
 - Ma'am M
