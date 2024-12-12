@@ -143,7 +143,6 @@ wrong column for nameplate kA ratings?
 Check on how they should handle bushings during hi-pot?
 Setup for capacitive voltage was S1 closed and S2 closed, then they opened S2 (it's now floating) - he shocked himself on floating S2
 - They try to ground the tbody, but then they can't remove it - they also can't isolate the switch
-- How would we handle T1/T2 because it's always 2 position?
 
 - Jomel
 - Ma'am M

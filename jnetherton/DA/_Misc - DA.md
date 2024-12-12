@@ -89,6 +89,8 @@ Must enable Telnet in the port setting to communicate with a relay through ether
 RTDS - real time digital simulation
 LPWD pickup at different levels depending on device, but all dropout at 5 PSI
 
+Durham enclosure - no IP rating because only 5 sides - rating akin to NEMA 3R
+
 Poor Man's Latch:
 -   SVXX := {SET CONDITIONS} OR {SVXX} AND NOT {RESET CONDITIONS}
 
