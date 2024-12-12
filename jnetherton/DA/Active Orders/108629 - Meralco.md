@@ -143,8 +143,10 @@ wrong column for nameplate kA ratings?
 Check on how they should handle bushings during hi-pot?
 Setup for capacitive voltage was S1 closed and S2 closed, then they opened S2 (it's now floating) - he shocked himself on floating S2
 - They try to ground the tbody, but then they can't remove it - they also can't isolate the switch
-700 FIRMWARE UPDATE?
+700 FIRMWARE UPDATE? - 4 units?
 Send instruction manuals for 451 and 700G
+
+
 
 - Jomel
 - Ma'am M
@@ -153,6 +155,10 @@ Send instruction manuals for 451 and 700G
 - Jason - SCADA guy
 - Riko - not our guy
 - Barry - our guy
+- Sta. Rosa SA team
+	- Angeline
+	- Conrad
+	- Jane
 
 PROTECTION
 - 50 DISABLED
