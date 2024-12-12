@@ -138,16 +138,20 @@ only have CB01 or CB04 active at a time, not both
 send steps for hi-pot from factory
 ASV124/125 - S1/S2 BLOCK - NOTHING WIRED TO IN201/IN202 - SHOULD REMOVE FROM DNP MAP (BI_14/23)
 ASV122/123 - S1/S2 FCI - NOT USED (IN215/IN216)
+700GW - left labels need to be blank
+wrong column for nameplate kA ratings?
 
 - Jomel
 - Ma'am M
 - Migs
-- J.L.
-- JASON
+- J.L. - Quickset guy
+- Jason - SCADA guy
+- Riko - not our guy
+- Barry - our guy
 
 PROTECTION
 - 50 DISABLED
 - FIRST 51G - 100/U3/.5 - INJECT 160
 - 51P - DISABLE G - 200/U3/.5 - INJECT 250
 - SWITCH - SAME AS ABOVE
-- LDP 
+- LDP?
