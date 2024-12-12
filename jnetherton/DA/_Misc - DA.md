@@ -257,7 +257,7 @@ PSU - B54020023000
 
 ---
 ABC - ACB sequences
-![[Pasted image 20241008143139.png|400]]
+![[Pasted image 20241008143139.png|600]]
 
 ---
 Default Control Temp settings:
