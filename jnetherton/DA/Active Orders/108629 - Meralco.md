@@ -145,7 +145,7 @@ Setup for capacitive voltage was S1 closed and S2 closed, then they opened S2 (i
 - They try to ground the tbody, but then they can't remove it - they also can't isolate the switch
 700 FIRMWARE UPDATE? - 4 units?
 Send instruction manuals for 451 and 700G
-
+when batt test is running, if AC is lost, can it still switch to batteries?
 
 
 - Jomel
