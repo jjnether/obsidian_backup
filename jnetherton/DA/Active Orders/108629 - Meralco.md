@@ -166,3 +166,13 @@ PROTECTION
 - 51P - DISABLE G - 200/U3/.5 - INJECT 250
 - SWITCH - SAME AS ABOVE
 - LDP?
+
+
+
+Questions for next iteration?
+- Are external CT's still needed?
+	- only for PNI 42/32, everything else is GNI and they have internals
+	- Is there a metering need?
+- Can we move fault indication to the 700 and change the labels to T1, T2.... instead of S1, S2....
+
+powercontrols@att.net
