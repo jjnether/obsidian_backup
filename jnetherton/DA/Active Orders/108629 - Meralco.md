@@ -178,4 +178,4 @@ Questions for next iteration?
 powercontrols@att.net
 
 
-email tom, lillian, and rep for questions
+email tom, lillian, Gil, and rep for questions
