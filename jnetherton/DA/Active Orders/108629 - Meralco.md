@@ -176,6 +176,3 @@ Questions for next iteration?
 - Can we move fault indication to the 700 and change the labels to T1, T2.... instead of S1, S2....
 
 powercontrols@att.net
-
-
-email tom, lillian, Gil, and rep for questions
