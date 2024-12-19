@@ -45,6 +45,7 @@ Motor boards operating modes:
 `TAR <wordbit>` - see bit status
 `HIS` - event history
 `SHO <shortcut>` - shows corresponding settings
+`R_S` - factory reset
 
 
 **For 651:**
