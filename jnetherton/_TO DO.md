@@ -48,8 +48,6 @@ kanban-plugin: board
 	- Burns and Mac: 108057 (1 switch)
 		- RMA - be on standby for testing@{2024-10-15}
 - [ ] [[110307 - Fort Meade]] @{2024-12-06}
-- [ ] [[110306 - Fort Meade UR]]
-	- Shouldn't need anything from DA @{2024-12-31}
 
 
 ## SAT/GWI
