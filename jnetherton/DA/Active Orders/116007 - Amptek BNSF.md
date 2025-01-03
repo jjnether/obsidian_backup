@@ -21,3 +21,5 @@ Walkaway timers - add logic for cancelling timer - both buttons on that way woul
 
 interposing relay
 1 alarm - anything on target LED
+
+week of the 27th looks for promising for AMS commissioning
