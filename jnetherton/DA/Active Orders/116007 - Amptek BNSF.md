@@ -20,3 +20,4 @@ Walkaway timers - add logic for cancelling timer - both buttons on that way woul
 - discuss standard IO later
 
 interposing relay
+1 alarm - anything on target LED
