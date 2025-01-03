@@ -204,6 +204,7 @@ PW: `admin`
 Default SEL Relay Port 5 IP: `192.168.1.2`
 Default FTP User: `2AC` (or `FTPUSER`)
 FTP Password: `TAIL`
+**NOTE**: FTP connection requires Telnet to be active
 
 
 Additional Non Communicating Logic To Help Prevent Closing Into A Fault.  It will not preventing closing into all faults (3 phases faults will have to be closed into).
