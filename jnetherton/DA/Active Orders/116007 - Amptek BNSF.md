@@ -25,7 +25,7 @@ interposing relay
 week of the 27th looks for promising for AMS commissioning
 
 Overcurrent:
-50P - 4 A (inject 4.1 A)
+50P - 4 A (inject 4.1 A balanced)
 50G - 2 A (inject 2.1 A)
-51P - .5 A (inject 1 A) - 1.93 s
+51P - .5 A (inject 1 A balanced) - 1.93 s
 51G - .25 A (inject .5 A) - 1.93 s
