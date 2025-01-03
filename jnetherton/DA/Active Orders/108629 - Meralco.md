@@ -175,4 +175,5 @@ Questions for next iteration?
 	- Is there a metering need?
 - Can we move fault indication to the 700 and change the labels to T1, T2.... instead of S1, S2....
 
-powercontrols@att.net
+slot being reduced length by 1/4" and diameter going from .75" to .687"
+
