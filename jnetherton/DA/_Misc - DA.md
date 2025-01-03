@@ -202,7 +202,7 @@ Username: `admin`
 PW: `admin`
 
 Default SEL Relay Port 5 IP: `192.168.1.2`
-Default FTP User: `2AC` (or `FTPUSER`)
+Default FTP User: `2AC`
 FTP Password: `TAIL`
 **NOTE**: FTP connection requires Telnet to be active
 

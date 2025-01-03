@@ -18,3 +18,5 @@ TO DO:
 
 Walkaway timers - add logic for cancelling timer - both buttons on that way would cancel
 - discuss standard IO later
+
+interposing relay
