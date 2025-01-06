@@ -3,4 +3,4 @@ Number in pair - number 1 in pair will be fed from lower number or letter (MSG-1
 OFCI - owner furnished contractor installed
 There will be some changes in compares
 - check for protection set point changes
-Site 
+Site should provide IP's for RTAC and modbus servers
