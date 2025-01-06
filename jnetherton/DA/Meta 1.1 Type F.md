@@ -1,0 +1,1 @@
+Number in pair - number 1 in pair will be fed from lower number or letter (MSG-1 vs MSG-2) - other switch will be number 2
