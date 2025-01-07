@@ -16,6 +16,7 @@ kanban-plugin: board
 	- Default 487 overcurrent program
 	- MP auto close changes program
 	- MP GWI
+	- Amptek GWI
 	- Pantex Switch Updates
 		- FAT in January
 	- Ares Energy Switch 2 - waiting to hear it's been wired
