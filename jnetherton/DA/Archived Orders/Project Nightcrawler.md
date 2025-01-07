@@ -123,3 +123,6 @@ Inrush:
 	- removed:
 - PCT28Q - ENERGIZATION OF MVS BUS THRU W2 - BLOCK TRIPPING ON ALL VFI WAYS
 - 52CLS - Way 2 closed
+
+
+3 kV off??
