@@ -12,7 +12,6 @@ kanban-plugin: board
 	- also 108630/108631
 	- edit program for trident and throw in production folder @{2024-12-31}
 - [ ] **General Work**
-	- Reply to Hilcorp Email
 	- Default 487 overcurrent program
 	- MP auto close changes program
 	- MP GWI
