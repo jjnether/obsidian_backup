@@ -31,28 +31,21 @@ kanban-plugin: board
 
 ## Programming
 
-- [ ] [[116007 - Amptek BNSF]]
-	- Pick Date - 11/01
-	- Ship Date - 12/06
-	- There is an FAT
-	@{2024-12-02}
 
 
 ## FAT
 
 - [ ] [[111587 - Pantex]] (Ryan Sales)
-	- Pick Date - 
-	- Press for modules starting 10/24
-	- Production programs in folders
-	- POD - 100875 , 106174
-	- CNS: 100875 (4 switches), 106174 (1 switch)
-	- Burns and Mac: 108057 (1 switch)
-		- RMA - be on standby for testing@{2024-10-15}
-- [ ] [[110307 - Fort Meade]] @{2024-12-06}
+	- FAT pushed back from Jan? @{2025-01-09}
+- [ ] [[110307 - Fort Meade]]
+	- FAT tentative @{2025-01-21}
 
 
 ## SAT/GWI
 
+- [ ] [[116007 - Amptek BNSF]]
+	- SAT handled by AMS
+	@{2024-12-02}
 - [ ] [[121288 - Minnesota Power Co.]]
 	- Awaiting decision on adding extra logic for faster auto-closing
 	- Commissioning in March?
