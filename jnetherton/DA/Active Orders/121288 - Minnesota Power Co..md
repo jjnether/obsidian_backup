@@ -168,3 +168,5 @@ Because we're not closing to backfeed substations, devices on the end could open
 Maybe add a condition where open due to LOV on these devices takes it out of auto.
 
 6 remaining reclosers
+
+step through examples first
