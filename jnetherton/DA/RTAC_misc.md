@@ -69,3 +69,6 @@ Function Block - a routine for which a program or calling logic block can have d
 - Function block instances retain any values they use. This makes function blocks unique from functions. For each use of a function block instance, the instance updates values according to inputs and previous results.
 
 Enable FASTOP in relay port settings to allow the use of Remote Bits from the RTAC
+
+Event collection in the RTAC can hang things up
+- you should always have it disabled at startup so it doesn't pull events every startup
