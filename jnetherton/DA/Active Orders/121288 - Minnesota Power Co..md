@@ -172,3 +172,7 @@ Maybe add a condition where open due to LOV on these devices takes it out of aut
 day 1 for relay engineers and test setup
 
 step through examples first
+
+send over auto-close logic
+specs and pictures of primary cables
+mock up wiring diagram for SAT
