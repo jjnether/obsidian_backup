@@ -177,8 +177,8 @@ SAT
 - day 1 for relay engineers and test setup
 - step through examples before actual testing
 
-SET26 = R_TRIG SV64T # OPENED DUE TO LOV FOR AUTO CLOSE - SHORT - without seeing current
-RST26 = R_TRIG SV54T # AUTO CLOSED - SHORT - closed and no auto
+SET26 = SV64T AND NOT (51P OR 51G1) # OPENED DUE TO LOV FOR AUTO CLOSE - SHORT - without seeing current
+RST26 = 52A3P AND NOT LT32 # AUTO CLOSED - SHORT - closed and no auto
 
 SV54 = LT32 AND ((LT31 AND LT28) OR (LT30 AND LT29 AND MV24 = 1.00)) AND NOT 52A3P AND NOT 79CY3P AND MV25 = 1.00 AND LT26 # LS AUTO CLOSE - SHORT
 
