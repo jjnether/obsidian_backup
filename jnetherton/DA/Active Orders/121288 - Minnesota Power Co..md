@@ -165,7 +165,7 @@ R_TRIG SV22T AND MV17 <> 0.00 OR R_TRIG SV04T OR R_TRIG SV40T OR SV23 OR SV25 OR
 	- They will be printing their own labels, we just need to send them the label file
 
 Added a condition where open due to LOV on end devices with back-feeding disabled takes it out of auto.
-- ADD TO END OF RST32 -  OR (SV64T AND MV24 = 0) 
+- ADD TO END OF RST32 -  OR (SV64T AND MV24 = 0 AND NOT 52A3P) 
 
 
 send over auto-close logic
