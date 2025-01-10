@@ -169,4 +169,6 @@ Maybe add a condition where open due to LOV on these devices takes it out of aut
 
 6 remaining reclosers
 
+day 1 for relay engineers and test setup
+
 step through examples first
