@@ -9,3 +9,7 @@ Send port 5 settings to enable telnet/FTP, then push file using FTP
 - push final port 5 settings with serial at the end?
 
 - Check that feeding breakers and PT names are correct in HMI (labels should be on switch itself)
+- Test PT alarms (5) - Normally open - need to jumper to test
+timers should be correct values due to relay settings
+verify RCF's
+Make sure switch 2 is preferred open point
