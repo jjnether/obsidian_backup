@@ -146,7 +146,7 @@ R_TRIG SV22T AND MV17 <> 0.00 OR R_TRIG SV04T OR R_TRIG SV40T OR SV23 OR SV25 OR
 
 
 - Hot line tag functionality
-	- change the logic so HLT trips to lockout upon current exceeding pickup level
+	- changed the logic so HLT trips to lockout upon current exceeding pickup level
 
 - Shortened auto-close times
 	- Follow up with them with customized logic regarding this, and what pros/cons might be
@@ -155,23 +155,24 @@ R_TRIG SV22T AND MV17 <> 0.00 OR R_TRIG SV04T OR R_TRIG SV40T OR SV23 OR SV25 OR
 	- Don't close to backfeed substations
 
 - Fast Curve and alt settings
-	- Hardcode to always disabled
+	- Hardcoded to always disabled
 	- Remove from label
 
 - Possible switch mode
 	- not needed - they are putting some reclosers up without controls initially
 
 - Updated SEL-651 faceplate on existing orders
-	- either ship to them or bring with us when commissioning
+	- They will be printing their own labels, we just need to send them the label file
 
 Added a condition where open due to LOV on end devices with back-feeding disabled takes it out of auto.
+- ADD TO END OF RST32 -  OR (SV64T AND MV24 = 0) 
 
-6 remaining reclosers
-
-day 1 for relay engineers and test setup
-
-step through examples first
 
 send over auto-close logic
 specs and pictures of primary cables
 mock up wiring diagram for SAT
+
+SAT
+- 6 reclosers
+- day 1 for relay engineers and test setup
+- step through examples before actual testing
