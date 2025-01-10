@@ -164,4 +164,5 @@ R_TRIG SV22T AND MV17 <> 0.00 OR R_TRIG SV04T OR R_TRIG SV40T OR SV23 OR SV25 OR
 - Updated SEL-651 faceplate on existing orders
 	- either ship to them or bring with us when commissioning
 
-Because we're not closing to backfeed substations, devices on the end could open and stay opened in auto. Maybe add a condition where open due to LOV on these devices takes it out of auto.
+Because we're not closing to backfeed substations, devices on the end could open and stay opened in auto.
+Maybe add a condition where open due to LOV on these devices takes it out of auto.
