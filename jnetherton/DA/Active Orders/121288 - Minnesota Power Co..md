@@ -165,7 +165,9 @@ R_TRIG SV22T AND MV17 <> 0.00 OR R_TRIG SV04T OR R_TRIG SV40T OR SV23 OR SV25 OR
 	- They will be printing their own labels, we just need to send them the label file
 
 Added a condition where open due to LOV on end devices with back-feeding disabled takes it out of auto.
-- ADD TO END OF RST32 -  OR (SV64T AND MV24 = 0 AND NOT 52A3P) 
+- Keeping it on ties as well, even though there may be edge cases where we would want to restore, but it won't be in auto
+	- Doing this to air on the side of safety and consistency across devices
+- ADD TO END OF RST32 -  OR (SV64T AND MV24 = 0 AND NOT 52A3P)
 
 
 send over auto-close logic
@@ -177,8 +179,8 @@ SAT
 - day 1 for relay engineers and test setup
 - step through examples before actual testing
 
-SET26 = SV64T AND NOT (51P OR 51G1) # OPENED DUE TO LOV FOR AUTO CLOSE - SHORT - without seeing current
-RST26 = 52A3P AND NOT LT32 # AUTO CLOSED - SHORT - closed and no auto
+SET26 = SV64T AND NOT (51P OR 51G1) # OPENED DUE TO LOV FOR AUTO CLOSE - SHORT
+RST26 = 52A3P AND NOT LT32
 
 SV54 = LT32 AND ((LT31 AND LT28) OR (LT30 AND LT29 AND MV24 = 1.00)) AND NOT 52A3P AND NOT 79CY3P AND MV25 = 1.00 AND LT26 # LS AUTO CLOSE - SHORT
 
