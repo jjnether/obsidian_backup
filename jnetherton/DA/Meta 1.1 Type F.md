@@ -24,3 +24,10 @@ Make sure switch 2 is preferred open point
 7. change port 5 back to normal (through template)
 
 A03
+
+VS-1 - LOW PRESSURE
+PS-1 - HIGH PRESSURE
+LL-1 - LOW OIL
+LT-1
+- HIGH TEMP
+- RAPID RISE
