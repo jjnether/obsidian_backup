@@ -22,3 +22,5 @@ Make sure switch 2 is preferred open point
 5. Send settings through template (this will disable port 5)
 6. Read as left
 7. change port 5 back to normal (through template)
+
+A03
