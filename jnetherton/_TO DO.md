@@ -12,9 +12,10 @@ kanban-plugin: board
 	- also 108630/108631
 	- edit program for trident and throw in production folder @{2024-12-31}
 - [ ] **General Work**
+	- Clearwater production program
 	- Elk Grove production program
 	- Default 487 overcurrent program
-	- MP auto close changes program
+	- MP auto close changes testing
 	- MP GWI
 	- Amptek GWI
 	- Pantex Switch Updates
