@@ -171,11 +171,9 @@ Added a condition where open due to LOV on end devices with back-feeding disable
 
 NEED TO TEST SHORTENED AUTO CLOSE LOGIC AND LOV OPEN KICKING DIRECTIONAL DEVICES OUT OF AUTO
 
-send over auto-close logic
-specs and pictures of primary cables
-mock up wiring diagram for SAT
-
 SAT
 - 6 reclosers
 - day 1 for relay engineers and test setup
 - step through examples before actual testing
+
+- Mentioned edge case where kicking all directional devices out of auto can be undesirable
