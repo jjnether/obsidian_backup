@@ -34,6 +34,10 @@ kanban-plugin: board
 
 - [ ] [[119407 - Clearwater Polk Elec]]
 	- Form6 emulator @{2025-01-23}
+- [ ] [[118682 - Border States]]
+	- Form6 @{2025-02-18}
+- [ ] [[120518 - United Cooperative Services]]
+	- Form6 @{2025-02-21}
 - [ ] [[119509 - Elk Grove Village Property]]
 	- Need to load GOOSE
 	- is automation hardcoded to 0? - no
