@@ -17,7 +17,6 @@ kanban-plugin: board
 	- Ft Meade Testing
 	- Default 487 overcurrent program
 	- MP auto close changes testing
-	- MP GWI
 	- Amptek GWI
 	- Pantex Switch Updates
 		- FAT in January
