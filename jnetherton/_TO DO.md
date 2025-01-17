@@ -35,9 +35,8 @@ kanban-plugin: board
 - [ ] [[119407 - Clearwater Polk Elec]]
 	- Form6 emulator @{2025-01-23}
 - [ ] [[119509 - Elk Grove Village Property]]
-	- Need to load GOOSE?
-	- check production program and labels
-	- is automation hardcoded to 0?
+	- Need to load GOOSE
+	- is automation hardcoded to 0? - no
 
 
 ## FAT
