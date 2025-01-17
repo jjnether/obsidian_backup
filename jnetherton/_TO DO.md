@@ -13,7 +13,8 @@ kanban-plugin: board
 	- edit program for trident and throw in production folder @{2024-12-31}
 - [ ] **General Work**
 	- Clearwater testing
-	- Elk Grove production program
+	- Elk Grove - load goose files
+	- Ft Meade Testing
 	- Default 487 overcurrent program
 	- MP auto close changes testing
 	- MP GWI
