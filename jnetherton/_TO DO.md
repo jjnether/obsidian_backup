@@ -12,7 +12,7 @@ kanban-plugin: board
 	- also 108630/108631
 	- edit program for trident and throw in production folder @{2024-12-31}
 - [ ] **General Work**
-	- Clearwater production program
+	- Clearwater testing
 	- Elk Grove production program
 	- Default 487 overcurrent program
 	- MP auto close changes testing
@@ -34,7 +34,7 @@ kanban-plugin: board
 
 - [ ] [[119407 - Clearwater Polk Elec]]
 	- Form6 emulator @{2025-01-23}
-- [ ] 119509 - Elk Grove Village Property
+- [ ] [[119509 - Elk Grove Village Property]]
 	- Need to load GOOSE?
 	- check production program and labels
 	- is automation hardcoded to 0?
