@@ -136,7 +136,7 @@ SV14T OR OC3 AND LT03 OR 81D1T OR SV58 OR 51PT OR 50P2T OR (51G1T OR 50G2T) AND 
 	- or
 - closed into fault from auto close
 	- or
-- 
+
 
 R_TRIG SV22T AND MV17 <> 0.00 OR R_TRIG SV04T OR R_TRIG SV40T OR SV23 OR SV25 OR NOT LT06 AND SV35T AND (TRIPA OR TRIPB OR TRIPC) OR SV64T # MORE 3-PH TRIP CONDITIONS
 
@@ -171,11 +171,9 @@ Added a condition where open due to LOV on end devices with back-feeding disable
 
 NEED TO TEST SHORTENED AUTO CLOSE LOGIC AND LOV OPEN KICKING DIRECTIONAL DEVICES OUT OF AUTO
 
-send over auto-close logic
-specs and pictures of primary cables
-mock up wiring diagram for SAT
-
 SAT
 - 6 reclosers
 - day 1 for relay engineers and test setup
 - step through examples before actual testing
+
+- Mentioned edge case where kicking all directional devices out of auto can be undesirable

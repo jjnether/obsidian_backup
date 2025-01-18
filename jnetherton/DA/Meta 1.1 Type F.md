@@ -13,3 +13,23 @@ Send port 5 settings to enable telnet/FTP, then push file using FTP
 timers should be correct values due to relay settings
 verify RCF's
 Make sure switch 2 is preferred open point
+
+1. Open prepared settings and save updated RCF's
+2. Change port 5 to enable FTP
+3. Read as found and compare what you're going to send
+4. Verify nothing in Set 1 has changed
+	1. there will be differences in logic, but Set 1 is the important one to not change
+5. Send settings through template (this will disable port 5)
+6. Read as left
+7. change port 5 back to normal (through template)
+
+A03
+A05
+MCUP8
+
+VS-1 - LOW PRESSURE
+PS-1 - HIGH PRESSURE
+LL-1 - LOW OIL
+LT-1
+- HIGH TEMP
+- RAPID RISE

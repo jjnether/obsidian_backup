@@ -12,10 +12,11 @@ kanban-plugin: board
 	- also 108630/108631
 	- edit program for trident and throw in production folder @{2024-12-31}
 - [ ] **General Work**
-	- Elk Grove production program
+	- Clearwater testing
+	- Elk Grove - load goose files
+	- Ft Meade Testing
 	- Default 487 overcurrent program
-	- MP auto close changes program
-	- MP GWI
+	- MP auto close changes testing
 	- Amptek GWI
 	- Pantex Switch Updates
 		- FAT in January
@@ -33,10 +34,13 @@ kanban-plugin: board
 
 - [ ] [[119407 - Clearwater Polk Elec]]
 	- Form6 emulator @{2025-01-23}
-- [ ] 119509 - Elk Grove Village Property
-	- Need to load GOOSE?
-	- check production program and labels
-	- is automation hardcoded to 0?
+- [ ] [[118682 - Border States]]
+	- Form6 @{2025-02-18}
+- [ ] [[120518 - United Cooperative Services]]
+	- Form6 @{2025-02-21}
+- [ ] [[119509 - Elk Grove Village Property]]
+	- Need to load GOOSE
+	- is automation hardcoded to 0? - no
 
 
 ## FAT
