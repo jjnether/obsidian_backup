@@ -34,7 +34,7 @@ To update all containers at once:
 To prune old images from system:
 `docker image prune`
 
-
+8889990121
 For setting up Dynamic DNS
 - Go to Control Panel>Connectivity>External Access>DDNS then Add
 - For service provider, use Synology
