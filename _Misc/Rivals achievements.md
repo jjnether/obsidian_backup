@@ -1,0 +1,21 @@
+- storm - assist x-men
+- rocket - revive guardians of galaxy
+- invisible woman - assist fantastic four
+- iron fist - land KO's with living chi
+- wolverine - land KO's with last stand
+- psylocke - contest mission area for 60 sec
+- winter solder - land KO's with kraken impact
+- scarlet witch - take down mutants
+- magneto - assist mutants
+- spiderman - detect enemy and land counterattack
+- venom - snare 4 enemies with cellular corrosion
+- black widow - land 3 KO's with crits in a match
+- squirrel girl - land 3 KO's with ult
+- magik - land 3 KO's with ult
+- black panther - land 3 KO streak in hall of djalia
+- cloak and dagger - assist in team wipe
+- hella - 3 player KO streak in Yggdrasill path
+- captain america - 3 KO's with ult
+- hawkeye - partner with avengers for 10 KO's
+- mantis - assist allies in team wipe
+- doctor strange - 1 terrain KO
