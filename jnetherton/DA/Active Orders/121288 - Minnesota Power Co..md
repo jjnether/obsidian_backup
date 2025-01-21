@@ -178,4 +178,4 @@ SAT
 
 - Mentioned edge case where kicking all directional devices out of auto can be undesirable
 	- Fault on F - Tie 2 will not operate and will sit there still in auto
-	- 
+	- If we lose source CB1, Tie 1 will close to restore B, but if we then subsequently lose source CB3, when TIE1 opens due to LOV, it will be kicked out of auto, so it won't close back in to restore B from source CB2
