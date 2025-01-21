@@ -12,6 +12,7 @@ kanban-plugin: board
 	- also 108630/108631
 	- edit program for trident and throw in production folder @{2024-12-31}
 - [ ] **General Work**
+	- Email Kurt about DNP
 	- Clearwater testing
 	- Elk Grove - load goose files
 	- Ft Meade Testing
