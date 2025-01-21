@@ -177,3 +177,5 @@ SAT
 - step through examples before actual testing
 
 - Mentioned edge case where kicking all directional devices out of auto can be undesirable
+	- Fault on F - Tie 2 will not operate and will sit there still in auto
+	- 
