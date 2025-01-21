@@ -136,6 +136,10 @@ U3
 400 A
 
 DESIGN TEMPLATE:
+- Relay settings format:
+	- `[setting group label^setting name], e.g., [1^51G1JC]`
+- Design variable format: 
+	- `[UV^variable name], e.g., [UV^1_Fast_Curve_Ground]`
 - `UV^******` represents design template variables
 	- These can be added and edited from "Manage Design Template Variables"
 	- These typically go on the right side in the equation builder
