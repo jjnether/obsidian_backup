@@ -48,3 +48,6 @@ Simulating
 	- Hit activate to get rid of `M` (in production setting, activate will ask field for the new value)
 - For alarms, hit the analog point, then properties and ensure alarms are enabled
 	- Can set limits with the limit button after hitting the analog point
+
+IED Wizard
+- Need to set template path from STC Explorer>File>Application Preferences
