@@ -1,0 +1,3 @@
+- 15k steps
+- 1g protein per pound
+- 
