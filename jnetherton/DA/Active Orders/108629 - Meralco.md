@@ -186,3 +186,6 @@ MEETING JANUARY '25
 
 - send wiring
 - send instructions for final state for breakers
+	- send pictures for the wiring change
+	- procedure for wiring change?
+	- is it ok to do while energized?
