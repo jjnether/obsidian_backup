@@ -59,7 +59,8 @@ IED Wizard
 				- <here's where the new IED will go>
 - To create the IED:
 	- right click in the comm line you it will reside in, then hit New IED
-	- Select Manufacturer, Device, and Version (all shou)
+	- Select Manufacturer, Device, and Version (all should be controlled by the templates)
+	- 
 
 TO DO
 - remove camp george map
