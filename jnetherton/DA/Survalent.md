@@ -51,6 +51,15 @@ Simulating
 
 IED Wizard
 - Need to set template path from STC Explorer>File>Application Preferences
+	- templates can be created with the template application (open from inside the template folder)
+- Before creating new IED, ensure station structure is made (create all levels of stations except for the specific IED)
+	- I.E.
+		- Camp_Carroll
+			- PMS_SD-10
+				- <here's where the new IED will go>
+- To create the IED:
+	- right click in the comm line you it will reside in, then hit New IED
+	- Select Manufacturer, Device, and Version (all shou)
 
 TO DO
 - remove camp george map

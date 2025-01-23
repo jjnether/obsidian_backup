@@ -13,7 +13,6 @@ kanban-plugin: board
 	- edit program for trident and throw in production folder @{2024-12-31}
 - [ ] **General Work**
 	- Email Kurt about DNP
-	- Clearwater testing
 	- Elk Grove - load goose files
 	- Ft Meade Testing
 	- Default 487 overcurrent program
@@ -33,8 +32,6 @@ kanban-plugin: board
 
 ## Programming
 
-- [ ] [[119407 - Clearwater Polk Elec]]
-	- Form6 emulator @{2025-01-23}
 - [ ] [[118682 - Border States]]
 	- Form6 @{2025-02-18}
 - [ ] [[120518 - United Cooperative Services]]
@@ -64,6 +61,9 @@ kanban-plugin: board
 	@{2024-10-10}
 - [ ] [[114822 - Camp Humphreys]]
 	- SAT - early March?
+- [ ] [[119407 - Clearwater Polk Elec]]
+	- Form6
+	- SAT?
 
 
 
