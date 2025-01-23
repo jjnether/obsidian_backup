@@ -57,10 +57,13 @@ IED Wizard
 		- Camp_Carroll
 			- PMS_SD-10
 				- <here's where the new IED will go>
-- To create the IED:
+- To create the IED (bare minimum):
 	- right click in the comm line you it will reside in, then hit New IED
 	- Select Manufacturer, Device, and Version (all should be controlled by the templates)
-	- 
+	- Input the new station name, put AllZones for Zone group, and select the parent station (the station where this new station will reside)
+	- Hit next, then put in an address for the DNP for this device
+	- Hit next twice, then put the device IP in host name and the DNP port to be used (20000 by default)
+	- Hit Save IED
 
 TO DO
 - remove camp george map
