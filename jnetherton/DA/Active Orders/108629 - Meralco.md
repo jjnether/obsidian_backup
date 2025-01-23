@@ -189,3 +189,4 @@ MEETING JANUARY '25
 	- send pictures for the wiring change
 	- procedure for wiring change?
 	- is it ok to do while energized?
+	- during commissioning, switch is not energized, correct?
