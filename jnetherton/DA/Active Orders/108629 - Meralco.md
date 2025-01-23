@@ -177,3 +177,12 @@ Questions for next iteration?
 
 slot being reduced length by 1/4" and diameter going from .75" to .687"
 
+MEETING JANUARY '25
+- 4 way conventional switch flashover in the tank
+	- terminate on T2
+	- before only T1 was connected
+	- replaced with remote switch
+		- only no remote control
+
+- send wiring
+- send instructions for final state for breakers
