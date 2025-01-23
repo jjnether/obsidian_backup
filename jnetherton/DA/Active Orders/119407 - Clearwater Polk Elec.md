@@ -9,3 +9,8 @@ At commissioning:
 - Show the template
 - Show them how it works
 - if they want changes, we can do for it for the future
+
+Problems between program and documentation
+- A,B,C select PB's aren't all active when in 1ph trip-3ph lockout mode (documentation says they should be)
+	- In this mode, you can also only close one phase at a time (documentation says this should only happen when in 1ph trip-1ph lockout)
+- Phase discordance happens even when in 1ph trip-1ph lockout (should only happen if in 3ph trip or 3ph lockout)
