@@ -51,3 +51,10 @@ Simulating
 
 IED Wizard
 - Need to set template path from STC Explorer>File>Application Preferences
+
+TO DO
+- remove camp george map
+- add metering screen for loop c
+- fix substation screen (according to actual drawing)
+- Add in-line load break to sub template
+- finish rest of the switches

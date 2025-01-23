@@ -1,3 +1,20 @@
 - 15k steps
 - 1g protein per pound
-- 
+	- 50g
+		- 2 scoops of protein
+		- 6 ounces of chicken breast
+		- 8 ounces of steak
+		- 10 ounces of tuna
+- 7-8 hours of sleep
+	- routine bedtime
+	- last meal at least 3 hours before bed
+- train in the morning
+	-  cup of coffee/devotional before training
+	-  weight yourself daily in the morning
+- intermittent fasting
+	- start with 12 hours fasting, then move to 14, then finally 16
+- drink half your body weight in fl. oz. (200 lbs ~= 1.5 gal)
+- 3 sessions of 20 min per week of zone 2 cardio (>120bpm)
+	- could use elliptical, stair-master, or inclined walk
+- 600 calorie deficit (instead of normal 500)
+	- allows for a cheat meal a week
