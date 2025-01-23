@@ -66,7 +66,6 @@ IED Wizard
 	- Hit Save IED
 
 TO DO
-- remove camp george map
 - add metering screen for loop c
 - fix substation screen (according to actual drawing)
 - finish rest of the switches
