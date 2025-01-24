@@ -12,6 +12,8 @@ kanban-plugin: board
 	- also 108630/108631
 	- edit program for trident and throw in production folder @{2024-12-31}
 - [ ] **General Work**
+	- Respond to email about Ft Meade CT application
+	- Send Eng Meralco Wiring procedure and new drawings
 	- Email Kurt about DNP
 	- Elk Grove - load goose files
 	- Ft Meade Testing
