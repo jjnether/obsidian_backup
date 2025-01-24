@@ -63,12 +63,14 @@ kanban-plugin: board
 	@{2024-10-10}
 - [ ] [[114822 - Camp Humphreys]]
 	- SAT - early March?
+
+
+***
+
+## Archive
+
 - [ ] [[119407 - Clearwater Polk Elec]]
 	- Form6
-	- SAT?
-
-
-
 
 %% kanban:settings
 ```
