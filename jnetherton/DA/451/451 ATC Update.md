@@ -66,9 +66,11 @@ OR
 New - PSV26 := ASV003 and ((ASV202 AND F_TRIG PLT18) OR (ASV202 AND F_TRIG PLT19)) # EXIT AUTO ON "NO RETURN SEQUENCE" VARIABLE
 where:
 
+NEED TO ADD/TEST:
+- Refer to AMS case where all initial, return, and RTID timers are set to 0, source paralleling is allowed, and no return transfers, all open transition. They had a lightning strike and the ATC saw a voltage loss for an instant, initiating a transfer, but the voltage was immediately back
 
 
-Get feedback from Enio regarding new test mode with local bits (keep logic intact, but make it use actual logic instead of its own test logic)
+
 
 
 - New GWI for this iteration
