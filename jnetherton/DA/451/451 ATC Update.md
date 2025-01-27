@@ -68,6 +68,9 @@ where:
 
 NEED TO ADD/TEST:
 - Refer to AMS case where all initial, return, and RTID timers are set to 0, source paralleling is allowed, and no return transfers, all open transition. They had a lightning strike and the ATC saw a voltage loss for an instant, initiating a transfer, but the voltage was immediately back
+	- add a state machine for transfers - there should only ever be 1 transfer at a time
+		- So when you start an transfer, a latch sets, preventing any other transfers - once that transfer is completed, the latch resets
+	- In the case of if both sources come back simultaneously, might need a tiebreaker to decide which one closes?
 
 
 
