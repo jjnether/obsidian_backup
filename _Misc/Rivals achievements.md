@@ -10,7 +10,6 @@
 - spiderman - detect enemy and land counterattack
 - venom - snare 4 enemies with cellular corrosion
 - black widow - land 3 KO's with crits in a match
-- squirrel girl - land 3 KO's with ult
 - magik - land 3 KO's with ult
 - black panther - land 3 KO streak in hall of djalia
 - cloak and dagger - assist in team wipe
