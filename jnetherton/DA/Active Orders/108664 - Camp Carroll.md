@@ -11,3 +11,9 @@ Dual redundancy servers
 - B13440083NU0
 4 relays
 - D94980182ATN
+
+
+For building out switch view
+- S/M2
+- S/D10
+- S/D12
