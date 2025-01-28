@@ -199,3 +199,9 @@ MEETING JANUARY '25
 	- We use 38kV insulator - can also use glastic or an insulator blanket
 		- they are requesting insulators
 		- If they don't use insulators, we think they could maybe test up to 30kV (depends on moisture in the air)
+- Closed loop project
+	- target is Dec 2025
+
+![[Pasted image 20250127203739.png]]
+
+![[Pasted image 20250127203754.png]]
