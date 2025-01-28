@@ -153,7 +153,7 @@ when batt test is running, if AC is lost, can it still switch to batteries?
 - Migs
 - J.L. - Quickset guy
 - Jason - SCADA guy
-- Riko - not our guy
+- Rico - not our guy
 - Barry - our guy
 - Sta. Rosa SA team
 	- Angeline
@@ -191,4 +191,6 @@ MEETING JANUARY '25
 	- is it ok to do while energized?
 	- during commissioning, switch is not energized, correct?
 
-- 
+- Arcovia Incident
+	- Flashover occurred after energizing T2. It was previously energized with connected load at T1
+	- No SF6 leak observed from time of incident up to replacement of the switchgear
