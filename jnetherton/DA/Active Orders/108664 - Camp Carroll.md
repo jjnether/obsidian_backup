@@ -17,3 +17,9 @@ For building out switch view
 - S/M2
 - S/D10
 - S/D12
+
+Workstation:
+- username: Administrator
+- PW: Stc%26736
+Server:
+- 
