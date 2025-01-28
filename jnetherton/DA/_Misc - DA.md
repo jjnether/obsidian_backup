@@ -12,6 +12,10 @@ Work Phone: (708) 402-8777
 
 Password for VI Controls: `GWVI`
 
+SEL cable switches default
+- OFF
+- DCE
+
 $V_{L-G} = \frac{V_{L-L}}{\sqrt{3}}$
 $\sqrt{3}=1.732$
 Internal PT's always have a fuse
