@@ -194,3 +194,6 @@ MEETING JANUARY '25
 - Arcovia Incident
 	- Flashover occurred after energizing T2. It was previously energized with connected load at T1 since 2021 (incident was in 2024)
 	- No SF6 leak observed from time of incident up to replacement of the switchgear
+- Hi-Pot
+	- At the factory, we test at 50kV L-G, we recommend the customer tests at 40kV L-G (80%)
+	- We use 38kV insulator - can also use glastic or an insulator blanket
