@@ -192,5 +192,5 @@ MEETING JANUARY '25
 	- during commissioning, switch is not energized, correct?
 
 - Arcovia Incident
-	- Flashover occurred after energizing T2. It was previously energized with connected load at T1
+	- Flashover occurred after energizing T2. It was previously energized with connected load at T1 since 2021 (incident was in 2024)
 	- No SF6 leak observed from time of incident up to replacement of the switchgear
