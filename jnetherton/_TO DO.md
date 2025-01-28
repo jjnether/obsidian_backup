@@ -22,8 +22,6 @@ kanban-plugin: board
 	- Amptek GWI
 	- Pantex Switch Updates
 		- FAT in January
-	- Ares Energy Switch 2 - waiting to hear it's been wired
-		- Wait on invoice email until switch 2 is finished
 	- omicron training?
 	- 451 ATC rework
 
