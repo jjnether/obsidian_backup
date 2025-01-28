@@ -197,3 +197,5 @@ MEETING JANUARY '25
 - Hi-Pot
 	- At the factory, we test at 50kV L-G, we recommend the customer tests at 40kV L-G (80%)
 	- We use 38kV insulator - can also use glastic or an insulator blanket
+		- they are requesting insulators
+		- If they don't use insulators, we think they could maybe test up to 30kV (depends on moisture in the air)
