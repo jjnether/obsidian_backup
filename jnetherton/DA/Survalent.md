@@ -5,6 +5,11 @@ default username/password is scada/scada
 	- In SmartVU folder (`C:\Program Files (x86)\Survalent\SmartVU`) open `svsetup.exe` to change where SmartVU is looking (use `localhost`)
 - Must also change database to point to the correct location in server setup of ADMS manager
 - Run SrvAdjust in ADMS Manager after replacing server
+- When setting up a server (especially redundant), be sure to run the two firewall batch scripts in the ScadaServer folder
+
+Licensing
+- Under Server setup, make sure license key is correct
+- Under license manager, for USB dongle, you need to generate update request, send to survalent, then process update reply from them
 
 Important Folders:
 - `Survalent\SmartVU\Standard`
