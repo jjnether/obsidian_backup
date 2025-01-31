@@ -12,9 +12,7 @@ kanban-plugin: board
 	- also 108630/108631
 	- edit program for trident and throw in production folder @{2024-12-31}
 - [ ] **General Work**
-	- Respond to email about Ft Meade CT application
-	- Send Eng Meralco Wiring procedure and new drawings
-	- Email Kurt about DNP
+	- Email Dan W MP agenda
 	- Elk Grove - load goose files
 	- Ft Meade Testing
 	- Default 487 overcurrent program
@@ -24,6 +22,7 @@ kanban-plugin: board
 		- FAT in January
 	- omicron training?
 	- 451 ATC rework
+	- Form6 Testing
 
 
 ## Programming Spec
@@ -44,23 +43,18 @@ kanban-plugin: board
 ## FAT
 
 - [ ] [[111587 - Pantex]] (Ryan Sales)
-	- FAT pushed back from Jan? @{2025-01-09}
+	- FAT 3/11@{2025-03-11}
 - [ ] [[110307 - Fort Meade]]
 	- FAT tentative @{2025-01-21}
 
 
 ## SAT/GWI
 
-- [ ] [[116007 - Amptek BNSF]]
-	- SAT handled by AMS
-	@{2024-12-02}
 - [ ] [[121288 - Minnesota Power Co.]]
 	- Awaiting decision on adding extra logic for faster auto-closing
 	- Commissioning in March?
 	- Need to make GWI
 	@{2024-10-10}
-- [ ] [[114822 - Camp Humphreys]]
-	- SAT - early March?
 
 
 ***
@@ -69,6 +63,10 @@ kanban-plugin: board
 
 - [ ] [[119407 - Clearwater Polk Elec]]
 	- Form6
+- [ ] [[114822 - Camp Humphreys]]
+- [ ] [[116007 - Amptek BNSF]]
+	- SAT handled by AMS
+	@{2024-12-02}
 
 %% kanban:settings
 ```
