@@ -10,7 +10,7 @@
 	- last meal at least 3 hours before bed
 - train in the morning
 	-  cup of coffee/devotional before training
-	-  weight yourself daily in the morning
+	-  weigh yourself daily in the morning
 - intermittent fasting
 	- start with 12 hours fasting, then move to 14, then finally 16
 - drink half your body weight in fl. oz. (200 lbs ~= 1.5 gal)
