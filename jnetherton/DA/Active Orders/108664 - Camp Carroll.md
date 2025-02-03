@@ -13,7 +13,8 @@ Dual redundancy servers
 - SEL 0351S6XHB2E1122
 4 relays
 - D94980182ATN
-- 
+- a
+- SEL 0351S6XHB2E1121 - (ends in 22 in drawing)
 
 
 For building out switch view
