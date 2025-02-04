@@ -27,11 +27,11 @@ Survalent:
 
 
 POTT - Permissive Overreach Transfer Trip
+- Trips if it sees a forward fault and receives a POTT signal from the other side of the line
+- Should be close to instant
 DCB - Directional Comparison Blocking
-- If there's a fault, but the FI adjacent doesn't trip it, DCB should kick in
+- Trips if it sees a forward fault and receives no blocking signal
+- Slower than POTT
 
+- Reverse fault is supervised by bad comms - if there's a reverse fault and comms are down, could be a bus fault, so will trip
 - Loop Tie switches have 3 channels of GOOSE comms while the normal loop switches only have 2
-
-
-- Cable energized status on feeder ctrl panel?
-- BF, COMM, and cable energized status on main ctrl panel?
