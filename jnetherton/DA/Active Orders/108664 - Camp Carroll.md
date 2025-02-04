@@ -43,3 +43,6 @@ DCB - Directional Comparison Blocking
 - VB010 - bad comms across the line
 - VB020 - bad comms from relay in same switch
 - VB030 - bad comms from 3rd relay in same switch (for loop tie)
+
+
+Survalent - how to handle LPWD and DS?
