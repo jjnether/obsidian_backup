@@ -28,9 +28,12 @@ Survalent:
 
 POTT - Permissive Overreach Transfer Trip
 - Trips if it sees a forward fault and receives a POTT signal from the other side of the line
+	- Will also send a POTT signal forward (permission to trip) to the device across the line
 - Should be close to instant
 DCB - Directional Comparison Blocking
-- Trips if it sees a forward fault and receives no blocking signal
+- Trips if it sees a forward fault and receives no blocking signal, then sends a DCB signal backwards
+	- Sends the signal backwards because it knows the fault will either be interrupted downstream or it will interrupt the fault itself if it doesn't receive a DCB signal
+- After DCB trip, sends a transfer trip signal to the device across the line (this trips it out in the case of a radial fed fault)
 - Slower than POTT
 
 - Reverse fault is supervised by bad comms - if there's a reverse fault and comms are down, could be a bus fault, so will trip
