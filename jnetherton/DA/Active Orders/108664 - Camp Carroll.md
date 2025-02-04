@@ -31,3 +31,7 @@ DCB - Directional Comparison Blocking
 - If there's a fault, but the FI adjacent doesn't trip it, DCB should kick in
 
 - Loop Tie switches have 3 channels of GOOSE comms while the normal loop switches only have 2
+
+
+- Cable energized status on feeder ctrl panel?
+- BF, COMM, and cable energized status on main ctrl panel?
