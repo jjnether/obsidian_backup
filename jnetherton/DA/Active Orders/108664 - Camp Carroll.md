@@ -36,7 +36,7 @@ DCB - Directional Comparison Blocking
 - After DCB trip, sends a transfer trip signal forward to the device across the line (this trips it out in the case of a radial fed fault)
 - Slower than POTT
 
-- If there's a breaker failure, it also sends a transfer trip forward to the device across the line
+- If there's a breaker failure, it will send a transfer trip to all adjacent devices
 - Forward current direction is considered into the line
 	- Needs voltage to determine current direction - if there is voltage loss at the switch, directional tripping is disabled
 - Reverse fault is supervised by bad comms - if there's a reverse fault and comms are down, could be a bus fault, so will trip
@@ -44,6 +44,3 @@ DCB - Directional Comparison Blocking
 - VB010 - bad comms across the line
 - VB020 - bad comms from relay in same switch
 - VB030 - bad comms from 3rd relay in same switch (for loop tie)
-
-
-Survalent - how to handle LPWD and DS?
