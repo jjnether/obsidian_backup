@@ -35,3 +35,6 @@ DCB - Directional Comparison Blocking
 
 - Reverse fault is supervised by bad comms - if there's a reverse fault and comms are down, could be a bus fault, so will trip
 - Loop Tie switches have 3 channels of GOOSE comms while the normal loop switches only have 2
+- VB010 - bad comms across the line
+- VB020 - bad comms from relay in same switch
+- VB030 - bad comms from 3rd relay in same switch (for loop tie)
