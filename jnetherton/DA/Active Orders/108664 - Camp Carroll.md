@@ -31,11 +31,13 @@ POTT - Permissive Overreach Transfer Trip
 	- Will also send a POTT signal forward (permission to trip) to the device across the line
 - Should be close to instant
 DCB - Directional Comparison Blocking
-- Trips if it sees a forward fault and receives no blocking signal, then sends a DCB signal backwards
+- Trips if it sees a forward fault and receives no blocking signal, then sends a DCB signal to the device behind it
 	- Sends the signal backwards because it knows the fault will either be interrupted downstream or it will interrupt the fault itself if it doesn't receive a DCB signal
-- After DCB trip, sends a transfer trip signal to the device across the line (this trips it out in the case of a radial fed fault)
+- After DCB trip, sends a transfer trip signal forward to the device across the line (this trips it out in the case of a radial fed fault)
 - Slower than POTT
 
+- Forward current direction is considered into the line
+	- Needs voltage to determine current direction - if there is voltage loss at the switch, directional tripping is disabled
 - Reverse fault is supervised by bad comms - if there's a reverse fault and comms are down, could be a bus fault, so will trip
 - Loop Tie switches have 3 channels of GOOSE comms while the normal loop switches only have 2
 - VB010 - bad comms across the line
