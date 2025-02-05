@@ -160,6 +160,7 @@ For commissioning expense reports:
 
 For Purchase Req's:
 - Send SEL req's to Sergio or Sean Wilbert
+- 
 
 Symbol Shortcuts:
 ° = ALT+0176
