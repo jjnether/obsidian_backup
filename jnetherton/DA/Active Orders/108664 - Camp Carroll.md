@@ -51,5 +51,4 @@ DCB - Directional Comparison Blocking
 
 
 - TEST BATTERIES
-- WIRE THE ATN FOR POWER
 - FIX LABELS FOR ATN'S
