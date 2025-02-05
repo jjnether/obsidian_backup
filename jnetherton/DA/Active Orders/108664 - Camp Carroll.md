@@ -45,7 +45,7 @@ DCB - Directional Comparison Blocking
 - VB020 - bad comms from relay in same switch
 - VB030 - bad comms from 3rd relay in same switch (for loop tie)
 
-- RelaySimTest is iterative and looks 100ms past the newest event on each iteration
+- RelaySimTest is iterative and looks 100ms (adjustable) past the newest event on each iteration
 	- So initially, it will send fault current and will see trips within the first 100ms, but won't halt the fault current as they are new trips
 	- Next iteration, it will now look for new trips and will look 100ms past the new trips (so it will now account for breaker failure trips which happen at 150ms)
 
