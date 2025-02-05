@@ -93,6 +93,7 @@ NOTE: Paper server extends and improves the Bukkit and Spigot APIs, so they are 
 
 ---Gameplay Without Portforwarding (Zerotier)---
 - An alternative to portforwarding is setting up a network with Zerotier and having both the host and connecting device on the network
+- The host has to login online to zerotier and setup their network
 - To join the network, one must download and install zerotier
 - Then they need to join the network while only selecting "Allow Managed IP" using the network ID (found on the site to manage the network)
 - You then have to authorize the user on the site to manage the network (user can be identified by the node ID they give you)
