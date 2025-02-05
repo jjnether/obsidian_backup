@@ -56,6 +56,7 @@ DCB - Directional Comparison Blocking
 
 CAL
 CLARKE
+PARTNO
 0351S6XHB2E1122
 
 ID
