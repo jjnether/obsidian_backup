@@ -68,9 +68,10 @@ Program Changes:
 	- Removed "Source Way Energized" from display point logic (DP3,DP4)
 	- Changed Battery test dropout to 60 cycles (SV7T)
 	- Added reverse time overcurrent to match phase time o/c (67G2)
-	- Removed Batt Test logic from Non-way 1 relays
-		- LT8, LT11, OUT107,SV4,SV5,SV6,SV7
-	- 
+	- Removed OUT107 - some kind of battery alarm output contact, but nothing wired to it
+	- ONLY NON-W1 RELAYS
+		- Removed Batt Test logic from Non-way 1 relays
+		- LT8, LT11, SV4,SV5,SV6,SV7
 - 700GW: 
 
 
