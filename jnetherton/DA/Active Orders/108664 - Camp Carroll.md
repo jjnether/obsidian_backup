@@ -58,6 +58,7 @@ DCB - Directional Comparison Blocking
 - 700G - WAY 2&3 - FIX OPEN INDICATOR FOR FI - FIX DISPLAY POINT TO SPECIFY LB
 	- Also add "Way 2 *FI* closed and open to label"
 - Change banner so Daegu is replaced with Camp Carroll
+- SD-10 W1 VB strange DNP where VB is minus 1?
 - Add back acknowledge battery alarm on 351 non-w1's?
 	- Maybe later for commissioning
 	- delete SV8?
