@@ -12,6 +12,9 @@ kanban-plugin: board
 	- also 108630/108631
 	- edit program for trident and throw in production folder @{2024-12-31}
 - [ ] **General Work**
+	- MP Test Plan
+	- MP GWI
+	- Buy GW goodies for MP
 	- Put an SA hold on the meralco trident to test it?
 	- Email Dan W MP agenda
 	- Elk Grove - load goose files
