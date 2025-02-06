@@ -59,6 +59,7 @@ DCB - Directional Comparison Blocking
 	- Also add "Way 2 *FI* closed and open to label"
 - ATN W1 lockout when manually tripping?
 - Change banner so Daegu is replaced with Camp Carroll
+- Source way on 351's normally indicates FI position, but there's also a source way GND???
 
 Program Changes:
 - ATM 351S
