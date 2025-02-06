@@ -61,6 +61,8 @@ DCB - Directional Comparison Blocking
 - Change banner so Daegu is replaced with Camp Carroll
 - Source way on 351's normally indicates FI position, but there's also a source way GND???
 - Add back acknowledge battery alarm on 351 non-w1's?
+	- delete SV8?
+	- add PB7*!IN206 to RST8
 
 Program Changes:
 - ATM 351S
@@ -72,6 +74,8 @@ Program Changes:
 	- ONLY NON-W1 RELAYS
 		- Removed Batt Test logic from Non-way 1 relays
 		- LT8, LT11, SV4,SV5,SV6,SV7
+	- ONLY ON W3 351S
+		- Removed OUT101, OUT102, LT6, SV1 (no motors)
 - 700GW: front panel
 	- Change FI PB LED's and added open indication (PB3 and PB4)
 	- Edited DP for LB's
