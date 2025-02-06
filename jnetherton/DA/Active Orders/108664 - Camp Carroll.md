@@ -60,6 +60,7 @@ DCB - Directional Comparison Blocking
 - ATN W1 lockout when manually tripping?
 - Change banner so Daegu is replaced with Camp Carroll
 - Source way on 351's normally indicates FI position, but there's also a source way GND???
+- Add back acknowledge battery alarm on 351 non-w1's?
 
 Program Changes:
 - ATM 351S
