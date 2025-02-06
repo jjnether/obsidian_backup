@@ -61,7 +61,7 @@ DCB - Directional Comparison Blocking
 	- does way 3 source indicate lb?
 - 700G - WAY 2&3 - FIX OPEN INDICATOR FOR FI - FIX DISPLAY POINT TO SPECIFY LB
 	- Also add "Way 2 *FI* closed and open to label"
-- 351's - source way energized?
+- 351's - source way energized? - wired to density switch
 
 
 CAL
