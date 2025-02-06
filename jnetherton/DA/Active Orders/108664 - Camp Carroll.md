@@ -50,11 +50,7 @@ DCB - Directional Comparison Blocking
 	- Next iteration, it will now look for new trips and will look 100ms past the new trips (so it will now account for breaker failure trips which happen at 150ms)
 
 
-- TEST BATTERIES
-- FIX LABELS FOR BATTERY TEST
-- FIX BATTERY TEST DROPOUT
-- FIX REVERSE TIME OVERCURRENT
-- FIX REMOVING BATT TEST PB FROM NON-WAY 1 RELAYS
+-  FIX LABELS FOR BATTERY TEST
 
 - ATN WAY 3 - WHERE DO WE WANT LBS INDICATION? - IT'S CURRENTLY STILL ON LED, BUT LABEL IS BLANK
 	- ADD INDICATION TO DISPLAY POINT?
@@ -65,6 +61,14 @@ DCB - Directional Comparison Blocking
 - density switch labels?
 - ATN W1 lockout when manually tripping?
 - Change banner so Daegu is replaced with Camp Carroll
+
+Program Changes:
+- Added SV2T to Low SF6 LED
+- Removed "Source Way Energized" from display point logic - used to be IN105 - no replacement?
+- FIX BATTERY TEST DROPOUT
+- FIX REVERSE TIME OVERCURRENT
+- FIX REMOVING BATT TEST PB FROM NON-WAY 1 RELAYS
+
 
 
 CAL
