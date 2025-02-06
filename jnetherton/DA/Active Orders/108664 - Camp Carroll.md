@@ -63,10 +63,11 @@ DCB - Directional Comparison Blocking
 - Change banner so Daegu is replaced with Camp Carroll
 
 Program Changes:
-- Added SV2T to Low SF6 LED
+- Text, Logic1, Set1
+- Added SV2T to Low SF6 LED (LED3)
 - Removed "Source Way Energized" from display point logic - used to be IN105 - no replacement?
 - FIX BATTERY TEST DROPOUT
-- FIX REVERSE TIME OVERCURRENT
+- Added reverse time overcurrent to match phase time o/c (67G2)
 - FIX REMOVING BATT TEST PB FROM NON-WAY 1 RELAYS
 
 
