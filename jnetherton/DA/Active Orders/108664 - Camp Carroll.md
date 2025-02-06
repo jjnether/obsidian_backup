@@ -57,13 +57,11 @@ DCB - Directional Comparison Blocking
 	- does way 3 source indicate lb?
 - 700G - WAY 2&3 - FIX OPEN INDICATOR FOR FI - FIX DISPLAY POINT TO SPECIFY LB
 	- Also add "Way 2 *FI* closed and open to label"
-- 351's - source way energized? - wired to density switch
-- density switch labels?
 - ATN W1 lockout when manually tripping?
 - Change banner so Daegu is replaced with Camp Carroll
 
 Program Changes:
-- 351S: Text, Logic1, Set1
+- ATM 351S
 	- Added SV2T to Low SF6 LED (LED4)
 	- Removed "Source Way Energized" from display point logic (DP3,DP4)
 	- Changed Battery test dropout to 60 cycles (SV7T)
@@ -72,7 +70,9 @@ Program Changes:
 	- ONLY NON-W1 RELAYS
 		- Removed Batt Test logic from Non-way 1 relays
 		- LT8, LT11, SV4,SV5,SV6,SV7
-- 700GW: 
+- 700GW: front panel
+	- Change FI PB LED's and added open indication (PB3 and PB4)
+	- Edited DP for LB's
 
 
 
