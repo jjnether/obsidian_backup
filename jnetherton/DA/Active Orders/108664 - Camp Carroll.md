@@ -57,16 +57,14 @@ DCB - Directional Comparison Blocking
 	- does way 3 source indicate lb?
 - 700G - WAY 2&3 - FIX OPEN INDICATOR FOR FI - FIX DISPLAY POINT TO SPECIFY LB
 	- Also add "Way 2 *FI* closed and open to label"
-- ATN W1 lockout when manually tripping?
 - Change banner so Daegu is replaced with Camp Carroll
-- Source way on 351's normally indicates FI position, but there's also a source way GND???
 - Add back acknowledge battery alarm on 351 non-w1's?
+	- Maybe later for commissioning
 	- delete SV8?
 	- add PB7*!IN206 to RST8
-- Change source way terminology in DP for w2, w3?
 
 Program Changes:
-- ATM 351S
+- 351S
 	- Added SV2T to Low SF6 LED (LED4)
 	- Removed "Source Way Energized" from display point logic (DP3,DP4)
 	- Changed Battery test dropout to 60 cycles (SV7T)
@@ -77,6 +75,7 @@ Program Changes:
 		- LT8, LT11, SV4,SV5,SV6,SV7
 	- ONLY ON W3 351S
 		- Removed OUT101, OUT102, LT6, SV1, CLOSE, LED1, LED2 (no motors)
+		- Edited DP's for Load way instead of Source Way
 - 700GW: front panel
 	- Change FI PB LED's and added open indication (PB3 and PB4)
 	- Edited DP for LB's
