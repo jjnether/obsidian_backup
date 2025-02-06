@@ -64,6 +64,7 @@ DCB - Directional Comparison Blocking
 - 351's - source way energized? - wired to density switch
 - density switch labels?
 - ATN W1 lockout when manually tripping?
+- Change banner so Daegu is replaced with Camp Carroll
 
 
 CAL
