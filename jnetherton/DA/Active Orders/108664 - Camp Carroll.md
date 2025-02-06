@@ -64,11 +64,13 @@ DCB - Directional Comparison Blocking
 
 Program Changes:
 - 351S: Text, Logic1, Set1
-	- Added SV2T to Low SF6 LED (LED3)
-	- Removed "Source Way Energized" from display point logic - used to be IN105
-	- FIX BATTERY TEST DROPOUT
+	- Added SV2T to Low SF6 LED (LED4)
+	- Removed "Source Way Energized" from display point logic (DP3,DP4)
+	- Changed Battery test dropout to 60 cycles (SV7T)
 	- Added reverse time overcurrent to match phase time o/c (67G2)
-	- FIX REMOVING BATT TEST PB FROM NON-WAY 1 RELAYS
+	- Removed Batt Test logic from Non-way 1 relays
+		- LT8, LT11, OUT107,SV4,SV5,SV6,SV7
+	- 
 - 700GW: 
 
 
