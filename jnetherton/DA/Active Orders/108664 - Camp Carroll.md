@@ -62,3 +62,17 @@ CLARKE
 PARTNO
 0351S6XHB2E1122
 ID
+
+
+
+|       | Manual operation | Relay operation |
+| ----- | ---------------- | --------------- |
+| SD-09 |                  |                 |
+| SD-10 |                  |                 |
+| SD-11 |                  |                 |
+| SD-12 |                  |                 |
+| SC-03 |                  |                 |
+| SC-04 |                  |                 |
+| SC-05 |                  |                 |
+| SC-06 |                  |                 |
+| SM-2  |                  |                 |
