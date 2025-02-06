@@ -58,8 +58,10 @@ DCB - Directional Comparison Blocking
 
 - ATN WAY 3 - WHERE DO WE WANT LBS INDICATION? - IT'S CURRENTLY STILL ON LED, BUT LABEL IS BLANK
 	- ADD INDICATION TO DISPLAY POINT?
+	- does way 3 source indicate lb?
 - 700G - WAY 2&3 - FIX OPEN INDICATOR FOR FI - FIX DISPLAY POINT TO SPECIFY LB
 	- Also add "Way 2 *FI* closed and open to label"
+- 351's - source way energized?
 
 
 CAL
