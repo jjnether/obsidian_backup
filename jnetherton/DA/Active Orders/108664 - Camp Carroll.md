@@ -62,6 +62,8 @@ DCB - Directional Comparison Blocking
 - 700G - WAY 2&3 - FIX OPEN INDICATOR FOR FI - FIX DISPLAY POINT TO SPECIFY LB
 	- Also add "Way 2 *FI* closed and open to label"
 - 351's - source way energized? - wired to density switch
+- density switch labels?
+- ATN W1 lockout when manually tripping?
 
 
 CAL
@@ -74,12 +76,12 @@ ID
 
 |       | Manual operation | Relay operation |
 | ----- | ---------------- | --------------- |
-| SD-09 |                  |                 |
-| SD-10 |                  |                 |
-| SD-11 |                  |                 |
-| SD-12 |                  |                 |
-| SC-03 |                  |                 |
-| SC-04 |                  |                 |
-| SC-05 |                  |                 |
-| SC-06 |                  |                 |
-| SM-2  |                  |                 |
+| SD-09 | x                |                 |
+| SD-10 | x                |                 |
+| SD-11 | x                |                 |
+| SD-12 | x                |                 |
+| SC-03 | x                |                 |
+| SC-04 | x                |                 |
+| SC-05 | x                |                 |
+| SC-06 | x                |                 |
+| SM-2  | x                |                 |
