@@ -60,8 +60,8 @@ GOOSE Testing:
 	- So initially, it will send fault current and will see trips within the first 100ms, but won't halt the fault current as they are new trips
 	- Next iteration, it will now look for new trips and will look 100ms past the new trips (so it will now account for breaker failure trips which happen at 150ms)
 
-
--  FIX LABELS
+- 
+-  FIX 351 LABELS
 - Check 351 open fail and lockout logic
 
 - Change banner so Daegu is replaced with Camp Carroll
