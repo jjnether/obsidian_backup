@@ -49,6 +49,7 @@ Motor boards operating modes:
 `TAR <wordbit>` - see bit status
 `HIS` - event history
 `SHO <shortcut>` - i.e. `SHOW D 1` - shows corresponding settings
+- Use only `SHO` 
 `R_S` - factory reset
 `GOO` - check GOOSE settings - look for bad GOOSE signal (will say expired in a column)
 
