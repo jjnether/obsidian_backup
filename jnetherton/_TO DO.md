@@ -12,7 +12,7 @@ kanban-plugin: board
 	- also 108630/108631
 	- edit program for trident and throw in production folder @{2024-12-31}
 - [ ] **General Work**
-	- K&P SHIP TO ADDRESS AND POINT OF CONTACT AND PHONE NUMBER
+	- K&W SHIP TO ADDRESS AND POINT OF CONTACT AND PHONE NUMBER
 	- MP Test Plan
 	- MP GWI
 	- Buy GW goodies for MP
