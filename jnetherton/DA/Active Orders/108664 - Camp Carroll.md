@@ -67,18 +67,20 @@ GOOSE Testing:
 	- Cybersecurity portion? - see drawing #609 from customer
 	- Long term storage method/manual?
 -  FIX 351 LABELS
-- Check 351 open fail and lockout logic
-	- move 52A into RSTTRGT
-	- Reset all  target LED's with RSTTRGT
-- breaker failure trip along with LED latch
-- remove LT13 (not used)
-- Change 52A to FI instead of LB, then swap vice versa
 
-- SD-10 W1 VB strange DNP where VB is minus 1?
+- 351's
+	- Added /52A to RSTTRGT and replaced TRGTR latch resets with RSTTRGT
+	- removed LT13 (not used)
+	- Changed 52A to FI instead of LB, then swap vice versa
+	- Added transfer trip logic
+	- Changed 51 settings for coordination
+
 - Add back acknowledge battery alarm on 351 non-w1's?
 	- Maybe later for commissioning
 	- delete SV8?
 	- add PB7*!IN206 to RST8
+
+- SD-10 W1 VB strange DNP where VB is minus 1?
 
 
 CAL
