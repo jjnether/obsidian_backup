@@ -65,10 +65,11 @@ GOOSE Testing:
 	- Top level drawings for dimension checks
 	- Production test reports for each type of switch
 	- Cybersecurity portion? - see drawing #609 from customer
+	- Long term storage method/manual?
 -  FIX 351 LABELS
 - Check 351 open fail and lockout logic
+- breaker failure trip along with LED latch
 
-- Change banner so Daegu is replaced with Camp Carroll
 - SD-10 W1 VB strange DNP where VB is minus 1?
 - Add back acknowledge battery alarm on 351 non-w1's?
 	- Maybe later for commissioning
