@@ -68,7 +68,10 @@ GOOSE Testing:
 	- Long term storage method/manual?
 -  FIX 351 LABELS
 - Check 351 open fail and lockout logic
+	- move 52A into RSTTRGT
+	- Reset all  target LED's with RSTTRGT
 - breaker failure trip along with LED latch
+- remove LT13 (not used)
 
 - SD-10 W1 VB strange DNP where VB is minus 1?
 - Add back acknowledge battery alarm on 351 non-w1's?
