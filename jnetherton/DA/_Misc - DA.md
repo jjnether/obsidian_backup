@@ -48,8 +48,8 @@ Motor boards operating modes:
 `MET` - see all metering statuses
 `TAR <wordbit>` - see bit status
 `HIS` - event history
-`SHO <shortcut>` - i.e. `SHOW D 1` - shows corresponding settings
-- Use only `SHO` 
+`SHO <shortcut>` - i.e. `SHOW D 1` - shows DNP Map 1 settings
+- Use `SHO` for set - i.e. `SHO 2` - shows set 2
 `R_S` - factory reset
 `GOO` - check GOOSE settings - look for bad GOOSE signal (will say expired in a column)
 

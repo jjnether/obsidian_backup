@@ -72,7 +72,6 @@ GOOSE Testing:
 	- Reset all  target LED's with RSTTRGT
 - breaker failure trip along with LED latch
 - remove LT13 (not used)
-- Change 700GW CT ratios to 100:1
 - Change 52A to FI instead of LB, then swap vice versa
 
 - SD-10 W1 VB strange DNP where VB is minus 1?
