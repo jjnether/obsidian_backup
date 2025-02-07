@@ -45,12 +45,23 @@ DCB - Directional Comparison Blocking
 - VB020 - bad comms from relay in same switch
 - VB030 - bad comms from 3rd relay in same switch (for loop tie)
 
+
+GOOSE Testing:
+- Each relay only sends two channels, receives up to three
+	- We want to test to make sure that for each channel, the GOOSE is being transmitted properly and the right relays are subscribed
+- We're sending RB01-RB08 over, so we have spare 
+- We can make a state machine using a counter which goes up to 2, and cycles for sending to Channel A or Channel B
+- It can be triggered either via pushbutton (spare blank PB08) or via SCADA by pulsing a remote bit
+- While sending the test signal, the PB LED can blink slowly for sending channel A, quickly for sending channel B, and solid if receiving a signal
+- Add a watchdog timer to turn off sending in case it's accidentally left on
+- Add an alarm in SCADA for receiving the signal, so it's clear which relays are receiving it and it's logged
+
 - RelaySimTest is iterative and looks 100ms (adjustable) past the newest event on each iteration
 	- So initially, it will send fault current and will see trips within the first 100ms, but won't halt the fault current as they are new trips
 	- Next iteration, it will now look for new trips and will look 100ms past the new trips (so it will now account for breaker failure trips which happen at 150ms)
 
 
--  FIX LABELS FOR BATTERY TEST
+-  FIX LABELS
 
 - ATN WAY 3 - WHERE DO WE WANT LBS INDICATION? - IT'S CURRENTLY STILL ON LED, BUT LABEL IS BLANK
 	- ADD INDICATION TO DISPLAY POINT?
@@ -88,17 +99,3 @@ CLARKE
 PARTNO
 0351S6XHB2E1122
 ID
-
-
-
-|       | Manual operation | Relay operation |
-| ----- | ---------------- | --------------- |
-| SD-09 | x                |                 |
-| SD-10 | x                |                 |
-| SD-11 | x                |                 |
-| SD-12 | x                |                 |
-| SC-03 | x                |                 |
-| SC-04 | x                |                 |
-| SC-05 | x                |                 |
-| SC-06 | x                |                 |
-| SM-2  | x                |                 |

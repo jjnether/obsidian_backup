@@ -48,8 +48,9 @@ Motor boards operating modes:
 `MET` - see all metering statuses
 `TAR <wordbit>` - see bit status
 `HIS` - event history
-`SHO <shortcut>` - shows corresponding settings
+`SHO <shortcut>` - i.e. `SHOW D 1` - shows corresponding settings
 `R_S` - factory reset
+`GOO` - check GOOSE settings - look for bad GOOSE signal (will say expired in a column)
 
 
 **For 651:**
