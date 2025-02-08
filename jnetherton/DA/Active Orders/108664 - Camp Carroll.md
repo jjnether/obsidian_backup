@@ -73,7 +73,7 @@ GOOSE Testing:
 	- removed LT13 (not used)
 	- Changed 52A to FI instead of LB
 	- Added transfer trip logic
-		- TMB4A - `(67P2T+67G2T)*(VB010+!VB004)`
+		- TMB4A - `(67P2T+67G2T)*(VB010+!VB002)`
 		- SET14 - ...VB003+VB004...
 		- SET15 - ...VB003+VB004...
 		- SV9 - ...+VB004
