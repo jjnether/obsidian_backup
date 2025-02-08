@@ -68,7 +68,7 @@ GOOSE Testing:
 	- Long term storage method/manual?
 -  FIX 351 LABELS
 
-- 351's
+- 351:
 	- Changed instances of TRGTR with RSTTRGT
 	- removed LT13 (not used)
 	- Changed 52A to FI instead of LB
@@ -78,15 +78,11 @@ GOOSE Testing:
 		- SET15 - ...VB003+VB004...
 		- SV9 - ...+VB004
 		- ER - ...+/PT
-
-- Add back acknowledge battery alarm on 351 non-w1's?
-	- Maybe later for commissioning
-	- add PB7*!IN206 to RST8
+	- Added back acknowledge battery alarm on 351 non-w1's
+- 700GW:
+	- fixed CT ratios
 
 - SD-10 W1 VB strange DNP where VB is minus 1?
-
-- BSYNCH 52A? - CHANGED 52A, DO WE NEED TO CHANGE THIS?
-- NOTE THAT MOTOR TIMEOUT ALARM WILL NOW RESET WITH /52A
 
 CAL
 CLARKE
