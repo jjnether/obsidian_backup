@@ -68,20 +68,6 @@ GOOSE Testing:
 	- Long term storage method/manual?
 -  FIX 351 LABELS
 
-- 351:
-	- Changed instances of TRGTR with RSTTRGT
-	- removed LT13 (not used)
-	- Changed 52A to FI instead of LB
-	- Added transfer trip logic
-		- TMB4A - `(67P2T+67G2T)*(VB010+!VB002)`
-		- SET14 - ...VB003+VB004...
-		- SET15 - ...VB003+VB004...
-		- SV9 - ...+VB004
-		- ER - ...+/PT
-	- Added back acknowledge battery alarm on 351 non-w1's
-- 700GW:
-	- fixed CT ratios
-
 - SD-10 W1 VB strange DNP where VB is minus 1?
 
 CAL
