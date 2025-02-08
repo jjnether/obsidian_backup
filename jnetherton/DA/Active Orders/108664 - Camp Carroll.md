@@ -69,11 +69,10 @@ GOOSE Testing:
 -  FIX 351 LABELS
 
 - 351's
-	- Added /52A to RSTTRGT and replaced TRGTR latch resets with RSTTRGT
+	- Changed instances of TRGTR with RSTTRGT
 	- removed LT13 (not used)
 	- Changed 52A to FI instead of LB, then swap vice versa
 	- Added transfer trip logic
-	- Changed 51 settings for coordination
 
 - Add back acknowledge battery alarm on 351 non-w1's?
 	- Maybe later for commissioning
@@ -82,7 +81,8 @@ GOOSE Testing:
 
 - SD-10 W1 VB strange DNP where VB is minus 1?
 
-- BSYNCH 52A? - CHANGED 52A, 
+- BSYNCH 52A? - CHANGED 52A, DO WE NEED TO CHANGE THIS?
+- NOTE THAT MOTOR TIMEOUT ALARM WILL NOW RESET WITH /52A
 
 CAL
 CLARKE
