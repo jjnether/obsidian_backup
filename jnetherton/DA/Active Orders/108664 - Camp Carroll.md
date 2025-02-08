@@ -81,7 +81,7 @@ GOOSE Testing:
 
 - Add back acknowledge battery alarm on 351 non-w1's?
 	- Maybe later for commissioning
-	- delete SV8?
+
 	- add PB7*!IN206 to RST8
 
 - SD-10 W1 VB strange DNP where VB is minus 1?
