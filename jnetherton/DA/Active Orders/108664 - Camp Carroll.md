@@ -71,8 +71,13 @@ GOOSE Testing:
 - 351's
 	- Changed instances of TRGTR with RSTTRGT
 	- removed LT13 (not used)
-	- Changed 52A to FI instead of LB, then swap vice versa
+	- Changed 52A to FI instead of LB
 	- Added transfer trip logic
+		- TMB4A - `(67P2T+67G2T)*(VB010+!VB004)`
+		- SET14 - ...VB003+VB004...
+		- SET15 - ...VB003+VB004...
+		- SV9 - ...+VB004
+		- ER - ...+/PT
 
 - Add back acknowledge battery alarm on 351 non-w1's?
 	- Maybe later for commissioning
