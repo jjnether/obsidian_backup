@@ -1,4 +1,0 @@
-Tissues
-Chicken
-Vegetables
-Oatmeal

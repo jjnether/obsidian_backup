@@ -82,6 +82,7 @@ GOOSE Testing:
 
 - SD-10 W1 VB strange DNP where VB is minus 1?
 
+- BSYNCH 52A? - CHANGED 52A, 
 
 CAL
 CLARKE
