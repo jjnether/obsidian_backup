@@ -38,7 +38,7 @@ DCB - Directional Comparison Blocking
 	- Will trip if there's a reverse fault and comms are down - could be a bus fault
 - Slower than POTT (~60ms)
 
-- If there's a breaker failure, it will send a transfer trip to all adjacent devices
+- If there's a breaker failure, a transfer trip will be sent to all adjacent devices
 - Forward current direction is considered into the line
 	- Needs voltage to determine current direction - if there is voltage loss at the switch, directional tripping is disabled
 - Loop Tie switches have 3 channels of GOOSE comms while the normal loop switches only have 2
@@ -82,5 +82,8 @@ PARTNO
 ID
 
 
+TRIP:
+- `SV9T+RB1*LT3+/PB10*LT4*!LT10+SV3T+RMB3A+VB003+RMB6B+VB016`
 
+SV9T:
 `(67P2T+67G2T)*(VB010+!VB002)+ECTT+51G1T+51P1T+51G2T+51P2T+VB004`
