@@ -41,7 +41,6 @@ DCB - Directional Comparison Blocking
 - If there's a breaker failure, it will send a transfer trip to all adjacent devices
 - Forward current direction is considered into the line
 	- Needs voltage to determine current direction - if there is voltage loss at the switch, directional tripping is disabled
-- Reverse fault is supervised by bad comms -
 - Loop Tie switches have 3 channels of GOOSE comms while the normal loop switches only have 2
 - VB010 - bad comms across the line
 - VB020 - bad comms from relay in same switch
