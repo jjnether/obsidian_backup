@@ -42,9 +42,6 @@ DCB - Directional Comparison Blocking
 - Forward current direction is considered into the line
 	- Needs voltage to determine current direction - if there is voltage loss at the switch, directional tripping is disabled
 - Loop Tie switches have 3 channels of GOOSE comms while the normal loop switches only have 2
-- VB010 - bad comms across the line
-- VB020 - bad comms from relay in same switch
-- VB030 - bad comms from 3rd relay in same switch (for loop tie)
 
 
 GOOSE Testing:
