@@ -70,8 +70,8 @@ GOOSE Testing:
 	- Same for RMB6B, but from channel B - synonymous with VB016
 	- VB016 is breaker failure from channel C
 - SV3T is loss of voltage trip - local bit 1, no permissives, no timer by default
-- SV9T
-	- Pickup should be set to Value greater than slowest tripping time of fuse on load.  This is to protect against a fault on the switch/bus.????
+- SV9T - automation tripping
+	- Pickup should be set to Value greater than slowest tripping time of fuse on load????  This is to protect against a fault on the switch/bus????
 
 - SD-10 W1 VB strange DNP where VB is minus 1?
 
@@ -83,10 +83,17 @@ ID
 
 
 TRIP:
-- `SV9T+RB1*LT3+/PB10*LT4*!LT10+SV3T+RMB3A+VB003+RMB6B+VB016`
-	- 
+- `SV9T+RB1*LT3+/PB10*LT4*!LT10+SV3T+RMB3A+VB003+RMB6B+VB016+VB026`
+	- Automation tripping
+	- Remote Trip
+	- PB Trip
+	- LOV trip
+	- breaker failure trip - channel A
+	- breaker failure trip - channel B
+	- breaker failure trip - channel C (only ATN)
 
-SV9T:
+SV9:
+- `(67P2T+67G2T)*(VB010+!VB002)+ECTT+51G1T+51P1T+51G2T+51P2T+VB004`
 - `(67P2T+67G2T)*(VB010+!VB002)+ECTT+51G1T+51P1T+51G2T+51P2T+VB004`
 
 51P2TC:
