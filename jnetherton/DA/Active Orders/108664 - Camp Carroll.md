@@ -34,7 +34,7 @@ DCB - Directional Comparison Blocking
 - Trips if it sees a forward fault and receives no blocking signal, then sends a DCB signal backwards
 	- Sends the signal backwards because the fault will either be interrupted downstream or it will interrupt the fault itself if it doesn't receive a DCB signal
 	- After DCB trip, sends a transfer trip signal forward to the device across the line (this trips it out in the case of a radial fed fault)
-- If it sees a reverse fault, will send DCB signal forward because the fault will either be interrupted downstream or...
+- If it sees a reverse fault, will send DCB signal forward
 	- Will trip if there's a reverse fault and comms are down - could be a bus fault
 - Slower than POTT (~60ms)
 
@@ -71,6 +71,7 @@ GOOSE Testing:
 	- VB016 is breaker failure from channel C
 - SV3T is loss of voltage trip - local bit 1, no permissives, no timer by default
 - SV9T
+	- Pickup should be set to Value greater than slowest tripping time of fuse on load.  This is to protect against a fault on the switch/bus.
 
 - SD-10 W1 VB strange DNP where VB is minus 1?
 
@@ -82,4 +83,4 @@ ID
 
 
 
-`SV9T`
+`(67P2T+67G2T)*(VB010+!VB002)+ECTT+51G1T+51P1T+51G2T+51P2T+VB004`
