@@ -69,6 +69,12 @@ GOOSE Testing:
 	- Cybersecurity portion? - see drawing #609 from customer
 	- Long term storage method/manual?
 -  FIX 351 LABELS
+- LT10 was auto mode - removed at some point
+- RMB3A - received mirrored bit 3A, breaker failure trip - will never assert as we're using GOOSE - synonymous with VB003
+	- Same for RMB6B, but from channel B - synonymous with VB016
+	- VB016 is breaker failure from channel C
+- SV3T is loss of voltage trip - local bit 1, no permissives, no timer by default
+- SV9T
 
 - SD-10 W1 VB strange DNP where VB is minus 1?
 
@@ -80,4 +86,4 @@ ID
 
 
 
-SV9T+RB1*LT3+/PB10*LT4*!LT10+SV3T+RMB3A+VB003+RMB6B+VB016+VB026
+`SV9T`
