@@ -71,7 +71,7 @@ GOOSE Testing:
 	- VB016 is breaker failure from channel C
 - SV3T is loss of voltage trip - local bit 1, no permissives, no timer by default
 - SV9T
-	- Pickup should be set to Value greater than slowest tripping time of fuse on load.  This is to protect against a fault on the switch/bus.
+	- Pickup should be set to Value greater than slowest tripping time of fuse on load.  This is to protect against a fault on the switch/bus.????
 
 - SD-10 W1 VB strange DNP where VB is minus 1?
 
@@ -84,6 +84,10 @@ ID
 
 TRIP:
 - `SV9T+RB1*LT3+/PB10*LT4*!LT10+SV3T+RMB3A+VB003+RMB6B+VB016`
+	- 
 
 SV9T:
-`(67P2T+67G2T)*(VB010+!VB002)+ECTT+51G1T+51P1T+51G2T+51P2T+VB004`
+- `(67P2T+67G2T)*(VB010+!VB002)+ECTT+51G1T+51P1T+51G2T+51P2T+VB004`
+
+51P2TC:
+- `67P3*(RMB1B+VB011)+67P3T*VB020+67P3*(RMB3B+VB013)+67P3T*!(RMB4B+VB014)`
