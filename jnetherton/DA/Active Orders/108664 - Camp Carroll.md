@@ -72,6 +72,7 @@ GOOSE Testing:
 - SV3T is loss of voltage trip - local bit 1, no permissives, no timer by default
 - SV9T - automation tripping
 	- Pickup should be set to Value greater than slowest tripping time of fuse on load????  This is to protect against a fault on the switch/bus????
+- 351S W3 - add 67P1T/67G1T to the trip equation for 50 timeout
 
 - SD-10 W1 VB strange DNP where VB is minus 1?
 
