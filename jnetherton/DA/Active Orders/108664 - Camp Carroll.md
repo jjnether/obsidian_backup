@@ -31,15 +31,17 @@ POTT - Permissive Overreach Transfer Trip
 	- Trips if it sees a forward fault and receives a POTT signal from the other side of the line
 - Should be close to instant (~30ms)
 DCB - Directional Comparison Blocking
-- Trips if it sees a forward fault and receives no blocking signal, then sends a DCB signal to the device behind it
-	- Sends the signal backwards because it knows the fault will either be interrupted downstream or it will interrupt the fault itself if it doesn't receive a DCB signal
-- After DCB trip, sends a transfer trip signal forward to the device across the line (this trips it out in the case of a radial fed fault)
+- Trips if it sees a forward fault and receives no blocking signal, then sends a DCB signal backwards
+	- Sends the signal backwards because the fault will either be interrupted downstream or it will interrupt the fault itself if it doesn't receive a DCB signal
+	- After DCB trip, sends a transfer trip signal forward to the device across the line (this trips it out in the case of a radial fed fault)
+- If it sees a reverse fault, will send DCB signal forward because the fault will either be interrupted downstream or...
+	- Will trip if there's a reverse fault and comms are down - could be a bus fault
 - Slower than POTT (~60ms)
 
 - If there's a breaker failure, it will send a transfer trip to all adjacent devices
 - Forward current direction is considered into the line
 	- Needs voltage to determine current direction - if there is voltage loss at the switch, directional tripping is disabled
-- Reverse fault is supervised by bad comms - if there's a reverse fault and comms are down, could be a bus fault, so will trip
+- Reverse fault is supervised by bad comms -
 - Loop Tie switches have 3 channels of GOOSE comms while the normal loop switches only have 2
 - VB010 - bad comms across the line
 - VB020 - bad comms from relay in same switch
@@ -75,3 +77,7 @@ CLARKE
 PARTNO
 0351S6XHB2E1122
 ID
+
+
+
+SV9T+RB1*LT3+/PB10*LT4*!LT10+SV3T+RMB3A+VB003+RMB6B+VB016+VB026
