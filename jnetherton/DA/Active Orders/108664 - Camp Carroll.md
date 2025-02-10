@@ -27,8 +27,8 @@ Survalent:
 
 
 POTT - Permissive Overreach Transfer Trip
-- Trips if it sees a forward fault and receives a POTT signal from the other side of the line
-	- Will also send a POTT signal forward (permission to trip) to the device across the line
+- If it sees a forward fault, sends a POTT signal forward (permission to trip) to the device across the line
+	- Trips if it sees a forward fault and receives a POTT signal from the other side of the line
 - Should be close to instant (~30ms)
 DCB - Directional Comparison Blocking
 - Trips if it sees a forward fault and receives no blocking signal, then sends a DCB signal to the device behind it
