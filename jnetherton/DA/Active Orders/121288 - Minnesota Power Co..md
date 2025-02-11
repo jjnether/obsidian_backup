@@ -147,7 +147,10 @@ LOGIC (recloser):
 - Auto mode:
 	- SET32 := ((PB04_PUL AND LT05) OR (R_TRIG RB09 AND LT03)) AND LT06 AND NOT LT32 # LOOP SCHEME ENABLED
 	- RST32 := (((PB04_PUL AND LT05) OR (R_TRIG RB10 AND LT03)) AND LT32) OR NOT LT06 OR (TRIP3P AND SV64T AND MV25 = 0.00) OR SV55 OR (SV64T AND MV24 = 0 AND NOT 52A3P)
-		- 
+		- PB or Remote Open
+		- HLT
+		- Trip signal and LOV trip and Auto close disabled
+		- LOV trip and it's a directional switch and it's open
 		- SV55 := (79LO3P AND (SV26 OR 51P OR 51G1) AND TRIP3P) OR (52A3P AND SV56T AND MV26 = 0.00) # EXTRA EQUATION FOR LOOP SCHEME RESET
 			- Lockout and fault indication or fault active and trip signal active
 			- Closed and it just auto closed and auto open is disabled
