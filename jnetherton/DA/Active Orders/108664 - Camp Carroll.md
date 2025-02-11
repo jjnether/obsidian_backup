@@ -77,6 +77,7 @@ GOOSE Testing:
 - SD-10 W1 VB strange DNP where VB is minus 1?
 - Review deadbanding in survalent and relay for analogs
 - Review polling times in survalent comm settings
+- SM-2 - add latch for DCB indication
 
 CAL
 CLARKE
