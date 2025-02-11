@@ -86,16 +86,21 @@ ID
 TRIP:
 - `SV9T+RB1*LT3+/PB10*LT4*!LT10+SV3T+RMB3A+VB003+RMB6B+VB016+VB026`
 	- Automation tripping
-	- Remote Trip
-	- PB Trip
+	- Remote Trip (with remote mode)
+	- PB Trip (with no PB lock)
 	- LOV trip
 	- breaker failure trip - channel A
 	- breaker failure trip - channel B
 	- breaker failure trip - channel C (only ATN)
+PT1 (for POTT):
+- `!(67P3+67G3)*(RMB1A+VB001)`
+	- no reverse overcurrent pickup and POTT signal received
 
 SV9:
 - `(67P2T+67G2T)*(VB010+!VB002)+ECTT+51G1T+51P1T+51G2T+51P2T+VB004`
-- `(67P2T+67G2T)*(VB010+!VB002)+ECTT+51G1T+51P1T+51G2T+51P2T+VB004`
+	- Forward overcurrent (with bad quality or no DCB block)
+	- Echo conversion to trip (POTT)
+	- 
 
 51P2TC:
 - `67P3*(RMB1B+VB011)+67P3T*VB020+67P3*(RMB3B+VB013)+67P3T*!(RMB4B+VB014)`
