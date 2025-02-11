@@ -51,18 +51,6 @@ Customer Questions:
 - Tie behavior after closing:
 	- Should it be able to auto open?
 	- Sectionalize/Reclose/1-trip protection?
-- Added alternate settings PB
-	- Alternate settings are ONLY for reclosing (loop scheme will be disabled)
-- Made changes to DNP map
-	- Added settings group, alternate settings activation, and voltage angles
-- Changed placement of target LED's
-	- Saw that the colors were not configurable, had to move a bit
-- Changed default protection/automation settings
-- Subsequent faults will only be tested after system has finished initial reconfiguration
-- Directional Ties
-	- Should TIE 2 be directional? (is there load on F)
-	- Disable REC 1 auto closing to feed A?
-	- Disable REC 2 auto closing to feed G?
 - What are your reset times for substation reclosers?
 	- Reclosers should have the same reset times
 
@@ -120,36 +108,13 @@ CIRCUIT AUTOMATION SETTINGS:
 		- 90s Auto Close
 
 Follow Up-items:
-- What points need to be sent back for ADMS - what Nic introduced to them, what do they need to start implementing?
-- Which devices do we want to be directional?
 - Check if auto close still works with pushbuttons locked?
 	- I think it works, but didn't deliberately test. Bob mentioned a previous problem where the unlatch close with PB lock was blocking auto close
 - 300 cycles event report length was requested, but longest available is 180 cycles
 
 
-SV14T OR OC3 AND LT03 OR 81D1T OR SV58 OR 51PT OR 50P2T OR (51G1T OR 50G2T) AND NOT (SPE AND SV26T) # 3-PHASE TRIP CONDITIONS
-- PB trip
-	- or
-- remote trip
-	- or
-- 81
-	- or
-- closed into fault from auto close
-	- or
-
-
-R_TRIG SV22T AND MV17 <> 0.00 OR R_TRIG SV04T OR R_TRIG SV40T OR SV23 OR SV25 OR NOT LT06 AND SV35T AND (TRIPA OR TRIPB OR TRIPC) OR SV64T # MORE 3-PH TRIP CONDITIONS
-
-SV14T OR OC3 AND LT03 OR 81D1T OR SV58 OR (51PT OR 50P2T OR 51G1T OR 50G2T) AND NOT LT06 OR SV36 # 3-PHASE TRIP CONDITIONS
-
-R_TRIG SV22T AND MV17 <> 0.00 OR R_TRIG SV04T OR R_TRIG SV40T OR SV23 OR SV25 OR NOT LT06 AND SV35T AND (TRIPA OR TRIPB OR TRIPC) OR SV64T OR (SC02QU AND LT27) # MORE 3-PH TRIP CONDITIONS
-
-
 - Hot line tag functionality
 	- changed the logic so HLT trips to lockout upon current exceeding pickup level
-
-- Shortened auto-close times
-	- Follow up with them with customized logic regarding this, and what pros/cons might be
 
 - Directional devices
 	- Don't close to backfeed substations
@@ -157,9 +122,6 @@ R_TRIG SV22T AND MV17 <> 0.00 OR R_TRIG SV04T OR R_TRIG SV40T OR SV23 OR SV25 OR
 - Fast Curve and alt settings
 	- Hardcoded to always disabled
 	- Remove from label
-
-- Possible switch mode
-	- not needed - they are putting some reclosers up without controls initially
 
 - Updated SEL-651 faceplate on existing orders
 	- They will be printing their own labels, we just need to send them the label file
