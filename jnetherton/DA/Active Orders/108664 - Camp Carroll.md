@@ -75,6 +75,8 @@ GOOSE Testing:
 - 351S W3 - add 67P1T/67G1T to the trip equation for 50 timeout
 
 - SD-10 W1 VB strange DNP where VB is minus 1?
+- Review deadbanding in survalent and relay for analogs
+- Review polling times in survalent comm settings
 
 CAL
 CLARKE
