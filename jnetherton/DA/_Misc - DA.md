@@ -293,3 +293,8 @@ Phenix Supplies:
 When installing Windows 11, to do so without internet:
 - When getting to the internet required screen, hit Shift + F10 then enter `OOBE\BYPASSNRO`
 - When prompted
+
+
+3.25% raise
+
+109%
