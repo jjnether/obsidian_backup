@@ -79,6 +79,7 @@ GOOSE Testing:
 - Review polling times in survalent comm settings
 - SM-2 - add latch for DCB indication
 - Check DCB/POTT indication for all switches
+- Add engineering units to switch view
 
 CAL
 CLARKE
