@@ -80,6 +80,7 @@ GOOSE Testing:
 - SM-2 - add latch for DCB indication
 - Check DCB/POTT indication for all switches
 - Add engineering units to switch view
+- Add 67G2 for DCB trip latch
 
 CAL
 CLARKE
