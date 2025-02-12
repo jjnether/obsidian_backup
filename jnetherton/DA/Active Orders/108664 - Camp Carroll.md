@@ -80,7 +80,12 @@ GOOSE Testing:
 - SM-2 - add latch for DCB indication
 - Check DCB/POTT indication for all switches
 - Add engineering units to switch view
+- Move 52A into new timer for RSTTRGT
 - Add 67G2 for DCB trip latch
+- Move set conditions of DCB latch directly into TLED
+- Keep an eye on target LED's resetting when they shouldn't
+	- Might be due to bouncing on IN101, as IN101 is 52A, and 52A inherently resets target LED's
+- Add VB003 + VB004 to COMM LED
 
 CAL
 CLARKE
