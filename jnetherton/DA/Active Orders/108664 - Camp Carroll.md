@@ -86,6 +86,8 @@ GOOSE Testing:
 - Keep an eye on target LED's resetting when they shouldn't
 	- Might be due to bouncing on IN101, as IN101 is 52A, and 52A inherently resets target LED's
 - Add VB003 + VB004 to COMM LED
+- Fix PBLED4 in SCADA for low gas - check alarming as well
+- Add default batt test logic to SM-2
 
 CAL
 CLARKE
