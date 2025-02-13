@@ -90,12 +90,10 @@ TO DO:
 - Add VB003 + VB004 to COMM LED
 - Fix PBLED4 in SCADA for low gas - check alarming as well
 
-
-- 700GW bottom target LED asserted when doing a load fault?
 - add communication screen
 - add screenshots for report - comm failure screen
 - add way indicator on relay screens (maybe just change the name of the station? Have a better standard that includes W1)
-- check if we can change bottom right IP to "primary" and "backup"
+- check if we can change bottom left IP to "primary" and "backup"
 
 CAL
 CLARKE
