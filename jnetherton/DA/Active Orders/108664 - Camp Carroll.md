@@ -91,7 +91,6 @@ TO DO:
 - Fix PBLED4 in SCADA for low gas - check alarming as well
 
 
-- DO WE WANT COMM TLED TO ASSERT UPON DCB?
 - 700GW bottom target LED asserted when doing a load fault?
 - add communication screen
 - add screenshots for report - comm failure screen
