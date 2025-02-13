@@ -95,7 +95,7 @@ TO DO:
 - 700GW bottom target LED asserted when doing a load fault?
 - add communication screen
 - add screenshots for report - comm failure screen
-- add way indicator on relay screens
+- add way indicator on relay screens (maybe just change the name of the station? Have a better standard that includes W1)
 - check if we can change bottom right IP to "primary" and "backup"
 
 CAL
