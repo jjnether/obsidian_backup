@@ -93,6 +93,10 @@ TO DO:
 
 - DO WE WANT COMM TLED TO ASSERT UPON DCB?
 - 700GW bottom target LED asserted when doing a load fault?
+- add communiation screen
+- add screenshots for report - comm failure screen
+- add way indicator on relay screens
+- 
 
 CAL
 CLARKE
