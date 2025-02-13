@@ -90,6 +90,10 @@ TO DO:
 - Add VB003 + VB004 to COMM LED
 - Fix PBLED4 in SCADA for low gas - check alarming as well
 
+
+- DO WE WANT COMM TLED TO ASSERT UPON DCB?
+- 700GW bottom target LED asserted when doing a load fault?
+
 CAL
 CLARKE
 PARTNO
