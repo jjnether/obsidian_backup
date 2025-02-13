@@ -72,22 +72,23 @@ GOOSE Testing:
 - SV3T is loss of voltage trip - local bit 1, no permissives, no timer by default
 - SV9T - automation tripping
 	- Pickup should be set to Value greater than slowest tripping time of fuse on load????  This is to protect against a fault on the switch/bus????
-- 351S W3 - add 67P1T/67G1T to the trip equation for 50 timeout
 
-- SD-10 W1 VB strange DNP where VB is minus 1?
 - Review deadbanding in survalent and relay for analogs
 - Review polling times in survalent comm settings
-- SM-2 - add latch for DCB indication
-- Check DCB/POTT indication for all switches
+- Keep an eye on target LED's resetting when they shouldn't
+	- Might be due to bouncing on IN101, as IN101 is 52A, and 52A inherently resets target LED's
+
+TO DO:
+- 351S W3 - add 67P1T/67G1T to the trip equation for 50 timeout
 - Add engineering units to switch view
 - Move 52A into new timer for RSTTRGT
 - Add 67G2 for DCB trip latch
 - Move set conditions of DCB latch directly into TLED
-- Keep an eye on target LED's resetting when they shouldn't
-	- Might be due to bouncing on IN101, as IN101 is 52A, and 52A inherently resets target LED's
+- SM-2
+	- add latch for DCB indication
+	- add battery test logic
 - Add VB003 + VB004 to COMM LED
 - Fix PBLED4 in SCADA for low gas - check alarming as well
-- Add default batt test logic to SM-2
 
 CAL
 CLARKE
