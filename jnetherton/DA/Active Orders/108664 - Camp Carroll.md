@@ -96,7 +96,8 @@ TO DO:
 - add communiation screen
 - add screenshots for report - comm failure screen
 - add way indicator on relay screens
-- 
+- check server swapping back to primary
+- check if we can change bottom right IP to "primary" and "backup"
 
 CAL
 CLARKE
