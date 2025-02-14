@@ -91,7 +91,7 @@ TO DO:
 - SM-2
 	- add latch for DCB indication
 	- add battery test logic
-- Add VB003 + VB004 to COMM LED
+- Add VB003 + VB004 +VB016 to COMM LED
 - Fix PBLED4 in SCADA for low gas - check alarming as well
 
 - add communication screen
@@ -127,3 +127,5 @@ SV9:
 
 51P2TC:
 - `67P3*(RMB1B+VB011)+67P3T*VB020+67P3*(RMB3B+VB013)+67P3T*!(RMB4B+VB014)`
+
+VB013
