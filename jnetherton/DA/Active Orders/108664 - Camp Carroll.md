@@ -92,6 +92,8 @@ TO DO:
 	- add latch for DCB indication
 	- add battery test logic
 - Add `COMMT+(67P2T+67G2T)*!(RMB1A+VB001)*!(RMB2A+VB002)*!(RMB3A+VB003)+VB003+VB004+VB016` to LED14
+- Add VB003 + VB016 to BFTRIP LED
+- Add BFTRIP to SER and ER
 - Fix PBLED4 in SCADA for low gas - check alarming as well
 
 - add communication screen
