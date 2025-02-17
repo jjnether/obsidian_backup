@@ -147,3 +147,7 @@ PSV31 := PCT30Q #CLOSE ADJ. SW. TIE IF OPEN POINT
 - adj tie open
 
 ```
+
+![[Pasted image 20250217134409.png]]
+- Determine tie way with local bit
+- Also trip open a tie way if it sees its source voltage drop for a time
