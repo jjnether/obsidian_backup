@@ -154,3 +154,8 @@ LOGIC (recloser):
 		- SV55 := (79LO3P AND (SV26 OR 51P OR 51G1) AND TRIP3P) OR (52A3P AND SV56T AND MV26 = 0.00) # EXTRA EQUATION FOR LOOP SCHEME RESET
 			- Lockout and fault indication or fault active and trip signal active
 			- Closed and it just auto closed and auto open is disabled
+
+20250217 Notes:
+- Labels for controls we'll use in training?
+- Need to test shortened auto close logic
+- Add kicking out of auto upon pb press or upon yellow handle execution?
