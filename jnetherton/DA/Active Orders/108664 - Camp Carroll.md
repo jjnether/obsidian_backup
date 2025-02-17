@@ -83,8 +83,6 @@ GOOSE Testing:
 	- Might be due to bouncing on IN101, as IN101 is 52A, and 52A inherently resets target LED's
 
 TO DO:
-- 351S W3 - add 67P1T/67G1T to the trip equation for 50 timeout
-- Add engineering units to switch view
 - Move 52A into SV10 for RSTTRGT
 - Add 67G2 for DCB trip latch
 - Move set conditions of DCB latch directly into TLED
