@@ -86,7 +86,6 @@ TO DO:
 - SM-2
 	- scada check RB7 for RSTRGT
 	- scada check LT12 for DCB indication
-- Add VB003 + VB016 to BFTRIP LED
 - Fix PBLED4 in SCADA for low gas - check alarming as well
 
 - add communication screen
