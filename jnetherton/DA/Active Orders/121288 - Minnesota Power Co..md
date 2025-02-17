@@ -159,3 +159,5 @@ LOGIC (recloser):
 - Labels for controls we'll use in training?
 - Need to test shortened auto close logic
 - Add kicking out of auto upon pb press or upon yellow handle execution?
+- Number of people present?
+	- buy G&W goodies for them

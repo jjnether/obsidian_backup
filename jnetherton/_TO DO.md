@@ -12,13 +12,10 @@ kanban-plugin: board
 	- also 108630/108631
 	- edit program for trident and throw in production folder @{2024-12-31}
 - [ ] **General Work**
-	- K&W SHIP TO ADDRESS AND POINT OF CONTACT AND PHONE NUMBER
-	- MP Test Plan
 	- MP GWI
 	- Buy GW goodies for MP
 	- Put an SA hold on the meralco trident to test it?
 	- Email Dan W MP agenda
-	- Elk Grove - load goose files
 	- Ft Meade Testing
 	- Default 487 overcurrent program
 	- MP auto close changes testing
@@ -42,7 +39,6 @@ kanban-plugin: board
 	- Form6 @{2025-02-21}
 - [ ] [[119509 - Elk Grove Village Property]]
 	- Need to load GOOSE
-	- is automation hardcoded to 0? - no
 
 
 ## FAT
