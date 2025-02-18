@@ -74,7 +74,4 @@ IED Wizard
 	- Hit next twice, then put the device IP in host name and the DNP port to be used (20000 by default)
 	- Hit Save IED
 
-TO DO
-- add metering screen for loop c
-- fix substation screen (according to actual drawing)
-- finish rest of the switches
+For Survalent Sales support: Anjali Mittal amittal@survalent.com
