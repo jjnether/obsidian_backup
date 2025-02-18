@@ -10,14 +10,11 @@ kanban-plugin: board
 	- Update excel map with all variables @{2024-09-30}
 - [ ] [[108629 - Meralco]]
 	- also 108630/108631
-	- edit program for trident and throw in production folder @{2024-12-31}
+	- edit program for trident and throw in production folder
+	- Put an SA hold on the Meralco trident to test it?@{2024-12-31}
 - [ ] **General Work**
-	- MP GWI
-	- Buy GW goodies for MP
-	- Put an SA hold on the meralco trident to test it?
 	- Ft Meade Testing
 	- Default 487 overcurrent program
-	- MP auto close changes testing
 	- Amptek GWI
 	- Pantex Switch Updates
 		- FAT in January
@@ -51,9 +48,9 @@ kanban-plugin: board
 ## SAT/GWI
 
 - [ ] [[121288 - Minnesota Power Co.]]
-	- Awaiting decision on adding extra logic for faster auto-closing
-	- Commissioning in March?
-	- Need to make GWI
+	- GWI
+	- Buy G&W goodies for training
+	- Auto-close changes testing
 	@{2024-10-10}
 
 
