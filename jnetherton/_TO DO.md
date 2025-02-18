@@ -15,7 +15,6 @@ kanban-plugin: board
 	- MP GWI
 	- Buy GW goodies for MP
 	- Put an SA hold on the meralco trident to test it?
-	- Email Dan W MP agenda
 	- Ft Meade Testing
 	- Default 487 overcurrent program
 	- MP auto close changes testing
