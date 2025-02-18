@@ -158,6 +158,6 @@ LOGIC (recloser):
 20250217 Notes:
 - Labels for controls we'll use in training?
 - Need to test shortened auto close logic
-- Add kicking out of auto upon pb press or upon yellow handle execution?
+- Add kicking out of auto upon manual operation (pb press or remote) or upon yellow handle execution?
 - Number of people present?
 	- buy G&W goodies for them
