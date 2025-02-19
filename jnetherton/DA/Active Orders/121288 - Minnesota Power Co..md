@@ -55,7 +55,7 @@ Customer Questions:
 	- Reclosers should have the same reset times
 
 Notes:
-- Phase discordance and single phase trip failure only TLED indication, no other logic
+- Single phase trip failure only TLED indication, no other logic
 - HLT trips when the specified elements time out
 - When closing into a fault after an auto open, switch will trip if current exceeds 51 pickup value
 - Remote mode does not block local PB commands (that is for PB lock to do)
