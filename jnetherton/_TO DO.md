@@ -34,7 +34,6 @@ kanban-plugin: board
 - [ ] [[120518 - United Cooperative Services]]
 	- Form6 @{2025-02-21}
 - [ ] [[119509 - Elk Grove Village Property]]
-	- Need to load GOOSE
 
 
 ## FAT
