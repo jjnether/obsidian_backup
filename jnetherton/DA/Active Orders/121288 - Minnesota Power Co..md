@@ -41,11 +41,6 @@ New MOT: 0651R22CXGAXAE1112M702
 - Maggie Nevrly  
 - Kurt Blomquist  
   
-To Do:
-- Fix DNP map order
-- based on provided breaker reclosing settings, make suggestions and have discussion on proper LOV timings
-- add a section for customer settings in FAT doc
-- double check programming spec based on changes
 
 Customer Questions:
 - Tie behavior after closing:
