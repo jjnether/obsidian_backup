@@ -160,6 +160,7 @@ LOGIC (recloser):
 - Labels for controls we'll use in training?
 - Need to test shortened auto close logic
 - Add kicking out of auto upon manual operation (pb press or remote) or upon yellow handle execution?
+	- trips and locks out
 - Number of people present?
 	- buy G&W goodies for them
 - Do I need to explain in the GWI other features that we didn't go over, such as cold load pickup, high current trip, over under freq, etc?
