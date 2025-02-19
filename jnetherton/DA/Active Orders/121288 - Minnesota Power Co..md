@@ -55,6 +55,7 @@ Customer Questions:
 	- Reclosers should have the same reset times
 
 Notes:
+- Manual operations kick out of auto
 - If there's a yellow handle signal, it holds the auto latch in reset
 - HLT trips when the specified elements time out
 - When closing into a fault after an auto open, switch will trip if current exceeds 51 pickup value
@@ -164,4 +165,3 @@ LOGIC (recloser):
 - Number of people present?
 	- buy G&W goodies for them
 - Do I need to explain in the GWI other features that we didn't go over, such as cold load pickup, high current trip, over under freq, etc?
-- Should I add voltages/currents in display points?
