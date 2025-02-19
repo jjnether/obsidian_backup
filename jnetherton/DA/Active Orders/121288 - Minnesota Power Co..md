@@ -55,6 +55,7 @@ Customer Questions:
 	- Reclosers should have the same reset times
 
 Notes:
+- If there's a yellow handle signal, it holds the auto latch in reset
 - HLT trips when the specified elements time out
 - When closing into a fault after an auto open, switch will trip if current exceeds 51 pickup value
 - Remote mode does not block local PB commands (that is for PB lock to do)
@@ -68,7 +69,7 @@ Notes:
 - Alternate profile only does reclosing
 	- Sectionalizing set to 0 in template
 	- Hardcode loop scheme latch to 0
-- Blocking LS auto close if recloser is in 79 cycle (79CY3P)
+- Blocking LS auto close timer if recloser is in 79 cycle (79CY3P)
 - Applicable to all LOV timers - when does this time start? Is it upon 3 phase LOV, or is it upon losing at least 1 phase (which could happen upon initial fault before the recloser opens - ie voltage sag due to high fault current - also think about how this timer reacts for a system that might reclosers single phase but lockout 3 phase incase they would like to move to that method of operation).
 - Applicable to all LOV timers - when does this time start? Is it upon 3 phase LOV, or is it upon losing at least 1 phase (which could happen upon initial fault before the recloser opens - ie voltage sag due to high fault current - also think about how this timer reacts for a system that might reclosers single phase but lockout 3 phase incase they would like to move to that method of operation)
 	- The current logic looks at each phase individually for dead voltage on both sides, 52A, and no overcurrent pickup exceeded. In the case of single phase reclosing but 3 phase lockout, we would have to ensure that the LOV trip time is greater than the time between each shot, or maybe we can add blocking, so if phase is in 79 cycle mode, timer will deassert.
@@ -159,7 +160,7 @@ LOGIC (recloser):
 - Labels for controls we'll use in training?
 - Need to test shortened auto close logic
 - Add kicking out of auto upon manual operation (pb press or remote) or upon yellow handle execution?
-	- trips and locks out
+	- yellow handle signal will hold auto mode in reset
 - Number of people present?
 	- buy G&W goodies for them
 - Do I need to explain in the GWI other features that we didn't go over, such as cold load pickup, high current trip, over under freq, etc?
