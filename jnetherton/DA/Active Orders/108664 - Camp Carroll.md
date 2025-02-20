@@ -111,7 +111,7 @@ TO DO:
 GOOSE Testing:
 - Each relay only sends two channels, receives up to three
 	- We want to test to make sure that for each channel, the GOOSE is being transmitted properly and the right relays are subscribed
-- We're sending RB01-RB08 over, so we have spare 
+- We're sending MB01-MB08 over, so we have spare 
 - We can make a state machine using a counter which goes up to 2, and cycles for sending to Channel A or Channel B
 - It can be triggered either via pushbutton (spare blank PB08) or via SCADA by pulsing a remote bit
 - While sending the test signal, the PB LED can blink slowly for sending channel A, quickly for sending channel B, and solid if receiving a signal
