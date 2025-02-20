@@ -117,3 +117,10 @@ GOOSE Testing:
 - While sending the test signal, the PB LED can blink slowly for sending channel A, quickly for sending channel B, and solid if receiving a signal
 - Add a watchdog timer to turn off sending in case it's accidentally left on
 - Add an alarm in SCADA for receiving the signal, so it's clear which relays are receiving it and it's logged
+
+
+- Move cable energized to LV1
+- Use LT10 and LT16 for states
+- Use SV15 and SV16 for timers (30 cyc and 60 cyc)
+- Remove LT10 from TR equation
+- LB 2 FOR SUPERVISION
