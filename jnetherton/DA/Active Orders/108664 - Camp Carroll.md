@@ -47,51 +47,19 @@ DCB - Directional Comparison Blocking
 	- Needs voltage to determine current direction - if there is voltage loss at the switch, directional tripping is disabled
 - Loop Tie switches have 3 channels of GOOSE comms while the normal loop switches only have 2
 
-
-GOOSE Testing:
-- Each relay only sends two channels, receives up to three
-	- We want to test to make sure that for each channel, the GOOSE is being transmitted properly and the right relays are subscribed
-- We're sending RB01-RB08 over, so we have spare 
-- We can make a state machine using a counter which goes up to 2, and cycles for sending to Channel A or Channel B
-- It can be triggered either via pushbutton (spare blank PB08) or via SCADA by pulsing a remote bit
-- While sending the test signal, the PB LED can blink slowly for sending channel A, quickly for sending channel B, and solid if receiving a signal
-- Add a watchdog timer to turn off sending in case it's accidentally left on
-- Add an alarm in SCADA for receiving the signal, so it's clear which relays are receiving it and it's logged
-
 - RelaySimTest is iterative and looks 100ms (adjustable) past the newest event on each iteration
 	- So initially, it will send fault current and will see trips within the first 100ms, but won't halt the fault current as they are new trips
 	- Next iteration, it will now look for new trips and will look 100ms past the new trips (so it will now account for breaker failure trips which happen at 150ms)
 
-- Woody's comments:
-	- POTT and DCB scheme sample for customer
-	- Top level drawings for dimension checks
-	- Production test reports for each type of switch
-	- Cybersecurity portion? - see drawing #609 from customer
-	- Long term storage method/manual?
--  FIX 351 LABELS
-- LT10 was auto mode - removed at some point
 - RMB3A - received mirrored bit 3A, breaker failure trip - will never assert as we're using GOOSE - synonymous with VB003
 	- Same for RMB6B, but from channel B - synonymous with VB016
-	- VB016 is breaker failure from channel C
-- SV3T is loss of voltage trip - local bit 1, no permissives, no timer by default
 - SV9T - automation tripping
-	- Pickup should be set to Value greater than slowest tripping time of fuse on load????  This is to protect against a fault on the switch/bus????
-
-- Review deadbanding in survalent and relay for analogs
-- Review polling times in survalent comm settings
-- Keep an eye on target LED's resetting when they shouldn't
-	- Might be due to bouncing on IN101, as IN101 is 52A, and 52A inherently resets target LED's
+	- (previous comment) - Pickup should be set to Value greater than slowest tripping time of fuse on load????  This is to protect against a fault on the switch/bus????
 
 TO DO:
 - SM-2
 	- scada check RB7 for RSTRGT
 	- scada check LT12 for DCB indication
-- Fix PBLED4 in SCADA for low gas - check alarming as well
-
-- add communication screen
-- add screenshots for report - comm failure screen
-- add way indicator on relay screens (maybe just change the name of the station? Have a better standard that includes W1)
-- check if we can change bottom left IP to "primary" and "backup"
 
 CAL
 CLARKE
@@ -101,7 +69,7 @@ ID
 
 
 TRIP:
-- `SV9T+RB1*LT3+/PB10*LT4*!LT10+SV3T+RMB3A+VB003+RMB6B+VB016+VB026`
+- `SV9T+RB1*LT3+/PB10*LT4*!LT10+/SV3T+RMB3A+VB003+RMB6B+VB016+VB026`
 	- Automation tripping
 	- Remote Trip (with remote mode)
 	- PB Trip (with no PB lock)
@@ -129,3 +97,23 @@ VB013
 
 
 ![[Pasted image 20250218133150.png]]
+
+
+TO DO:
+- Build out communication screens (both the physical switch ports and the GOOSE lines)
+- Add password for every operation? - need to check if customer wants this
+- check if we can change bottom left IP to "primary" and "backup"
+- Review deadbanding in survalent and relay for analogs
+- Review polling times in survalent comm settings
+- Keep an eye on target LED's resetting when they shouldn't
+	- Might be due to bouncing on IN101, as IN101 is 52A, and 52A inherently resets target LED's
+
+GOOSE Testing:
+- Each relay only sends two channels, receives up to three
+	- We want to test to make sure that for each channel, the GOOSE is being transmitted properly and the right relays are subscribed
+- We're sending RB01-RB08 over, so we have spare 
+- We can make a state machine using a counter which goes up to 2, and cycles for sending to Channel A or Channel B
+- It can be triggered either via pushbutton (spare blank PB08) or via SCADA by pulsing a remote bit
+- While sending the test signal, the PB LED can blink slowly for sending channel A, quickly for sending channel B, and solid if receiving a signal
+- Add a watchdog timer to turn off sending in case it's accidentally left on
+- Add an alarm in SCADA for receiving the signal, so it's clear which relays are receiving it and it's logged
