@@ -54,7 +54,7 @@ Motor boards operating modes:
 `GOO` - check GOOSE settings - look for bad GOOSE signal (will say expired in a column)
 
 
-**For 651:**
+**For 651 and 351:**
 `CON <#>` - connect to remote bit
 `PRB <#>` - pulse remote bit
 

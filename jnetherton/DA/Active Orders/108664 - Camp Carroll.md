@@ -126,5 +126,5 @@ GOOSE Testing:
 - LB 2 FOR SUPERVISION
 - Fix Scada label for cable de-energized (SV15 -> LV1)
 - Scada
-	- level 2 alarm for virtual bits, and alarm each latch
+	- level 2 alarm for virtual bits, latches, and remote bits (RB5, RB6)
 	- pull latches into maps, only will see in status point viewer
