@@ -124,3 +124,6 @@ GOOSE Testing:
 - Use SV15 and SV16 for timers (30 cyc and 60 cyc)
 - Remove LT10 from TR equation
 - LB 2 FOR SUPERVISION
+- Fix Scada label for cable de-energized (SV15 -> LV1)
+- Scada
+	- 
