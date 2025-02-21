@@ -13,6 +13,8 @@ kanban-plugin: board
 	- edit program for trident and throw in production folder
 	- Put an SA hold on the Meralco trident to test it?@{2024-12-31}
 - [ ] **General Work**
+	- Finish Camp Carroll programs and replace production programs
+	- Finish Camp Carroll HMI updates for comm testing
 	- Ft Meade Testing
 	- Default 487 overcurrent program
 	- Amptek GWI
