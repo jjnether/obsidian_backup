@@ -161,9 +161,10 @@ For commissioning expense reports:
 - Change Sub-Department to `(100700) SWITCHGEAR TEAM`
 - Project - Paid Field Service
 
+If doing a meal not in the field with others, input expense type as business meal
+
 For Purchase Req's:
 - Send SEL req's to Sergio or Sean Wilbert
-- 
 
 Symbol Shortcuts:
 ° = ALT+0176
