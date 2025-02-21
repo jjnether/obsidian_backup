@@ -1,4 +1,6 @@
+117385 - Delaware Electric Cooperative
 119407 - Clearwater Polk Elec
+- Skim tested and shipped
 118682 - PRAIRIE LAND ELECT COOP (Border States)
 - D8706SS1LDD0
 	- A13450177MM0

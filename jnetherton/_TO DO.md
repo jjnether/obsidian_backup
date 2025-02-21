@@ -21,6 +21,7 @@ kanban-plugin: board
 	- omicron training?
 	- 451 ATC rework
 	- Form6 Testing
+- [ ] [[Form6 Emulator]]
 
 
 ## Programming Spec
