@@ -16,12 +16,9 @@ kanban-plugin: board
 	- Ft Meade Testing
 	- Default 487 overcurrent program
 	- Amptek GWI
-	- Pantex Switch Updates
-		- FAT in January
 	- omicron training?
 	- 451 ATC rework
 	- Form6 Testing
-- [ ] [[Form6 Emulator]]
 
 
 ## Programming Spec
@@ -30,10 +27,10 @@ kanban-plugin: board
 
 ## Programming
 
-- [ ] [[118682 - Border States]]
-	- Form6 @{2025-02-18}
-- [ ] [[120518 - United Cooperative Services]]
-	- Form6 @{2025-02-21}
+- [ ] [[Form6 Emulator]]
+	- 119407 - Clearwater Polk Elec
+	- 118682 - Prairie Land Elect Coop (Border States)
+	- 120518 - United Cooperative Services
 - [ ] [[119509 - Elk Grove Village Property]]
 
 
