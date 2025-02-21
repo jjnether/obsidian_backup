@@ -49,13 +49,14 @@ Motor boards operating modes:
 `TAR <wordbit>` - see bit status
 `HIS` - event history
 `SHO <shortcut>` - i.e. `SHOW D 1` - shows DNP Map 1 settings
-- Use `SHO` for set - i.e. `SHO 2` - shows set 2
+- Use `SHO` for set logic - i.e. `SHO 2` - shows set 2
 `R_S` - factory reset
 `GOO` - check GOOSE settings - look for bad GOOSE signal (will say expired in a column)
 
 
 **For 651 and 351:**
 `CON <#>` - connect to remote bit
+then
 `PRB <#>` - pulse remote bit
 
 **For 751:**
@@ -293,8 +294,3 @@ Phenix Supplies:
 When installing Windows 11, to do so without internet:
 - When getting to the internet required screen, hit Shift + F10 then enter `OOBE\BYPASSNRO`
 - When prompted
-
-
-3.25% raise
-
-109%
