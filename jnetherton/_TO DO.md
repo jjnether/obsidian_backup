@@ -11,14 +11,12 @@ kanban-plugin: board
 - [ ] [[108629 - Meralco]]
 	- also 108630/108631
 	- edit program for trident and throw in production folder
-	- Put an SA hold on the Meralco trident to test it?@{2024-12-31}
+	@{2024-12-31}
 - [ ] **General Work**
-	- Camp Carroll labels for two extra switches
 	- Finish Camp Carroll programs and replace production programs
 	- Finish Camp Carroll HMI updates for comm testing
 	- Ft Meade Testing
 	- Default 487 overcurrent program
-	- Amptek GWI
 	- omicron training?
 	- 451 ATC rework
 	- Form6 Testing
@@ -48,7 +46,6 @@ kanban-plugin: board
 ## SAT/GWI
 
 - [ ] [[121288 - Minnesota Power Co.]]
-	- GWI
 	- Buy G&W goodies for training
 	- Auto-close changes testing
 	@{2024-10-10}
