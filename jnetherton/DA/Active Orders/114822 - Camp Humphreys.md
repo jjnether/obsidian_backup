@@ -33,3 +33,30 @@ WAY 4 - 192.168.101.226
 
 
 ADD DISPLAY POINTS FOR W2/W3 POSITIONS?
+
+
+- 1) FAT contents
+
+1-1) According to the FAT report, section 5 - Overcurrent Protection, Additional note, “the VI control settings for way 2 and 3 were invalid and should be updated.”
+
+    What is indicates this information?
+
+- 2) General
+
+2-1) Burden impedance synch; Provide information to ensure the SEL-351S input impedance (included tested input impedance value on the report) matches the secondary load of CT.  
+
+2-2) Magnetization curve; Have been verify the CT saturation point which does not exceed the SEL-351S protection range?
+
+2-3) Open circuit risk (2, 3 connection); Provide information if secondary terminals are left unloaded, potential high voltage risks.  
+
+2-4) CT ratio setting; Provide information 1000:1 ratio is correctly programmed in the SEL351S.
+
+2-5) Fault detection logic (51, overcurrent); Provide test trip operation and what multiple value applied from the rated current?
+
+2-6) Fault detection logic (50G & 51G); Validate minimum trip current and time delay settings.
+
+2-7) Circuit breaker response; Provide and confirm the trip signal to breaker response time deviation. (Recommend 20ms below)
+
+2-8) Communication restoration – During DNP error and fixing occurred, whether the protocol session auto reset and DNP data transferring stably synchronized. (Have you generated the report by event log?)
+
+2-9) DNP Data mapping – Given set value (AI/AO, BI/BO) information for transferred DNP data is not verified to be properly loaded during FAT.
