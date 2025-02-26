@@ -53,10 +53,13 @@ ADD DISPLAY POINTS FOR W2/W3 POSITIONS?
 - show screenshot of setting
 
 2-5) Fault detection logic (51, overcurrent); Provide test trip operation and what multiple value applied from the rated current?
+- Simulate in lab
 
 2-6) Fault detection logic (50G & 51G); Validate minimum trip current and time delay settings.
+- Simulate in lab
 
 2-7) Circuit breaker response; Provide and confirm the trip signal to breaker response time deviation. (Recommend 20ms below)
+- Simulate in lab
 
 2-8) Communication restoration – During DNP error and fixing occurred, whether the protocol session auto reset and DNP data transferring stably synchronized. (Have you generated the report by event log?)
 
