@@ -38,6 +38,8 @@ ADD DISPLAY POINTS FOR W2/W3 POSITIONS?
 - 1) FAT contents
 
 1-1) According to the FAT report, section 5 - Overcurrent Protection, Additional note, “the VI control settings for way 2 and 3 were invalid and should be updated.”
+- I think Woody provided updated settings, but we didn't see them before the FAT? We didn't test against them, but I don't remember if I updated them before shipping or not. I can create a .VI file for them to upload proper settings themselves.
+
 
     What is indicates this information?
 
@@ -64,3 +66,4 @@ ADD DISPLAY POINTS FOR W2/W3 POSITIONS?
 2-8) Communication restoration – During DNP error and fixing occurred, whether the protocol session auto reset and DNP data transferring stably synchronized. (Have you generated the report by event log?)
 
 2-9) DNP Data mapping – Given set value (AI/AO, BI/BO) information for transferred DNP data is not verified to be properly loaded during FAT.
+- Show DNP map in as shipped program?
