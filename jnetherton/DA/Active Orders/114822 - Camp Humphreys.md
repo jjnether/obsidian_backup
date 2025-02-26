@@ -50,6 +50,7 @@ ADD DISPLAY POINTS FOR W2/W3 POSITIONS?
 2-3) Open circuit risk (2, 3 connection); Provide information if secondary terminals are left unloaded, potential high voltage risks.  
 
 2-4) CT ratio setting; Provide information 1000:1 ratio is correctly programmed in the SEL351S.
+- show screenshot of setting
 
 2-5) Fault detection logic (51, overcurrent); Provide test trip operation and what multiple value applied from the rated current?
 
