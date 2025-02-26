@@ -46,10 +46,13 @@ ADD DISPLAY POINTS FOR W2/W3 POSITIONS?
 - 2) General
 
 2-1) Burden impedance synch; Provide information to ensure the SEL-351S input impedance (included tested input impedance value on the report) matches the secondary load of CT.  
+- ?
 
 2-2) Magnetization curve; Have been verify the CT saturation point which does not exceed the SEL-351S protection range?
+- ?
 
-2-3) Open circuit risk (2, 3 connection); Provide information if secondary terminals are left unloaded, potential high voltage risks.  
+2-3) Open circuit risk (2, 3 connection); Provide information if secondary terminals are left unloaded, potential high voltage risks.
+- ?
 
 2-4) CT ratio setting; Provide information 1000:1 ratio is correctly programmed in the SEL351S.
 - show screenshot of setting
