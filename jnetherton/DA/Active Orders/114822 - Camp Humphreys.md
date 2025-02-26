@@ -52,7 +52,7 @@ ADD DISPLAY POINTS FOR W2/W3 POSITIONS?
 - Provide ratings for CT's we provided
 
 2-3) Open circuit risk (2, 3 connection); Provide information if secondary terminals are left unloaded, potential high voltage risks.
-- check top level drawing/generic
+- check top level drawing/generic GWI - check with AMS or production
 
 2-4) CT ratio setting; Provide information 1000:1 ratio is correctly programmed in the SEL351S.
 - show screenshot of setting
@@ -67,6 +67,9 @@ ADD DISPLAY POINTS FOR W2/W3 POSITIONS?
 - Simulate in lab
 
 2-8) Communication restoration – During DNP error and fixing occurred, whether the protocol session auto reset and DNP data transferring stably synchronized. (Have you generated the report by event log?)
+- if comms are lost, DNP data will be buffered. When restored, it will be sent
 
 2-9) DNP Data mapping – Given set value (AI/AO, BI/BO) information for transferred DNP data is not verified to be properly loaded during FAT.
 - Show DNP map in as shipped program?
+
+copy erich, tom, and charles
