@@ -4,6 +4,7 @@ To map a network drive:
 - Change drive letter to what you want
 - For folder, enter `\\<server name>\<shared folder>`  (ex. `\\Netherton_Nas\docker`)
 
+To check storage distribution on linux, run `sudo ncdu`
 
 To enable SSH on NAS, go to Control Panel>Terminal & SNMP>Terminal then Enable SSH Service and change port to 2299 (somewhat arbitrary number, just needs to be changed from default)
 Use putty to SSH into the NAS with the port we previously specified:
@@ -31,8 +32,9 @@ To update all containers at once:
 `docker compose pull`
 `docker compose up -d`
 
-To prune old images from system:
-`docker image prune`
+`docker image prune` - prune old images from system
+
+`docker system prune` - a more complete pruning
 
 8889990121
 For setting up Dynamic DNS
