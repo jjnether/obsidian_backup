@@ -121,11 +121,6 @@ GOOSE Testing:
 
 - Move cable energized to LV1
 - Use LT10 and LT16 for states
-(/RB5+/PB8*LB2*!LT16)*!LT10
-(/RB5+/PB8*LB2)*LT10+(!LB2+/RB6)*LT10
-
-(/RB6+/PB8*LB2*LT10)*!LT16
-(/RB6+/PB8*LB2)*LT16+(!LB2+/RB5)*LT16
 - Use SV15 and SV16 for timers (30 cyc and 60 cyc)
 - Remove LT10 from TR equation
 - LB 2 FOR SUPERVISION
