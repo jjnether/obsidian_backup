@@ -118,12 +118,6 @@ GOOSE Testing:
 - Add a watchdog timer to turn off sending in case it's accidentally left on
 - Add an alarm in SCADA for receiving the signal, so it's clear which relays are receiving it and it's logged
 
-
-- Move cable energized to LV1
-- Use LT10 and LT16 for states
-- Use SV15 and SV16 for timers (30 cyc and 60 cyc)
-- Remove LT10 from TR equation
-- LB 2 FOR SUPERVISION
 - Fix Scada label for cable de-energized (SV15 -> LV1)
 - Scada
 	- level 2 alarm for virtual bits, latches, and remote bits (RB5, RB6)
