@@ -13,8 +13,7 @@ kanban-plugin: board
 	- edit program for trident and throw in production folder
 	@{2024-12-31}
 - [ ] **General Work**
-	- Finish Camp Carroll programs and replace production programs
-	- Finish Camp Carroll HMI updates for comm testing
+	- Pantex Testing
 	- Ft Meade Testing
 	- Default 487 overcurrent program
 	- omicron training?
