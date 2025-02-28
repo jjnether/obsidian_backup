@@ -24,7 +24,3 @@ Where we fail God the most is where we trust God the least
 Lift up your eyes, for the harvest is plentiful, but the laborors are few
 
 Norman wright - questions before engagement/marriage
-
-Worship song - you are great, you do miracles so great
-
-Shangrila frontier
