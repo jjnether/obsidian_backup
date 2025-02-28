@@ -6,14 +6,14 @@ The very frightful consequences of smallpox and measles, which would continue to
 
 ---
 IRA
-fxnax - 10
-fzilx - 36
-fzrox - 54
+fxnax US Bonds - 10%
+fzilx INTL Stocks - 36%
+fzrox DOM Stocks - 54%
 
 Brokerage
-fxnax - 48
-fskax - 40
-ftihx - 12
+fxnax US Bonds - 48%
+ftihx INTL Stocks - 12%
+fskax DOM Stocks - 40%
 
 ---
 For adding file explorer links, use `[Link Name](<file:///FILEPATH>)`
