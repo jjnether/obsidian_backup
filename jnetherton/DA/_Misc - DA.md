@@ -285,6 +285,7 @@ Phenix Supplies:
 - PSU input can handle 125VDC, ,120VAC, and 240VAC
 - Output is 40A nominal, but can boost up to 60A for 5 sec (uses PS Boost wire as a signal to reduce charging to batteries for this)
 - DC Status is basically the equivalent of AC status - if AC is lost, this status will deassert
+	- Batt mode is the opposite of DC stats - will assert when batteries are being used because lost AC
 - UPS Alarm is the equivalent of the battery alarm, but is NC (normally closed) - will open on battery disconnect, if voltage drops below 18V, or above 30V
 - There is no battery test, there is just constant voltage monitoring
 - Note that the extra IO on the front of the UPS only works if Phenix batteries are used
