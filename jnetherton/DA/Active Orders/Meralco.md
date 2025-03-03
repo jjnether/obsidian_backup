@@ -204,7 +204,3 @@ MEETING JANUARY '25
 
 ![[Pasted image 20250127203754.png]]
 
----
-TRIDENT NOTES:
-- For DNP, battery alarm logic is now flipped because new power supply. When IN402 (BI13) is high, it means no alarm, while low is alarm state
-- 
