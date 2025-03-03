@@ -21,6 +21,8 @@ For adding file explorer links, use `[Link Name](<file:///FILEPATH>)`
 ---
 Where we fail God the most is where we trust God the least
 
-Lift up your eyes, for the harvest is plentiful, but the laborors are few
+Lift up your eyes, for the harvest is plentiful, but the laborers are few
 
 Norman wright - questions before engagement/marriage
+
+![[Pasted image 20250302131436.png]]

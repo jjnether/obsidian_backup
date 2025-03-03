@@ -8,4 +8,4 @@ Physical healing
 - Lysandra
 - Samuel's Mom
 Little Reuben
-Erica
+Erica's Ear
