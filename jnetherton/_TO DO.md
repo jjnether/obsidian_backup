@@ -8,7 +8,7 @@ kanban-plugin: board
 
 - [ ] [[451 ATC Update]]
 	- Update excel map with all variables @{2024-09-30}
-- [ ] [[108629 - Meralco]]
+- [ ] [[Meralco]]
 	- also 108630/108631
 	- edit program for trident and throw in production folder
 	@{2024-12-31}

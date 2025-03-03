@@ -46,8 +46,6 @@ dead voltage: 15920 (80%)
 live voltage: 17910 (90%)
 
 
-==RTAC change time before shipment
-
 NOTES:
 - For testing SF6, pull IN107 (451)
 
