@@ -16,3 +16,9 @@ Problems between program and documentation
 	- In this mode, you can also only close one phase at a time (documentation says this should only happen when in 1ph trip-1ph lockout)
 
 72513 - midwest - GWI - 32 pin template
+
+
+
+To add?
+- Alt profile #2, alt profile #3? - we have 3 spare PB's
+- 
