@@ -153,7 +153,6 @@ LOGIC (recloser):
 			- Closed and it just auto closed and auto open is disabled
 
 20250217 Notes:
-- Labels for controls we'll use in training?
 - Need to test shortened auto close logic
 - Add kicking out of auto upon manual operation (pb press or remote) or upon yellow handle execution?
 	- yellow handle signal will hold auto mode in reset
