@@ -128,16 +128,10 @@ Added a condition where open due to LOV on end devices with back-feeding disable
 	- Doing this to air on the side of safety and consistency across devices
 - ADD TO END OF RST32 -  OR (SV64T AND MV24 = 0 AND NOT 52A3P)
 
-NEED TO TEST SHORTENED AUTO CLOSE LOGIC AND LOV OPEN KICKING DIRECTIONAL DEVICES OUT OF AUTO
-
 SAT
 - 6 reclosers
 - day 1 for relay engineers and test setup
 - step through examples before actual testing
-
-- Mentioned edge case where kicking all directional devices out of auto can be undesirable
-	- Fault on F - Tie 2 will not operate and will sit there still in auto
-	- If we lose source CB1, Tie 1 will close to restore B, but if we then subsequently lose source CB3, when TIE1 opens due to LOV, it will be kicked out of auto, so it won't close back in to restore B from source CB2
 
 
 LOGIC (recloser):
@@ -152,10 +146,12 @@ LOGIC (recloser):
 			- Lockout and fault indication or fault active and trip signal active
 			- Closed and it just auto closed and auto open is disabled
 
-20250217 Notes:
-- Need to test shortened auto close logic
-- Add kicking out of auto upon manual operation (pb press or remote) or upon yellow handle execution?
+ADDED LOGIC SINCE FAT:
+- Hardcoded alt settings and fast curve to 0
+- Added logic for shortened auto close timing if device opened due to LOV
+- if a device is directional, when it opens, it will be kicked out of auto
+	- Edge case where kicking all directional devices out of auto can be undesirable:
+		- Fault on F - Tie 2 will not operate and will sit there still in auto
+		- If we lose source CB1, Tie 1 will close to restore B, but if we then subsequently lose source CB3, when TIE1 opens due to LOV, it will be kicked out of auto, so it won't close back in to restore B from source CB2
+- Added kicking out of auto upon manual operation (pb press or remote) or upon yellow handle execution
 	- yellow handle signal will hold auto mode in reset
-- Number of people present?
-	- buy G&W goodies for them
-- Do I need to explain in the GWI other features that we didn't go over, such as cold load pickup, high current trip, over under freq, etc?
