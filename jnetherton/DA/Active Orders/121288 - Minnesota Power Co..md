@@ -109,25 +109,6 @@ Follow Up-items:
 	- I think it works, but didn't deliberately test. Bob mentioned a previous problem where the unlatch close with PB lock was blocking auto close
 - 300 cycles event report length was requested, but longest available is 180 cycles
 
-
-- Hot line tag functionality
-	- changed the logic so HLT trips to lockout upon current exceeding pickup level
-
-- Directional devices
-	- Don't close to backfeed substations
-
-- Fast Curve and alt settings
-	- Hardcoded to always disabled
-	- Remove from label
-
-- Updated SEL-651 faceplate on existing orders
-	- They will be printing their own labels, we just need to send them the label file
-
-Added a condition where open due to LOV on end devices with back-feeding disabled takes it out of auto.
-- Keeping it on ties as well, even though there may be edge cases where we would want to restore, but it won't be in auto
-	- Doing this to air on the side of safety and consistency across devices
-- ADD TO END OF RST32 -  OR (SV64T AND MV24 = 0 AND NOT 52A3P)
-
 SAT
 - 6 reclosers
 - day 1 for relay engineers and test setup
@@ -149,7 +130,10 @@ LOGIC (recloser):
 ADDED LOGIC SINCE FAT:
 - Hardcoded alt settings and fast curve to 0
 - Added logic for shortened auto close timing if device opened due to LOV
+- HLT now trips to lockout upon current exceeding pickup level, rather than waiting to time out
 - if a device is directional, when it opens, it will be kicked out of auto
+	- Keeping it on ties as well, even though there may be edge cases where we would want to restore, but it won't be in auto
+		- Doing this to air on the side of safety and consistency across devices
 	- Edge case where kicking all directional devices out of auto can be undesirable:
 		- Fault on F - Tie 2 will not operate and will sit there still in auto
 		- If we lose source CB1, Tie 1 will close to restore B, but if we then subsequently lose source CB3, when TIE1 opens due to LOV, it will be kicked out of auto, so it won't close back in to restore B from source CB2
