@@ -24,3 +24,7 @@ To add?
 - no close circuit disable fuse to remove
 - only one function changed per change mode activation?
 - Add phase/gnd cold load pickup display points for indication?
+
+
+Operation:
+- On our 32-pin template, in operating mode 2 (1ph lockout, but 3ph lockout for multiph fault)or 3
