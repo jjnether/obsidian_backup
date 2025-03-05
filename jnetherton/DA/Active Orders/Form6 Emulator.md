@@ -43,9 +43,7 @@ Questions
 		- no, when in mode 2, user should be able to select which phase to control
 - Why did we add the whole phase selector thing? - is this in the form6?
 - Should we define a default DNP map? Maybe just use what we have for the 32-pin template?
-
-
-TRIPA OR NOT (LT06 AND SV38 OR CLOSEA) OR NOT (CLOSEA OR (CC3 OR CCA) AND LT03 OR 79CYA) OR SV22T AND MV17 <> 0.00
+- Can't close when in 1ph trip - 3ph lockout????
 
 
 
