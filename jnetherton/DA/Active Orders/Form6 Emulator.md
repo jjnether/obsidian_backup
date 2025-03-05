@@ -27,4 +27,4 @@ To add?
 
 
 Operation:
-- On our 32-pin template, in operating mode 2 (1ph lockout, but 3ph lockout for multiph fault)or 3
+- On our 32-pin template, if in operating mode 2 (1ph lockout, but 3ph lockout for multiph fault) or 3 (3ph lockout), 
