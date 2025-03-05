@@ -18,12 +18,16 @@ Problems between program and documentation
 72513 - midwest - GWI - 32 pin template
 
 
+Changed:
+- Added logic so all 3 phases are always selected when in 
 
 To add?
 - Alt profile #2, alt profile #3? - we have 3 spare PB's
 - no close circuit disable fuse to remove
 - only one function changed per change mode activation?
 - Add phase/gnd cold load pickup display points for indication?
+
+- Why did we add the whole phase selector thing? - is this in the form6?
 
 
 Operation:
