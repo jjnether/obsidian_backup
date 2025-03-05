@@ -20,7 +20,7 @@ Problems between program and documentation
 
 Changed:
 - Added logic so all 3 phases are always selected when in single ph enable - 3 ph trip mode
-- 
+- Change lockout equation from SV14T to SV42T (SV14T)
 
 To add?
 - Alt profile #2, alt profile #3? - we have 3 spare PB's
@@ -39,4 +39,5 @@ to test:
 - lockout modes
 - pushbutton double press modes
 
-- 3ph-drive to lockout conditions - goes to lockout on SV14T and MV<>18 (trip PB timeout )
+- 3ph-drive to lockout conditions - goes to lockout on SV14T and MV<>18 (trip PB timeout and operating mode 2 or 3)
+	- Do we want to drive all 3 phases to lockout when in mode 2? (1ph lockout unless multi-ph fault)
