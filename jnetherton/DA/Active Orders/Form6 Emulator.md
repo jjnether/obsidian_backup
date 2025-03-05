@@ -45,3 +45,9 @@ Questions
 
 
 TRIPA OR NOT (LT06 AND SV38 OR CLOSEA) OR NOT (CLOSEA OR (CC3 OR CCA) AND LT03 OR 79CYA) OR SV22T AND MV17 <> 0.00
+
+
+
+Test Plan:
+- Do a compare with the 32-pin template and test any changed functionality
+- test basic but frequently used functions
