@@ -19,7 +19,8 @@ Problems between program and documentation
 
 
 Changed:
-- Added logic so all 3 phases are always selected when in 
+- Added logic so all 3 phases are always selected when in single ph enable - 3 ph trip mode
+- 
 
 To add?
 - Alt profile #2, alt profile #3? - we have 3 spare PB's
@@ -37,3 +38,5 @@ Operation:
 to test:
 - lockout modes
 - pushbutton double press modes
+
+- 3ph-drive to lockout conditions - goes to lockout on SV14T and MV<>18 (trip PB timeout )
