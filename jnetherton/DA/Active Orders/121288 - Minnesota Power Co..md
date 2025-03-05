@@ -105,15 +105,7 @@ CIRCUIT AUTOMATION SETTINGS:
 		- 90s Auto Close
 
 Follow Up-items:
-- Check if auto close still works with pushbuttons locked?
-	- I think it works, but didn't deliberately test. Bob mentioned a previous problem where the unlatch close with PB lock was blocking auto close
 - 300 cycles event report length was requested, but longest available is 180 cycles
-
-SAT
-- 6 reclosers
-- day 1 for relay engineers and test setup
-- step through examples before actual testing
-
 
 LOGIC (recloser):
 - Auto mode:
@@ -137,5 +129,10 @@ ADDED LOGIC SINCE FAT:
 	- Edge case where kicking all directional devices out of auto can be undesirable:
 		- Fault on F - Tie 2 will not operate and will sit there still in auto
 		- If we lose source CB1, Tie 1 will close to restore B, but if we then subsequently lose source CB3, when TIE1 opens due to LOV, it will be kicked out of auto, so it won't close back in to restore B from source CB2
-- Added kicking out of auto upon manual operation (pb press or remote) or upon yellow handle execution
+- ==Added kicking out of auto upon manual operation (pb press or remote) or upon yellow handle execution
 	- yellow handle signal will hold auto mode in reset
+
+
+NOTE:
+- The extra logic we added for the shortened auto close timers was probably unnecessary given the current use case of the devices. Reclosers/Sectionalizers will always only be timing to close after they've opened due to LOV (so longer timer will never be used) and Ties shouldn't really ever be using the shorter timer. We just needed to think about the logic of deciding the times of each device differently
+	- Will keep this logic for MP for now, as it distinguishes two different times, even though only one will be used at a time
