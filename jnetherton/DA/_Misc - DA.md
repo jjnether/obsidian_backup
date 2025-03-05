@@ -296,3 +296,10 @@ Phenix Supplies:
 When installing Windows 11, to do so without internet:
 - When getting to the internet required screen, hit Shift + F10 then enter `OOBE\BYPASSNRO`
 - When prompted
+
+For relay ground vs neutral overcurrent (from 651R manual):
+- EGNDSW hardcoded to Y in the template
+	- IN protection elements forced to N
+- If |IN| < 4.7A, IG uses IN
+	- provides for increased sensitivity at lower ground currents
+- If |IN| >= 4.7A, IG uses 3I0
