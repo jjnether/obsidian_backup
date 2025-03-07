@@ -51,7 +51,8 @@ Questions
 - We ok with keeping functionality where when in 1ph lockout mode, user can only close 1 phase at a time?
 	- If so, maybe only allow 1ph to be selected at a time when in this mode (selecting b phase will reset the other 2)
 	- What about opens? - it said multiple phases could be selected for opening in 1ph-lockout mode
-- After opening one phase, when opening a second phase, the fault indication comes on for that phase
+- After opening one or two phase, when opening another phase, the fault indication comes on for that phase
+- Lockout is enabled for a bit on all 3 phases when just opening one phase
 
 
 Test Plan:
