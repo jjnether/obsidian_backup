@@ -139,4 +139,4 @@ NOTE:
 
 
 
-==CHECK - re-enabling HLT always enables reclosing, even if it wasn't enabled before entering HLT
+==TEST LT09/LT02 CHANGES
