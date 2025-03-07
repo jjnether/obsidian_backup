@@ -25,6 +25,7 @@ Changed:
 - Changed single-ph close equations so user can close all 3 phases when in 1ph trip-3ph lockout mode
 - Changed TR3P equation so a PB press open only opens all 3 phases if in 3ph lockout or 3ph trip mode
 - Removed MV18 (operating mode) supervisory from SV42 (PB trip conditions)
+- Changed 79DTL so it does 3ph lockout upon pushbutton trip only in 3ph lockout or 3ph trip mode
 
 To add?
 - Alt profile #2, alt profile #3? - we have 3 spare PB's
@@ -47,10 +48,10 @@ Questions
 		- no, when in mode 2, user should be able to select which phase to control
 - Why did we add the whole phase selector thing? - is this in the form6?
 - Should we define a default DNP map? Maybe just use what we have for the 32-pin template?
-- Can't close when in 1ph trip - 3ph lockout????
 - We ok with keeping functionality where when in 1ph lockout mode, user can only close 1 phase at a time?
 	- If so, maybe only allow 1ph to be selected at a time when in this mode (selecting b phase will reset the other 2)
 	- What about opens? - it said multiple phases could be selected for opening in 1ph-lockout mode
+	- if tripping just one phase, only that phase should lockout, right?
 - After opening one or two phase, when opening another phase, the fault indication comes on for that phase
 - Lockout is enabled for a bit on all 3 phases when just opening one phase
 
