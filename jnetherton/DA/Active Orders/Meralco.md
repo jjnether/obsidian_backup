@@ -204,3 +204,4 @@ MEETING JANUARY '25
 
 ![[Pasted image 20250127203754.png]]
 
+==Note that previous revisions of the switch may not have this feature (for PT disconnect)
