@@ -22,6 +22,7 @@ Changed:
 - Added logic so all 3 phases are always selected when in single ph enable - 3 ph trip mode
 - LT5 (previously PB lock when low) removed from CL3P and ULCL equations
 - Removed `NOT (CLOSEA OR (CC3 OR CCA) AND LT03 OR 79CYA)` term from all ULCL equations
+- Changed single-ph close equations so user can close all 3 phases when in 1ph trip-3ph lockout mode
 
 To add?
 - Alt profile #2, alt profile #3? - we have 3 spare PB's
@@ -55,22 +56,21 @@ Test Plan:
 - test basic but frequently used functions
 
 
-
-1ph trip - 1ph lockout
-- When 3 phases are open, whether 1, 2, or 3 phases are selected, can still hit open PB and it will time (I don't think should be able to do this)
-- Can't ever close anything
-1ph trip - 1ph lockout (3ph on multi-ph fault)
-- all same
-1ph trip - 3ph lockout
-- all same
-3ph trip
-- cannot deselect phases - we want this
-- can still hit open and start the timer
-
-
 One of these needs to be high for it to close:
 - (LT05 OR CLOSE3P OR CC3 AND LT03 OR 79CY3P) 
 
 
 LT21 AND NOT IN102 AND NOT SV13T AND NOT SV21 AND NOT SV14 AND LT06 # CLOSE PUSHBUTTON DELAY
 (PB11_PUL AND NOT SV13 OR NOT PB11_PUL AND SV13) AND NOT PB12_PUL AND NOT SV13T AND NOT SV21 AND NOT SV14 AND LT05 AND LT06 # CLOSE PUSHBUTTON DELAY
+
+
+1ph trip - 1ph lockout
+
+
+1ph trip - 1ph lockout (3ph lockout for multi-ph fault)
+
+
+1ph trip - 3ph lockout
+
+
+3ph trip
