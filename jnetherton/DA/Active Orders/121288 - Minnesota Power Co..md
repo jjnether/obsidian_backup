@@ -131,6 +131,7 @@ ADDED LOGIC SINCE FAT:
 		- If we lose source CB1, Tie 1 will close to restore B, but if we then subsequently lose source CB3, when TIE1 opens due to LOV, it will be kicked out of auto, so it won't close back in to restore B from source CB2
 - ==Added kicking out of auto upon manual operation (pb press or remote) or upon yellow handle execution
 	- yellow handle signal will hold auto mode in reset
+- Fixed logic so reclosing re-enables after disabling HLT if it was initially on, but doesn't enable if it was initially off
 
 
 NOTE:
