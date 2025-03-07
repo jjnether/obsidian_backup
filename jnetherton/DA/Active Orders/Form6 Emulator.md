@@ -50,3 +50,8 @@ Questions
 Test Plan:
 - Do a compare with the 32-pin template and test any changed functionality
 - test basic but frequently used functions
+
+
+
+1ph trip - 1ph lockout
+- When 3 phases are open, whether 1, 2, or 3 phases are selected, can still hit open 
