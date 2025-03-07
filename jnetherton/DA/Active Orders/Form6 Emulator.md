@@ -23,6 +23,8 @@ Changed:
 - LT5 (previously PB lock when low) removed from CL3P and ULCL equations
 - Removed `NOT (CLOSEA OR (CC3 OR CCA) AND LT03 OR 79CYA)` term from all ULCL equations
 - Changed single-ph close equations so user can close all 3 phases when in 1ph trip-3ph lockout mode
+- Changed TR3P equation so a PB press open only opens all 3 phases if in 3ph lockout or 3ph trip mode
+- Removed MV18 supervisory from SV42
 
 To add?
 - Alt profile #2, alt profile #3? - we have 3 spare PB's
