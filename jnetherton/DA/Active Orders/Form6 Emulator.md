@@ -60,4 +60,12 @@ Test Plan:
 - Can't ever close anything
 1ph trip - 1ph lockout (3ph on multi-ph fault)
 - all same
-1phtrip - 3ph lockout
+1ph trip - 3ph lockout
+- all same
+3ph trip
+- cannot deselect phases - we want this
+- can still hit open and start the timer
+
+
+One of these needs to be high for it to close:
+- (LT05 OR CLOSE3P OR CC3 AND LT03 OR 79CY3P) 
