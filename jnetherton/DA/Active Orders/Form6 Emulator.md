@@ -24,7 +24,7 @@ Changed:
 - Removed `NOT (CLOSEA OR (CC3 OR CCA) AND LT03 OR 79CYA)` term from all ULCL equations
 - Changed single-ph close equations so user can close all 3 phases when in 1ph trip-3ph lockout mode
 - Changed TR3P equation so a PB press open only opens all 3 phases if in 3ph lockout or 3ph trip mode
-- Removed MV18 supervisory from SV42
+- Removed MV18 (operating mode) supervisory from SV42 (PB trip conditions)
 
 To add?
 - Alt profile #2, alt profile #3? - we have 3 spare PB's
@@ -51,7 +51,7 @@ Questions
 - We ok with keeping functionality where when in 1ph lockout mode, user can only close 1 phase at a time?
 	- If so, maybe only allow 1ph to be selected at a time when in this mode (selecting b phase will reset the other 2)
 	- What about opens? - it said multiple phases could be selected for opening in 1ph-lockout mode
-
+- After opening one phase, when opening a second phase, the fault indication comes on for that phase
 
 
 Test Plan:
