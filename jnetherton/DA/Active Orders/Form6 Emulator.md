@@ -43,15 +43,7 @@ To add?
 Operation:
 - On our 32-pin template, if in operating mode 2 (1ph lockout, but 3ph lockout for multiph fault) or 3 (3ph lockout), 
 
-
-to test:
-- lockout modes
-- pushbutton double press modes
-
 Questions
-- 3ph-drive to lockout conditions - goes to lockout on SV14T and MV<>18 (trip PB timeout and operating mode 2 or 3)
-	- Do we want to drive all 3 phases to lockout when in mode 2? (1ph lockout unless multi-ph fault)
-		- no, when in mode 2, user should be able to select which phase to control
 - Should we define a default DNP map? Maybe just use what we have for the 32-pin template?
 - We ok with keeping functionality where when in 1ph lockout mode, user can only close 1 phase at a time?
 	- If so, maybe only allow 1ph to be selected at a time when in this mode (selecting b phase will reset the other 2)
@@ -60,42 +52,13 @@ Questions
 - After opening one or two phase, when opening another phase, the fault indication comes on for that phase
 - Lockout is enabled for a bit on all 3 phases when just opening one phase
 
-
 Test Plan:
 - Do a compare with the 32-pin template and test any changed functionality
 - test basic but frequently used functions
 
 
-One of these needs to be high for it to close:
-- (LT05 OR CLOSE3P OR CC3 AND LT03 OR 79CY3P) 
-
-
-LT21 AND NOT IN102 AND NOT SV13T AND NOT SV21 AND NOT SV14 AND LT06 # CLOSE PUSHBUTTON DELAY
-(PB11_PUL AND NOT SV13 OR NOT PB11_PUL AND SV13) AND NOT PB12_PUL AND NOT SV13T AND NOT SV21 AND NOT SV14 AND LT05 AND LT06 # CLOSE PUSHBUTTON DELAY
-
-
-1ph trip - 1ph lockout
-
-
-1ph trip - 1ph lockout (3ph lockout for multi-ph fault)
-
-
-1ph trip - 3ph lockout
-
-
-3ph trip
-
-
-
-(PB02_PUL AND LT05 OR RB03 AND LT03) AND NOT LT02 AND LT06 OR R_TRIG LT06 # RECLOSE ENABLED
-
-((PB02_PUL AND LT05 OR RB03 AND LT03) AND NOT LT02 AND LT06) AND MV23 = 0.00 # RECLOSE ENABLED
-
-
-
-
 MEETING NOTES:
 - Differences:
 	- HLT - initiate trip based on HLT activating - should not cause a trip
-- Blinking
-- implified setup
+- Blinking LED's when only one phase open
+- design template should exactly match simplified setup
