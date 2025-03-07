@@ -21,6 +21,7 @@ Problems between program and documentation
 Changed:
 - Added logic so all 3 phases are always selected when in single ph enable - 3 ph trip mode
 - LT5 (previously PB lock when low) removed from CL3P and ULCL equations
+- Removed `NOT (CLOSEA OR (CC3 OR CCA) AND LT03 OR 79CYA)` term from all ULCL equations
 
 To add?
 - Alt profile #2, alt profile #3? - we have 3 spare PB's
