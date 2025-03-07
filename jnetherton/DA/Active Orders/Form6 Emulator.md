@@ -25,7 +25,13 @@ Changed:
 - Changed single-ph close equations so user can close all 3 phases when in 1ph trip-3ph lockout mode
 - Changed TR3P equation so a PB press open only opens all 3 phases if in 3ph lockout or 3ph trip mode
 - Removed MV18 (operating mode) supervisory from SV42 (PB trip conditions)
-- Changed 79DTL so it does 3ph lockout upon pushbutton trip only in 3ph lockout or 3ph trip mode
+- Changed 79DTL3P so it does 3ph lockout upon pushbutton trip only in 3ph lockout or 3ph trip mode
+- Added to 79DTLA/B/C so it locks out upon PB press and the respective phase selected
+- Added SV19 for indicating 3ph trip, 3ph LO, or 1ph selected on panel
+	- Added SV19 to LT21 (close PB latch)
+- Added SV44 and SV45 variables for indicating if selected ph is closed or open (supervises PB close/open latches)
+	- Added SV44 and SV45 to LT21 and LT22 (open/close PB latches)
+- Added LT06 (HLT) to LT21 (close PB latch) so latch won't set when HLT is enabled
 
 To add?
 - Alt profile #2, alt profile #3? - we have 3 spare PB's
@@ -79,3 +85,7 @@ LT21 AND NOT IN102 AND NOT SV13T AND NOT SV21 AND NOT SV14 AND LT06 # CLOSE PUSH
 
 
 3ph trip
+
+
+
+(PB02_PUL AND LT05 OR RB03 AND LT03) AND NOT LT02 AND LT06 OR R_TRIG LT06 # RECLOSE ENABLED
