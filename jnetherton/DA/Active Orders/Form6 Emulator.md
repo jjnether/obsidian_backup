@@ -44,6 +44,8 @@ Questions
 - Why did we add the whole phase selector thing? - is this in the form6?
 - Should we define a default DNP map? Maybe just use what we have for the 32-pin template?
 - Can't close when in 1ph trip - 3ph lockout????
+- We ok with keeping functionality where when in 1ph lockout mode, user can only close 1 phase at a time?
+	- If so, maybe only allow 1ph to be selected at a time when in this mode (selecting b phase will reset the other 2)
 
 
 
@@ -54,4 +56,8 @@ Test Plan:
 
 
 1ph trip - 1ph lockout
-- When 3 phases are open, whether 1, 2, or 3 phases are selected, can still hit open 
+- When 3 phases are open, whether 1, 2, or 3 phases are selected, can still hit open PB and it will time (I don't think should be able to do this)
+- Can't ever close anything
+1ph trip - 1ph lockout (3ph on multi-ph fault)
+- all same
+1phtrip - 3ph lockout
