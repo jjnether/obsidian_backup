@@ -52,7 +52,6 @@ Questions
 - 3ph-drive to lockout conditions - goes to lockout on SV14T and MV<>18 (trip PB timeout and operating mode 2 or 3)
 	- Do we want to drive all 3 phases to lockout when in mode 2? (1ph lockout unless multi-ph fault)
 		- no, when in mode 2, user should be able to select which phase to control
-- Why did we add the whole phase selector thing? - is this in the form6?
 - Should we define a default DNP map? Maybe just use what we have for the 32-pin template?
 - We ok with keeping functionality where when in 1ph lockout mode, user can only close 1 phase at a time?
 	- If so, maybe only allow 1ph to be selected at a time when in this mode (selecting b phase will reset the other 2)
@@ -97,5 +96,6 @@ LT21 AND NOT IN102 AND NOT SV13T AND NOT SV21 AND NOT SV14 AND LT06 # CLOSE PUSH
 
 MEETING NOTES:
 - Differences:
-	- HLT
+	- HLT - initiate trip based on HLT activating - should not cause a trip
 - Blinking
+- implified setup
