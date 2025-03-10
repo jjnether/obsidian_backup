@@ -34,7 +34,6 @@ Changed:
 - Added LT06 (HLT) to LT21 (close PB latch) so latch won't set when HLT is enabled
 
 To add?
-- Alt profile #2, alt profile #3? - we have 3 spare PB's
 - no close circuit disable fuse to remove
 - only one function changed per change mode activation?
 - Add phase/gnd cold load pickup display points for indication?
