@@ -21,3 +21,10 @@ Delta
 only for main dining (2 dinings)
 anything else is paid for
 guest desk
+
+
+Dining reservation options:
+- Walk-in dining room
+- Flexible any-time dining
+- Traditional (Fixed eating time) (5pm and 7:30pm)
+	- same waiting staff each time
