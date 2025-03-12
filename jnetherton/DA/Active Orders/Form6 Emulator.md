@@ -61,3 +61,10 @@ MEETING NOTES:
 	- HLT - initiate trip based on HLT activating - should not cause a trip
 - Blinking LED's when only one phase open
 - design template should exactly match simplified setup
+
+PB11 -> PB03 now alt settings
+PB12 -> PB04 how change
+
+PB03 -> PB11 now open
+PB04 -> PB12 now close
+
