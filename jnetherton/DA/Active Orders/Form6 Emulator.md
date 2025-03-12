@@ -62,9 +62,11 @@ MEETING NOTES:
 - Blinking LED's when only one phase open
 - design template should exactly match simplified setup
 
-PB11 -> PB03 now alt settings
-PB12 -> PB04 how change
+NOT (3PO OR SPO) AND NOT (SV13 AND SV41T) OR (3PO OR SPO) AND (SPO AND NOT SV13 AND SV01T OR SV13 AND SV41T) # CLOSED LED
 
-PB03 -> PB11 now open
-PB04 -> PB12 now close
+SV41T AND SV13 # CLOSE LED
 
+
+3PO AND NOT (SV14 AND SV41T) OR NOT 3PO AND (SPO AND NOT SV14 AND SV01T OR SV14 AND SV41T) # OPEN LED
+
+SV41T AND SV14 # OPEN LED
