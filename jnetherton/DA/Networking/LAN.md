@@ -8,9 +8,6 @@ IEC 61850 Communication (alternative to DNP, Modbus) - use SEL Architect
         -   Very fast protocol for Point to Point (PTP)
         -   1 per relay
 
-
-
-
 -   Unicast - each client has an address (destination and source)
     -   Control
     -   Configuration
@@ -18,22 +15,17 @@ IEC 61850 Communication (alternative to DNP, Modbus) - use SEL Architect
     -   SCADA
 
 Client/Server
-
 -   DNP
 -   Modbus
 -   Slower than PTP
 
-
-
 Physical Layer
-
 -   Twisted Pair (RJ 45 Cat5, Cat6, Cat7)
     -   Straight or crossover cables (doesn't matter which if switch has auto-MDIX)
     -   Copper max distance is 100m
     -   Best practice: don't auto-negotiate port speed, best to set port speed
 
 Fiber-Optic Ethernet
-
 - Tx and Rx wavelengths must match
 - Yellow = Tx
 - White = Rx
