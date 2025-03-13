@@ -77,7 +77,9 @@ Form6 Questions:
 
 
 NOT (3PO OR SPO) AND NOT (SV13 AND SV41T) OR (3PO OR SPO) AND (SPO AND NOT SV13 AND SV01T OR SV13 AND SV41T) # CLOSE LED ON EXTERNAL PANEL
-- not
+- 3 phases closed and not timing to PB trip (2hz blinking)
+- 1/2/3 phases open and timing to PB trip (2hz blinking)
+- 1 OR 2 phases open and not timing to PB trip (1hz blinking)
 
 
 3PO AND NOT (SV14 AND SV41T) OR NOT 3PO AND (SPO AND NOT SV14 AND SV01T OR SV14 AND SV41T) # OPEN LED ON EXTERNAL PANEL
