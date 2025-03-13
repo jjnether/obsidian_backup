@@ -52,6 +52,9 @@ Questions
 - After opening one or two phase, when opening another phase, the fault indication comes on for that phase
 - Lockout is enabled for a bit on all 3 phases when just opening one phase
 - Add original open/close LED logic to open/close external LED's
+- Add cold load pickup for when closing via PB and phase is locked out?
+- Only one function can be changed per change mode activation?
+	- I think this isn't necessary?
 
 Test Plan:
 - Do a compare with the 32-pin template and test any changed functionality
