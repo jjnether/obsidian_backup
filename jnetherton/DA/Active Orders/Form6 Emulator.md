@@ -55,6 +55,9 @@ Questions
 - Add cold load pickup for when closing via PB and phase is locked out?
 - Only one function can be changed per change mode activation?
 	- I think this isn't necessary?
+- When yellow handle is pulled on one phase, it trips all 3 if 3ph LO, but only trips the one if in 1ph LO
+	- should we add this?
+- Protection profiles? I assume probably not
 
 Test Plan:
 - Do a compare with the 32-pin template and test any changed functionality
@@ -93,7 +96,6 @@ Missing LED's
 - can be activated only from toggle switch
 	- form 6 allowed activation from other sources, but only allowed deactivation when all sources are disabled
 		- may only be reset by the source that set it (if activated at the operator panel, must be deactivated there, and not by SCADA)
-- 
 
 
 
