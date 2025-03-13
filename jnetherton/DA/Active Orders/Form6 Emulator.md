@@ -69,6 +69,14 @@ Form6 Questions:
 	- can we do this?
 - Lockout LED (only one) is green on Form6, should we change ours to green? Also, it blinks when in 1ph-1LO mode and 1/2 phases are in lockout, but not all 3. Maybe implement if a phase is locked out, but not all 3 are, the locked out phases blink?
 
+Missing LED's
+- No AC present (add display point)
+- RAM failure
+- ROM failure
+- Power Supply Malf
+- RIF Comm Failure
+- 
+
 ---
 # FUNCTIONALITY
 
