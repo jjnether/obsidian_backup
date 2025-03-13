@@ -13,7 +13,7 @@ kanban-plugin: board
 	- edit program for trident and throw in production folder
 	@{2024-12-31}
 - [ ] **General Work**
-	- Meralco GWI
+	- FREE GWI - 00932
 	- Ft Meade Testing
 	- Default 487 overcurrent program
 	- omicron training?
