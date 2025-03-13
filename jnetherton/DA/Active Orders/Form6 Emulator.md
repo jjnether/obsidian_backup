@@ -31,11 +31,12 @@ Changed:
 - Added "NO AC PRESENT" display point
 - Added original open/close LED logic to open/close external LED's
 	- Also changed so there is alternate blinking when SPO=1
+- Changed A/B/C Fault TLED's to the overcurrent logic from the TRIPA/B/C equations
+	- This was because the previous values used were PHASE_A/B/C, but these assert anytime TRIPA/B/C asserts, so they were asserting when opening via PB when in 1ph mode
 
 
 Questions
 - Should we define a default DNP map? Maybe just use what we have for the 32-pin template?
-- After opening one or two phase, when opening another phase, the fault indication comes on for that phase
 - Add cold load pickup for when closing via PB and phase is locked out?
 - Only one function can be changed per change mode activation?
 	- I think this isn't necessary?
@@ -70,6 +71,8 @@ MEETING NOTES:
 - Blinking LED's when only one phase open
 - design template should exactly match simplified setup
 
+Missing Features:
+- Can't have phase LED blink
 
 Missing LED's
 - No AC present (add display point)
