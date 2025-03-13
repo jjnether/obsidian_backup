@@ -56,6 +56,8 @@ Questions
 	- Add definite time delay for HLT elements?
 	- HLT will act on whatever is fastest, active curve or time delay
 	- If above ground pickup and below phase trips all 3 phases on TCC1 or HLT definite time delay?
+- Use spare PB's for ALT2/3?
+- Is there a possibility for 52A/B discrepancy?
 
 Test Plan:
 - Do a compare with the 32-pin template and test any changed functionality
