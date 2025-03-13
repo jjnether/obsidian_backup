@@ -68,6 +68,8 @@ Form6 Questions:
 - If the the control shuts down due to low battery voltage before AC power is restored, and the connected energized recloser is CLOSED, it will only TRIP and LOCKOUT via front panel pushbutton command.
 	- can we do this?
 - Lockout LED (only one) is green on Form6, should we change ours to green? Also, it blinks when in 1ph-1LO mode and 1/2 phases are in lockout, but not all 3. Maybe implement if a phase is locked out, but not all 3 are, the locked out phases blink?
+- In the event of main microprocessor failure, the trip circuit can operate independent of the main microprocessor
+	- can we do this?
 
 Missing LED's
 - No AC present (add display point)
@@ -75,12 +77,20 @@ Missing LED's
 - ROM failure
 - Power Supply Malf
 - RIF Comm Failure
-- 
+- Alarm
+- Above minimum trip
 
 ---
 # FUNCTIONALITY
 
 ### HOT LINE TAG
+- All closing is disabled
+- one trip-to-lockout
+- takes precedence over cold load pickup, non-reclosing, and fast trips disabled
+- can be activated only from toggle switch
+	- form 6 allowed activation from other sources, but only allowed deactivation when all sources are disabled
+		- may only be reset by the source that set it (if activated at the operator panel, must be deactivated there, and not by SCADA)
+- 
 
 
 
