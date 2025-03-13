@@ -137,3 +137,8 @@ ADDED LOGIC SINCE FAT:
 NOTE:
 - The extra logic we added for the shortened auto close timers was probably unnecessary given the current use case of the devices. Reclosers/Sectionalizers will always only be timing to close after they've opened due to LOV (so longer timer will never be used) and Ties shouldn't really ever be using the shorter timer. We just needed to think about the logic of deciding the times of each device differently
 	- Will keep this logic for MP for now, as it distinguishes two different times, even though only one will be used at a time
+- TO REMOVE:
+	- remove SV54
+		- remove SV54 from CL3P, ULCL3P, SV56
+	- remove LT26
+	- remove from template
