@@ -32,6 +32,7 @@ Changed:
 - Added SV44 and SV45 variables for indicating if selected ph is closed or open (supervises PB close/open latches)
 	- Added SV44 and SV45 to LT21 and LT22 (open/close PB latches)
 - Added LT06 (HLT) to LT21 (close PB latch) so latch won't set when HLT is enabled
+- Added "NO AC PRESENT" display point
 
 To add?
 - no close circuit disable fuse to remove
@@ -65,6 +66,7 @@ MEETING NOTES:
 Form6 Questions:
 - If the the control shuts down due to low battery voltage before AC power is restored, and the connected energized recloser is CLOSED, it will only TRIP and LOCKOUT via front panel pushbutton command.
 	- can we do this?
+- Lockout LED (only one) is green on Form6, should we change ours to green? Also, it blinks when in 1ph-1LO mode and 1/2 phases are in lockout, but not all 3. Maybe implement if a phase is locked out, but not all 3 are, the locked out phases blink?
 
 ---
 # FUNCTIONALITY
