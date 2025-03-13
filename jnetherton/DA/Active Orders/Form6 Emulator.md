@@ -62,3 +62,11 @@ MEETING NOTES:
 - Blinking LED's when only one phase open
 - design template should exactly match simplified setup
 
+Form6 Questions:
+- If the the control shuts down due to low battery voltage before AC power is restored, and the connected energized recloser is CLOSED, it will only TRIP and LOCKOUT via front panel pushbutton command.
+	- can we do this?
+
+---
+# FUNCTIONALITY
+
+### HOT LINE TAG
