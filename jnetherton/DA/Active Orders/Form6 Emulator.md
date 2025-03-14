@@ -55,7 +55,7 @@ Questions
 		- may only be reset by the source that set it (if activated at the operator panel, must be deactivated there, and not by SCADA)
 	- Add definite time delay for HLT elements?
 	- HLT will act on whatever is fastest, active curve or time delay
-	- If above ground pickup and below phase trips all 3 phases on TCC1 or HLT definite time delay?
+	- If above ground pickup and below phase, trips all 3 phases on TCC1 or HLT definite time delay?
 - Use spare PB's for ALT2/3?
 - Is there a possibility for 52A/B discrepancy?
 
@@ -126,3 +126,13 @@ NOT (3PO OR SPO) AND NOT (SV13 AND SV41T) OR (3PO OR SPO) AND (SPO AND NOT SV13 
 - 3 phases open and not timing to PB trip (2hz blinking)
 - 3 phases closed and timing to PB trip (2hz blinking)
 - 1 OR 2 phases open and not timing to PB trip (1hz blinking)
+
+50P1P - High current lockout
+50P2P - High current trip
+50P3P - CLPU lower
+50P6P - Minimum trip (same as 51 min. trip)
+
+50G1P - High current lockout
+50G2P - High current trip
+50G5P - 
+50G6P - 
