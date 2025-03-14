@@ -98,6 +98,13 @@ TO CHECK:
 - can be activated only from toggle switch
 	- 
 
+### COLD LOAD PICKUP
+- Phase and ground can be enabled in the template
+- CL doesn't latch until loss of diversity timer times out
+	- (phase is in LO, 3ph LO, or reclosing defeated) AND 
+
+
+
 
 
 NOT (3PO OR SPO) AND NOT (SV13 AND SV41T) OR (3PO OR SPO) AND (SPO AND NOT SV13 AND SV01T OR SV13 AND SV41T) # CLOSE LED ON EXTERNAL PANEL
