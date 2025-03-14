@@ -3,9 +3,9 @@ Lysandra brother and mom relationship
 Belen dad new job
 Regan's house search
 Physical healing
-- Regan
 - Lukas
 - Lysandra
 - Samuel's Mom
 Little Reuben
 Erica's Ear
+Egypt and S

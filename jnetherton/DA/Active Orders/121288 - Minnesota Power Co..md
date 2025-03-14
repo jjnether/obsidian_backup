@@ -123,7 +123,6 @@ ADDED LOGIC SINCE FAT:
 - Hardcoded alt settings and fast curve to 0
 - Added logic for shortened auto close timing if device opened due to LOV
 - HLT now trips to lockout upon current exceeding pickup level, rather than waiting to time out
-	- Had to add an extra variable for this
 - if a device is directional, when it opens, it will be kicked out of auto
 	- Keeping it on ties as well, even though there may be edge cases where we would want to restore, but it won't be in auto
 		- Doing this to air on the side of safety and consistency across devices
