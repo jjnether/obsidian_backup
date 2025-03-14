@@ -107,9 +107,16 @@ TO CHECK:
 - ==Form6 has many options for CLPU such as minimum trip value time-current curve, reclose interval, and number of independent operations to lockout for each protection profile. Cold Load Pickup also includes TCC Multipliers, TCC Adders, Minimum Response Time, Time Dial Reset, and High Current Lockout. 
 - ==Form6 initiates CLPU upon PB close if it's enabled
 
-### PUHSBUTTONS
+### OPEN/CLOSE PUSHBUTTONS/LED'S
 - When in 3ph LO mode, all 3 phases are always selected
 - Any selected phases can be opened via PB
+- Only one selected phase can be closed at a time via PB
+- Open/close LED's are solid when all three phases in open/close position
+- When 1 or 2 phases are opened, open/close LED's blink alternately
+- Options in the template for double PB press
+	- does nothing
+	- executes command immediately
+	- cancels command
 
 
 NOT (3PO OR SPO) AND NOT (SV13 AND SV41T) OR (3PO OR SPO) AND (SPO AND NOT SV13 AND SV01T OR SV13 AND SV41T) # CLOSE LED ON EXTERNAL PANEL
