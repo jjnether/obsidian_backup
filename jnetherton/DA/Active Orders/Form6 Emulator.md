@@ -18,6 +18,7 @@ Changed:
 - Added logic so all 3 phases are always selected when in single ph enable - 3 ph trip mode
 - LT5 (previously PB lock when low) removed from CL3P and ULCL equations
 - Removed `NOT (CLOSEA OR (CC3 OR CCA) AND LT03 OR 79CYA)` term from all ULCL equations
+	- isn't necessary and was blocking close sometimes
 - Changed single-ph close equations so user can close all 3 phases when in 1ph trip-3ph lockout mode
 - Changed TR3P equation so a PB press open only opens all 3 phases if in 3ph lockout or 3ph trip mode
 - Removed MV18 (operating mode) supervisory from SV42 (PB trip conditions)
@@ -48,7 +49,7 @@ Questions
 - Lockout LED (only one) is green on Form6, should we change ours to green? Also, it blinks when in 1ph-1LO mode and 1/2 phases are in lockout, but not all 3. Maybe implement if a phase is locked out, but not all 3 are, the locked out phases blink?
 - In the event of main microprocessor failure, the trip circuit can operate independent of the main microprocessor
 	- can we do this?
-- For HLT, there's a couple different behaviors for F6:
+- For HLT, there's a multiple different behaviors for F6:
 	- HLT opens all 3 phases independent mode or timing that defines the trip time. If any one phase is already open and HLT is activate the other 2 phases will **NOT**  open.
 	- HLT opens all 3 phases independent mode or timing that defines the trip time. If any one phase is already open and HLT is activate the other 2 phases will immediately open.
 	- specific curve allowed to be programmed for HLT?
