@@ -103,8 +103,8 @@ TO CHECK:
 	- CLPU latches reset via natural or forced restoration
 		- Natural -> current below default TOC minimum trip setting and Aph closed (15sec pickup)
 		- Forced -> setting enabled and Aph closed (template set pickup)
-- While CLPU is active, fast curves are disabled and raises the minimum pickup of the delay curves
-	- Uses template set CLPU mult. of min. trip settings as replacement min. pickup for delay curves
+- While CLPU is active, fast curves are disabled and puts a blinder on the delay curves (same curve, but won't trip until it exceeds the CLPU pickup)
+	- Uses template set mult. of min. trip settings as CLPU pickup
 - ==Form6 has many options for CLPU such as minimum trip value time-current curve, reclose interval, and number of independent operations to lockout for each protection profile. Cold Load Pickup also includes TCC Multipliers, TCC Adders, Minimum Response Time, Time Dial Reset, and High Current Lockout. 
 - ==Form6 initiates CLPU upon PB close if it's enabled
 
