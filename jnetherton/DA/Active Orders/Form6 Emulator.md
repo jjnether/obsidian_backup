@@ -92,6 +92,7 @@ TO CHECK:
 - ==Add definite time delay for HLT elements?
 - ==HLT will act on whatever is fastest, active curve or time delay
 - ==If above ground pickup and below phase, trips all 3 phases on TCC1 or HLT definite time delay?
+- ==HLT trips on TCC1 or Time delay whichever is faster. If unit trips on HLT time then all 3 phases operate and lockout. If trip on TCC1 then only phase involved trips and LO
  
 
 ### COLD LOAD PICKUP
