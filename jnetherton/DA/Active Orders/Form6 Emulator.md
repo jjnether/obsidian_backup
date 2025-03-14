@@ -104,9 +104,11 @@ TO CHECK:
 	- Aph loss of diversity -> (Aph is in LO, 3ph LO, or reclosing defeated) AND SPOA AND (phase or ground CLPU enabled) (template set pickup)
 	- Ground latches if any phase loss of diversity latches and ground CLPU is enabled
 	- CLPU latches reset via natural or forced restoration
-		- Natural -> current below set threshold and Aph closed (15sec pickup)
+		- Natural -> current below default TOC minimum trip setting and Aph closed (15sec pickup)
 		- Forced -> setting enabled and Aph closed (template set pickup)
-- While CLPU is active, fast curves are disabled and 
+- While CLPU is active, fast curves are disabled and raises the minimum pickup of the delay curves
+	- Uses template set CLPU mult. of min. trip settings as replacement min. pickup for delay curves
+- 
 
 
 
