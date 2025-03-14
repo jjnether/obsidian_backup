@@ -46,7 +46,6 @@ Questions
 	- can we do this?
 - Lockout LED (only one) is green on Form6, should we change ours to green? Also, it blinks when in 1ph-1LO mode and 1/2 phases are in lockout, but not all 3. Maybe implement if a phase is locked out, but not all 3 are, the locked out phases blink?
 - In the event of main microprocessor failure, the trip circuit can operate independent of the main microprocessor
-	- can we do this?
 - Use spare PB's for ALT2/3?
 - Is there a possibility for 52A/B discrepancy?
 
@@ -54,6 +53,8 @@ Test Plan:
 - Do a compare with the 32-pin template and test any changed functionality
 - test basic but frequently used functions
 
+DIFFERENCES:
+- 
 
 MEETING NOTES:
 - Differences:
