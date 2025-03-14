@@ -38,12 +38,10 @@ Changed:
 
 Questions
 - Should we define a default DNP map? Maybe just use what we have for the 32-pin template?
-- Add cold load pickup for when closing via PB and phase is locked out?
 - Only one function can be changed per change mode activation?
 	- I think this isn't necessary?
 - When yellow handle is pulled on one phase, it trips all 3 if 3ph LO, but only trips the one if in 1ph LO
 	- should we add this?
-- Protection profiles? I assume probably not
 -  If the the control shuts down due to low battery voltage before AC power is restored, and the connected energized recloser is CLOSED, it will only TRIP and LOCKOUT via front panel pushbutton command.
 	- can we do this?
 - Lockout LED (only one) is green on Form6, should we change ours to green? Also, it blinks when in 1ph-1LO mode and 1/2 phases are in lockout, but not all 3. Maybe implement if a phase is locked out, but not all 3 are, the locked out phases blink?
@@ -93,10 +91,14 @@ TO CHECK:
 
 ### HOT LINE TAG
 - All closing is disabled
-- one trip-to-lockout
+- One trip-to-lockout
+- Trips out all 3 phases
 - takes precedence over cold load pickup, non-reclosing, and fast trips disabled
 - can be activated only from toggle switch
-	- 
+
+ NOT LT06 AND SV35T AND (TRIPA OR TRIPB OR TRIPC)
+ - SV35 -> 51AT OR 51BT OR 51CT OR 51G1T OR 50A2T OR 50B2T OR 50C2T OR 50G2T # ANY SPT OC TRIP CONDITION
+ 
 
 ### COLD LOAD PICKUP
 - Phase and ground CLPU can be enabled in the template
@@ -108,7 +110,8 @@ TO CHECK:
 		- Forced -> setting enabled and Aph closed (template set pickup)
 - While CLPU is active, fast curves are disabled and raises the minimum pickup of the delay curves
 	- Uses template set CLPU mult. of min. trip settings as replacement min. pickup for delay curves
-- 
+- ==Form6 has many options for CLPU such as minimum trip value time-current curve, reclose interval, and number of independent operations to lockout for each protection profile. Cold Load Pickup also includes TCC Multipliers, TCC Adders, Minimum Response Time, Time Dial Reset, and High Current Lockout. 
+- ==Form6 initiates CLPU upon PB close if it's enabled
 
 
 
