@@ -38,23 +38,22 @@ Changed:
 
 Questions
 - Should we define a default DNP map? Maybe just use what we have for the 32-pin template?
-- Only one function can be changed per change mode activation?
-	- I think this isn't necessary?
 - When yellow handle is pulled on one phase, it trips all 3 if in 3ph LO mode, but only trips the one if in 1ph LO mode
 	- should we add this?
 -  If the the control shuts down due to low battery voltage before AC power is restored, and the connected energized recloser is CLOSED, it will only TRIP and LOCKOUT via front panel pushbutton command.
 	- can we do this?
 - Lockout LED (only one) is green on Form6, should we change ours to green? Also, it blinks when in 1ph-1LO mode and 1/2 phases are in lockout, but not all 3. Maybe implement if a phase is locked out, but not all 3 are, the locked out phases blink?
 - In the event of main microprocessor failure, the trip circuit can operate independent of the main microprocessor
-- Use spare PB's for ALT2/3?
-- Is there a possibility for 52A/B discrepancy?
+- REVIEW FRONT PANEL
+	- Do we want "not used" or just blank
+	- Maybe use spare PB's for ALT2/3?
 
 Test Plan:
 - Do a compare with the 32-pin template and test any changed functionality
 - test basic but frequently used functions
 
 DIFFERENCES:
-- 
+- No alarm for 52A/B discrepancy (can do with 42-pin, but we only get 52A back with 32-pin)
 
 MEETING NOTES:
 - Differences:
@@ -140,3 +139,9 @@ NOT (3PO OR SPO) AND NOT (SV13 AND SV41T) OR (3PO OR SPO) AND (SPO AND NOT SV13 
 50G2P - High current trip
 50G5P - CLPU
 50G6P - Minimum trip (same as 51 min. trip), only used for CLPU natural restoration, not used for tripping
+
+
+
+TO CHANGE:
+- only 1 change per PB press
+- PB press CLPU activate
