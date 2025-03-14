@@ -129,10 +129,10 @@ NOT (3PO OR SPO) AND NOT (SV13 AND SV41T) OR (3PO OR SPO) AND (SPO AND NOT SV13 
 
 50P1P - High current lockout
 50P2P - High current trip
-50P3P - CLPU lower
-50P6P - Minimum trip (same as 51 min. trip)
+50P3P - CLPU
+50P6P - Minimum trip (same as 51 min. trip), only used for CLPU natural restoration, not used for tripping
 
 50G1P - High current lockout
 50G2P - High current trip
-50G5P - 
-50G6P - 
+50G5P - CLPU
+50G6P - Minimum trip (same as 51 min. trip), only used for CLPU natural restoration, not used for tripping
