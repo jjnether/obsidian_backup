@@ -99,10 +99,13 @@ TO CHECK:
 	- 
 
 ### COLD LOAD PICKUP
-- Phase and ground can be enabled in the template
-- CL doesn't latch until loss of diversity timer times out
-	- (phase is in LO, 3ph LO, or reclosing defeated) AND 
-
+- Phase and ground CLPU can be enabled in the template
+- CLPU doesn't latch until loss of diversity timer times out
+	- Aph loss of diversity -> (Aph is in LO, 3ph LO, or reclosing defeated) AND SPOA AND phase or ground CLPU enabled (template set pickup)
+	- Ground latches if any phase loss of diversity latches and ground CLPU is enabled
+	- CLPU latches reset via natural or forced restoration
+		- Natural -> current below set threshold and Aph closed (15sec pickup)
+		- Forced -> setting enabled and Aph closed (template set pickup)
 
 
 
