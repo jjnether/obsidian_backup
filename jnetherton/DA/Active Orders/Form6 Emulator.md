@@ -40,22 +40,13 @@ Questions
 - Should we define a default DNP map? Maybe just use what we have for the 32-pin template?
 - Only one function can be changed per change mode activation?
 	- I think this isn't necessary?
-- When yellow handle is pulled on one phase, it trips all 3 if 3ph LO, but only trips the one if in 1ph LO
+- When yellow handle is pulled on one phase, it trips all 3 if in 3ph LO mode, but only trips the one if in 1ph LO mode
 	- should we add this?
 -  If the the control shuts down due to low battery voltage before AC power is restored, and the connected energized recloser is CLOSED, it will only TRIP and LOCKOUT via front panel pushbutton command.
 	- can we do this?
 - Lockout LED (only one) is green on Form6, should we change ours to green? Also, it blinks when in 1ph-1LO mode and 1/2 phases are in lockout, but not all 3. Maybe implement if a phase is locked out, but not all 3 are, the locked out phases blink?
 - In the event of main microprocessor failure, the trip circuit can operate independent of the main microprocessor
 	- can we do this?
-- For HLT, there's a multiple different behaviors for F6:
-	- HLT opens all 3 phases independent mode or timing that defines the trip time. If any one phase is already open and HLT is activate the other 2 phases will **NOT**  open.
-	- HLT opens all 3 phases independent mode or timing that defines the trip time. If any one phase is already open and HLT is activate the other 2 phases will immediately open.
-	- specific curve allowed to be programmed for HLT?
-	- form 6 allowed activation from other sources, but only allowed deactivation when all sources are disabled
-		- may only be reset by the source that set it (if activated at the operator panel, must be deactivated there, and not by SCADA)
-	- Add definite time delay for HLT elements?
-	- HLT will act on whatever is fastest, active curve or time delay
-	- If above ground pickup and below phase, trips all 3 phases on TCC1 or HLT definite time delay?
 - Use spare PB's for ALT2/3?
 - Is there a possibility for 52A/B discrepancy?
 
@@ -70,8 +61,6 @@ MEETING NOTES:
 - Blinking LED's when only one phase open
 - design template should exactly match simplified setup
 
-Missing Features:
-- Can't have phase LED blink
 
 Missing LED's
 - No AC present (add display point)
@@ -92,12 +81,17 @@ TO CHECK:
 ### HOT LINE TAG
 - All closing is disabled
 - One trip-to-lockout
-- Trips out all 3 phases
-- takes precedence over cold load pickup, non-reclosing, and fast trips disabled
-- can be activated only from toggle switch
-
- NOT LT06 AND SV35T AND (TRIPA OR TRIPB OR TRIPC)
- - SV35 -> 51AT OR 51BT OR 51CT OR 51G1T OR 50A2T OR 50B2T OR 50C2T OR 50G2T # ANY SPT OC TRIP CONDITION
+- Trips out all 3 phases no matter which mode
+- Can be activated only from toggle switch
+- ==Form6 takes precedence over cold load pickup, non-reclosing, and fast trips disabled
+- ==HLT opens all 3 phases independent mode or timing that defines the trip time. If any one phase is already open and HLT is activate the other 2 phases will **NOT**  open.
+- ==HLT opens all 3 phases independent mode or timing that defines the trip time. If any one phase is already open and HLT is activate the other 2 phases will immediately open.
+- ==specific curve allowed to be programmed for HLT?
+- ==form 6 allowed activation from other sources, but only allowed deactivation when all sources are disabled
+	- ==may only be reset by the source that set it (if activated at the operator panel, must be deactivated there, and not by SCADA)
+- ==Add definite time delay for HLT elements?
+- ==HLT will act on whatever is fastest, active curve or time delay
+- ==If above ground pickup and below phase, trips all 3 phases on TCC1 or HLT definite time delay?
  
 
 ### COLD LOAD PICKUP
@@ -113,7 +107,9 @@ TO CHECK:
 - ==Form6 has many options for CLPU such as minimum trip value time-current curve, reclose interval, and number of independent operations to lockout for each protection profile. Cold Load Pickup also includes TCC Multipliers, TCC Adders, Minimum Response Time, Time Dial Reset, and High Current Lockout. 
 - ==Form6 initiates CLPU upon PB close if it's enabled
 
-
+### PUHSBUTTONS
+- When in 3ph LO mode, all 3 phases are always selected
+- Any selected phases can be opened via PB
 
 
 NOT (3PO OR SPO) AND NOT (SV13 AND SV41T) OR (3PO OR SPO) AND (SPO AND NOT SV13 AND SV01T OR SV13 AND SV41T) # CLOSE LED ON EXTERNAL PANEL
