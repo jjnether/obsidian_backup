@@ -34,6 +34,8 @@ Changed:
 	- Also changed so there is alternate blinking when SPO=1
 - Changed A/B/C Fault TLED's to the overcurrent logic from the TRIPA/B/C equations
 	- This was because the previous values used were PHASE_A/B/C, but these assert anytime TRIPA/B/C asserts, so they were asserting when opening via PB when in 1ph mode
+- Modified Change mode so it resets for each action
+	- Added LT05 and modified SV18
 
 
 Questions
