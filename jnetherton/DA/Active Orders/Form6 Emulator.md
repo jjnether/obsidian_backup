@@ -145,5 +145,4 @@ NOT (3PO OR SPO) AND NOT (SV13 AND SV41T) OR (3PO OR SPO) AND (SPO AND NOT SV13 
 
 
 TO CHANGE:
-- only 1 change per PB press
 - PB press CLPU activate
