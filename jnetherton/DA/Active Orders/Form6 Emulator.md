@@ -150,3 +150,5 @@ MEETING NOTES:
 - HLT - add definite time delay in ms
 - HLT has two separate latches for remote and local
 - HLT doesn't have a separate 50, but a distinct time delay for HLT
+- repurpose ABC 51 curves for CLPU
+- 
