@@ -145,4 +145,5 @@ NOT (3PO OR SPO) AND NOT (SV13 AND SV41T) OR (3PO OR SPO) AND (SPO AND NOT SV13 
 
 
 
-TO CHANGE:
+MEETING NOTES:
+- copy template settings from one group to another?
