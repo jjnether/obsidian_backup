@@ -8,4 +8,5 @@ Physical healing
 - Samuel's Mom
 Little Reuben
 Erica's Ear
-Egypt and S
+Egypt and Syria
+Freedom retreat
