@@ -148,3 +148,11 @@ NOTE:
 		- remove from template
 - To remove manual open/close exiting auto:
 	- edit SV53
+
+ADD TO PRESENTATION:
+- slide on recloser/sectionalizer/tie
+- slide on safety with regards to automation
+
+DEMO CHANGES:
+- SEC 2 to REC 3
+- Auto close kicks out of auto
