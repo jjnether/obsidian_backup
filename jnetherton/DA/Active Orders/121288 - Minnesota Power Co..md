@@ -138,7 +138,7 @@ NOTE:
 - The extra logic we added for the shortened auto close timers was probably unnecessary given the current use case of the devices. Reclosers/Sectionalizers will always only be timing to close after they've opened due to LOV (so longer timer will never be used) and Ties shouldn't really ever be using the shorter timer. We just needed to think about the logic of deciding the times of each device differently
 	- If we remove it:
 		- Always assuming reclosers/sectionalizers will only auto-close after having auto-opened due to LOV
-	- If we keep, perhaps add TRGTR to the latch reset
+	- If we keep:
 		- maybe also a display point that says "ready for shortened auto-close" or something?
 		- This is just in case there's a scenario where a user is interacting with the device, but the latch is still set because it was never energized and timed for a close
 	- TO REMOVE:
@@ -146,5 +146,5 @@ NOTE:
 			- remove SV54 from CL3P, ULCL3P, SV56
 		- remove LT26
 		- remove from template
-- To remove PB press exiting auto:
-	- 
+- To remove manual open/close exiting auto:
+	- edit SV53
