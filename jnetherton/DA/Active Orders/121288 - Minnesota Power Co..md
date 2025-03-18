@@ -146,3 +146,5 @@ NOTE:
 			- remove SV54 from CL3P, ULCL3P, SV56
 		- remove LT26
 		- remove from template
+- To remove PB press exiting auto:
+	- 
