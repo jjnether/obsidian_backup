@@ -153,6 +153,10 @@ ADD TO PRESENTATION:
 - slide on recloser/sectionalizer/tie
 - slide on safety with regards to automation
 
-DEMO CHANGES:
-- SEC 2 to REC 3
-- Auto close kicks out of auto
+QUESTIONS:
+- minimum DNP points for fault location for future centralized FLISR
+	- only 1 point for phase fault
+	- is ground/neutral point also needed?
+- FLOC implementation in centralized FLISR?
+- Any other things to think about now to prepare for future centralized FLISR, or just wait until we get to that point?
+- 
