@@ -34,3 +34,6 @@ PTX testing:
 
 
 Compano S/N : MN539D/102526945
+
+HMI Testing:
+- IWM - Way 1 voltage values seem off, but what the relay sees matches what the HMI sees. Must be something switch side?
