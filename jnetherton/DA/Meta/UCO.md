@@ -13,7 +13,7 @@ Peer to peer comms testing:
 - MCUP 6/7
 - MCUP 4/5
 - MCUP 2/3
-- MCUP 1/
+- MCUP 1/IWM
 
 HMI comm testing:
 - MCUP7
