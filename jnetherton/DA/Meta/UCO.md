@@ -1,7 +1,5 @@
 Transceiver left to right: hmi, comm a, comm b
 
-
-Questions:
 - pulled MIB 2 from 2EY1.MVS.B02 for MIB replacement
 - replaced MIB 2 on 1EY1.MVS.A01 and test way 2 is operating properly
 - verified motor operation on ways 1 and 2 for MCUP5 - can close this issue in their system
@@ -25,15 +23,12 @@ HMI comm testing:
 - MCUP1
 - IWM
 
-
-
-
 PTX testing:
-- All MCUPs already completed TX testing:
-- All MCUPs already conp
+- All MCUPs already completed PTX testing
 
+Completed L3 testing:
+- MCUP1/IWM
 
 Compano S/N : MN539D/102526945
 
-HMI Testing:
-- IWM - Way 1 voltage values seem off, but what the relay sees matches what the HMI sees. Must be something switch side?
+Steve with Qualace
