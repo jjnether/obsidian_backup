@@ -46,3 +46,5 @@ RD01 - flipped way 3 and way 4
 	- 1EY1.C01
 	- 1EY1.SSB
 	- 1EY2
+
+INCORRECT COMM LABELS:
