@@ -39,16 +39,10 @@ TO COMPLETE:
 	- DATA HALL A,B,C,D?
 	- MCUP 8/9
 - PTX TESTING
+
+RD01 - flipped way 3 and way 4
+
 - S/N'S
 	- 1EY1.C01
 	- 1EY1.SSB
 	- 1EY2
-
-
-To test?
-- CB01 pair - completed
-- SSB
-
-- B10/H01 pair
-- H02/D01
-- D06/D07
