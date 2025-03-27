@@ -1,5 +1,8 @@
 Transceiver left to right: hmi, comm a, comm b
 
+---
+WEEK OF 03/24
+
 - pulled MIB 2 from 2EY1.MVS.B02 for MIB replacement
 - replaced MIB 2 on 1EY1.MVS.A01 and test way 2 is operating properly
 - verified motor operation on ways 1 and 2 for MCUP5 - can close this issue in their system
@@ -23,9 +26,6 @@ HMI comm testing:
 - MCUP1
 - IWM
 
-PTX testing:
-- All MCUPs already completed PTX testing
-
 Completed L3 testing:
 - MCUP1/IWM
 
@@ -33,14 +33,11 @@ Compano S/N : MN539D/102526945
 
 Steve with Qualace
 
-TO COMPLETE:
-- TEST CURRENT THROUGH EXTERNAL CT'S AT IWM
-- COMMS TESTING:
-	- DATA HALL A,B,C,D?
-	- MCUP 8/9
-- PTX TESTING
 
-RD01 - flipped way 3 and way 4
+PTX TESTING
+- RD01 - flipped way 3 and way 4
+- D02 - flipped way 3 and way 4
+- H02 - flipped way 3 and way 4
 
 - S/N'S
 	- 1EY1.C01
@@ -48,3 +45,8 @@ RD01 - flipped way 3 and way 4
 	- 1EY2
 
 INCORRECT COMM LABELS:
+
+
+
+
+---
