@@ -36,18 +36,12 @@ kanban-plugin: board
 
 ## FAT
 
-- [ ] [[111587 - Pantex]] (Ryan Sales)
-	- FAT 3/11@{2025-03-11}
 - [ ] [[110307 - Fort Meade]]
 	- FAT tentative @{2025-01-21}
 
 
 ## SAT/GWI
 
-- [ ] [[121288 - Minnesota Power Co.]]
-	- Buy G&W goodies for training
-	- Auto-close changes testing
-	@{2024-10-10}
 
 
 ***
@@ -60,6 +54,12 @@ kanban-plugin: board
 - [ ] [[116007 - Amptek BNSF]]
 	- SAT handled by AMS
 	@{2024-12-02}
+- [ ] [[121288 - Minnesota Power Co.]]
+	- Buy G&W goodies for training
+	- Auto-close changes testing
+	@{2024-10-10}
+- [ ] [[111587 - Pantex]] (Ryan Sales)
+	- FAT 3/11@{2025-03-11}
 
 %% kanban:settings
 ```
