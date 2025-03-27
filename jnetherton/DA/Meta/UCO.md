@@ -47,6 +47,11 @@ PTX TESTING
 INCORRECT COMM LABELS:
 
 
+B04
+B07
+B08
 
+
+MSG 1 RTAC restarting?
 
 ---
