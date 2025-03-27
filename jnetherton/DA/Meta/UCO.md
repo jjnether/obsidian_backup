@@ -43,4 +43,12 @@ TO COMPLETE:
 	- 1EY1.C01
 	- 1EY1.SSB
 	- 1EY2
-- 
+
+
+To test?
+- CB01 pair - completed
+- SSB
+
+- B10/H01 pair
+- H02/D01
+- D06/D07
