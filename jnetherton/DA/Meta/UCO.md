@@ -32,3 +32,14 @@ Completed L3 testing:
 Compano S/N : MN539D/102526945
 
 Steve with Qualace
+
+TO COMPLETE:
+- COMMS TESTING:
+	- DATA HALL A,B,C,D?
+	- MCUP 8/9
+- PTX TESTING
+- S/N'S
+	- 1EY1.C01
+	- 1EY1.SSB
+	- 1EY2
+- 
