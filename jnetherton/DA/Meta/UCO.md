@@ -38,6 +38,9 @@ PTX TESTING
 - RD01 - flipped way 3 and way 4
 - D02 - flipped way 3 and way 4
 - H02 - flipped way 3 and way 4
+- A10 - flipped
+	- Way 4 PTX.A20 HIGH TEMP NEVER SHOWED UP
+- 
 
 - S/N'S
 	- 1EY1.C01
@@ -59,6 +62,10 @@ B07
 B08
 
 
-MSG 1 RTAC restarting?
+SSB locked out - no comms check
+
+Ra01 no port locks
+A01 no port locks
+
 
 ---
