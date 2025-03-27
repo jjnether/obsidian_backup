@@ -37,7 +37,6 @@ Motor boards operating modes:
 - Fault Interrupter
 	- 5 - Enc
 	- 6 - IF
-- Fault Interrupter
 
 **SEL terminal commands:**
 (SELboot) `FID` - check SELboot and firmware
@@ -72,25 +71,6 @@ Y = horizontal bushing (usually load side) (ct is always on this side)
 
 **Hot Line Tag**
 - When hot line tag is enabled if any phase minimum pick is exceeded all phases will immediately trip. If ground is not block while hot line tag is enabled exceeding the ground minimum pickup will also cause all the phases to trip. Enabling hot line tag automatically puts the control into one shot mode.
-
-**Order Sequence**
-- Business development manager provides quote with scope
-- Plan and release and release to production (AE and PE)
-	- Pick date is when order is done
-- Program Spec - due 4 weeks after approval - if it's in ENG or customer approval, we wait - if it's in dating in progress, good to go
-- Development time (will make system testing smoother)
-- Production Program
-- FAT Plan
-- System Testing
-- FAT
-	- Could be from a couple hours to a week
-- Commissioning
-	- Customer has switch installed (varies)
-	- Take FAT plan and rework to SAT plan
-- GWI Draft
-	- First draft done around time of commissioning
-	- Ideally done 2-4 weeks after commissioning
-
 
 Must enable Telnet in the port setting to communicate with a relay through ethernet
 
@@ -171,16 +151,6 @@ Symbol Shortcuts:
 Ω = ALT+8486
 ® = ALT + 0174
 
-For DA GWI Creation in ETQ:
-- New Doc > GWI - Draft
-- ISO Controlled > Yes
-- Searchable Departments > GWI
-- Product Line > GWI LaZer-DA
-- Locations > Bolingbrook
-- Owner > Kate Cummings
-- Wait to place effective date until you're ready to send it through approval process
-- Save to generate GWI number, then under Document Body, select GWI template, then download and edit
-
 `TRGTR` asserts when TARGET RESET is pushed
 `RSTTRGT` is a command that can be sent to reset targets
 
@@ -254,7 +224,6 @@ Internal CT Ratings:
 	- Meets accuracy requirements of IEC to 2P10
 
 ---
-- If 651 is powered but doesn't seem to be turning on, hit `TARGET RESET` and it should wake from sleep
 
 POTT = Permissive overreach transfer trip
 DCB = directional comparison blocking
