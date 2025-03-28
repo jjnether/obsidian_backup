@@ -40,12 +40,7 @@ PTX TESTING
 - H02 - flipped way 3 and way 4
 - A10 - flipped
 	- Way 4 PTX.A20 HIGH TEMP NEVER SHOWED UP
-- 
-
-- S/N'S
-	- 1EY1.C01
-	- 1EY1.SSB
-	- 1EY2
+- c01 - getting W3 PTX alarms, but when clicking on it, doesn't show high temp like it should
 
 INCORRECT COMM LABELS:
 1EY2.MVS.RD01
@@ -61,8 +56,17 @@ B04
 B07
 B08
 
+A02
+A03
+A06
+A07
+A08
+H01
+C01
+C04
+C07
 
-SSB locked out - no comms check
+
 
 Ra01 no port locks
 A01 no port locks
