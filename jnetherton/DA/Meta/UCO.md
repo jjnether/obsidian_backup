@@ -85,4 +85,5 @@ A01 no port locks
 Uploaded Updated diagram builder map to HMI at 1EY1
 
 ---
-67UP2D - delay was off
+67UP2D - delay was off - supposed to be 9.625 cycles - currently set to 9.5
+- everything else looks correct
