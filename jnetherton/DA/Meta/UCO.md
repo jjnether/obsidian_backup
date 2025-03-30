@@ -42,7 +42,7 @@ PTX TESTING
 	- Way 4 PTX.A20 HIGH TEMP NEVER SHOWED UP
 - c01 - getting W3 PTX alarms, but when clicking on it, doesn't show high temp like it should
 - H01, PTX.H07 - no signals seen at all, not being seen at the relay either
-- H01, PTX.H05 - showing Way 3, but should be Way 4, also not seeing low oil, high temp, also not se
+- H01, PTX.H05 - showing Way 3, but should be Way 4, also not seeing low oil, high temp, also not seen at the relay 
 - B10, PTX.B19 - low pressure held high
 - B02, PTX.B03 - high temp held high
 
