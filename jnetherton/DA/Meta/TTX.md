@@ -10,7 +10,10 @@ TO DO:
 	- ADM
 	- MCUP4/MCUP5
 	- MCUP6/MCUP7
-		- Done by Ellie?
+		- just HMI
 	- MCUP8/MCUP9
+		- just HMI
 	- D08/RD01
+		- full L3
 	- D02/D03
+		- full L3
