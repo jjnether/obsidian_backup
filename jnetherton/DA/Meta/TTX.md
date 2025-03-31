@@ -1,0 +1,6 @@
+- Standalone labels (6 switches)
+	- E01
+	- MCUP1
+	- ADM
+- C02/C03 LOCAL/REMOTE LABEL
+- ADMIN L3
