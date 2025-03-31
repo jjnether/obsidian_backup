@@ -12,6 +12,5 @@ TO DO:
 	- MCUP6/MCUP7
 		- Done by Ellie?
 	- MCUP8/MCUP9
-		- Done by Ellie?
 	- D08/RD01
 	- D02/D03
