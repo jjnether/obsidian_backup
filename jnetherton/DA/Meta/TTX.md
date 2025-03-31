@@ -1,6 +1,17 @@
-- Standalone labels (6 switches)
+TO DO:
+- Standalone labels (3 switches each building)
 	- E01
 	- MCUP1
 	- ADM
-- C02/C03 LOCAL/REMOTE LABEL
-- ADMIN L3
+- Local/Remote Labels
+	- C02
+	- C03
+- L3 Cx
+	- ADM
+	- MCUP4/MCUP5
+	- MCUP6/MCUP7
+		- Done by Ellie?
+	- MCUP8/MCUP9
+		- Done by Ellie?
+	- D08/RD01
+	- D02/D03
