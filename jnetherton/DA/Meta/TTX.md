@@ -12,9 +12,11 @@ TO DO:
 		- just HMI?? - check with L4 guys
 	- MCUP6/MCUP7
 		- just HMI
+		- 6 L4 complete
 	- MCUP8/MCUP9
 		- just HMI
 	- D08/RD01
 		- full L3
 	- D02/D03
 		- full L3
+	- C06 short
