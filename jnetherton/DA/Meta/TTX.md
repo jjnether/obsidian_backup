@@ -18,6 +18,6 @@ TO DO:
 		- full L3
 - Check data hall D for comms
 
-
-D06/07 comm B fail
 D02/03 comm A fail
+MCUP4/5 comm B fail
+B08/09 comm b fail
