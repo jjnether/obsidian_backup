@@ -17,3 +17,7 @@ TO DO:
 	- D02/D03
 		- full L3
 - Check data hall D for comms
+
+
+D06/07 comm B fail
+D02/03 comm A fail
