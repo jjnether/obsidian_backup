@@ -1,0 +1,26 @@
+1. Preamble
+I am a Christian who has gay friends and relatives that I love, so if I’m being honest, it would be a relief to find some gray area in Scripture on this issue. I struggle with how Christians can sometimes treat the LGBTQ+ community as if they are unworthy of God’s love, which is not true at all.
+I am also a theologian and student of Scripture. I have studied the Bible and am convinced that, despite my personal feelings on the issue, Scripture is clear and unequivocal: LGBTQ+ sexuality is sinful. Thus, in my writing, I am not necessarily arguing for my own personal positions, but rather advocating for a biblically faithful understanding of the issue. Scripture must be our ultimate authority.
+When it comes to dealing with sin of any kind, I believe it’s important to remember what Jesus said to the Pharisees when they brought Him a woman caught in adultery. “Let anyone of you who is without sin be the first to throw a stone at her” (John 8:7). Jesus showed her mercy rather than condemnation. But the story doesn’t end there. Jesus then said to the woman, “Go now and leave your life of sin” (John 8:11). He did not minimize the sinfulness of her actions or suggest that it was okay to continue in them. In this interaction, Jesus modeled the perfect balance of grace and truth. And that’s the spirit in which I hope to engage with this issue.
+It is intolerant and unacceptable to expect or demand that the church as a whole, or Christians as individuals, affirm or support any behavior that the Bible has deemed sinful.
+I am not always up to date on the preferred language and terminology of the LBGTQ community; preference vs. orientation, homosexual vs. same-sex, etc. I do my best to choose my words carefully and respectfully, but please extend some grace should I use a term the reader disagrees with. Offensive language is never my intention.
+2. I affirm that LGBTQ people…
+Are valuable, loved by God, and made in His image.
+Are beloved and valuable members of our families, friend groups, neighborhoods, communities, and country.
+Can be beautiful, loving, productive, contributing members of society.
+Are worthy of, and should always be treated with, love, dignity, and respect as human beings.
+Should never suffer emotional, verbal, or physical abuse because of their sexuality, especially at the hands of Christians.
+Are no more inherently sinful than anyone else.
+Should be included in the services, programs, outreach, love, and support of the Christian church.
+Should be afforded every legal right and protection due to any other citizen of their country.
+3. Scripture affirms…
+There are only two genders/sexes, male and female, and we are each born the gender God has sovereignly and lovingly chosen for us.
+There is only one form of sexual expression ordained and blessed by God. Namely, within the covenant of marriage between one man and one woman. All other forms of sexual expression are sinful.
+Sexual sin is a unique kind of sin: “Flee from sexual immorality. Every other sin a person commits is outside the body, but the sexually immoral person sins against his own body” (1 Cor 6:18).
+Homosexual behavior is not a “super-sin.” It is not singled out as worse than any other form of sexual immorality.
+Same-sex attraction is not sinful. It is not the temptation but the behavior that is deemed sinful in Scripture.
+We are all sinners in need of a Savior, LGBTQ or not (1 John 1:8). There is not one of us who is righteous (Ps 14:3; Rom 3:10), all have fallen short of the glory of Jesus (Rom 3:23).
+Jesus takes a position on homosexuality. Whenever He references “sexual immorality” (Matt 5:32, 15:19, 19:9; Mark 7:21) it includes all forms of sexual immorality listed in Scripture.
+There is a difference between habitual and normative sin. Habitual sin is something we repeat in an area where we struggle (Rom 7). We acknowledge we are wrong, repent, and resist it, sometimes daily. Normative sin is behavior that we willingly and consistently walk in; we do not resist it and, instead, justify or ignore it (Rom 6:1-14; Heb 10:26-29).
+4. On the Origin of Homosexuality
+What is the origin of homosexuality and same-sex attraction in human beings? Is it something one is born with? Is it influenced by culture? Because I am not an expert in this area and have not studied it in depth, I refrain from taking an official position. And at the end of the day, I do not find the point of origin germane. Because of Adam’s sin in the garden, we are all born into a broken world and have a tendency toward sin (Rom 5:12; 1 Cor 15:21). Some of us are tempted by lying, others by sexual sin, others by pride or greed. No matter our weakness—whether it’s the desires of the flesh or the eyes or the pride of life (1 John 2:16)—faith in Jesus calls us to resist our sinful nature. All forms of sin are to be resisted by the Christian (James 4:7-10). Especially the sins we really like. The good news is that we do not need to resist under our own power. In Jesus, we find the power we need (Matt 19:26; Rom 8:12-13; 1 Cor 10:12-14, 15:57; Gal 5:16; Phil 4:13).
