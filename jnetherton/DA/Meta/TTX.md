@@ -1,22 +1,19 @@
+DONE:
+- local/remote labels at C02/C03 (C03 already was fine)
+- standalone labels fix at E01
+- checked C06 for short, verified it's on the customer side
+
 TO DO:
+- check with Terry on MCUP L4's
 - Standalone labels (3 switches each building)
-	- E01
 	- MCUP1
 	- ADM
-- Local/Remote Labels
-	- C02
-	- C03
+- settings update at MCUP1
+- check MCUP4/5 MB alarm
 - L3 Cx
 	- ADM
-	- MCUP4/MCUP5
-		- just HMI?? - check with L4 guys
-	- MCUP6/MCUP7
-		- just HMI
-		- 6 L4 complete
-	- MCUP8/MCUP9
-		- just HMI
 	- D08/RD01
 		- full L3
 	- D02/D03
 		- full L3
-	- C06 short
+- Check data hall D for comms
