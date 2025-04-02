@@ -10,7 +10,6 @@ kanban-plugin: board
 	- Update excel map with all variables @{2024-09-30}
 - [ ] [[Meralco]]
 	- also 108630/108631
-	- edit program for trident and throw in production folder
 	@{2024-12-31}
 - [ ] **General Work**
 	- FREE GWI - 00932
