@@ -61,11 +61,14 @@ TO DO:
 	- scada check RB7 for RSTRGT
 	- scada check LT12 for DCB indication
 
+For updating the relay MOT to include 61850:
+```
 CAL
 CLARKE
 PARTNO
 0351S6XHB2E1122
 ID
+```
 
 
 TRIP:
