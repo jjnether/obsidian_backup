@@ -1,6 +1,8 @@
 Office Phone: (708) 297-3769
 Work Phone: (708) 402-8777
 
+When shipping with FedEx, use FedEx acct # 060428751 for savings
+
 `U:\_ISO\GWI\523\GWI523-369CD.zip`
 - Motor programming cable driver
 
