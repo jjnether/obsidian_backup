@@ -1,3 +1,3 @@
-Brown sugar
 Milk
-Broom
+Sandwich bags
+Oatmeal
