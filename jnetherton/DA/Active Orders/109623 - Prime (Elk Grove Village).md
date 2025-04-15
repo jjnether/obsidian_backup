@@ -161,6 +161,17 @@ PROGRAM UPDATE:
 - Manual bypass option so they can manually operate in a comm loss situation or otherwise
 - There needs to be at least two open points for any close operation
 
+
+- hardcode off auto mode
 - Change the wording for local bit selector - a bit confusing
 - Paralleling latch - it allows paralleling - allowed on both or neither
 	- deasserts if there's a comm loss - paralleling is blocked
+	- pushbutton or local bit to bypass interlocks in a comm loss situation - they can technically parallel
+- Don't add logic for parallel blocking with comm loss
+	- Will just assume other switch has both closed
+- NO AUTOMATIC OPERATION
+
+Action Items:
+- commissioning script
+	- pre-energization
+	- also test comm-loss scenarios
