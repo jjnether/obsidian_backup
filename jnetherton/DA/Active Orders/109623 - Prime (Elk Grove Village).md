@@ -169,9 +169,14 @@ PROGRAM UPDATE:
 	- pushbutton or local bit to bypass interlocks in a comm loss situation - they can technically parallel
 - Don't add logic for parallel blocking with comm loss
 	- Will just assume other switch has both closed
-- NO AUTOMATIC OPERATION
+- NO AUTOMATIC OPERATION - no 27 trip
 
 Action Items:
 - commissioning script
+	- Simply open close for each way
+	- Ensure auto mode is hardcoded off
 	- pre-energization
-	- also test comm-loss scenarios
+	- test comm-loss scenarios
+	- test override
+- Logic change
+	- include protection studies
