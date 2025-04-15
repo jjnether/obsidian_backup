@@ -180,3 +180,6 @@ Action Items:
 	- test override
 - Logic change
 	- include protection studies
+- email and inform they need to have fiber up for commissioning
+	- also mention that there's no harmonic blocking on inrush unless they want to do a firmware change
+	- ask for full short circuit study
