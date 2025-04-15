@@ -151,3 +151,16 @@ PSV31 := PCT30Q #CLOSE ADJ. SW. TIE IF OPEN POINT
 ![[Pasted image 20250217134409.png]]
 - Determine tie way with local bit
 - Also trip open a source way if it sees its source voltage drop for a time
+
+
+PROGRAM UPDATE:
+
+- No automatic operations at all
+- There is communication
+	- in comm loss, each switch assumes the other has both tie and source way closed
+- Manual bypass option so they can manually operate in a comm loss situation or otherwise
+- There needs to be at least two open points for any close operation
+
+- Change the wording for local bit selector - a bit confusing
+- Paralleling latch - it allows paralleling - allowed on both or neither
+	- deasserts if there's a comm loss - paralleling is blocked
