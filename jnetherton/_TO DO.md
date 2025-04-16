@@ -18,6 +18,9 @@ kanban-plugin: board
 	- omicron training?
 	- 451 ATC rework
 	- Form6 Testing
+	- Bauxite FAT plan
+	- Prime Cx Plan
+	- Prime logic changes
 
 
 ## Programming Spec
