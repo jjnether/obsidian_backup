@@ -193,4 +193,4 @@ LOGIC TO DO:
 	- blocking assumed to be always active, unless the override blocking pushbutton is pressed and LED is lit
 		- blocking override is independent on each switch
 		- add watchdog timer to blocking override
-- Add comm alarm (includes GOOSE message and hardwired ethernet alarm)
+- Do they want to be able to enable blocking override remotely?
