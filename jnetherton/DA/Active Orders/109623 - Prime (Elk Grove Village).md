@@ -183,3 +183,12 @@ Action Items:
 - email and inform they need to have fiber up for commissioning
 	- also mention that there's no harmonic blocking on inrush unless they want to do a firmware change
 	- ask for full short circuit study
+
+
+LOGIC TO DO:
+- Update and print Labels
+- Add quality to GOOSE architect file
+- Test logic on 22GF for the ethernet alarm
+- Add parallel blocking logic
+	- blocking assumed to be always active, unless the override blocking pushbutton is pressed and LED is lit
+- Add comm alarm (includes GOOSE message and hardwired ethernet alarm)
