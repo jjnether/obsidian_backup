@@ -9,3 +9,5 @@ D94980182AYP
 - A13413591HX0 - relay
 - 045152111C0X1H741412X
 
+
+- We should test to verify the system cannot enter auto if the manual tie way is in the open position, or if the motor tie way is in the closed position.
