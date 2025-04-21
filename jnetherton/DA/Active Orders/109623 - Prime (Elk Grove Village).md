@@ -194,3 +194,9 @@ LOGIC TO DO:
 		- blocking override is independent on each switch
 		- add watchdog timer to blocking override
 - Do they want to be able to enable blocking override remotely?
+
+
+20250421 CHANGES:
+- Disabled auto PB and target LED's
+- Hardcoded auto latch to 0
+- 
