@@ -200,3 +200,5 @@ LOGIC TO DO:
 - Disabled auto PB and target LED's
 - Hardcoded auto latch to 0
 - Added GOOSE comm loss to TLED
+- Added override blocking latch and watchdog timer
+- 
