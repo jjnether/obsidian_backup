@@ -198,8 +198,10 @@ LOGIC TO DO:
 - Disabled auto PB and target LED's
 - Hardcoded auto latch to 0
 - Added GOOSE comm loss to TLED
+- Added override blocking PB
 - Added parallel blocking logic
 - Changed wording for local bit (define tie way) to make it more clear
+- Disabled all unused IOC elements
 
 
 ASK:
