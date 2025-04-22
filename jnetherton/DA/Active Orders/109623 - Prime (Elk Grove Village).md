@@ -187,18 +187,15 @@ Action Items:
 
 LOGIC TO DO:
 - Update and print Labels
-- Add quality to GOOSE architect file
 - Test logic on 22GF for the ethernet alarm
 - Add parallel blocking logic
 	- blocking assumed to be always active, unless the override blocking pushbutton is pressed and LED is lit
 		- blocking override is independent on each switch
 		- add watchdog timer to blocking override
-- Do they want to be able to enable blocking override remotely?
 
 
 20250421 CHANGES:
 - Disabled auto PB and target LED's
 - Hardcoded auto latch to 0
 - Added GOOSE comm loss to TLED
-- Added override blocking latch and watchdog timer
-- 
+- Added parallel blocking logic
