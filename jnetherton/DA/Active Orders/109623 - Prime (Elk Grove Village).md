@@ -199,4 +199,4 @@ LOGIC TO DO:
 20250421 CHANGES:
 - Disabled auto PB and target LED's
 - Hardcoded auto latch to 0
-- 
+- Added GOOSE comm loss to TLED
