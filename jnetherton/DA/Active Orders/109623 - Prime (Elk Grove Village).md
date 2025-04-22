@@ -199,3 +199,9 @@ LOGIC TO DO:
 - Hardcoded auto latch to 0
 - Added GOOSE comm loss to TLED
 - Added parallel blocking logic
+- Changed wording for local bit (define tie way) to make it more clear
+
+
+ASK:
+- watchdog timer?
+- IP settings?
