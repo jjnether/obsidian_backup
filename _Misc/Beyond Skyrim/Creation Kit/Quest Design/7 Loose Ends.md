@@ -141,13 +141,13 @@ Again, we have a few options here:
 
 In our scenario, the final option is by far the simplest and most reasonable one, but the other two are given to illustrate the kinds of logic which sometimes need to be used to accommodate a particular bit of story happenings.
 
-To disable the thief, simply double-click on the reference we placed in ReachwindEyrie01. This will bring up the [Reference Window]].
+To disable the thief, simply double-click on the reference we placed in ReachwindEyrie01. This will bring up the [[Reference|Reference Window]].
 
 [![ReferenceWindow.png](https://ck.uesp.net/w/images/thumb/9/94/ReferenceWindow.png/300px-ReferenceWindow.png)](https://ck.uesp.net/wiki/File:ReferenceWindow.png)
 
 Simply click the checkbox for "Initially Disabled," click OK, and the thief will not be at Reachwind Eyrie when you start the game. Try it!
 
-Before we go any further, open up the Thief alias that we made (in the [Quest Alias Tab](https://ck.uesp.net/wiki/Quest_Alias_Tab "Quest Alias Tab") of GSQ01). Click the "Allow Disabled" checkbox that's nestled in the large field of checkboxes in the top right. This will allow the alias to point to a disabled reference.
+Before we go any further, open up the Thief alias that we made (in the [[Quest Alias Tab]] of GSQ01). Click the "Allow Disabled" checkbox that's nestled in the large field of checkboxes in the top right. This will allow the alias to point to a disabled reference.
 
 [![AllowDisabled.png](https://ck.uesp.net/w/images/7/70/AllowDisabled.png)](https://ck.uesp.net/wiki/File:AllowDisabled.png)
 
@@ -164,9 +164,9 @@ Alias_Thief.GetReference().Enable()
 The first line was already there, but the second line takes some explaining.
 
 -   `Alias_Thief` -- This is a property that the editor created and filled for us. Every time you make an alias, the game will make a property on the quest script called Alias\_<AliasName>. This is a great convenience.
--   [GetReference()](https://ck.uesp.net/wiki/GetReference_-_ReferenceAlias "GetReference - ReferenceAlias") -- This is where things can get a little confusing, but the crux of it is that an alias is **not** the thing it points to. The alias itself is just a role that the quest knows about, but it has no idea whether that points to an actor in the world, a piece of wall geometry, a chest, etc. To get access to the thing the alias points to, we call this function.
+-   [[ReferenceAlias Script#^55fb9a|GetReference()]] -- This is where things can get a little confusing, but the crux of it is that an alias is **not** the thing it points to. The alias itself is just a role that the quest knows about, but it has no idea whether that points to an actor in the world, a piece of wall geometry, a chest, etc. To get access to the thing the alias points to, we call this function.
     -   (If this is confusing to you, don't fret. We'll explore aliases in more depth later on. You can just copy+paste the code here and move on happily.)
--   [Enable()](https://ck.uesp.net/wiki/Enable "Enable") -- Actually enables the reference.
+-   [[Enable|Enable()]] -- Actually enables the reference.
 
 Now when we play the game, the thief will be missing until the player accepts the quest, at which time he will begin his thieving existence.
 
@@ -314,6 +314,6 @@ By thinking this way, you can help make your own quests flow more smoothly and b
 
 ## Next Steps
 
-This is the end of the Quest Design Fundamentals series. There are more advanced topics like radiant story that are discussed elsewhere in this wiki. If you want to dive more deeply into making quests for Skyrim, you should start with [Packages](https://ck.uesp.net/wiki/Bethesda_Tutorial_Packages "Bethesda Tutorial Packages"), keeping Bendu's plugin still active.
+This is the end of the Quest Design Fundamentals series. There are more advanced topics like radiant story that are discussed elsewhere in this wiki. If you want to dive more deeply into making quests for Skyrim, you should start with [[8 Packages|Packages]], keeping Bendu's plugin still active.
 
 Good luck out there!

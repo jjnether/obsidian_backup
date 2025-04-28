@@ -1,10 +1,4 @@
-| Bethesda Tutorial Packages |
-| --- |
-| Intermediate Quest Design Series, Chapter 1 |
-| [Return to Tutorial Hub](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials") |
-| [![LeftArrow.png](https://ck.uesp.net/w/images/9/97/LeftArrow.png)](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials") [Previous Tutorial](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials") | [Next Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Quest_Aliases "Bethesda Tutorial Quest Aliases")[![RightArrow.png](https://ck.uesp.net/w/images/c/cc/RightArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Quest_Aliases "Bethesda Tutorial Quest Aliases") |
-
-## Overview\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Packages&veaction=edit&section=1 "Edit section: Overview") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Packages&action=edit&section=1 "Edit section: Overview")\]
+## Overview
 
 This tutorial will show the reader how to set up [packages](https://ck.uesp.net/wiki/Category:Packages "Category:Packages") (the data structures that control actor behavior) on an actor to get him moving around the world.
 
@@ -14,8 +8,7 @@ The reader will learn:
 -   How to create a simple daily schedule for an NPC
 -   How to create a new package
 
-## Packages and Package Stacks\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Packages&veaction=edit&section=2 "Edit section: Packages and Package Stacks") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Packages&action=edit&section=2 "Edit section: Packages and Package Stacks")\]
-
+## Packages and Package Stacks
 A [Package](https://ck.uesp.net/wiki/Package "Package") is the term used in the Creation Kit for the data structure that controls an actor's behavior. At any given time, an actor is always running one and only one package, which is what tells that actor what to do - sleep, eat, wander around, follow a patrol route, work a blacksmith's forge, etc.
 
 So how does an actor know which package he should be running at any given time? That's where the [Package Stack](https://ck.uesp.net/wiki/Package_Stack "Package Stack") comes in. The basic idea is that each actor has a stack of packages that it could run. The game periodically runs down the list of packages, starting with the package at the top of the stack, and checks each package one at a time to see if it is currently valid. A package is valid if:
@@ -25,7 +18,7 @@ So how does an actor know which package he should be running at any given time? 
 
 An actor always runs the first valid package in the package stack. Actors near the player will reevaluate their package stack very frequently; actors in unloaded areas of the game world less frequently.
 
-## Creating a Simple Schedule\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Packages&veaction=edit&section=3 "Edit section: Creating a Simple Schedule") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Packages&action=edit&section=3 "Edit section: Creating a Simple Schedule")\]
+## Creating a Simple Schedule
 
 So let's see how these ideas play out in practice by giving our old friend Bendu Olo a schedule. (Complete the [Creating an Actor tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Creating_an_Actor "Bethesda Tutorial Creating an Actor") before continuing.)
 
@@ -104,8 +97,7 @@ set gamehour to 2
 
 He now has some simple eat/sleep/wander behaviors inside "his" house. If he does not want to sleep and asks you to leave, you can use the command _toggledetection_ so he ignores you.
 
-## Making a New Package\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Packages&veaction=edit&section=4 "Edit section: Making a New Package") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Packages&action=edit&section=4 "Edit section: Making a New Package")\]
-
+## Making a New Package
 We've seen how to use existing "default" packages to build a schedule. What about making a new package specifically for Bendu? Let's say we want him to patrol the exterior around his house at a specific time during the day.
 
 First, make a new package by right-clicking on the Package list and selecting "New". You'll get a blank package window that looks like this:
@@ -156,5 +148,3 @@ set gamehour to 10
 ```
 
 That's it - you now know how to set up an actor's packages using existing or new packages. Most of the time, the premade [Package Templates](https://ck.uesp.net/wiki/Package_Templates "Package Templates") will provide all the functionality you need. But, if you find you need even more specialized behavior, you can even [build your own Package Template](https://ck.uesp.net/wiki/Creating_a_new_Package_Template "Creating a new Package Template").
-
-<table><tbody><tr><th><b><a href="https://ck.uesp.net/wiki/CreationKit:Language_policy" title="CreationKit:Language policy">Language:</a></b></th><td><b><a>English</a></b> <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="fr"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Packages/fr" title="Bethesda Tutorial Packages/fr">français</a></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="ru"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Packages/ru" title="Bethesda Tutorial Packages/ru">русский</a></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></td></tr></tbody></table>
