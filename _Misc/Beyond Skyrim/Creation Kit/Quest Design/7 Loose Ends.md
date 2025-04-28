@@ -1,10 +1,4 @@
-| Bethesda Tutorial Quest Loose Ends                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                          |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Quest Design Fundamentals Series, Chapter 7                                                                                                                                                                                                                                                 |                                                                                                                                                                                                                          |
-| [Return to Tutorial Hub](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials")                                                                                                                                                                                                  |                                                                                                                                                                                                                          |
-| [![LeftArrow.png](https://ck.uesp.net/w/images/9/97/LeftArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Quest_Objectives "Bethesda Tutorial Quest Objectives") [Previous Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Quest_Objectives "Bethesda Tutorial Quest Objectives") | [Next Tutorial](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials")[![RightArrow.png](https://ck.uesp.net/w/images/c/cc/RightArrow.png)](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials") |
-
-## Overview\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&veaction=edit&section=1 "Edit section: Overview") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&action=edit&section=1 "Edit section: Overview")\]
+## Overview
 
 This tutorial will wrap up the loose ends we've left dangling as we've constructed the epic tale of Bendu Olo and his lost amulet.
 
@@ -15,7 +9,7 @@ The reader will learn:
 -   What we've done wrong.
 -   How to fix it.
 
-## Problems\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&veaction=edit&section=2 "Edit section: Problems") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&action=edit&section=2 "Edit section: Problems")\]
+## Problems
 
 There are a number of issues with the quest as we've implemented it.
 
@@ -30,11 +24,11 @@ There are a number of issues with the quest as we've implemented it.
 
 We'll go through these one at a time -- some of them have multiple solutions, with pros and cons.
 
-## Killing Bendu\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&veaction=edit&section=3 "Edit section: Killing Bendu") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&action=edit&section=3 "Edit section: Killing Bendu")\]
+## Killing Bendu
 
 We have two options for handling Bendu dying: we either shut down the quest so it doesn't hang around annoying the player, or we make it so Bendu can never die. Obviously both sides have their pros and cons -- if Bendu is a character we need in the future, we may want him to be unkillable anyway, for example.
 
-## Handling the Death\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&veaction=edit&section=4 "Edit section: Handling the Death") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&action=edit&section=4 "Edit section: Handling the Death")\]
+## Handling the Death
 
 We've already shown how to complete a quest at a certain stage (with the Complete Quest) box. When that stage is set, the quest gets moved to the inactive part of the player's journal and the "COMPLETED: <Quest Name>" banner will pop. Failing a quest works similarly, but the player will see "FAILED" instead.
 
@@ -60,13 +54,13 @@ Note: we check to make sure the quest is not already completed, because we would
 
 You can auto-fill the GSQ01 property,
 
-## Immortal Bendu\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&veaction=edit&section=5 "Edit section: Immortal Bendu") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&action=edit&section=5 "Edit section: Immortal Bendu")\]
+## Immortal Bendu
 
 The other option is to make Bendu unkillable -- if the player attacks him, he will go into bleedout (writhing on the floor), but stand up again when combat is finished.
 
 This is remarkably easy to accomplish. Open up the actor window for GSQBenduOlo, and click the "Essential" checkbox under the name fields. ("Protected" is a similar state, but it allows the player and only the player to kill the actor.)
 
-## Map Marker\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&veaction=edit&section=6 "Edit section: Map Marker") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&action=edit&section=6 "Edit section: Map Marker")\]
+## Map Marker
 
 Typically, when we tell the player to go to a place in the game, we add the map marker so they can have an easy target to head towards. Navigate to the cell called ReachwindEyrieExterior01 in the Tamriel worldspace. (You can get there easily by double-clicking the yellow door marker inside ReachwindEyrie01.) You'll see a green-blue rectangle with a large M carved out of it right next to the exterior door marker.
 
@@ -82,7 +76,7 @@ SetObjectiveDisplayed(10)
 DungeonMarker.AddToMap()
 ```
 
-## Pickpocketing\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&veaction=edit&section=7 "Edit section: Pickpocketing") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&action=edit&section=7 "Edit section: Pickpocketing")\]
+## Pickpocketing
 
 If you think about the script we put on the amulet to advance the questline when the player takes it:
 
@@ -120,7 +114,7 @@ That second line of code is setting the objective to **not** be displayed, so it
 
 (Of course, we could also simply never have the "Kill the thief" objective, and just tell the player to retrieve the amulet. This is probably better from a design perspective, as it doesn't encourage any particular playstyle over another.)
 
-If the player kills the thief after pickpocketing the amulet, the player will receive an additional objective; to retrieve the amulet we already have, leaving two active objectives. We can easy solve this by editing the TutorialQuest script we gave the [thief](https://ck.uesp.net/wiki/Bethesda_Tutorial_Basic_Quest_Scripting "Bethesda Tutorial Basic Quest Scripting").
+If the player kills the thief after pickpocketing the amulet, the player will receive an additional objective; to retrieve the amulet we already have, leaving two active objectives. We can easy solve this by editing the TutorialQuest script we gave the [[5 Scripting|thief]].
 
 ```
 Event OnDeath(Actor killer)
@@ -133,21 +127,21 @@ EndEvent
 
 This will check if the quest stage is below 30 before it changes the stage for 20. So if player already pickpocket the amulet changing quest stage to 30, then killing the thief will never trigger stage 20.
 
-## Out of Order\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&veaction=edit&section=8 "Edit section: Out of Order") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&action=edit&section=8 "Edit section: Out of Order")\]
+## Out of Order
 
 Of course, an even bigger problem is that the player could just stumble into Reachwind Eyrie without ever having met our friend Bendu. This would complete objective 20 (which is undisplayed, so the player won't see anything) and display objective 30 to return the amulet to Bendu. At which point the player might say "Wait, what? Who? I've never met this person!" There will also be no journal update until the quest is completed, and it will just be an all-around confusing experience.
 
 Again, we have a few options here:
 
 1.  Don't create the amulet in the thief's inventory, but put it elsewhere in the world (like an inaccessible chest). Then, when the player accepts the quest, resurrect the thief if necessary and move the amulet to the thief.
-2.  Set the amulet to be the thief's [death item](https://ck.uesp.net/wiki/Traits_Tab_-_NPC "Traits Tab - NPC") (an object that is only placed into the inventory upon the actor's death so that it can't be pickpocketed). Then resurrect the thief (if necessary) when the player accepts the quest.
+2.  Set the amulet to be the thief's [[Traits Tab|death item]] (an object that is only placed into the inventory upon the actor's death so that it can't be pickpocketed). Then resurrect the thief (if necessary) when the player accepts the quest.
     -   (The amulet would have to be set as a conditional death item, so it would only get placed there if we were at the appropriate quest stage.)
 3.  Allow the player to kill the thief early, but replace the option to help Bendu with a line saying "You mean... THIS amulet?!" and completing the quest right there.
 4.  Leave everything as it is, but disable the thief until the appropriate stage, so the player will never have the chance to kill and loot before the appropriate time.
 
 In our scenario, the final option is by far the simplest and most reasonable one, but the other two are given to illustrate the kinds of logic which sometimes need to be used to accommodate a particular bit of story happenings.
 
-To disable the thief, simply double-click on the reference we placed in ReachwindEyrie01. This will bring up the [Reference Window](https://ck.uesp.net/wiki/Reference "Reference").
+To disable the thief, simply double-click on the reference we placed in ReachwindEyrie01. This will bring up the [Reference Window]].
 
 [![ReferenceWindow.png](https://ck.uesp.net/w/images/thumb/9/94/ReferenceWindow.png/300px-ReferenceWindow.png)](https://ck.uesp.net/wiki/File:ReferenceWindow.png)
 
@@ -176,7 +170,7 @@ The first line was already there, but the second line takes some explaining.
 
 Now when we play the game, the thief will be missing until the player accepts the quest, at which time he will begin his thieving existence.
 
-## Giving the Amulet to Bendu\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&veaction=edit&section=9 "Edit section: Giving the Amulet to Bendu") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&action=edit&section=9 "Edit section: Giving the Amulet to Bendu")\]
+## Giving the Amulet to Bendu
 
 Right now the player neither gives the amulet to Bendu nor receives any reward when completing the quest. Both of these are easily fixed.
 
@@ -212,7 +206,7 @@ Now it will automatically multiply the worth of amulet by two, and give that muc
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:InDepth.jpg"><img alt="InDepth.jpg" src="https://ck.uesp.net/w/images/thumb/0/0b/InDepth.jpg/48px-InDepth.jpg" decoding="async" width="48" height="48" srcset="https://ck.uesp.net/w/images/0/0b/InDepth.jpg 1.5x"></a></td><td>Note that we're making this gold out of thin air, rather than having it in Bendu's inventory and moving it to the player. This is a minor break in "realism" that we typically use for quest rewards, to avoid players getting them too easily via pickpocketing/killing/etc.</td></tr></tbody></table>
 
-## Dropping the Amulet\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&veaction=edit&section=10 "Edit section: Dropping the Amulet") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&action=edit&section=10 "Edit section: Dropping the Amulet")\]
+## Dropping the Amulet
 
 Players in Elder Scrolls games tend to be packrats. They pick up everything they can until they're overburdened, then they drop everything that doesn't look important. Or maybe they want to use the amulet to decorate their house. Or they throw it behind them hoping it will distract a giant as they run away. (Spoiler: it won't.) All sorts of reasons players drop items, but it can lead to problems when they go to finish this quest and don't know where the item is!
 
@@ -228,7 +222,7 @@ Now the player will be stuck with this item until they finish the quest. (Luckil
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:NewFeature.jpg"><img alt="NewFeature.jpg" src="https://ck.uesp.net/w/images/thumb/d/dc/NewFeature.jpg/48px-NewFeature.jpg" decoding="async" width="48" height="48" srcset="https://ck.uesp.net/w/images/d/dc/NewFeature.jpg 1.5x"></a></td><td>In Fallout 3 and earlier Elder Scrolls games, the "Quest Object" flag lived on the base object itself.</td></tr></tbody></table>
 
-## Coming Back Later\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&veaction=edit&section=11 "Edit section: Coming Back Later") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&action=edit&section=11 "Edit section: Coming Back Later")\]
+## Coming Back Later
 
 Then we have the issue of the player coming back to Bendu and him having no recollection of meeting the player previously. He'll give the whole sob story again. In this example, it's just a single line, so it isn't too bad, but if there was a whole line of questioning that led up to this, the player wouldn't want to traverse it again. So we'll add some handling for the player who said "no" and decided to come back.
 
@@ -266,7 +260,7 @@ Now if you leave the dialogue while Bendu is talking, he'll react just as if you
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:InDepth.jpg"><img alt="InDepth.jpg" src="https://ck.uesp.net/w/images/thumb/0/0b/InDepth.jpg/48px-InDepth.jpg" decoding="async" width="48" height="48" srcset="https://ck.uesp.net/w/images/0/0b/InDepth.jpg 1.5x"></a></td><td>We could also have handled this by playing with the reset timers on the initial line, or using a quest variable instead of a stage.</td></tr></tbody></table>
 
-## Hellos/Goodbyes\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&veaction=edit&section=12 "Edit section: Hellos/Goodbyes") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&action=edit&section=12 "Edit section: Hellos/Goodbyes")\]
+## Hellos/Goodbyes
 
 Right now when you interact with Bendu, he'll start with one of:
 
@@ -312,16 +306,14 @@ You can also make a Goodbye topic, which will get used whenever the player leave
 
 Note that the hellos and goodbyes, as written, will completely override the generic ones, and will be the **only** hellos or goodbyes that Bendu uses. We'll show how to mix things up a bit in the advanced tutorials.
 
-## Loose Ends\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&veaction=edit&section=13 "Edit section: Loose Ends") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&action=edit&section=13 "Edit section: Loose Ends")\]
+## Loose Ends
 
 This should give you an idea of the kind of handling that needs to be done for every moving part of a quest. Even in this very simple example, there were lots of little odds and ends to attend to so the quest would be a more solid experience for the player.
 
 By thinking this way, you can help make your own quests flow more smoothly and be more fun for the player.
 
-## Next Steps\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&veaction=edit&section=14 "Edit section: Next Steps") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Loose_Ends&action=edit&section=14 "Edit section: Next Steps")\]
+## Next Steps
 
 This is the end of the Quest Design Fundamentals series. There are more advanced topics like radiant story that are discussed elsewhere in this wiki. If you want to dive more deeply into making quests for Skyrim, you should start with [Packages](https://ck.uesp.net/wiki/Bethesda_Tutorial_Packages "Bethesda Tutorial Packages"), keeping Bendu's plugin still active.
 
 Good luck out there!
-
-<table><tbody><tr><th><b><a href="https://ck.uesp.net/wiki/CreationKit:Language_policy" title="CreationKit:Language policy">Language:</a></b></th><td><b><a>English</a></b> <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="fr"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Quest_Loose_Ends/fr" title="Bethesda Tutorial Quest Loose Ends/fr">français</a></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="ru"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Quest_Loose_Ends/ru" title="Bethesda Tutorial Quest Loose Ends/ru">русский</a></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></td></tr></tbody></table>

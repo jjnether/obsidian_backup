@@ -19,7 +19,7 @@ Our first step in making objectives is setting up their targets, which means our
 
 You can think of Aliases as the quest defining roles that various people and places will play in the course of its story. Each alias points to a specific reference or place in the game world. For our example quest, these roles include Bendu, the thief, and the amulet. Each of these has to get defined in a slightly different way.
 
-Open up your quest again and this time go over to the [Quest Aliases tab](https://ck.uesp.net/wiki/Quest_Alias_Tab "Quest Alias Tab"). It's pretty much a big empty table at this point. Right-click in the table and select "New Reference Alias" to open up a large intimidating window. Thankfully we'll be ignoring almost all of it for now (most of this functionality will be explained later in [the tutorial devoted to aliases](https://ck.uesp.net/wiki/Bethesda_Tutorial_Quest_Aliases "Bethesda Tutorial Quest Aliases")).
+Open up your quest again and this time go over to the [[Quest Alias Tab]]. It's pretty much a big empty table at this point. Right-click in the table and select "New Reference Alias" to open up a large intimidating window. Thankfully we'll be ignoring almost all of it for now (most of this functionality will be explained later in [[9 Aliases|the tutorial devoted to aliases]].
 
 Fill in "Bendu" for the Alias Name field at the top, then check the "Unique Actor" radio button and select "GSQBenduOlo" from the pulldown menu it enables. When you're done, the window should look like this:
 
@@ -64,13 +64,11 @@ To make a new objective, right-click in the table at the top of the window and s
 Finally, in the table below the Index and Display Text fields, right-click and select "New" to create a new quest target. This creates a big scary "NO TARGET" until you select something from the "Target Alias" pulldown below. In this list, you'll see all the aliases we defined earlier. Choose "Thief," and we can move on. (The "NO TARGET" will remain until we click away on something else.)
 
 Now make another objective:
-
 -   **Index:** 20
 -   **Display Text:** Retrieve Bendu Olo's amulet.
 -   **Target Alias:** Amulet
 
 And one more:
-
 -   **Index:** 30
 -   **Display Text:** Return Bendu Olo's amulet.
 -   **Target Alias:** Bendu
@@ -87,7 +85,7 @@ Remember all of those `SetObjectiveDisplayed()`'s I told you to ignore? This is 
 
 Go back to the Quest Stages tab. We're going to add some logic in here as the quest advances.
 
-Click on stage 10 in the list on the left. In order to add script logic or a log entry to a quest stage, it needs to have at least one "[[Quest Stages Tab|quest stage item]], so right-click in the table that says "Log Entry" at the top and select "New."
+Click on stage 10 in the list on the left. In order to add script logic or a log entry to a quest stage, it needs to have at least one [[Quest Stages Tab|quest stage item]], so right-click in the table that says "Log Entry" at the top and select "New."
 
 Log entries are the bits of text that will appear in the player's journal. Only the most recent log entry will be visible, so you can use this to update the story of the quest as it changes. Down in the "Log Entry" area, put the following:
 
