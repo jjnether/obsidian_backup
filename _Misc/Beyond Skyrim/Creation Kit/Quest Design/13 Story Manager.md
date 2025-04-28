@@ -34,7 +34,7 @@ We're looking at the system the game uses to tell that the player has killed a f
 
 Note that we now have the option of running this condition on "Event Data: Killer" -- this is a crucial concept. Each kind of story manager event defines its own set of event data that we can test with conditions. We're checking that the player is the one doing the killing, and that he is currently wielding the Ebony Blade.
 
-There is so much data getting pumped through this system that it would be folly to try and explain it all here. You can explore the various events and their data in the [[|story manager documentation]].
+There is so much data getting pumped through this system that it would be folly to try and explain it all here. You can explore the various events and their data in the [[Story Manager|story manager documentation]].
 
 The important idea here is that this node has a quest attached to it -- if the node passes, the quest will be started. Note that not just any quest can be put into the story manager; it has to be specifically defined in its Quest Data tab as responding to an event.
 
@@ -50,6 +50,6 @@ In almost all circumstances, you'll want to check the box for "Shares Event" on 
 
 ## That's All Folks
 
-If you've completed the Quest Design Fundamentals series and the Intermediate Quest Design series, you are now armed with a solid knowledge of how to make quest and radiant content with the Creation Kit. To get Bendu into an Story Manager Node visit [here](https://ck.uesp.net/wiki/Bendu_and_S_M_Nodes "Bendu and S M Nodes"). If you're interested in exploring further, you may want to dive more into [Papyrus](https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Hello_World "Bethesda Tutorial Papyrus Hello World"), our new scripting language.
+If you've completed the Quest Design Fundamentals series and the Intermediate Quest Design series, you are now armed with a solid knowledge of how to make quest and radiant content with the Creation Kit. To get Bendu into an Story Manager Node visit [[Bendu and S M Nodes|here]]. If you're interested in exploring further, you may want to dive more into [[1 Hello, World!|Papyrus,]] our new scripting language.
 
 Good luck out there! Please make fantastic content, and share it! We always look forward to seeing what the community creates with these tools.

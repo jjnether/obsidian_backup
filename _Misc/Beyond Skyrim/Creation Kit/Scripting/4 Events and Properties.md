@@ -1,10 +1,4 @@
-| Bethesda Tutorial Papyrus Events and Properties |
-| --- |
-| Scripting Series, Chapter 4 |
-| [Return to Tutorial Hub](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials") |
-| [![LeftArrow.png](https://ck.uesp.net/w/images/9/97/LeftArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions "Bethesda Tutorial Papyrus Introduction to Properties and Functions") [Previous Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions "Bethesda Tutorial Papyrus Introduction to Properties and Functions") | [Next Tutorial](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials")[![RightArrow.png](https://ck.uesp.net/w/images/c/cc/RightArrow.png)](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials") |
-
-## Overview\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Events_and_Properties&veaction=edit&section=1 "Edit section: Overview") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Events_and_Properties&action=edit&section=1 "Edit section: Overview")\]
+## Overview
 
 This tutorial introduces Papyrus **Events** and **Properties**.
 
@@ -20,11 +14,11 @@ This tutorial builds on the events in **Lokir's Tomb**, the sample dungeon creat
 -   [Basic editor navigation](https://ck.uesp.net/wiki/Bethesda_Tutorial_Creation_Kit_Interface "Bethesda Tutorial Creation Kit Interface").
 -   Concepts like Ambushes, Activation, and Activate Parents.
 
-## The Plan\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Events_and_Properties&veaction=edit&section=2 "Edit section: The Plan") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Events_and_Properties&action=edit&section=2 "Edit section: The Plan")\]
+## The Plan
 
 Currently, when you enter the final chamber in Lokir's Tomb, the boss Draugr rises from his sarcophagus and attacks. Let's make this battle more exciting by introducing some unique scripted elements. We'll start by adding two dead Draugr to the room that we reanimate (with full spell effects) as the boss emerges from his tomb.
 
-## Setting the Stage\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Events_and_Properties&veaction=edit&section=3 "Edit section: Setting the Stage") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Events_and_Properties&action=edit&section=3 "Edit section: Setting the Stage")\]
+## Setting the Stage
 
 First, let's set up the draugr we want to resurrect. In the editor, open the cell **LokirsTomb** and focus your view on the cave area; this is our boss chamber. In the [Object Window](https://ck.uesp.net/wiki/Object_Window "Object Window"), navigate to **Actors>Actor** - or **All** - and use the filter to locate **"LvlDraugrMissileMale"** and **"LvlDraugrWarlockMale"**. Drag and drop one of each into the room.
 
@@ -34,13 +28,13 @@ Placed actors like these Draugr start alive (_well, relatively speaking_), and w
 
 [Save your plugin and run it in-game to check things out so far.](https://ck.uesp.net/wiki/Category:Getting_Started#Loading_Your_Plugin_in_the_Game "Category:Getting Started") You'll notice that two dead Draugr now lie in ragdoll on the floor of the room. That's what we want for now - but let's head back to the Creation Kit and get them back on their feet.
 
-## Event Planning\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Events_and_Properties&veaction=edit&section=4 "Edit section: Event Planning") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Events_and_Properties&action=edit&section=4 "Edit section: Event Planning")\]
+## Event Planning
 
 [![](https://ck.uesp.net/w/images/thumb/5/56/EventDiagram.jpg/300px-EventDiagram.jpg)](https://ck.uesp.net/wiki/File:EventDiagram.jpg)
 
 This diagram gives a very rough idea how events allow the Game and Papyrus to interact
 
-### Introduction to Events\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Events_and_Properties&veaction=edit&section=5 "Edit section: Introduction to Events") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Events_and_Properties&action=edit&section=5 "Edit section: Introduction to Events")\]
+### Introduction to Events
 
 We want these Draugr to be resurrected as the boss emerges from his tomb. That is, we want this to happen in response to an **[Event](https://ck.uesp.net/wiki/Category:Events "Category:Events")**.
 
@@ -54,7 +48,7 @@ We want these Draugr to be resurrected as the boss emerges from his tomb. That i
 
 Simply put - if we want to react to something in the game, Events are the way to do it.
 
-### Triggering the Activation Event\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Events_and_Properties&veaction=edit&section=6 "Edit section: Triggering the Activation Event") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Events_and_Properties&action=edit&section=6 "Edit section: Triggering the Activation Event")\]
+### Triggering the Activation Event
 
 You may not realize it, but our example already uses an event sent to Papyrus. This is how the boss knows when to get out of his sarcophagus. If you've done the [Ambushes Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Traps_and_Prefabs "Bethesda Tutorial Traps and Prefabs"), you may recall that the boss uses a trigger volume as its Activate Parent. When the player steps into the trigger volume, the trigger activates the boss, causing him to get up.
 
@@ -74,9 +68,9 @@ For each of the Draugr:
 
 Both Draugr will now receive an Activate Event when the player enters the trigger. We aren't actually using that event to do anything yet, however. Next you'll write a script that responds to that event.
 
-## Scripting the Resurrection\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Events_and_Properties&veaction=edit&section=7 "Edit section: Scripting the Resurrection") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Events_and_Properties&action=edit&section=7 "Edit section: Scripting the Resurrection")\]
+## Scripting the Resurrection
 
-### Initial Setup\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Events_and_Properties&veaction=edit&section=8 "Edit section: Initial Setup") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Events_and_Properties&action=edit&section=8 "Edit section: Initial Setup")\]
+### Initial Setup
 
 It's time to start scripting. Open your preferred text editor (we provide setups for [Notepad++](https://ck.uesp.net/wiki/Notepad%2B%2B_Setup "Notepad++ Setup") and [Sublime Text](https://ck.uesp.net/wiki/Sublime_Text_Setup "Sublime Text Setup")), and create a new file named "**LokirsDraugrResurrection.psc**".
 
@@ -100,7 +94,7 @@ Event OnActivate(ObjectReference akActionRef)
 EndEvent
 ```
 
-### Casting the Spell\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Events_and_Properties&veaction=edit&section=9 "Edit section: Casting the Spell") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Events_and_Properties&action=edit&section=9 "Edit section: Casting the Spell")\]
+### Casting the Spell
 
 Next, we need to cast the Reanimate spell on the Draugr when the Activation event is received. To do this, we'll need to create a **"[Property](https://ck.uesp.net/wiki/Variables_and_Properties_(Papyrus) "Variables and Properties (Papyrus)")"**. In this case, it's a property of the [Spell](https://ck.uesp.net/wiki/Spell_Script "Spell Script") type we'll be using. This will allow us to tell the Creation Kit which specific spell to use.
 
@@ -140,7 +134,7 @@ Like many functions, we have to pass one or more "_arguments_" to let the functi
 
 Save and compile the script, then return to the Creation Kit.
 
-### Attaching the Script\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Events_and_Properties&veaction=edit&section=10 "Edit section: Attaching the Script") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Events_and_Properties&action=edit&section=10 "Edit section: Attaching the Script")\]
+### Attaching the Script
 
 Back in the Editor, double-click on one of the Draugr to open its Properties window, then go to the Scripts tab (you can hit the 'End' key to jump right there; it's the last tab in the list). This is where we'll hook up our script:
 
@@ -161,7 +155,7 @@ That's attached the script to this reference, but we still need to tell the Crea
 
 Repeat this process for the other Draugr. Save your work and give it a try in the game!
 
-## Debugging the Resurrection\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Events_and_Properties&veaction=edit&section=11 "Edit section: Debugging the Resurrection") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Events_and_Properties&action=edit&section=11 "Edit section: Debugging the Resurrection")\]
+## Debugging the Resurrection
 
 At first glance, everything probably worked out as expected. However, if you kept playing, you may have noticed that the resurrection will occur _any_ time the draugr receives an activate event. This includes when the player loots the body! That's not the sort of nasty surprise we intended on! Unexpected bugs like this can be handled using a bit of extra logic, however.
 

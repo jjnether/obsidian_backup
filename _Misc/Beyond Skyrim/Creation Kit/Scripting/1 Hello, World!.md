@@ -1,10 +1,4 @@
-| Bethesda Tutorial Papyrus Hello World                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                  |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Scripting Series, Chapter 1                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                  |
-| [Return to Tutorial Hub](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials")                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                  |
-| [![LeftArrow.png](https://ck.uesp.net/w/images/9/97/LeftArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Hello_World "Bethesda Tutorial Papyrus Hello World") Previous Tutorial | [Next Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Variables_and_Conditionals "Bethesda Tutorial Papyrus Variables and Conditionals")[![RightArrow.png](https://ck.uesp.net/w/images/c/cc/RightArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Variables_and_Conditionals "Bethesda Tutorial Papyrus Variables and Conditionals") |
-
-## Overview\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Hello_World&veaction=edit&section=1 "Edit section: Overview") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Hello_World&action=edit&section=1 "Edit section: Overview")\]
+## Overview
 
 This tutorial introduces the basics of Papyrus, the Creation Kit's scripting language.
 
@@ -13,7 +7,7 @@ You will learn:
 -   How to create a new script and attach it to an object.
 -   How to get your script to respond to an event.
 
-## Creating a Script\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Hello_World&veaction=edit&section=2 "Edit section: Creating a Script") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Hello_World&action=edit&section=2 "Edit section: Creating a Script")\]
+## Creating a Script
 
 The first thing we're going to do is to create a new script and attach it to an object in the world. Run the Creation Kit and load up a test cell of your choice. I'll be using MolagBalVoiceCell simply because it's a nice empty cell without any clutter to distract us.
 
@@ -42,7 +36,7 @@ Please Note: the field labelled "Documentation String". Your script does not go 
 
 Hit "OK" to save the changes to the pillar reference. Congratulations! You've just created your first script and attached it to something in the world.
 
-## Adding an Event\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Hello_World&veaction=edit&section=3 "Edit section: Adding an Event") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Hello_World&action=edit&section=3 "Edit section: Adding an Event")\]
+## Adding an Event
 
 Of course, your script doesn't do anything yet - it's just an empty shell waiting to be given something to do.
 
@@ -80,7 +74,7 @@ Save and compile your script by selecting "Save" from the File menu on the scrip
 
 [![Papyrus Tutorial1 CompiledScript.jpg](https://ck.uesp.net/w/images/9/91/Papyrus_Tutorial1_CompiledScript.jpg)](https://ck.uesp.net/wiki/File:Papyrus_Tutorial1_CompiledScript.jpg)
 
-## "Hello, World"\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Hello_World&veaction=edit&section=4 "Edit section: "Hello, World"") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Hello_World&action=edit&section=4 "Edit section: "Hello, World"")\]
+## "Hello, World"
 
 Now to go into the game and try it out. (Make sure to [save your plugin](https://ck.uesp.net/wiki/Category:Getting_Started#Creating_Your_First_Plugin "Category:Getting Started"), and [set up the game to load it](https://ck.uesp.net/wiki/Category:Getting_Started#Loading_Your_Plugin_in_the_Game "Category:Getting Started") first.)
 
@@ -98,5 +92,3 @@ to move to the cell. Walk over to the pillar and activate it. You should see you
 That's it. You've made an object that can respond to the player's actions!
 
 Next, you can learn [how to use variables and conditional statements](https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Variables_and_Conditionals "Bethesda Tutorial Papyrus Variables and Conditionals") to make your script a bit more sophisticated.
-
-<table><tbody><tr><th><b><a href="https://ck.uesp.net/wiki/CreationKit:Language_policy" title="CreationKit:Language policy">Language:</a></b></th><td><b><a>English</a></b> <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="fr"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Hello_World/fr" title="Bethesda Tutorial Papyrus Hello World/fr">français</a></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="ja"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Hello_World/ja" title="Bethesda Tutorial Papyrus Hello World/ja">日本語</a></span><span></span>&nbsp;• <span lang="ko"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Hello_World/ko" title="Bethesda Tutorial Papyrus Hello World/ko">한국어</a></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="pl"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Hello_World/pl" title="Bethesda Tutorial Papyrus Hello World/pl">polski</a></span><span></span><span></span><span></span>&nbsp;• <span lang="ru"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Hello_World/ru" title="Bethesda Tutorial Papyrus Hello World/ru">русский</a></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></td></tr></tbody></table>

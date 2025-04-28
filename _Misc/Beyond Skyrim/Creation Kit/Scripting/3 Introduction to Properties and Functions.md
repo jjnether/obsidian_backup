@@ -1,10 +1,4 @@
-| Bethesda Tutorial Papyrus Introduction to Properties and Functions |
-| --- |
-| Scripting Series, Chapter 3 |
-| [Return to Tutorial Hub](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials") |
-| [![LeftArrow.png](https://ck.uesp.net/w/images/9/97/LeftArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Variables_and_Conditionals "Bethesda Tutorial Papyrus Variables and Conditionals") [Previous Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Variables_and_Conditionals "Bethesda Tutorial Papyrus Variables and Conditionals") | [Next Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Events_and_Properties "Bethesda Tutorial Papyrus Events and Properties")[![RightArrow.png](https://ck.uesp.net/w/images/c/cc/RightArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Events_and_Properties "Bethesda Tutorial Papyrus Events and Properties") |
-
-## Overview\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions&veaction=edit&section=1 "Edit section: Overview") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions&action=edit&section=1 "Edit section: Overview")\]
+## Overview
 
 This tutorial assumes you've already completed the [Hello World Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Hello_World "Bethesda Tutorial Papyrus Hello World") and the [Variables and Conditionals Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Variables_and_Conditionals "Bethesda Tutorial Papyrus Variables and Conditionals"). This will be a longer tutorial than the first two, and introduce you to some more advanced topics. Hang in there!
 
@@ -16,7 +10,7 @@ You will learn:
 -   How to use properties and hook them up in the editor
 -   How to create and use a function
 
-## First Line\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions&veaction=edit&section=2 "Edit section: First Line") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions&action=edit&section=2 "Edit section: First Line")\]
+## First Line
 
 Before going further, lets take a look at some things we've glossed over in the previous tutorials.
 
@@ -31,7 +25,7 @@ If you've been following along, looking at the top of your script, you'll see th
 -   _Scriptname HelloWorldScript **extends** ObjectReference_: this is a special word that means essentially, this script is based on another script that already exists.
 -   _Scriptname HelloWorldScript extends **ObjectReference**_: this script is extending (based on) this other script, in this case the "ObjectReference" script.
 
-## Extending a script\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions&veaction=edit&section=3 "Edit section: Extending a script") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions&action=edit&section=3 "Edit section: Extending a script")\]
+## Extending a script
 
 Virtually all of the scripts you write will need to "extend" another script. When you extend a script, you are saying, "My script is the same thing as this other script, plus whatever extra stuff I've added to it."
 
@@ -41,7 +35,7 @@ For example, if you are adding a script to an object that is going to be a refer
 
 As you become more familiar with scripting, you will become more familiar with the contents of the scripts you are extending. For now, just know that your script will need to extend another script that is based on the type of object you are attaching your script to.
 
-## Adding Tooltips\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions&veaction=edit&section=4 "Edit section: Adding Tooltips") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions&action=edit&section=4 "Edit section: Adding Tooltips")\]
+## Adding Tooltips
 
 Wondering where the second line in your script came from? The one that looks like this:
 
@@ -61,7 +55,7 @@ If you want to change the tooltip, just change the text between the curly-braces
 
 You can also add tooltips to help you manage your properties. Which brings us to:
 
-## Properties\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions&veaction=edit&section=5 "Edit section: Properties") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions&action=edit&section=5 "Edit section: Properties")\]
+## Properties
 
 The following definition of a Property comes from [cipscis.com](http://www.cipscis.com/skyrim/tutorials/beginners.aspx#Properties)
 
@@ -101,8 +95,7 @@ Hit file->save. Close the script window. And hit the properties button on the pi
 
 [![Properties Tooltip.jpg](https://ck.uesp.net/w/images/e/ec/Properties_Tooltip.jpg)](https://ck.uesp.net/wiki/File:Properties_Tooltip.jpg)
 
-## Creating Messageboxes\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions&veaction=edit&section=6 "Edit section: Creating Messageboxes") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions&action=edit&section=6 "Edit section: Creating Messageboxes")\]
-
+## Creating Messageboxes
 Now we will create the [Message](https://ck.uesp.net/wiki/Message "Message") objects that we will hook up to our properties.
 
 In the [Object Window](https://ck.uesp.net/wiki/Object_Window "Object Window") expand the "Miscellaneous" category, click on the "Messages" category. In the list of messages RIGHT CLICK, and select "New" from the context menu.
@@ -124,7 +117,7 @@ Create two more message boxes with the following:
 -   ID: myMessageBox3
 -   Message Text: It's been three or more times activating the Pillar.
 
-## Hooking up the message boxes to the properties in the script\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions&veaction=edit&section=7 "Edit section: Hooking up the message boxes to the properties in the script") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions&action=edit&section=7 "Edit section: Hooking up the message boxes to the properties in the script")\]
+## Hooking up the message boxes to the properties in the script
 
 Go back and open the Properties window of your script attached to the Pillar.
 
@@ -142,7 +135,7 @@ So what we have essentially done here is make a connection between our propertie
 
 After confirming you have each of the three message boxes hooked up to the proper properties, we are ready to continue editing our script.
 
-## Calling functions on Properties\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions&veaction=edit&section=8 "Edit section: Calling functions on Properties") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions&action=edit&section=8 "Edit section: Calling functions on Properties")\]
+## Calling functions on Properties
 
 Now let's get these messageboxes to show up in game.
 
@@ -180,7 +173,7 @@ You should see the text of each of the messages come up each time you click the 
 
 Okay, now let's create a function!
 
-## Creating Function\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions&veaction=edit&section=9 "Edit section: Creating Function") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions&action=edit&section=9 "Edit section: Creating Function")\]
+## Creating Function
 
 Just like we called "MessageBox()" function on Debug, and "Show()" on the messages inside our properties. We can call a function we create in our own script. But before we can call a new function, we must create it.
 
@@ -280,8 +273,6 @@ So your script should now look like this:
 
 When we run the game, we'll see the message boxes pop up correctly. (COC MolagBalVoiceCell)
 
-## What's next\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions&veaction=edit&section=10 "Edit section: What's next") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions&action=edit&section=10 "Edit section: What's next")\]
+## What's next
 
 That's it for the basic tutorials. The next one demonstrates how you might make a special boss who reanimates guys.
-
-<table><tbody><tr><th><b><a href="https://ck.uesp.net/wiki/CreationKit:Language_policy" title="CreationKit:Language policy">Language:</a></b></th><td><b><a>English</a></b> <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="fr"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions/fr" title="Bethesda Tutorial Papyrus Introduction to Properties and Functions/fr">français</a></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="ja"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions/ja" title="Bethesda Tutorial Papyrus Introduction to Properties and Functions/ja">日本語</a></span><span></span>&nbsp;• <span lang="ko"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions/ko" title="Bethesda Tutorial Papyrus Introduction to Properties and Functions/ko">한국어</a></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="pl"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions/pl" title="Bethesda Tutorial Papyrus Introduction to Properties and Functions/pl">polski</a></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></td></tr></tbody></table>

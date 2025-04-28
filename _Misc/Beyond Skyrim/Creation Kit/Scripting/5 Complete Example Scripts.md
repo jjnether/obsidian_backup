@@ -1,18 +1,18 @@
-## Complete Example Scripts\[[edit](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&veaction=edit&section=1 "Edit section: Complete Example Scripts") | [edit source](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&action=edit&section=1 "Edit section: Complete Example Scripts")\]
+## Complete Example Scripts
 
-### Script Instantiation\[[edit](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&veaction=edit&section=2 "Edit section: Script Instantiation") | [edit source](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&action=edit&section=2 "Edit section: Script Instantiation")\]
+### Script Instantiation
 
 Please remember that few example scripts will be complete by themselves, you must attach a script to an object in the Creation Kit before it will run. The exception is for "library" scripts, such as the [Utility Script](https://ck.uesp.net/wiki/Utility_Script "Utility Script"), which contain definitions of global functions for use in other scripts.
 
-### Property Setting\[[edit](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&veaction=edit&section=3 "Edit section: Property Setting") | [edit source](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&action=edit&section=3 "Edit section: Property Setting")\]
+### Property Setting
 
 And if the script has any properties, those properties must be set on the object to which the script is attached in the Creation Kit before the script will work correctly.
 
-### Script Name\[[edit](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&veaction=edit&section=4 "Edit section: Script Name") | [edit source](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&action=edit&section=4 "Edit section: Script Name")\]
+### Script Name
 
 If you use any of these example scripts, you can change the name to anything else, but if you're creating the file outside of the Creation Kit you must make sure it also matches the name of your file.
 
-## Creating a Simple Toggle\[[edit](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&veaction=edit&section=5 "Edit section: Creating a Simple Toggle") | [edit source](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&action=edit&section=5 "Edit section: Creating a Simple Toggle")\]
+## Creating a Simple Toggle
 
 ```
 ScriptName SimpleToggle Extends ObjectReference
@@ -31,7 +31,7 @@ EndEvent
 
 **To make this script work**: Attach this script to an activator such as a button, lever, or container.
 
-## A Quest item you can drop and pick up again and set or reset objectives and Stages.\[[edit](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&veaction=edit&section=6 "Edit section: A Quest item you can drop and pick up again and set or reset objectives and Stages.") | [edit source](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&action=edit&section=6 "Edit section: A Quest item you can drop and pick up again and set or reset objectives and Stages.")\]
+## A Quest item you can drop and pick up again and set or reset objectives and Stages.
 
 ```
 ScriptName DroppableQuestObject Extends ObjectReference
@@ -74,7 +74,7 @@ To use this script: attach it to the item you want to use, and set the propertie
 
 FromQuest: StarsAndGarters UncompleteEnable: True StageToStopQuestItem: 30 StageToSetOnPickup: 20 StageToSetOnDrop: 10 ObjectiveToDisplayOnPickup: 20 ObjectiveToCompleteOnPickup: 10 ObjectiveToDisplayOnDrop: 10 ObjectiveToHideOnDrop: 20
 
-## A Trigger That Detects When The Player Enters\[[edit](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&veaction=edit&section=7 "Edit section: A Trigger That Detects When The Player Enters") | [edit source](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&action=edit&section=7 "Edit section: A Trigger That Detects When The Player Enters")\]
+## A Trigger That Detects When The Player Enters
 
 ```
 ScriptName ExampleTrigger Extends ObjectReference
@@ -108,7 +108,7 @@ Click on the Trigger Volume button, the box with a T inside of it.
 
 -   Non-player triggers can be used by changing the == to a != in the script above, to do things to other actors like restoring their health or moving them around (but not affecting player if player walks through the trigger)
 
-## Cycle Through a List of Objects and Perform an Action on Each Object(FormLists)\[[edit](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&veaction=edit&section=8 "Edit section: Cycle Through a List of Objects and Perform an Action on Each Object(FormLists)") | [edit source](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&action=edit&section=8 "Edit section: Cycle Through a List of Objects and Perform an Action on Each Object(FormLists)")\]
+## Cycle Through a List of Objects and Perform an Action on Each Object(FormLists)
 
 This example script cycles through a List of objects, known as a [Formlist](https://ck.uesp.net/wiki/Formlist "Formlist"), and enables them all if they are disabled, and disables them if they are enabled, each time the player character walks through a chosen trigger volume. If you use a [Formlist](https://ck.uesp.net/wiki/Formlist "Formlist") of special effects, this would cause all the many special effects you have in the formlist to disappear or reappear each time you walk through the trigger volume.
 
@@ -158,7 +158,7 @@ Edit the property so that it points to EditorID of your formlist that you just c
 
 Enjoy!
 
-## Cycle Through a List of Objects and Perform an Action on Each Object(Linked Ref Chain)\[[edit](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&veaction=edit&section=9 "Edit section: Cycle Through a List of Objects and Perform an Action on Each Object(Linked Ref Chain)") | [edit source](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&action=edit&section=9 "Edit section: Cycle Through a List of Objects and Perform an Action on Each Object(Linked Ref Chain)")\]
+## Cycle Through a List of Objects and Perform an Action on Each Object(Linked Ref Chain)
 
 This script will cycle through all the references in a linked ref chain and perform an action on each of them. In this example, the action would be to move each reference up by 16 units when you activate any one of them. Basically, it's the same thing as the FormList version, except you create a linked ref chain instead of a FormList.
 
@@ -193,7 +193,7 @@ EndFunction
 -   Remember to attach this script to the first object in the linked ref chain
     -   If your linked ref chain links back to itself, then you could put this script on each of the objects
 
-## Move an Object to a Specific Location Without Fade\[[edit](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&veaction=edit&section=10 "Edit section: Move an Object to a Specific Location Without Fade") | [edit source](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&action=edit&section=10 "Edit section: Move an Object to a Specific Location Without Fade")\]
+## Move an Object to a Specific Location Without Fade
 
 You can use this script to make an activator or actor move without fading out in any way (moveTo and setPosition cause fading to occur). Use this to make objects fly around or make the player move continuously to a destination without fade.
 
@@ -225,7 +225,7 @@ EndEvent
 
 This example will not work if you do not set the property as I mention just above, this is an easy thing to forget in this new and wonderful language. Get used to these basics and you will find Papyrus much more powerful than prior scripting languages.
 
-## A Fully Functional Dwemer Button\[[edit](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&veaction=edit&section=11 "Edit section: A Fully Functional Dwemer Button") | [edit source](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&action=edit&section=11 "Edit section: A Fully Functional Dwemer Button")\]
+## A Fully Functional Dwemer Button
 
 ```
 Scriptname DwemerButtonExampleScript extends ObjectReference  
@@ -259,7 +259,7 @@ EndEvent
 -   Create the changed button as a new form when prompted.
 -   Edit the new button to remove the original script(s) and attach you own.
 
-## Set Quest Stage When Picked Up By Player\[[edit](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&veaction=edit&section=12 "Edit section: Set Quest Stage When Picked Up By Player") | [edit source](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&action=edit&section=12 "Edit section: Set Quest Stage When Picked Up By Player")\]
+## Set Quest Stage When Picked Up By Player
 
 ```
 ScriptName SetStageOnPlayerPickUp Extends ObjectReference
@@ -280,7 +280,7 @@ State Taken
 EndState
 ```
 
-## Usage of Arrays to Make Scripts Compact\[[edit](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&veaction=edit&section=13 "Edit section: Usage of Arrays to Make Scripts Compact") | [edit source](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&action=edit&section=13 "Edit section: Usage of Arrays to Make Scripts Compact")\]
+## Usage of Arrays to Make Scripts Compact
 
 In this example you can see how to use a simple script property to reduce the number of scripts you need to write and thus the amount of properties you need to set, which can be time-consuming. Below I was having to do things to about 30 different draugrs:
 
@@ -314,7 +314,7 @@ Note that bEnableBeasts is a property so one can decide with each instance which
 -   You will need to fill the array elements in the Creation Kit with the chosen creatures.
 -   Then you will need to choose for each instance of the script whether the boolean property should be false or true, this setting process shows up a simple checkmark box in the editor.
 
-## A helper script with functions to get the current moonphase, sync between the two moons and day of the week\[[edit](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&veaction=edit&section=14 "Edit section: A helper script with functions to get the current moonphase, sync between the two moons and day of the week") | [edit source](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&action=edit&section=14 "Edit section: A helper script with functions to get the current moonphase, sync between the two moons and day of the week")\]
+## A helper script with functions to get the current moonphase, sync between the two moons and day of the week
 
 ```
 Scriptname ExtendedUtility
@@ -462,7 +462,7 @@ EndFunction
 -   Put it to your "Data/Scripts/Source" Folder and compile.
 -   Call it's functions in other scripts either by import and call by function name or by using ExtendedUtility.<FunctionName>()
 
-## Script to make an item cast a spell\[[edit](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&veaction=edit&section=15 "Edit section: Script to make an item cast a spell") | [edit source](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&action=edit&section=15 "Edit section: Script to make an item cast a spell")\]
+## Script to make an item cast a spell
 
 ```
 Scriptname SpellZapScript extends ObjectReference  
@@ -520,7 +520,7 @@ How to make this script work:
 
 -   If you want it to look for targets nearby, set SpawnNode to false and put a formlist of the valid targets in the TargetTypeList. If no Formlist is given, it will default to trying to shoot the player.
 
-## Script for a quest with time limit\[[edit](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&veaction=edit&section=16 "Edit section: Script for a quest with time limit") | [edit source](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&action=edit&section=16 "Edit section: Script for a quest with time limit")\]
+## Script for a quest with time limit
 
 ```
 Scriptname LH_TimeLimitedQuest extends Quest  
@@ -562,7 +562,7 @@ EndIf
 EndEvent
 ```
 
-## Making a Cool Cut-Scene\[[edit](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&veaction=edit&section=17 "Edit section: Making a Cool Cut-Scene") | [edit source](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&action=edit&section=17 "Edit section: Making a Cool Cut-Scene")\]
+## Making a Cool Cut-Scene
 
 ```
 ScriptName Cutscene Extends ObjectReference
@@ -593,7 +593,7 @@ EndEvent
 
 **How to use this script**: Make a new trigger box, and then add this script to it. Make 3 XMarkers, and define them in the Properties Window. Enter your new trigger, and see your cool cut-scene!
 
-## Script a container that only accepts certain types of items\[[edit](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&veaction=edit&section=18 "Edit section: Script a container that only accepts certain types of items") | [edit source](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&action=edit&section=18 "Edit section: Script a container that only accepts certain types of items")\]
+## Script a container that only accepts certain types of items
 
 **How to use this script**: Fill the FormList, AcceptedItemFLST, with only the item(s) you want the container to accept.
 
@@ -613,7 +613,7 @@ Endif
 EndEvent
 ```
 
-## Maintenance/update code which runs once per save load and shows a message when a mod is updated or first loaded\[[edit](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&veaction=edit&section=19 "Edit section: Maintenance/update code which runs once per save load and shows a message when a mod is updated or first loaded") | [edit source](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&action=edit&section=19 "Edit section: Maintenance/update code which runs once per save load and shows a message when a mod is updated or first loaded")\]
+## Maintenance/update code which runs once per save load and shows a message when a mod is updated or first loaded
 
 -   Requires Skyrim v1.6+: All event based, so no polling is necessary. For this method to work, two scripts are needed as [OnPlayerLoadGame](https://ck.uesp.net/wiki/OnPlayerLoadGame_-_Actor "OnPlayerLoadGame - Actor") will not fire from a Quest script.
 
@@ -679,7 +679,7 @@ EndIf
 EndFunction
 ```
 
-## Summon Spell\[[edit](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&veaction=edit&section=20 "Edit section: Summon Spell") | [edit source](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&action=edit&section=20 "Edit section: Summon Spell")\]
+## Summon Spell
 
 -   The below will summon YourSummonREF from wherever they are to the player. In this example, it's dealt with by a spell, but the function could be placed and/or called elsewhere. If as a spell, be sure to set the cooldown time to about 3.0 seconds so the caster can't cast it again until it's worked itself out.
 
@@ -712,7 +712,7 @@ Function Summon(ObjectReference akSummoner = None, ObjectReference akSummon = No
 EndFunction
 ```
 
-## Show Gift Inventory and Identify Items Given\[[edit](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&veaction=edit&section=21 "Edit section: Show Gift Inventory and Identify Items Given") | [edit source](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&action=edit&section=21 "Edit section: Show Gift Inventory and Identify Items Given")\]
+## Show Gift Inventory and Identify Items Given
 
 This is used for the Player to feed his animal companion. The FormList is created in the CK and includes all the food (Potion & Ingredient) items I want to consider food for the animal.
 
@@ -737,7 +737,7 @@ EndIf
 EndEvent
 ```
 
-## Enable/Disable an object on a schedule\[[edit](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&veaction=edit&section=22 "Edit section: Enable/Disable an object on a schedule") | [edit source](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&action=edit&section=22 "Edit section: Enable/Disable an object on a schedule")\]
+## Enable/Disable an object on a schedule
 
 Say you have a pedestal with a magical statue placed on it which is to enable at 6am every morning and disable at 6pm every evening. Glue the below to the pedestal which must always be enabled, filling the properties in the Creation Kit ensuring kYourObject is either renamed to match the EditorID of your statue upon auto-fill or manually pointed to it. If the pedestal is not applicable, use an L\_LOS collision marker.
 
@@ -808,7 +808,7 @@ Return ((Game.GetFormFromFile(0x00000039, "Skyrim.ESM") As GlobalVariable).GetVa
 EndFunction
 ```
 
-## Enable/Disable Lock on object based on hours of day\[[edit](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&veaction=edit&section=23 "Edit section: Enable/Disable Lock on object based on hours of day") | [edit source](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&action=edit&section=23 "Edit section: Enable/Disable Lock on object based on hours of day")\]
+## Enable/Disable Lock on object based on hours of day
 
 Say you have a door or treasure chest you want to have a timed lock on it, here you can. You can also send a Message to the users when it Enables/Disables. Similar to above. You could use it for a template for a variety of things not just a lock Mechanism, however this is a straight-forward basic example. This script section now uses a new Timed Object Reference which no longer performs polling in order to check the times. Instead it make use of the WaitGameTime function which means less overhead and more accurate timing.
 
@@ -851,9 +851,9 @@ Don't forget to set the properties once you have attached the script to an Objec
 
 For more examples like this see [Using Activated Object Reference](https://ck.uesp.net/wiki/Using_Activated_Object_Reference "Using Activated Object Reference") for advanced functionality.
 
-## Adding a spell when you shout\[[edit](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&veaction=edit&section=24 "Edit section: Adding a spell when you shout") | [edit source](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&action=edit&section=24 "Edit section: Adding a spell when you shout")\]
+## Adding a spell when you shout
 
-[Created by a modder named DServant](http://forums.bethsoft.com/topic/1507702-adding-a-spell-when-you-shout/#entry23774668). The way this works, is when you use a shout, an ability is added. This will work while in combat or outside of it.
+The way this works, is when you use a shout, an ability is added. This will work while in combat or outside of it.
 
 ```
 Scriptname DSerFireBreathMonitorScript extends activemagiceffect  
@@ -875,7 +875,7 @@ EndIf
 EndEvent
 ```
 
-## Enabling ReferenceAliases using an array\[[edit](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&veaction=edit&section=25 "Edit section: Enabling ReferenceAliases using an array") | [edit source](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&action=edit&section=25 "Edit section: Enabling ReferenceAliases using an array")\]
+## Enabling ReferenceAliases using an array
 
 **Requires basic knowledge in Quest creation.** Say you want to enable currently disabled ReferenceAliases in the quest but you don't feel like a ton of typing and need more than one to be enabled. That's easy to do with an array.
 
@@ -908,9 +908,9 @@ endif
 EndFunction
 ```
 
-## Resurrect an Enemy on Death Script\[[edit](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&veaction=edit&section=26 "Edit section: Resurrect an Enemy on Death Script") | [edit source](https://ck.uesp.net/w/index.php?title=Complete_Example_Scripts&action=edit&section=26 "Edit section: Resurrect an Enemy on Death Script")\]
+## Resurrect an Enemy on Death Script
 
-Created by [DarkWolfModding](http://www.nexusmods.com/skyrim/users/6211524/?). This is a script that will resurrect an enemy for a defined amount of times.
+This is a script that will resurrect an enemy for a defined amount of times.
 
 ```
 Scriptname ResurrectEnemySCRIPT Extends Actor
@@ -937,7 +937,3 @@ EndFunction
 ```
 
 Once you compile the script just attach the script to an enemy actor and set the value of MaxDeathCount to the desired max amount of deaths.
-
-\--[DarkWolfModding](https://ck.uesp.net/w/index.php?title=User:DarkWolfModding&action=edit&redlink=1 "User:DarkWolfModding (page does not exist)") ([talk](https://ck.uesp.net/w/index.php?title=User_talk:DarkWolfModding&action=edit&redlink=1 "User talk:DarkWolfModding (page does not exist)")) 2014-12-03T11:42:37 (EST)  
-
-<table><tbody><tr><th><b><a href="https://ck.uesp.net/wiki/CreationKit:Language_policy" title="CreationKit:Language policy">Language:</a></b></th><td><b><a>English</a></b> <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="fr"><a href="https://ck.uesp.net/wiki/Complete_Example_Scripts/fr" title="Complete Example Scripts/fr">français</a></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="ru"><a href="https://ck.uesp.net/wiki/Complete_Example_Scripts/ru" title="Complete Example Scripts/ru">русский</a></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></td></tr></tbody></table>

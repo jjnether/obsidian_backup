@@ -1,11 +1,4 @@
-| Bethesda Tutorial Papyrus Variables and Conditionals |
-| --- |
-| Scripting Series, Chapter 2 |
-| [Return to Tutorial Hub](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials") |
-| [![LeftArrow.png](https://ck.uesp.net/w/images/9/97/LeftArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Hello_World "Bethesda Tutorial Papyrus Hello World") [Previous Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Hello_World "Bethesda Tutorial Papyrus Hello World") | [Next Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions "Bethesda Tutorial Papyrus Introduction to Properties and Functions")[![RightArrow.png](https://ck.uesp.net/w/images/c/cc/RightArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Introduction_to_Properties_and_Functions "Bethesda Tutorial Papyrus Introduction to Properties and Functions") |
-
-## Overview\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Variables_and_Conditionals&veaction=edit&section=1 "Edit section: Overview") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Variables_and_Conditionals&action=edit&section=1 "Edit section: Overview")\]
-
+## Overview
 This tutorial assumes you have completed the [Hello World Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Hello_World "Bethesda Tutorial Papyrus Hello World").
 
 You will learn:
@@ -15,7 +8,7 @@ You will learn:
 -   How to ask a script running in the game for the values of its variables
 -   How to use a conditional if-then-else statement to add logic to your scripting
 
-## Variables\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Variables_and_Conditionals&veaction=edit&section=2 "Edit section: Variables") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Variables_and_Conditionals&action=edit&section=2 "Edit section: Variables")\]
+## Variables
 
 You can think of a variable like a container for information or objects. You can set them, you can increment and decrement numeric values, and you can retrieve their contents at a later date.
 
@@ -48,7 +41,7 @@ Okay, now let's add the line that will do the counting. Between the line "Event 
 
 Here we are saying, take whatever value is in the variable named "count" add 1 to it, and then take that value and store it back in the "count" variable. In other words, the variable on the left of the equals sign (=) should now be set to the value of the equation on the right side of the equals sign (=).
 
-## Looking at a script's variables at run time\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Variables_and_Conditionals&veaction=edit&section=3 "Edit section: Looking at a script's variables at run time") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Variables_and_Conditionals&action=edit&section=3 "Edit section: Looking at a script's variables at run time")\]
+## Looking at a script's variables at run time
 
 Make sure the game isn't currently running. Save the script. Make sure you hit "OK" on the reference form to close it. Then hit the save button on the tool bar to save your plugin.
 
@@ -88,7 +81,7 @@ Now open the console and type "ShowVars" and you will see that it reports "count
 
 Great. But so what? Well, now we can use that information in our script to display different messages based on the number of times you clicked it. Exit the game, and get back to editing the script.
 
-## Conditional statements (if-then-else)\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Variables_and_Conditionals&veaction=edit&section=4 "Edit section: Conditional statements (if-then-else)") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Variables_and_Conditionals&action=edit&section=4 "Edit section: Conditional statements (if-then-else)")\]
+## Conditional statements (if-then-else)
 
 Now we're going to add a "[conditional statement](https://ck.uesp.net/wiki/Statement_Reference#If_Statement "Statement Reference")" that will give us some logical control over what's happening inside the script. Replace the line "Debug.MessageBox("Hello, World!")" with the following
 
@@ -132,10 +125,8 @@ So your script should now look like this:
 
 Fire up the game again, coc to the cell, and activate the pillar. You should see three different messages each time you activate it!
 
-## For more information\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Variables_and_Conditionals&veaction=edit&section=5 "Edit section: For more information") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Papyrus_Variables_and_Conditionals&action=edit&section=5 "Edit section: For more information")\]
+## For more information
 
 -   For more information about the types of simple variables you can use (like "int" - these are called Literals), see [Literals Reference](https://ck.uesp.net/wiki/Literals_Reference "Literals Reference")
 -   For more information about operators (=, +=. etc.), see... [Operator Reference](https://ck.uesp.net/wiki/Operator_Reference "Operator Reference")
 -   For more information about statements like if-then-else, see [Statement Reference](https://ck.uesp.net/wiki/Statement_Reference "Statement Reference")
-
-<table><tbody><tr><th><b><a href="https://ck.uesp.net/wiki/CreationKit:Language_policy" title="CreationKit:Language policy">Language:</a></b></th><td><b><a>English</a></b> <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="fr"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Variables_and_Conditionals/fr" title="Bethesda Tutorial Papyrus Variables and Conditionals/fr">français</a></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="ja"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Variables_and_Conditionals/ja" title="Bethesda Tutorial Papyrus Variables and Conditionals/ja">日本語</a></span><span></span>&nbsp;• <span lang="ko"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Variables_and_Conditionals/ko" title="Bethesda Tutorial Papyrus Variables and Conditionals/ko">한국어</a></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="pl"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Variables_and_Conditionals/pl" title="Bethesda Tutorial Papyrus Variables and Conditionals/pl">polski</a></span><span></span><span></span><span></span>&nbsp;• <span lang="ru"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Variables_and_Conditionals/ru" title="Bethesda Tutorial Papyrus Variables and Conditionals/ru">русский</a></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></td></tr></tbody></table>
