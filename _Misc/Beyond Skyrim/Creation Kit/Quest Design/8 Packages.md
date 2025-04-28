@@ -1,26 +1,26 @@
 ## Overview
 
-This tutorial will show the reader how to set up [packages](https://ck.uesp.net/wiki/Category:Packages "Category:Packages") (the data structures that control actor behavior) on an actor to get him moving around the world.
+This tutorial will show the reader how to set up [[Packages|packages]] (the data structures that control actor behavior) on an actor to get him moving around the world.
 
 The reader will learn:
 
--   How [package stacks](https://ck.uesp.net/wiki/Package_Stack "Package Stack") work
+-   How [[Package Stack|package stacks]] work
 -   How to create a simple daily schedule for an NPC
 -   How to create a new package
 
 ## Packages and Package Stacks
-A [Package](https://ck.uesp.net/wiki/Package "Package") is the term used in the Creation Kit for the data structure that controls an actor's behavior. At any given time, an actor is always running one and only one package, which is what tells that actor what to do - sleep, eat, wander around, follow a patrol route, work a blacksmith's forge, etc.
+A [[Packages|Package]] is the term used in the Creation Kit for the data structure that controls an actor's behavior. At any given time, an actor is always running one and only one package, which is what tells that actor what to do - sleep, eat, wander around, follow a patrol route, work a blacksmith's forge, etc.
 
-So how does an actor know which package he should be running at any given time? That's where the [Package Stack](https://ck.uesp.net/wiki/Package_Stack "Package Stack") comes in. The basic idea is that each actor has a stack of packages that it could run. The game periodically runs down the list of packages, starting with the package at the top of the stack, and checks each package one at a time to see if it is currently valid. A package is valid if:
+So how does an actor know which package he should be running at any given time? That's where the [[Package Stack]] comes in. The basic idea is that each actor has a stack of packages that it could run. The game periodically runs down the list of packages, starting with the package at the top of the stack, and checks each package one at a time to see if it is currently valid. A package is valid if:
 
--   Its [conditions](https://ck.uesp.net/wiki/Category:Conditions "Category:Conditions") evaluate to true, and
--   The current time of day falls within its [schedule](https://ck.uesp.net/wiki/Package_(Form)#Schedule_Tab "Package (Form)").
+-   Its [[Conditions]] evaluate to true, and
+-   The current time of day falls within its [[Package (Form)#Schedule Tab|schedule]].
 
 An actor always runs the first valid package in the package stack. Actors near the player will reevaluate their package stack very frequently; actors in unloaded areas of the game world less frequently.
 
 ## Creating a Simple Schedule
 
-So let's see how these ideas play out in practice by giving our old friend Bendu Olo a schedule. (Complete the [Creating an Actor tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Creating_an_Actor "Bethesda Tutorial Creating an Actor") before continuing.)
+So let's see how these ideas play out in practice by giving our old friend Bendu Olo a schedule. (Complete the [[2 Creating an Actor|Creating an Actor tutorial]] before continuing.)
 
 Open GSQBenduOlo and go to the AI Packages tab, which currently looks like this:
 
@@ -65,7 +65,7 @@ Now, he will start his DefaultSleepEditorLoc1x8 at 1 am, as we intended - it's t
 
 We've now got a good chunk of Bendu's day covered - he eats for 2 hours a day, and sleeps for 7. We could continue to fill in his day with scheduled packages, but it's almost always a good idea to give him a "fallback" package to run when nothing else is valid. This package should have no conditions, and no schedule so it is always valid - and because of that, it should sit at the very bottom of his package list.
 
-We often use a [Sandbox](https://ck.uesp.net/wiki/Sandbox_(Procedure) "Sandbox (Procedure)") package for just this purpose - it lets the NPC move around a space, picking semi-randomly what to do. Very useful when we don't particularly care what the NPC is doing but want him to continue to behave naturally.
+We often use a [[Sandbox (Procedure)|Sandbox]] package for just this purpose - it lets the NPC move around a space, picking semi-randomly what to do. Very useful when we don't particularly care what the NPC is doing but want him to continue to behave naturally.
 
 For our purposes, **DefaultSandboxHomeowner** is a good choice. Let's open it up and take a look at its data:
 
@@ -108,14 +108,14 @@ By default, the Travel template is selected - but we want to make a Patrol, so c
 
 [![Package Tutorial NewPackage2.jpg](https://ck.uesp.net/w/images/6/6f/Package_Tutorial_NewPackage2.jpg)](https://ck.uesp.net/wiki/File:Package_Tutorial_NewPackage2.jpg)
 
-The [Patrol procedure page](https://ck.uesp.net/wiki/Patrol_(Procedure) "Patrol (Procedure)") has the details for the data on this package. For now, the only things we need to specify on this package are:
+The [[Patrol (Procedure)|Patrol procedure page]] has the details for the data on this package. For now, the only things we need to specify on this package are:
 
 -   Patrol Start - where should Bendu start his patrol route?
 -   Schedule - what time of day should he run this package?
 
 We haven't yet made a patrol route for Bendu, so let's load up the exterior and set up a simple one for him. (If you have the interior loaded, double-clicking on the yellow door marker is a quick way to get to the exterior; otherwise double-click on MixwaterMillExterior in the cell list for the Tamriel worldspace.)
 
-If you're not familiar with linked references, the [Encounters Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Encounters "Bethesda Tutorial Encounters") is a good place to start. For now, let's just create a quick 3-point patrol route:
+If you're not familiar with linked references, the [[5 Basic Encounters|Encounters Tutorial]] is a good place to start. For now, let's just create a quick 3-point patrol route:
 
 1.  Drop an XMarkerHeading into the render window.
 2.  Duplicate it twice with CTRL-D.
@@ -147,4 +147,4 @@ set gamehour to 10
 
 ```
 
-That's it - you now know how to set up an actor's packages using existing or new packages. Most of the time, the premade [Package Templates](https://ck.uesp.net/wiki/Package_Templates "Package Templates") will provide all the functionality you need. But, if you find you need even more specialized behavior, you can even [build your own Package Template](https://ck.uesp.net/wiki/Creating_a_new_Package_Template "Creating a new Package Template").
+That's it - you now know how to set up an actor's packages using existing or new packages. Most of the time, the premade [[Package Templates]] will provide all the functionality you need. But, if you find you need even more specialized behavior, you can even [build your own Package Template].

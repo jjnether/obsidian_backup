@@ -1,6 +1,4 @@
-_For the Editor form, see [Package (Form)](https://ck.uesp.net/wiki/Package_(Form) "Package (Form)")._
-
-## Overview\[[edit](https://ck.uesp.net/w/index.php?title=Category:Packages&veaction=edit&section=1 "Edit section: Overview") | [edit source](https://ck.uesp.net/w/index.php?title=Category:Packages&action=edit&section=1 "Edit section: Overview")\]
+## Overview
 
 Packages are the main way in which you can control an [Actor's](https://ck.uesp.net/wiki/Category:Actor "Category:Actor") behavior. Each Package represents a behavior that the Actor will perform under certain conditions.
 
@@ -18,13 +16,13 @@ For example, say the game updates the AI for Faendal, an [Actor](https://ck.uesp
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:NewFeature.jpg"><img alt="NewFeature.jpg" src="https://ck.uesp.net/w/images/thumb/d/dc/NewFeature.jpg/48px-NewFeature.jpg" decoding="async" width="48" height="48" srcset="https://ck.uesp.net/w/images/d/dc/NewFeature.jpg 1.5x"></a></td><td>The basic concepts of Package System and <a href="https://ck.uesp.net/wiki/Package_Stack" title="Package Stack">Package Stack</a> are unchanged from Fallout 3. However, the system has a number of new features, as described below.</td></tr></tbody></table>
 
-## Additional Information\[[edit](https://ck.uesp.net/w/index.php?title=Category:Packages&veaction=edit&section=2 "Edit section: Additional Information") | [edit source](https://ck.uesp.net/w/index.php?title=Category:Packages&action=edit&section=2 "Edit section: Additional Information")\]
+## Additional Information
 
-### Radiant Story Alias Packages\[[edit](https://ck.uesp.net/w/index.php?title=Category:Packages&veaction=edit&section=3 "Edit section: Radiant Story Alias Packages") | [edit source](https://ck.uesp.net/w/index.php?title=Category:Packages&action=edit&section=3 "Edit section: Radiant Story Alias Packages")\]
+### Radiant Story Alias Packages
 
 The Radiant Story system makes it possible to add Packages to a [Quest Alias](https://ck.uesp.net/wiki/Quest_Alias_Tab "Quest Alias Tab"), and then apply that Alias (along with those packages) to an Actor (in some cases, potentially to ANY Actor) at runtime. This means that, depending on what Alias an Actor might have attached to him, he may have more packages on his stack than you can see by looking at the Actor's form directly. For more, see [Category:Radiant Story](https://ck.uesp.net/wiki/Category:Radiant_Story "Category:Radiant Story").
 
-### Default Packages\[[edit](https://ck.uesp.net/w/index.php?title=Category:Packages&veaction=edit&section=4 "Edit section: Default Packages") | [edit source](https://ck.uesp.net/w/index.php?title=Category:Packages&action=edit&section=4 "Edit section: Default Packages")\]
+### Default Packages
 
 All Actors can have a Default Package List, a list of Packages that are added to the bottom of the Actor's [Package Stack](https://ck.uesp.net/wiki/Package_Stack "Package Stack") and typically function as 'fallbacks' when none of the Actor's specific packages apply. For more details, see the [Package Stack](https://ck.uesp.net/wiki/Package_Stack "Package Stack") and [AI Packages Tab](https://ck.uesp.net/wiki/AI_Packages_Tab "AI Packages Tab") articles.
 
