@@ -1,10 +1,4 @@
-| Bethesda Tutorial Quest Objectives |
-| --- |
-| Quest Design Fundamentals Series, Chapter 6 |
-| [Return to Tutorial Hub](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials") |
-| [![LeftArrow.png](https://ck.uesp.net/w/images/9/97/LeftArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Basic_Quest_Scripting "Bethesda Tutorial Basic Quest Scripting") [Previous Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Basic_Quest_Scripting "Bethesda Tutorial Basic Quest Scripting") | [Next Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Quest_Loose_Ends "Bethesda Tutorial Quest Loose Ends")[![RightArrow.png](https://ck.uesp.net/w/images/c/cc/RightArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Quest_Loose_Ends "Bethesda Tutorial Quest Loose Ends") |
-
-## Overview\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Objectives&veaction=edit&section=1 "Edit section: Overview") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Objectives&action=edit&section=1 "Edit section: Overview")\]
+## Overview
 
 This tutorial will show the reader how to create objectives and quest targets so the player can keep track of their current goals more easily. We'll also tie up some loose ends that could confuse or frustrate the player.
 
@@ -15,13 +9,13 @@ The reader will learn:
 -   How to handle completing and shutting down a quest
 -   How to insert additional quest stages
 
-## Objectives\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Objectives&veaction=edit&section=2 "Edit section: Objectives") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Objectives&action=edit&section=2 "Edit section: Objectives")\]
+## Objectives
 
 When a player goes through a quest in Skyrim, they're able to see the quest in their menu, see their current objective, and get an idea of where they need to go for the next part of the story.
 
 Our first step in making objectives is setting up their targets, which means our first dive into the world of Aliases.
 
-## Aliases\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Objectives&veaction=edit&section=3 "Edit section: Aliases") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Objectives&action=edit&section=3 "Edit section: Aliases")\]
+## Aliases
 
 You can think of Aliases as the quest defining roles that various people and places will play in the course of its story. Each alias points to a specific reference or place in the game world. For our example quest, these roles include Bendu, the thief, and the amulet. Each of these has to get defined in a slightly different way.
 
@@ -57,7 +51,7 @@ Create a new reference alias one more time. Give it the name "Amulet" and click 
 
 As you might imagine, this will create a new reference to the amulet in the thief's inventory when the quest begins (at the start of the game). Right now this would give the thief _two_ copies of the amulet, so open up GSQThief and remove the amulet from its inventory.
 
-## Creating Objectives\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Objectives&veaction=edit&section=4 "Edit section: Creating Objectives") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Objectives&action=edit&section=4 "Edit section: Creating Objectives")\]
+## Creating Objectives
 
 Now move over to the Quest Objectives tab in your quest window. This is where we'll actually set up the objectives as the player sees them.
 
@@ -87,13 +81,13 @@ Your window should look something like this when we're done.
 
 Now we have our objectives made, we just have to tell the game when to show them.
 
-## Setting Objectives\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Objectives&veaction=edit&section=5 "Edit section: Setting Objectives") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Objectives&action=edit&section=5 "Edit section: Setting Objectives")\]
+## Setting Objectives
 
 Remember all of those `SetObjectiveDisplayed()`'s I told you to ignore? This is where they come into play. Should the following NOT work for some odd reason, those are a safety net. They will do what this is supposed to do. I suggest doing both to have all the bases covered.
 
 Go back to the Quest Stages tab. We're going to add some logic in here as the quest advances.
 
-Click on stage 10 in the list on the left. In order to add script logic or a log entry to a quest stage, it needs to have at least one "[quest stage item](https://ck.uesp.net/wiki/Quest_Stages_Tab "Quest Stages Tab")", so right-click in the table that says "Log Entry" at the top and select "New."
+Click on stage 10 in the list on the left. In order to add script logic or a log entry to a quest stage, it needs to have at least one "[[Quest Stages Tab|quest stage item]], so right-click in the table that says "Log Entry" at the top and select "New."
 
 Log entries are the bits of text that will appear in the player's journal. Only the most recent log entry will be visible, so you can use this to update the story of the quest as it changes. Down in the "Log Entry" area, put the following:
 
@@ -126,12 +120,10 @@ The final journal entry should sum up what happened in the quest, since it's now
 
 > _I met Bendu Olo and was rewarded handsomely for retrieving his stolen amulet._
 
-## Trying it out\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Objectives&veaction=edit&section=6 "Edit section: Trying it out") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Objectives&action=edit&section=6 "Edit section: Trying it out")\]
+## Trying it out
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:Achtung.png"><img alt="Achtung.png" src="https://ck.uesp.net/w/images/f/f0/Achtung.png" decoding="async" width="32" height="32"></a></td><td>Make sure that you start from a fresh game. Aliases that you add to a quest that is already running won't work properly, so if you load a game that you created with your mod active from before you added the new aliases, the new additions will not work. You can test from a fresh game without running through the Helgen escape by using the command <code>COC MixwaterMillWorkersHouse</code> from the game's main menu.</td></tr></tbody></table>
 
 Now when you progress through the quest, your progress will be visible in your journal and you will have quest targets to the various plot points.
 
 [![ObjectivesInGame.png](https://ck.uesp.net/w/images/thumb/0/0d/ObjectivesInGame.png/500px-ObjectivesInGame.png)](https://ck.uesp.net/wiki/File:ObjectivesInGame.png)
-
-<table><tbody><tr><th><b><a href="https://ck.uesp.net/wiki/CreationKit:Language_policy" title="CreationKit:Language policy">Language:</a></b></th><td><b><a>English</a></b> <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="fr"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Quest_Objectives/fr" title="Bethesda Tutorial Quest Objectives/fr">français</a></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="ru"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Quest_Objectives/ru" title="Bethesda Tutorial Quest Objectives/ru">русский</a></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></td></tr></tbody></table>

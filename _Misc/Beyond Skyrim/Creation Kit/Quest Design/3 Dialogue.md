@@ -11,8 +11,8 @@ The reader will learn:
 Skyrim provides a simple visual layout system so you can see the flow of your dialogue as you're creating it.
 
 
-| [![NewFeature.jpg](https://ck.uesp.net/w/images/thumb/d/dc/NewFeature.jpg/48px-NewFeature.jpg)](https://ck.uesp.net/wiki/File:NewFeature.jpg) | If you're used to the old-style dialogue creation system from Fallout 3 and earlier, it's still available to you under the [[Player Dialogue Tab]] (and in fact, the views are just a snazzier front-end to that same system). |
-| --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![NewFeature.jpg\|50](https://ck.uesp.net/w/images/thumb/d/dc/NewFeature.jpg/48px-NewFeature.jpg) | If you're used to the old-style dialogue creation system from Fallout 3 and earlier, it's still available to you under the [[Player Dialogue Tab]] (and in fact, the views are just a snazzier front-end to that same system). |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 To get started with the view, navigate to your quest (GSQ01) and double click to open the quest window. Then navigate to the [[Dialogue Views Tab]]. Your window should now look like this:
 
@@ -160,8 +160,8 @@ Once the player chooses a topic with no links out of it, the game will again loo
 
 ## Try It Out
 
-| [![Achtung.png](https://ck.uesp.net/w/images/f/f0/Achtung.png)](https://ck.uesp.net/wiki/File:Achtung.png) | **Important!** As of 1.7 the game uses SEQ files in order to track _Start-Game Enabled_ quests you've added, and possibly ones you've altered. These files are needed for your dialogue and scenes to work properly!<br><br>See this [[Seq Guide\|tutorial]] on how to Create Start-Game Enabled Quest (SEQ) Files. |
-| ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Achtung.png\|50](https://ck.uesp.net/w/images/f/f0/Achtung.png) | **Important!** As of 1.7 the game uses SEQ files in order to track _Start-Game Enabled_ quests you've added, and possibly ones you've altered. These files are needed for your dialogue and scenes to work properly!<br><br>See this [[Seq Guide\|tutorial]] on how to Create Start-Game Enabled Quest (SEQ) Files. |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 
 Load the game with your plugin and go meet Bendu. (Remember, you can hop right there with `COC MixwaterMillWorkersHouse`.) He should now have something to say to you.

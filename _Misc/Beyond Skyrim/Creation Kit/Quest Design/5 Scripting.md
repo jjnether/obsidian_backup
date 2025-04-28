@@ -120,14 +120,14 @@ There a few things to note in this script:
 
 This script is also good to go, then. Close the script and armor windows, and save your plugin.
 
-You can now play through the quest from start to finish, checking the console with [SQV](https://ck.uesp.net/wiki/ShowQuestVars "ShowQuestVars") to see its stage changing.
+You can now play through the quest from start to finish, checking the console with [[ShowQuestVars|SQV]] to see its stage changing.
 
 Players can't be expected to use the console, though, so we'll learn how to give them better feedback about the quest in the next chapter.
 
-<table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:Protip.jpg"><img alt="Protip.jpg" src="https://ck.uesp.net/w/images/thumb/6/6a/Protip.jpg/48px-Protip.jpg" decoding="async" width="48" height="48" srcset="https://ck.uesp.net/w/images/6/6a/Protip.jpg 1.5x"></a></td><td>The scripts for Skyrim are just text files that live in your data directory before they get compiled into bytecode. This means that if you've got a favorite text editor, you can use it to work on scripts. We've included setups for both <a href="https://ck.uesp.net/wiki/Sublime_Text_Setup" title="Sublime Text Setup">Sublime Text</a> and <a href="https://ck.uesp.net/wiki/Notepad%2B%2B_Setup" title="Notepad++ Setup">Notepad++</a> that provide syntax highlighting, some basic autocompletion, and compilation shortcuts. If you're going to get heavily into scripting, these tools can make your life a lot easier.</td></tr></tbody></table>
+| ![Protip.jpg\|50](https://ck.uesp.net/w/images/thumb/6/6a/Protip.jpg/48px-Protip.jpg) | The scripts for Skyrim are just text files that live in your data directory before they get compiled into bytecode. This means that if you've got a favorite text editor, you can use it to work on scripts. We've included setups for both [[Sublime Text Setup\|Sublime Text]] and [[Notepad++ Setup\|Notepad++]] that provide syntax highlighting, some basic autocompletion, and compilation shortcuts. If you're going to get heavily into scripting, these tools can make your life a lot easier. |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 ## Notes
 
--   Papyrus boxes can be [temperamental](http://forums.bethsoft.com/topic/1513334-no-viable-alternative-at-input/) after the wrong code is inserted. Okaying the form and returning to it and possibly restarting the CK can resolve.
-
+-   Papyrus boxes can be temperamental after the wrong code is inserted. Okaying the form and returning to it and possibly restarting the CK can resolve.
 -   Removing a saved script from a papyrus box may not automatically remove the associated compiled pex in the script folder, which has an impact on testing in-game.
