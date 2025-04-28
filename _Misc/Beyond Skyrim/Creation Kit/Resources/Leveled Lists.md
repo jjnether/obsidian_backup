@@ -1,0 +1,3 @@
+There are two types of leveled lists available in the Creation Kit: [Leveled Characters](https://ck.uesp.net/wiki/LeveledCharacter "LeveledCharacter"), and [Leveled Items](https://ck.uesp.net/wiki/LeveledItem "LeveledItem"). Refer to the individual pages for details about each of them.
+
+In general, a leveled list allows the choice of object or actor to be dependent on the level of the player relative to the [Encounter Zone](https://ck.uesp.net/wiki/Encounter_Zone "Encounter Zone"). Therefore as the player grows in level, the actor or object generated changes. Loot in containers is better. Actors encountered are tougher.

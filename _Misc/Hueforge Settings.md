@@ -37,28 +37,3 @@ Swap Instructions:
 	At layer #18 (0.84mm) swap to Beige
 	At layer #28 (1.24mm) swap to Natural
 	At layer #36 (1.56mm) swap to White for the rest.
-
----
-
-Project: MG.hfp
-Print at 100% infill with a layer height of 0.04mm with a base layer of 0.16mm
-
- The Model is 142.84x200mm in size
- You may print at higher layer heights below the Min Depth of 0.48mm
- The Max Depth is 2.2mm and the Actual Depth is 2.3mm
-
-Filaments Used:
-	PLA Inland PLA+ Black Transmission Distance: 0.6
-	PLA Inland PLA+ Orange Transmission Distance: 6.6
-	PLA Inland PLA+ Gray Transmission Distance: 1.6
-	PLA Polylite PLA Natural Transmission Distance: 22
-	PLA SUNLU PLA Meta White Transmission Distance: 6
-This print uses 5 unique filaments
-
-Swap Instructions:
-	Start with Black
-	At layer #13 (0.64mm) swap to Orange
-	At layer #17 (0.8mm) swap to Gray
-	At layer #23 (1.04mm) swap to Natural
-	At layer #38 (1.64mm) swap to White for the rest.
-
