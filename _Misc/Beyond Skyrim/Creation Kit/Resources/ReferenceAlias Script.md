@@ -20,7 +20,7 @@ None
 
 -   Adds an inventory event filter to this alias.
 
-**[Clear](https://ck.uesp.net/wiki/Clear_-_ReferenceAlias "Clear - ReferenceAlias")()**
+**[Clear](https://ck.uesp.net/wiki/Clear_-_ReferenceAlias "Clear - ReferenceAlias")()** ^cc2790
 
 -   Clears this alias from pointing at anything.
 

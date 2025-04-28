@@ -1,10 +1,4 @@
-| Bethesda Tutorial Quest Aliases                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                              |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Intermediate Quest Design Series, Chapter 2                                                                                                                                                                                                                 |                                                                                                                                                                                                                                                                                              |
-| [Return to Tutorial Hub](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials")                                                                                                                                                                  |                                                                                                                                                                                                                                                                                              |
-| [![LeftArrow.png](https://ck.uesp.net/w/images/9/97/LeftArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Packages "Bethesda Tutorial Packages") [Previous Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Packages "Bethesda Tutorial Packages") | [Next Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Advanced_Dialogue "Bethesda Tutorial Advanced Dialogue")[![RightArrow.png](https://ck.uesp.net/w/images/c/cc/RightArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Advanced_Dialogue "Bethesda Tutorial Advanced Dialogue") |
-
-## Overview\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Aliases&veaction=edit&section=1 "Edit section: Overview") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Aliases&action=edit&section=1 "Edit section: Overview")\]
+## Overview
 
 This chapter will teach you about more advanced uses of aliases, showing the full use and power of these crucially important data structures.
 
@@ -13,7 +7,7 @@ The reader will learn:
 -   How to use conditional aliases
 -   How to properly organize quest logic with aliases
 
-## Doing It Wrong\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Aliases&veaction=edit&section=2 "Edit section: Doing It Wrong") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Aliases&action=edit&section=2 "Edit section: Doing It Wrong")\]
+## Doing It Wrong
 
 Up until now, we've been doing it wrong.
 
@@ -23,19 +17,19 @@ Consider: Bendu presently has a script on him that sets stage 200 on GSQ01 in th
 
 The same problem applies to the amulet, and the thief. Obviously our current setup works well, but wouldn't it be nicer to have access to all the things our quest cares about in one place? Well, with aliases, we can have just that!
 
-## Aliases as Overlays\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Aliases&veaction=edit&section=3 "Edit section: Aliases as Overlays") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Aliases&action=edit&section=3 "Edit section: Aliases as Overlays")\]
+## Aliases as Overlays
 
 The best way to think of aliases is as roles, defined for the specific purposes of their given quest. Characters and objects take on these roles for the duration of the quest, and then can shed them when the quest is done. This leads to much cleaner design implementation as well as memory savings.
 
-Open up the GSQBenduOlo actor that we made [towards the beginning of the quest design tutorial series](https://ck.uesp.net/wiki/Bethesda_Tutorial_Creating_an_Actor "Bethesda Tutorial Creating an Actor"). After we tidied up the [loose ends](https://ck.uesp.net/wiki/Bethesda_Tutorial_Quest_Loose_Ends "Bethesda Tutorial Quest Loose Ends"), he either has a script on him to handle his death, or has been flagged as essential. Both of these are very quest-specific bits of information though -- ask yourself, if the GSQ01 quest did not exist, is there any reason for them to be there? Since the answer is "no," clear them off of the base object: uncheck the "Essential" flag, and use the "Remove" button in the scripts area to take the script off of the base actor.
+Open up the GSQBenduOlo actor that we made [[2 Creating an Actor|towards the beginning of the quest design tutorial series]]. After we tidied up the [[7 Loose Ends|loose ends]], he either has a script on him to handle his death, or has been flagged as essential. Both of these are very quest-specific bits of information though -- ask yourself, if the GSQ01 quest did not exist, is there any reason for them to be there? Since the answer is "no," clear them off of the base object: uncheck the "Essential" flag, and use the "Remove" button in the scripts area to take the script off of the base actor.
 
-Now open the "Bendu" alias we made during the [Quest Design Fundamentals chapter on objectives](https://ck.uesp.net/wiki/Bethesda_Tutorial_Quest_Objectives "Bethesda Tutorial Quest Objectives"). Then, we were studiously ignoring most of this rather large window and all its various doodads, but now we'll actually look around a bit. Don't be scared.
+Now open the "Bendu" alias we made during the [[6 Objectives|Quest Design Fundamentals chapter on objectives]]. Then, we were studiously ignoring most of this rather large window and all its various doodads, but now we'll actually look around a bit. Don't be scared.
 
 [![FilledFirstAliasWindow.png](https://ck.uesp.net/w/images/thumb/8/8d/FilledFirstAliasWindow.png/600px-FilledFirstAliasWindow.png)](https://ck.uesp.net/wiki/File:FilledFirstAliasWindow.png)
 
 So looking around here, we see a lot of familiar elements. There's a script panel. A package stack. An inventory. \_Et cetera\_. We can treat these as we would the same areas on a base object, and when an actor is put into an alias, he will take on all of the data for that alias as if they were his own. More importantly, when a quest stops running, all its aliases are removed from their targets.
 
-This is an important concept, so worth clarifying and mentioning again: **An actor only takes on the data from an alias while its quest is running and he is in that alias.** Once the quest stops, the actor will shed the alias like taking off a coat. (It's also possible to [clear an alias](https://ck.uesp.net/wiki/Clear_-_ReferenceAlias "Clear - ReferenceAlias"), moving the actor out of it, while the quest is still running.)
+This is an important concept, so worth clarifying and mentioning again: **An actor only takes on the data from an alias while its quest is running and he is in that alias.** Once the quest stops, the actor will shed the alias like taking off a coat. (It's also possible to [[ReferenceAlias Script#^cc2790|clear an alias]], moving the actor out of it, while the quest is still running.)
 
 This has a number of benefits:
 
@@ -50,15 +44,15 @@ One "gotcha" with the overlay concept is the inventory: any items you put into a
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:Achtung.png"><img alt="Achtung.png" src="https://ck.uesp.net/w/images/f/f0/Achtung.png" decoding="async" width="32" height="32"></a></td><td>On most computers, the "Reference Alias" window is so tall that you won't be able to reach the bottom of it to click the "OK" button. To get around this, you can click back in the text box for "Alias Name" when you are all done editing and press the ENTER key on your keyboard. This will save the work done in the window.</td></tr></tbody></table>
 
-## Fixing Bendu\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Aliases&veaction=edit&section=4 "Edit section: Fixing Bendu") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Aliases&action=edit&section=4 "Edit section: Fixing Bendu")\]
+## Fixing Bendu
 
 But enough talk. Let's fix Bendu's alias so that his quest functionality lives here. As before, we have two approaches:
 
-## Immortal Bendu\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Aliases&veaction=edit&section=5 "Edit section: Immortal Bendu") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Aliases&action=edit&section=5 "Edit section: Immortal Bendu")\]
+## Immortal Bendu
 
 You can simply click the Essential checkbox at the top of the Alias window, and Bendu will now be unkillable while he is in this alias. When the quest stops, he'll drop out of the alias and again be mortal.
 
-## Handling the Death\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Aliases&veaction=edit&section=6 "Edit section: Handling the Death") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Aliases&action=edit&section=6 "Edit section: Handling the Death")\]
+## Handling the Death
 
 Or we can put a script on this alias to handle Bendu's death, just like we had previously scripted the base object. Note that we have to change the first line of the script so that it will attach to a ReferenceAlias instead of an actor. The script we would make this time would be called "GSQQuestgiver" and look like this:
 
@@ -82,14 +76,14 @@ Now, setting a stage when an Actor dies is an exceedingly common task, so there'
 
 (By using default scripts, we can drastically decrease the total number of scripts in the game, which has benefits for memory usage. Since you're modding for a PC that likely has copious memory, it may be less of a concern.)
 
-## Changing the Name\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Aliases&veaction=edit&section=7 "Edit section: Changing the Name") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Aliases&action=edit&section=7 "Edit section: Changing the Name")\]
+## Changing the Name
 
-One final side note: you can even change the name of a reference when it's in an alias, so that players will see different text when they roll over it. You can define a [Message](https://ck.uesp.net/wiki/Message "Message") with whatever text you want, and select it from the Display Name pulldown at the top of the alias window.
+One final side note: you can even change the name of a reference when it's in an alias, so that players will see different text when they roll over it. You can define a [[Message]] with whatever text you want, and select it from the Display Name pulldown at the top of the alias window.
 
 [![AliasDisplayName.png](https://ck.uesp.net/w/images/b/bf/AliasDisplayName.png)](https://ck.uesp.net/wiki/File:AliasDisplayName.png)
 
 By default, once you place a new display name on a reference, it will retain it _even after your quest is over_. This is so the player doesn't come back to a cleared-out dungeon to find that all the enemies are now called different things than they were when they were killed. You can override this behavior with the "Clears Name When Removed" checkbox in the upper right.
 
-## Packages\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Aliases&veaction=edit&section=8 "Edit section: Packages") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Quest_Aliases&action=edit&section=8 "Edit section: Packages")\]
+## Packages
 
 The package stack for the alias will be placed **above** an actor's normal package stack, effectively overriding it.

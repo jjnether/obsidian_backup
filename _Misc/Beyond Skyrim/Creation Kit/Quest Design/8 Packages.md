@@ -147,4 +147,4 @@ set gamehour to 10
 
 ```
 
-That's it - you now know how to set up an actor's packages using existing or new packages. Most of the time, the premade [[Package Templates]] will provide all the functionality you need. But, if you find you need even more specialized behavior, you can even [build your own Package Template].
+That's it - you now know how to set up an actor's packages using existing or new packages. Most of the time, the premade [[Package Templates]] will provide all the functionality you need. But, if you find you need even more specialized behavior, you can even [[Creating a new Package Template|build your own Package Template]].

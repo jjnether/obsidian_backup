@@ -1,10 +1,4 @@
-| Bethesda Tutorial Scenes |
-| --- |
-| Intermediate Quest Design Series, Chapter 4 |
-| [Return to Tutorial Hub](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials") |
-| [![LeftArrow.png](https://ck.uesp.net/w/images/9/97/LeftArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Advanced_Dialogue "Bethesda Tutorial Advanced Dialogue") [Previous Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Advanced_Dialogue "Bethesda Tutorial Advanced Dialogue") | [Next Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Radiant_Quests "Bethesda Tutorial Radiant Quests")[![RightArrow.png](https://ck.uesp.net/w/images/c/cc/RightArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Radiant_Quests "Bethesda Tutorial Radiant Quests") |
-
-## Overview\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&veaction=edit&section=1 "Edit section: Overview") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&action=edit&section=1 "Edit section: Overview")\]
+## Overview
 
 This chapter will describe the new Scene functionality in the Creation Kit. Scenes are a major new feature from older versions of Bethesda engines, and provide a high degree of control for multiple actors performing coordinating actions. They're useful for dialogue scenes, set pieces, and any time you need an actor to do something more complex than a single package can accomplish.
 
@@ -14,7 +8,7 @@ The reader will learn:
 -   Adding dialogue, timers, and actions to the scene.
 -   Running scripts during the scene.
 
-## Introducing Scenes\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&veaction=edit&section=2 "Edit section: Introducing Scenes") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&action=edit&section=2 "Edit section: Introducing Scenes")\]
+## Introducing Scenes
 
 So far we've learned how to make Bendu perform simple actions with the package system, and how to make him speak, both to the player and in general using the dialogue systems. This is sufficient until we need a more complicated behavior. Say we wanted him to have a conversation with Gilfre (who also lives at Mixwater Mill), and then go chop wood for a bit -- that would require a complicated set of scripts to handle positioning, speech, timing, conditions, etc.
 
@@ -28,7 +22,7 @@ It's similar to the Dialogue Views tab in that we can see a list of our scenes o
 
 Right-click in the left table and select "New" to create a new scene. Call it "GSQ01BenduGilfreScene". Make sure to click on it so it's highlighted.
 
-## Casting the Scene\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&veaction=edit&section=3 "Edit section: Casting the Scene") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&action=edit&section=3 "Edit section: Casting the Scene")\]
+## Casting the Scene
 
 Right-click in the canvas and select "New Actor." This will bring up a list of all the Reference Aliases that have been created in this quest. Double-click on Bendu to add him to the scene as one of our performers. We don't have Gilfre as an alias in this quest, though -- do you remember how to create an alias and point it to a specific actor? (Aliases Tab, New Reference Alias, Name it "Gilfre", Unique Actor, Gilfre from the pulldown.)
 
@@ -38,13 +32,13 @@ Once you've made that new alias, return to the scenes tab, select our scene, the
 
 We've now told the game which actors will be participating in the scene, but not what they'll be doing.
 
-## Phases\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&veaction=edit&section=4 "Edit section: Phases") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&action=edit&section=4 "Edit section: Phases")\]
+## Phases
 
 In the Creation Kit, a scene is broken down into Phases, which parcel out the activity into discrete chunks so the game can process them. Right-click in the scene area and select "Add Phase at End" to create our phase. (We're adding this phase to the "end" of the scene, but since there are no other phases, it's just the first phase created. Sometimes menu options have silly names.)
 
 The first thing we're going to want Bendu and Gilfre to do is get somewhere near each other. There are lots of choices for this, but let's have them meet up near the MapMarker for Mixwater Mill. We make them move the same way we make any actor move: with a package.
 
-## Package Actions\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&veaction=edit&section=5 "Edit section: Package Actions") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&action=edit&section=5 "Edit section: Package Actions")\]
+## Package Actions
 
 Right click on the square labeled "Bendu" in the scene, and select "New Action -> Package" from the context-menu. This will open up the Package Scene Action window.
 
@@ -70,11 +64,11 @@ This bears repeating: a scene will not progress until all the actions in a phase
 
 We don't want our scene to end when the two of them reach each other, though, so lets add some more content.
 
-## The Second Phase\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&veaction=edit&section=6 "Edit section: The Second Phase") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&action=edit&section=6 "Edit section: The Second Phase")\]
+## The Second Phase
 
 Right-click in the scene area again, and again select "Add Phase at End" to add a new, empty phase. Right-click to make a new action, but this time choose "Dialogue" instead of "Package."
 
-## Dialogue Actions\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&veaction=edit&section=7 "Edit section: Dialogue Actions") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&action=edit&section=7 "Edit section: Dialogue Actions")\]
+## Dialogue Actions
 
 [![DialogueSceneAction.png](https://ck.uesp.net/w/images/e/e4/DialogueSceneAction.png)](https://ck.uesp.net/wiki/File:DialogueSceneAction.png)
 
@@ -90,7 +84,7 @@ Add a new phase, and this time create a Dialogue action for Gilfre. Have her say
 
 (The numbers of your scene actions may not match up with the picture; don't worry about it.)
 
-## Keeping the Actors Put\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&veaction=edit&section=8 "Edit section: Keeping the Actors Put") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&action=edit&section=8 "Edit section: Keeping the Actors Put")\]
+## Keeping the Actors Put
 
 If you're especially observant, you may have noticed a problem -- we haven't put any packages on the additional phases, so when we get there, both actors will fall back to their base packages. This makes the scene look... silly.
 
@@ -102,7 +96,7 @@ Because we want them to stay put for the rest of the scene, instead of adding ad
 
 Remember how we had said that phases won't end until all their actions are done? Well, that only applies to actions that actually complete their duration within that phase, so our Phase 2 will complete the moment Bendu's dialogue is done. Nifty!
 
-## Facing\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&veaction=edit&section=9 "Edit section: Facing") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&action=edit&section=9 "Edit section: Facing")\]
+## Facing
 
 Because we don't know what haphazard path the actors took to get to this conversation, we can't even be sure that they are facing each other. That simply will not do. Thankfully, it's easy enough to open up the Dialogue Actions (double-click on the action's name, not the dialogue itself), and play with the values in the "Headtracking" section. In this case we want to assign Bendu a Headtrack target of "Gilfre" for his dialogue, and for Gilfre to have a headtrack target of "Bendu." Both of them should also be set to Face their target.
 
@@ -110,7 +104,7 @@ Because we don't know what haphazard path the actors took to get to this convers
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:InDepth.jpg"><img alt="InDepth.jpg" src="https://ck.uesp.net/w/images/thumb/0/0b/InDepth.jpg/48px-InDepth.jpg" decoding="async" width="48" height="48" srcset="https://ck.uesp.net/w/images/0/0b/InDepth.jpg 1.5x"></a></td><td>We could have also gotten them to face each other by setting their travel packages to specific XMarkerHeading objects.</td></tr></tbody></table>
 
-## Timer Actions\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&veaction=edit&section=10 "Edit section: Timer Actions") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&action=edit&section=10 "Edit section: Timer Actions")\]
+## Timer Actions
 
 I think Bendu needs to be a little more forlorn about all this, so let's have him hang out wistfully for a bit after Gilfre resumes her normal package. Add one more phase at the end, and this time only stretch the package action for Bendu through it.
 
@@ -120,7 +114,7 @@ Our final scene looks like this:
 
 [![FinalScene.png](https://ck.uesp.net/w/images/thumb/9/9c/FinalScene.png/700px-FinalScene.png)](https://ck.uesp.net/wiki/File:FinalScene.png)
 
-## Playing the Scene\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&veaction=edit&section=11 "Edit section: Playing the Scene") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&action=edit&section=11 "Edit section: Playing the Scene")\]
+## Playing the Scene
 
 We can either play a scene through script (by setting it as a property and calling [Start()](https://ck.uesp.net/wiki/Start_-_Scene "Start - Scene") on it), or by checking the "Begin on quest start" box on the scene tab.
 
@@ -156,7 +150,7 @@ On returning the amulet to Bendu, a similar scene is triggered (it cannot be dup
 
 _Alternative Addition end_
 
-## Additional Functionality\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&veaction=edit&section=12 "Edit section: Additional Functionality") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&action=edit&section=12 "Edit section: Additional Functionality")\]
+## Additional Functionality
 
 New Phases can be added at the beginning or at any point during a scene as well as at end.
 
@@ -164,14 +158,14 @@ It's possible to add scripts to a scene's beginning or end by clicking "Edit Dat
 
 Finally, the rule about "all actions must complete before a phase finishes" can even be broken. That is the default, but if you look in the scene window, you can see that it's also possible to set conditions which will end the particular phase. The [IsSceneActionComplete](https://ck.uesp.net/wiki/IsSceneActionComplete "IsSceneActionComplete") condition function can be especially useful if some actions in a phase can complete and others can't.
 
-## Caveats\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&veaction=edit&section=13 "Edit section: Caveats") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&action=edit&section=13 "Edit section: Caveats")\]
+## Caveats
 
 An actor can only be in one scene at a time, and if you try to start a scene with an actor who is busy in another one, that scene will pause until the first one finishes. This can lead to conflicts and strange behavior, so you need to use scenes carefully. When used properly, they are quite powerful, though.
 
-## \[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&veaction=edit&section=14 "Edit section: Extra Credit") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&action=edit&section=14 "Edit section: Extra Credit")\]
+## Extra Credit
 
 Can you make Bendu greet Gilfre with "Good morning," "Good afternoon," or "Good evening," depending on the time of day?
 
-## Notes\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&veaction=edit&section=15 "Edit section: Notes") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Scenes&action=edit&section=15 "Edit section: Notes")\]
+## Notes
 
 -   If TESedit is used to duplicate scene records, take care _not_ to delete any existing dialogues of phases in the copy as they refer to the original infos. Best practice is to remove phases without removing the linked forms and creating new phases with new action dialogue infos (unless the old dialogues are to be repeated)
