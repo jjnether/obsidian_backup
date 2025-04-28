@@ -1,5 +1,3 @@
-**Extends:** [Form Script](https://ck.uesp.net/wiki/Form_Script "Form Script")
-
 Script for the manipulation of object instances.  
 If you are adding a script to an object that is going to be a reference in the world (like a button for example) your script will need to extend this script.
 
@@ -629,7 +627,7 @@ None
 
 ## Events
 
-**[OnActivate](https://ck.uesp.net/wiki/OnActivate_-_ObjectReference "OnActivate - ObjectReference")(ObjectReference _akActionRef_)**
+**[OnActivate](https://ck.uesp.net/wiki/OnActivate_-_ObjectReference "OnActivate - ObjectReference")(ObjectReference _akActionRef_)** ^e1a952
 
 -   Event received when this object is activated.
 

@@ -1,6 +1,6 @@
 ## Overview
 
-This tutorial assumes you've already completed the [Hello World Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Hello_World "Bethesda Tutorial Papyrus Hello World") and the [Variables and Conditionals Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Variables_and_Conditionals "Bethesda Tutorial Papyrus Variables and Conditionals"). This will be a longer tutorial than the first two, and introduce you to some more advanced topics. Hang in there!
+This tutorial assumes you've already completed the [[1 Hello, World!|Hello World Tutorial]] and the [[2 Variables and Conditionals|Variables and Conditionals Tutorial]]. This will be a longer tutorial than the first two, and introduce you to some more advanced topics. Hang in there!
 
 You will learn:
 
@@ -96,9 +96,9 @@ Hit file->save. Close the script window. And hit the properties button on the pi
 [![Properties Tooltip.jpg](https://ck.uesp.net/w/images/e/ec/Properties_Tooltip.jpg)](https://ck.uesp.net/wiki/File:Properties_Tooltip.jpg)
 
 ## Creating Messageboxes
-Now we will create the [Message](https://ck.uesp.net/wiki/Message "Message") objects that we will hook up to our properties.
+Now we will create the [[Message]] objects that we will hook up to our properties.
 
-In the [Object Window](https://ck.uesp.net/wiki/Object_Window "Object Window") expand the "Miscellaneous" category, click on the "Messages" category. In the list of messages RIGHT CLICK, and select "New" from the context menu.
+In the [[Object Window]] expand the "Miscellaneous" category, click on the "Messages" category. In the list of messages RIGHT CLICK, and select "New" from the context menu.
 
 [![New Message.jpg](https://ck.uesp.net/w/images/9/93/New_Message.jpg)](https://ck.uesp.net/wiki/File:New_Message.jpg)
 

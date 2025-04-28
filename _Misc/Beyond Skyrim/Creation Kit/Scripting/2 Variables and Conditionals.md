@@ -1,5 +1,5 @@
 ## Overview
-This tutorial assumes you have completed the [Hello World Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Hello_World "Bethesda Tutorial Papyrus Hello World").
+This tutorial assumes you have completed the [[1 Hello, World!|Hello World Tutorial]].
 
 You will learn:
 
@@ -12,7 +12,7 @@ You will learn:
 
 You can think of a variable like a container for information or objects. You can set them, you can increment and decrement numeric values, and you can retrieve their contents at a later date.
 
-In this case we are going to give the script we wrote in the [Hello World Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Hello_World "Bethesda Tutorial Papyrus Hello World") a variable we will use to count the number of times the player activated it, and do something different each time.
+In this case we are going to give the script we wrote in the [[1 Hello, World!|Hello World Tutorial]] a variable we will use to count the number of times the player activated it, and do something different each time.
 
 Reopen the pillar's Reference window, and right-click on the HelloWorldScript on the Script tab. Select "Edit Source", which will bring up the script editing window.
 
@@ -83,7 +83,7 @@ Great. But so what? Well, now we can use that information in our script to displ
 
 ## Conditional statements (if-then-else)
 
-Now we're going to add a "[conditional statement](https://ck.uesp.net/wiki/Statement_Reference#If_Statement "Statement Reference")" that will give us some logical control over what's happening inside the script. Replace the line "Debug.MessageBox("Hello, World!")" with the following
+Now we're going to add a [[Statement Reference#If Statement|conditional statement]] that will give us some logical control over what's happening inside the script. Replace the line "Debug.MessageBox("Hello, World!")" with the following
 
 ```
  if count == 1
@@ -127,6 +127,6 @@ Fire up the game again, coc to the cell, and activate the pillar. You should see
 
 ## For more information
 
--   For more information about the types of simple variables you can use (like "int" - these are called Literals), see [Literals Reference](https://ck.uesp.net/wiki/Literals_Reference "Literals Reference")
--   For more information about operators (=, +=. etc.), see... [Operator Reference](https://ck.uesp.net/wiki/Operator_Reference "Operator Reference")
--   For more information about statements like if-then-else, see [Statement Reference](https://ck.uesp.net/wiki/Statement_Reference "Statement Reference")
+-   For more information about the types of simple variables you can use (like "int" - these are called Literals), see [[Literals Reference]]
+-   For more information about operators (=, +=. etc.), see... [[Operator Reference]]
+-   For more information about statements like if-then-else, see [[Statement Reference]]

@@ -44,7 +44,7 @@ Because this object is an Activator, it can respond to being clicked on ("activa
 
 Reopen the pillar's Reference window, and right-click on the HelloWorldScript on the Script tab. Select "Edit Source", which will bring up the script editing window.
 
-Now we need to tell the script to respond to being activated, which means we need to add the [OnActivate event](https://ck.uesp.net/wiki/OnActivate_-_ObjectReference "OnActivate - ObjectReference") to our script. Add the following lines to your script:
+Now we need to tell the script to respond to being activated, which means we need to add the [[ObjectReference Script#^e1a952|OnActivate event]] to our script. Add the following lines to your script:
 
 ```
  Event OnActivate(ObjectReference akActionRef)
@@ -64,9 +64,9 @@ At this point, our script is ready to respond to the OnActivate event, so let's 
 
 To explain this last step a bit more, the syntax of the line breaks down as follows:
 
-**Debug.**MessageBox("Hello, World!"): This is telling the script that we're calling a function on a different script (in this case the special default [Debug script object](https://ck.uesp.net/wiki/Debug_Script "Debug Script")).
+**Debug.**MessageBox("Hello, World!"): This is telling the script that we're calling a function on a different script (in this case the special default [[Debug Script|Debug script object]].
 
-Debug.**MessageBox**("Hello, World!"): [MessageBox](https://ck.uesp.net/wiki/MessageBox_-_Debug "MessageBox - Debug") is a function that pops up a message box.
+Debug.**MessageBox**("Hello, World!"): [[Debug Script#^29ea68|MessageBox]] is a function that pops up a message box.
 
 Debug.MessageBox**("Hello, World!")**: The parentheses show that we're calling a function; whatever's inside the parentheses is the data that we're passing to the function (in this case, the text that we want to be displayed in the message box).
 
@@ -76,7 +76,7 @@ Save and compile your script by selecting "Save" from the File menu on the scrip
 
 ## "Hello, World"
 
-Now to go into the game and try it out. (Make sure to [save your plugin](https://ck.uesp.net/wiki/Category:Getting_Started#Creating_Your_First_Plugin "Category:Getting Started"), and [set up the game to load it](https://ck.uesp.net/wiki/Category:Getting_Started#Loading_Your_Plugin_in_the_Game "Category:Getting Started") first.)
+Now to go into the game and try it out. (Make sure to [[Getting Started#Creating and saving plugins|save your plugin]], and set up the game to load it first.)
 
 Once you're in the game, hit ~ to bring up the console. Type:
 
@@ -91,4 +91,4 @@ to move to the cell. Walk over to the pillar and activate it. You should see you
 
 That's it. You've made an object that can respond to the player's actions!
 
-Next, you can learn [how to use variables and conditional statements](https://ck.uesp.net/wiki/Bethesda_Tutorial_Papyrus_Variables_and_Conditionals "Bethesda Tutorial Papyrus Variables and Conditionals") to make your script a bit more sophisticated.
+Next, you can learn [[2 Variables and Conditionals|how to use variables and conditional statements]] to make your script a bit more sophisticated.
