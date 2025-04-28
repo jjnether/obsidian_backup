@@ -1,11 +1,4 @@
-| Bethesda Tutorial Radiant Quests |
-| --- |
-| Intermediate Quest Design Series, Chapter 5 |
-| [Return to Tutorial Hub](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials") |
-| [![LeftArrow.png](https://ck.uesp.net/w/images/9/97/LeftArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Scenes "Bethesda Tutorial Scenes") [Previous Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Scenes "Bethesda Tutorial Scenes") | [Next Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Story_Manager "Bethesda Tutorial Story Manager")[![RightArrow.png](https://ck.uesp.net/w/images/c/cc/RightArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Story_Manager "Bethesda Tutorial Story Manager") |
-
-## Overview\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Radiant_Quests&veaction=edit&section=1 "Edit section: Overview") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Radiant_Quests&action=edit&section=1 "Edit section: Overview")\]
-
+## Overview
 This chapter will explain the more flexible systems we now have for creating dynamic quest content in various degrees. We collectively refer to these variable systems as "Radiant" as a kind of loose descriptor.
 
 The reader will learn:
@@ -13,7 +6,7 @@ The reader will learn:
 -   How to fill an alias with conditions
 -   How to dynamically fill an alias based on other data
 
-## The Spice of Life\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Radiant_Quests&veaction=edit&section=2 "Edit section: The Spice of Life") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Radiant_Quests&action=edit&section=2 "Edit section: The Spice of Life")\]
+## The Spice of Life
 
 The content we've written so far, well, it's not so great. Overly simple, basic fetch quest kind of things, with an unresolved love plotline to boot. On top of that, it's always the same. We won't address the first set of problems here (that's left as an exercise), but we can at least add some variety by changing things up.
 
@@ -28,7 +21,7 @@ _Et cetera, et cetera, et cetera._
 
 For this example, we'll only be changing the dungeon location, but it should be enough to give you the idea.
 
-## Conditional Aliases\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Radiant_Quests&veaction=edit&section=3 "Edit section: Conditional Aliases") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Radiant_Quests&action=edit&section=3 "Edit section: Conditional Aliases")\]
+## Conditional Aliases
 
 An important notion when constructing a radiant quest is that of the "seed alias". Remember, it's not just the thief we'll be finding -- we also need to know what map marker to add to the player's map, which means we have to know the dungeon itself as well. So there are three aliases we'll need to worry about here, but they all feed off that initial selection of the thief. For technical reasons, however, we usually want to start with the location (telling the game to pick a location that has a boss, then assigning the thief as that boss). In this case, the location becomes our "seed alias". When tracking down bugs in radiant content, knowing which alias is the seed is very important.
 
@@ -38,7 +31,8 @@ The first condition we'll add is "LocationHasRefType;" choose "Boss" from the pu
 
 The second condition we want to add is "LocationHasKeyword," which will test the data on the location itself (as opposed to the actors it contains). The keyword we want in this case is "LocTypeBanditCamp".
 
-<table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:InDepth.jpg"><img alt="InDepth.jpg" src="https://ck.uesp.net/w/images/thumb/0/0b/InDepth.jpg/48px-InDepth.jpg" decoding="async" width="48" height="48" srcset="https://ck.uesp.net/w/images/0/0b/InDepth.jpg 1.5x"></a></td><td>If you're interested in how to define this data, you should investigate <a href="https://ck.uesp.net/wiki/Location" title="Location">Locations</a> and <a href="https://ck.uesp.net/wiki/Keyword" title="Keyword">Keywords</a>.</td></tr></tbody></table>
+| ![InDepth.jpg\|50](https://ck.uesp.net/w/images/thumb/0/0b/InDepth.jpg/48px-InDepth.jpg) | If you're interested in how to define this data, you should investigate [[Location\|Locations]] and [[Keyword\|Keywords]]. |
+| ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 
 As you might expect, these two conditions will filter out all locations _except_ for bandit camps that have bosses. The game will then pick randomly from the set of valid locations.
 
@@ -48,7 +42,7 @@ Finally, click the "Reserves Location" reference at the top of the window -- tha
 
 Close this window. **This part is important:** with the ThiefLocation alias highlighted, use the left arrow key to move it so that it's above the Thief alias. Because the aliases will get filled from the top down, order becomes important, and since the Thief is going to be based on this alias, it needs to come after it.
 
-## Dependent Aliases\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Radiant_Quests&veaction=edit&section=4 "Edit section: Dependent Aliases") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Radiant_Quests&action=edit&section=4 "Edit section: Dependent Aliases")\]
+## Dependent Aliases
 
 Open up the Thief alias. Previously this was pointing to a Specific Reference, but we're going to change that to be keyed off the location that we found. Click the radio button for "Location Alias Reference;" this will let us pick any of the references that a location potentially contains. Select "ThiefLocation" from the first pull-down menu, and "Boss" from the Ref Type pull-down.
 
@@ -70,28 +64,28 @@ Alias_Thief.GetReference().Enable()
 Alias_LocationMarker.GetReference().AddToMap()
 ```
 
-## The Spice Must Flow\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Radiant_Quests&veaction=edit&section=5 "Edit section: The Spice Must Flow") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Radiant_Quests&action=edit&section=5 "Edit section: The Spice Must Flow")\]
+## The Spice Must Flow
 
 Congratulations, you've now added a radiant element to your quest. You should do a pass to remove any specific mentions of the now deprecated Reachwind Eyrie-- in light of the fact that it isn't one of the 31 objects tagged by LocTypeBanditCamp, less with Bosses, (Bendu probably just doesn't need to mention it by name, for instance). Otherwise, the quest functions normally!
 
-## Don't mention the location\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Radiant_Quests&veaction=edit&section=6 "Edit section: Don't mention the location") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Radiant_Quests&action=edit&section=6 "Edit section: Don't mention the location")\]
+## Don't mention the location
 
-If you followed the [Basic Quest Objectives tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Quest_Objectives "Bethesda Tutorial Quest Objectives") to the letter, you will notice that none of the Objectives actually do make reference to Reachwind Eyrie, so there's nothing to change there, but what if we wanted the Quest Objective to tell the player where the thief is, when even we don't know? This is actually very simple to achieve now that we've set everything up. First, go back to your ThiefLocation alias and check the 'Stores Text' checkbox. Then, go back to your Quest Objectives tab, and change the Display Text for Objective Index 10 from:-
+If you followed the [[6 Objectives|Basic Quest Objectives tutorial]] to the letter, you will notice that none of the Objectives actually do make reference to Reachwind Eyrie, so there's nothing to change there, but what if we wanted the Quest Objective to tell the player where the thief is, when even we don't know? This is actually very simple to achieve now that we've set everything up. First, go back to your ThiefLocation alias and check the 'Stores Text' checkbox. Then, go back to your Quest Objectives tab, and change the Display Text for Objective Index 10 from:-
 
 "Kill the thief" to:-
 
 "Kill the thief at <Alias=ThiefLocation>".
 
-Slotting aliases into text is just this easy. We don't need to check if the alias is filled, because (assuming we're not using an alias with the 'Optional' checkbox checked), the quest simply won't start if it isn't. For more advanced information on what you can do with this, see the page on [Text Replacement](https://ck.uesp.net/wiki/Text_Replacement "Text Replacement").
+Slotting aliases into text is just this easy. We don't need to check if the alias is filled, because (assuming we're not using an alias with the 'Optional' checkbox checked), the quest simply won't start if it isn't. For more advanced information on what you can do with this, see the page on [[Text Replacement]].
 
 The time you want to be more careful not to mention a location (or any other alias that will be filled at runtime) by name is anything that has to be voice-acted. Even then, you can, if you want, voice-act several lines to give a rough location, e.g. narrowing it down to a specific hold or a specific city, but that is left as an exercise for the reader.
 
-## Whoops\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Radiant_Quests&veaction=edit&section=7 "Edit section: Whoops") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Radiant_Quests&action=edit&section=7 "Edit section: Whoops")\]
+## Whoops
 
 One problem we still have is that we left the Thief script on the thief's base object, instead of having it on the appropriate alias. Now you see how much easier things are if you make your quest data alias-centric from the start! Do you know how to clean this up? By now you should, and don't forget the amulet either!
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:Achtung.png"><img alt="Achtung.png" src="https://ck.uesp.net/w/images/f/f0/Achtung.png" decoding="async" width="32" height="32"></a></td><td>Remember that any scripts attached to a reference alias have to extend ReferenceAlias. Your older scripts will need some minor edits here.</td></tr></tbody></table>
 
-## Almost there...\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Radiant_Quests&veaction=edit&section=8 "Edit section: Almost there...") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Radiant_Quests&action=edit&section=8 "Edit section: Almost there...")\]
+## Almost there...
 
 Only one more stop before you have a basic grasp of all the Creation Kit quest systems! Onwards to the STORY MANAGER...

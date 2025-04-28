@@ -116,9 +116,9 @@ Our final scene looks like this:
 
 ## Playing the Scene
 
-We can either play a scene through script (by setting it as a property and calling [Start()](https://ck.uesp.net/wiki/Start_-_Scene "Start - Scene") on it), or by checking the "Begin on quest start" box on the scene tab.
+We can either play a scene through script (by setting it as a property and calling [[Scene Script#^6626b5|Start()]] on it), or by checking the "Begin on quest start" box on the scene tab.
 
-_Addition by --[Layam](https://ck.uesp.net/w/index.php?title=User:Layam&action=edit&redlink=1 "User:Layam (page does not exist)") ([talk](https://ck.uesp.net/w/index.php?title=User_talk:Layam&action=edit&redlink=1 "User talk:Layam (page does not exist)")) 14:27, 1 January 2013 (EST)_
+### Addition
 
 One nice way to get this scene going would be to create a new dialogue topic to encourage Bendu to admit his true feelings.
 
@@ -136,9 +136,8 @@ Now you're good to test.
 
 `StopQuest MSQ01 StartQuest MSQ01`
 
-_Addition end_
 
-_Alternative Addition by ----[Lmstearn](https://ck.uesp.net/wiki/User:Lmstearn "User:Lmstearn") ([talk](https://ck.uesp.net/w/index.php?title=User_talk:Lmstearn&action=edit&redlink=1 "User talk:Lmstearn (page does not exist)")) 2015-01-22T12:50:33 (EST)_ More in the spirit of the quest:
+### Alternative Addition more in the spirit of the quest:
 
 On acceptance of the amulet quest, Bendu says in a new phase added at the beginning after a 4 second timer for the Quest Objective message to clear: "Excuse me for now, as I have a meeting with my dear friend Gilfre."
 
@@ -148,15 +147,13 @@ As player exits the workers house, witness Bendu saying "Gilfre, Fling me into t
 
 On returning the amulet to Bendu, a similar scene is triggered (it cannot be duplicated in the CK so TES5edit was used- see note below) where Gilfre is more conciliatory.
 
-_Alternative Addition end_
-
 ## Additional Functionality
 
 New Phases can be added at the beginning or at any point during a scene as well as at end.
 
 It's possible to add scripts to a scene's beginning or end by clicking "Edit Data" at the top of the tab. You can even double-click on a phase title and put scripts at the beginning and end of individual phases. As you might imagine, this opens up a lot of pretty complicated behavior and functionality. In fact, there are quests in Skyrim that are little more than scenes with scripts firing at appropriate phases.
 
-Finally, the rule about "all actions must complete before a phase finishes" can even be broken. That is the default, but if you look in the scene window, you can see that it's also possible to set conditions which will end the particular phase. The [IsSceneActionComplete](https://ck.uesp.net/wiki/IsSceneActionComplete "IsSceneActionComplete") condition function can be especially useful if some actions in a phase can complete and others can't.
+Finally, the rule about "all actions must complete before a phase finishes" can even be broken. That is the default, but if you look in the scene window, you can see that it's also possible to set conditions which will end the particular phase. The [[IsSceneActionComplete]] condition function can be especially useful if some actions in a phase can complete and others can't.
 
 ## Caveats
 

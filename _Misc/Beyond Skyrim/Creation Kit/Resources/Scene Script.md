@@ -1,6 +1,4 @@
-
 Script for the manipulation of scenes.
-
 
 ## Definition
 
@@ -34,7 +32,7 @@ None
 
 -   Returns whether the scene is currently playing or not.
 
-**[Start](https://ck.uesp.net/wiki/Start_-_Scene "Start - Scene")()**
+**[Start](https://ck.uesp.net/wiki/Start_-_Scene "Start - Scene")()** ^6626b5
 
 -   Starts the scene.
 
