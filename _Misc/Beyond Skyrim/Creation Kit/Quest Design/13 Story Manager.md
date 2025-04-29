@@ -3,7 +3,6 @@
 This chapter will explain the story manager and how it can be used to create new responsive content on the fly in an event-driven fashion.
 
 The reader will learn:
-
 -   What the story manager is.
 -   The idea behind how it works.
 -   Nothing else -- there's no good way to make our existing tutorial content into something initiated by the story manager, so it's here that we're going to to leave the intrepid modder to explore.

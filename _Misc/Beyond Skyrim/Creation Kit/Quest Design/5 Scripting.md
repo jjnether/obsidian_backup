@@ -3,7 +3,6 @@
 This tutorial will show how to use scripting to advance the questline based on player actions. We previously showed how to script dialogue, but this will show how to attach arbitrary scripts to actors and game objects as well.
 
 The reader will learn:
-
 -   The basic framework of how scripts work and attach to objects in the Creation Engine
 -   How to respond to events in the new scripting language
 

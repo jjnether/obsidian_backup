@@ -2,7 +2,6 @@
 This tutorial assumes you have completed the [[1 Hello, World!|Hello World Tutorial]].
 
 You will learn:
-
 -   How to create and use variables.
 -   How to create a comment to add notes to your script for future reference
 -   How to ask a script running in the game for the values of its variables

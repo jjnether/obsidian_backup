@@ -3,7 +3,6 @@
 This tutorial will show the reader how to create objectives and quest targets so the player can keep track of their current goals more easily. We'll also tie up some loose ends that could confuse or frustrate the player.
 
 The reader will learn:
-
 -   How to create aliases and objectives
 -   How to turn objectives on and off
 -   How to handle completing and shutting down a quest

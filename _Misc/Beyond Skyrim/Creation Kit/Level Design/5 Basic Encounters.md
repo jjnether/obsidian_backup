@@ -1,13 +1,4 @@
-| Bethesda Tutorial Encounters                                                                                                                                                                                                                            |                                                                                                                                                                                                                                                                                              |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Level Design Series, Chapter 5                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                              |
-| [Return to Tutorial Hub](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials")                                                                                                                                                              |                                                                                                                                                                                                                                                                                              |
-| [![LeftArrow.png](https://ck.uesp.net/w/images/9/97/LeftArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Navmesh "Bethesda Tutorial Navmesh") [Previous Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Navmesh "Bethesda Tutorial Navmesh") | [Next Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Traps_and_Prefabs "Bethesda Tutorial Traps and Prefabs")[![RightArrow.png](https://ck.uesp.net/w/images/c/cc/RightArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Traps_and_Prefabs "Bethesda Tutorial Traps and Prefabs") |
-| **Example Plugins:**                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                              |
-| [Initial](https://ck.uesp.net/w/index.php?title=Special:Upload&wpDestFile=LDnavmeshTutorialComplete.esp "LDnavmeshTutorialComplete.esp")                                                                                                                | [Completed](https://ck.uesp.net/w/index.php?title=Special:Upload&wpDestFile=LDEncountersTutorialComplete.esp "LDEncountersTutorialComplete.esp")                                                                                                                                             |
-| [Companion Video Tutorial](http://youtu.be/TAih_jr233I?hd=1)                                                                                                                                                                                            |                                                                                                                                                                                                                                                                                              |
-
-## Overview\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Encounters&veaction=edit&section=1 "Edit section: Overview") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Encounters&action=edit&section=1 "Edit section: Overview")\]
+## Overview
 
 This chapter will guide you through the basics of setting up an encounter involving a patrolling actor, and an actor that follows him.
 
@@ -18,11 +9,11 @@ The reader will learn:
 -   The difference between Ping-Pong Patrols, and Looping Patrols
 -   How to make one actor follow another.
 
-## Basic Encounters\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Encounters&veaction=edit&section=2 "Edit section: Basic Encounters") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Encounters&action=edit&section=2 "Edit section: Basic Encounters")\]
+## Basic Encounters
 
 The Creation Kit offers you the ability to create many kinds of gameplay - but combat encounters account for the preponderance of player activity, especially in dungeons. The Creation Kit offers tools to set up combat encounters quickly, allowing you to focus on making each encounter memorable rather than simply functional.
 
-## Leveled Lists and Encounter Actors (Lvl vs Enc)\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Encounters&veaction=edit&section=3 "Edit section: Leveled Lists and Encounter Actors (Lvl vs Enc)") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Encounters&action=edit&section=3 "Edit section: Leveled Lists and Encounter Actors (Lvl vs Enc)")\]
+## Leveled Lists and Encounter Actors (Lvl vs Enc)
 
 [![](https://ck.uesp.net/w/images/thumb/0/0d/ObjWindowEncLvl.jpg/300px-ObjWindowEncLvl.jpg)](https://ck.uesp.net/wiki/File:ObjWindowEncLvl.jpg)
 
@@ -40,11 +31,11 @@ Let's place our first encounter in Lokir's Tomb. Select a **LvlWarlockFire** and
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:Achtung.png"><img alt="Achtung.png" src="https://ck.uesp.net/w/images/f/f0/Achtung.png" decoding="async" width="32" height="32"></a></td><td>Try to avoid placing enemies where they will attack the player as soon as he loads in. Bethesda calls this the "Sandwich Rule." It's best to assume that the player's attention will drift at every load screen - and may set the controller down, daydream, or go to get a sandwich. Observing the sandwich rule means that the player determines when to re-engage.</td></tr></tbody></table>
 
-## Linked-Refs and Patrols\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Encounters&veaction=edit&section=4 "Edit section: Linked-Refs and Patrols") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Encounters&action=edit&section=4 "Edit section: Linked-Refs and Patrols")\]
+## Linked-Refs and Patrols
 
 The quickest way to breathe some life into your encounters is through the use of linked references to create patrols. This is a system set up entirely in the Creation Kit to make it easy to set up simple AI behaviors.
 
-### Default Master Package and Linked-Refs\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Encounters&veaction=edit&section=5 "Edit section: Default Master Package and Linked-Refs") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Encounters&action=edit&section=5 "Edit section: Default Master Package and Linked-Refs")\]
+### Default Master Package and Linked-Refs
 
 The [Default Master Package](https://ck.uesp.net/wiki/Default_Master_Package "Default Master Package") is a customized set of procedures that allows most Actors to path to patrol points, follow another actor, or guard a specific location.
 
@@ -90,7 +81,7 @@ One of the most basic things to do with an actor in a dungeon is to put it on a 
     Select OK
     
 
-### "Ping-Pong" Patrols\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Encounters&veaction=edit&section=6 "Edit section: "Ping-Pong" Patrols") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Encounters&action=edit&section=6 "Edit section: "Ping-Pong" Patrols")\]
+### "Ping-Pong" Patrols
 
 You may not always want characters to stay in one spot, however. NPC movement through space creates a sense of life and adds variety to how the encounter can initiate. The [Default Master Package](https://ck.uesp.net/wiki/Default_Master_Package "Default Master Package") makes this simple to do with simple "ping-pong" patrols, which direct AI to move between two or more points. Let's do that now.
 
@@ -118,7 +109,7 @@ Launch Skyrim and enter the **[ToggleDetection](https://ck.uesp.net/wiki/ToggleD
     **Fig. 5.9:** An Actor "Linked-Ref Chained" to three Patrol Points in the 2nd room.
     
 
-### Looping Patrols\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Encounters&veaction=edit&section=7 "Edit section: Looping Patrols") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Encounters&action=edit&section=7 "Edit section: Looping Patrols")\]
+### Looping Patrols
 
 [![](https://ck.uesp.net/w/images/thumb/d/da/LinkedRefThreeIdleLoop.jpg/220px-LinkedRefThreeIdleLoop.jpg)](https://ck.uesp.net/wiki/File:LinkedRefThreeIdleLoop.jpg)
 
@@ -140,7 +131,7 @@ Try running this in-game. Observe the difference: instead of re-tracing steps, t
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:Protip.jpg"><img alt="Protip.jpg" src="https://ck.uesp.net/w/images/thumb/6/6a/Protip.jpg/48px-Protip.jpg" decoding="async" width="48" height="48" srcset="https://ck.uesp.net/w/images/6/6a/Protip.jpg 1.5x"></a></td><td>PatrolIdleMarker is an <b><a href="https://ck.uesp.net/wiki/IdleMarker" title="IdleMarker">Idle Marker</a></b> which already has a range of subtle animations associated with it. This makes it preferable to other objects, such as an XmarkerHeading, when setting up patrols. There are also other <a href="https://ck.uesp.net/wiki/IdleMarker" title="IdleMarker">Idle Markers</a> available, such as <b>SearchingTableIdleMarker </b>and <b>WarmHandsStandIdleMarker </b>, which can be used to trigger specific animations which are more deliberate and grounded with the environment. Try swapping some of your patrolIdleMarker objects with these and experiment to get results you're happy with.</td></tr></tbody></table>
 
-## Setting Actor Difficulty\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Encounters&veaction=edit&section=8 "Edit section: Setting Actor Difficulty") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Encounters&action=edit&section=8 "Edit section: Setting Actor Difficulty")\]
+## Setting Actor Difficulty
 
 You may have noticed that all the Leveled Lists you have placed so far are green. This indicates the default **Easy** difficulty. Using difficulty variation is a good way to provide some variety and pacing to your dungeon. Try setting some now.
 

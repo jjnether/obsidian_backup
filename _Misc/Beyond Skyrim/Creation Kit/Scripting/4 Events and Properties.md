@@ -3,15 +3,14 @@
 This tutorial introduces Papyrus **Events** and **Properties**.
 
 You will learn:
-
 -   Basic information about Papyrus Events and how they are triggered.
 -   Basic information about Papyrus Properties, and how to create, fill, and use them.
 -   How the game interacts with Papyrus by communicating events.
 -   How Papyrus interacts with the game by performing actions on properties.
 
-This tutorial builds on the events in **Lokir's Tomb**, the sample dungeon created in the [Level Design Tutorials](https://ck.uesp.net/wiki/Category:Bethesda_Level_Design_Tutorial_Series "Category:Bethesda Level Design Tutorial Series"). If you haven't completed that tutorial, you can [download a plugin with the finished level](https://ck.uesp.net/w/index.php?title=Special:Upload&wpDestFile=LDWrapUpTutorialComplete.esp "LDWrapUpTutorialComplete.esp"), but be aware that this tutorial assumes you are already familiar with the elements introduced there, including things like:
+This tutorial builds on the events in **Lokir's Tomb**, the sample dungeon created in the [[1 Layout Essentials|Level Design Tutorials]]. If you haven't completed that tutorial, you can [download a plugin with the finished level](https://en.uesp.net/wiki/File:SR-mod-LDWrapUpTutorialComplete.zip), but be aware that this tutorial assumes you are already familiar with the elements introduced there, including things like:
 
--   [Basic editor navigation](https://ck.uesp.net/wiki/Bethesda_Tutorial_Creation_Kit_Interface "Bethesda Tutorial Creation Kit Interface").
+-   [[Creation Kit Interface|Basic editor navigation]].
 -   Concepts like Ambushes, Activation, and Activate Parents.
 
 ## The Plan
@@ -20,13 +19,13 @@ Currently, when you enter the final chamber in Lokir's Tomb, the boss Draugr ris
 
 ## Setting the Stage
 
-First, let's set up the draugr we want to resurrect. In the editor, open the cell **LokirsTomb** and focus your view on the cave area; this is our boss chamber. In the [Object Window](https://ck.uesp.net/wiki/Object_Window "Object Window"), navigate to **Actors>Actor** - or **All** - and use the filter to locate **"LvlDraugrMissileMale"** and **"LvlDraugrWarlockMale"**. Drag and drop one of each into the room.
+First, let's set up the draugr we want to resurrect. In the editor, open the cell **LokirsTomb** and focus your view on the cave area; this is our boss chamber. In the [[Object Window]], navigate to **Actors>Actor** - or **All** - and use the filter to locate **"LvlDraugrMissileMale"** and **"LvlDraugrWarlockMale"**. Drag and drop one of each into the room.
 
 Placed actors like these Draugr start alive (_well, relatively speaking_), and we need them to be dead. Double-click on each of them and check the box marked **"Starts Dead"**.
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:Achtung.png"><img alt="Achtung.png" src="https://ck.uesp.net/w/images/f/f0/Achtung.png" decoding="async" width="32" height="32"></a></td><td>Modders familiar with earlier BGS titles take note - simply setting the health of a base actor to zero will no longer cause the actor to begin dead. You must use the "Starts Dead" checkbox as specified here.</td></tr></tbody></table>
 
-[Save your plugin and run it in-game to check things out so far.](https://ck.uesp.net/wiki/Category:Getting_Started#Loading_Your_Plugin_in_the_Game "Category:Getting Started") You'll notice that two dead Draugr now lie in ragdoll on the floor of the room. That's what we want for now - but let's head back to the Creation Kit and get them back on their feet.
+[[Getting Started#Creating and saving plugins|Save your plugin and run it in-game to check things out so far.]] You'll notice that two dead Draugr now lie in ragdoll on the floor of the room. That's what we want for now - but let's head back to the Creation Kit and get them back on their feet.
 
 ## Event Planning
 
@@ -36,9 +35,9 @@ This diagram gives a very rough idea how events allow the Game and Papyrus to in
 
 ### Introduction to Events
 
-We want these Draugr to be resurrected as the boss emerges from his tomb. That is, we want this to happen in response to an **[Event](https://ck.uesp.net/wiki/Category:Events "Category:Events")**.
+We want these Draugr to be resurrected as the boss emerges from his tomb. That is, we want this to happen in response to an **[[Events|Event]]**.
 
-**"[Events](https://ck.uesp.net/wiki/Category:Events "Category:Events")"** are actions or state changes that the game notifies Papyrus about. There are hundreds of different events, such as:
+**[[Events]]** are actions or state changes that the game notifies Papyrus about. There are hundreds of different events, such as:
 
 -   Interacting with an object or character (pulling a lever, opening a door, looting a body).
 -   [Picking up](https://ck.uesp.net/wiki/OnItemAdded_-_ObjectReference "OnItemAdded - ObjectReference"), [equipping](https://ck.uesp.net/wiki/OnEquipped_-_ObjectReference "OnEquipped - ObjectReference"), [unequipping](https://ck.uesp.net/wiki/OnObjectUnequipped_-_Actor "OnObjectUnequipped - Actor"), or [dropping items](https://ck.uesp.net/wiki/OnItemRemoved_-_ObjectReference "OnItemRemoved - ObjectReference").

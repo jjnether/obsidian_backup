@@ -3,7 +3,6 @@
 This tutorial assumes you've already completed the [[1 Hello, World!|Hello World Tutorial]] and the [[2 Variables and Conditionals|Variables and Conditionals Tutorial]]. This will be a longer tutorial than the first two, and introduce you to some more advanced topics. Hang in there!
 
 You will learn:
-
 -   About things glossed over in previous tutorials:
     -   The first line of a script, and what it means to "extend" a script
     -   How to add tool tips to your script using {}

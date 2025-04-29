@@ -2,7 +2,6 @@
 This chapter will explain the more flexible systems we now have for creating dynamic quest content in various degrees. We collectively refer to these variable systems as "Radiant" as a kind of loose descriptor.
 
 The reader will learn:
-
 -   How to fill an alias with conditions
 -   How to dynamically fill an alias based on other data
 

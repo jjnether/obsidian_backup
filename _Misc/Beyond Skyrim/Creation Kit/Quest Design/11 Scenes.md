@@ -3,7 +3,6 @@
 This chapter will describe the new Scene functionality in the Creation Kit. Scenes are a major new feature from older versions of Bethesda engines, and provide a high degree of control for multiple actors performing coordinating actions. They're useful for dialogue scenes, set pieces, and any time you need an actor to do something more complex than a single package can accomplish.
 
 The reader will learn:
-
 -   How to create a new scene.
 -   Adding dialogue, timers, and actions to the scene.
 -   Running scripts during the scene.

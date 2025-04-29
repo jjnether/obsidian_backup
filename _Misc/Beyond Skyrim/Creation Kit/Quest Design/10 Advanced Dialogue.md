@@ -3,7 +3,6 @@
 This chapter will explore more functionality for the dialogue system, giving us more control over what a character says at any given point, including during combat.
 
 The reader will learn:
-
 -   What special topics are
 -   How to use reset timers
 -   How to make Combat lines

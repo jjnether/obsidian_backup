@@ -5,7 +5,6 @@ This tutorial will wrap up the loose ends we've left dangling as we've construct
 This final tutorial is much less hand-holdy, and assumes that you've absorbed the material from previous tutorials in the Quest Design Fundamentals series. If you need a refresher on anything here, you should be able to find what you need in the previous chapters.
 
 The reader will learn:
-
 -   What we've done wrong.
 -   How to fix it.
 

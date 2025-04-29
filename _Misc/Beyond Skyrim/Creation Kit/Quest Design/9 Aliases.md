@@ -3,7 +3,6 @@
 This chapter will teach you about more advanced uses of aliases, showing the full use and power of these crucially important data structures.
 
 The reader will learn:
-
 -   How to use conditional aliases
 -   How to properly organize quest logic with aliases
 

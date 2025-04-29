@@ -3,7 +3,6 @@
 This tutorial will show the reader how to set up [[Packages|packages]] (the data structures that control actor behavior) on an actor to get him moving around the world.
 
 The reader will learn:
-
 -   How [[Package Stack|package stacks]] work
 -   How to create a simple daily schedule for an NPC
 -   How to create a new package

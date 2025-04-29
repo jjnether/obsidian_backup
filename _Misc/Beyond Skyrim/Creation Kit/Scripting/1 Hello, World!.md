@@ -3,7 +3,6 @@
 This tutorial introduces the basics of Papyrus, the Creation Kit's scripting language.
 
 You will learn:
-
 -   How to create a new script and attach it to an object.
 -   How to get your script to respond to an event.
 
