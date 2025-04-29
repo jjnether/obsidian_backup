@@ -1,13 +1,4 @@
-| Bethesda Tutorial Traps and Prefabs |
-| --- |
-| Level Design Series, Chapter 6 |
-| [Return to Tutorial Hub](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials") |
-| [![LeftArrow.png](https://ck.uesp.net/w/images/9/97/LeftArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Encounters "Bethesda Tutorial Encounters") [Previous Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Encounters "Bethesda Tutorial Encounters") | [Next Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Optimization "Bethesda Tutorial Optimization")[![RightArrow.png](https://ck.uesp.net/w/images/c/cc/RightArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Optimization "Bethesda Tutorial Optimization") |
-| **Example Plugins:** |
-| [Initial](https://ck.uesp.net/w/index.php?title=Special:Upload&wpDestFile=LDEncountersTutorialComplete.esp "LDEncountersTutorialComplete.esp") | [Completed](https://ck.uesp.net/w/index.php?title=Special:Upload&wpDestFile=LDAmbushesTrapsTutorialComplete.esp "LDAmbushesTrapsTutorialComplete.esp") |
-| [Companion Video Tutorial](http://youtu.be/PN5vCtlxvwk?hd=1) |
-
-## Overview\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Traps_and_Prefabs&veaction=edit&section=1 "Edit section: Overview") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Traps_and_Prefabs&action=edit&section=1 "Edit section: Overview")\]
+## Overview
 
 This chapter covers the basics of working with AI ambushes and traps.
 
@@ -18,11 +9,11 @@ The reader will learn the following skills:
 -   Basics of Trap prefab Placement
 -   Use of other prefabs
 
-## Linked References\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Traps_and_Prefabs&veaction=edit&section=2 "Edit section: Linked References") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Traps_and_Prefabs&action=edit&section=2 "Edit section: Linked References")\]
+## Linked References
 
 The [previous tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Encounters "Bethesda Tutorial Encounters") discussed [linked references, or **linkedRefs**](https://ck.uesp.net/wiki/Glossary#LinkedRef "Glossary"). In that example, linkedRef relationships were used to create NPC patrol paths. This behavior is the result of logic that has already been set up with an AI [package](https://ck.uesp.net/wiki/Category:Packages "Category:Packages"). This is just one example of how linkedRef and other object-to-object relationships can be used to drive complex interaction in the Creation Kit.
 
-## Basic Activation Parenting\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Traps_and_Prefabs&veaction=edit&section=3 "Edit section: Basic Activation Parenting") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Traps_and_Prefabs&action=edit&section=3 "Edit section: Basic Activation Parenting")\]
+## Basic Activation Parenting
 
 When the player "uses" an object, they are **[activating](https://ck.uesp.net/wiki/Glossary#Activation "Glossary")** it. Activation is an important concept when dealing with interaction. Three things happen whenever an object is activated.
 
@@ -80,9 +71,9 @@ Let's take advantage of an **activate parent** relationship now. The Portcullis 
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:Protip.jpg"><img alt="Protip.jpg" src="https://ck.uesp.net/w/images/thumb/6/6a/Protip.jpg/48px-Protip.jpg" decoding="async" width="48" height="48" srcset="https://ck.uesp.net/w/images/6/6a/Protip.jpg 1.5x"></a></td><td>An object can have more than one activate parent. For example, it's usually wise to provide a lever on either side of a portcullis, just in case the player somehow becomes trapped on the wrong side of it.<p>You may also notice a checkbox which will cause a reference to ignore all activation from non-parents.</p></td></tr></tbody></table>
 
-## Ambushes\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Traps_and_Prefabs&veaction=edit&section=4 "Edit section: Ambushes") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Traps_and_Prefabs&action=edit&section=4 "Edit section: Ambushes")\]
+## Ambushes
 
-## Finding and Placing an Ambush Prefab\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Traps_and_Prefabs&veaction=edit&section=5 "Edit section: Finding and Placing an Ambush Prefab") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Traps_and_Prefabs&action=edit&section=5 "Edit section: Finding and Placing an Ambush Prefab")\]
+## Finding and Placing an Ambush Prefab
 
 This dungeon already features several encounters, but no clear climax. We'll add one now; a boss draugr will climb out of a tomb as the player enters the final chamber. Creating an event like this can be complex when done from scratch. Because of this, you are provided with a set of "**[prefabs](https://ck.uesp.net/wiki/Glossary#Prefab "Glossary")**" - which are simply a collection of objects which have already been scripted and connected for you.
 
@@ -133,7 +124,7 @@ Don't worry too much about pasting your prefab exactly where you want it placed.
     Triggerbox moved into place
     
 
-## Triggering an Ambush\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Traps_and_Prefabs&veaction=edit&section=6 "Edit section: Triggering an Ambush") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Traps_and_Prefabs&action=edit&section=6 "Edit section: Triggering an Ambush")\]
+## Triggering an Ambush
 
 The blue trigger is a critical element of the prefab. When the player collides with it, the draugr begins to climb out of its tomb. The default size of the trigger doesn't do much good, however. We'll need something bigger to stage this event well. We'll use non-uniform scaling to sculpt a custom trigger shape to fit the room.
 
@@ -175,13 +166,13 @@ You may wish to add more draugr ambushes to your level. You can also trigger mul
     Triggerbox scaled to cover hallway
     
 
-## Traps\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Traps_and_Prefabs&veaction=edit&section=7 "Edit section: Traps") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Traps_and_Prefabs&action=edit&section=7 "Edit section: Traps")\]
+## Traps
 
 Ambushes aren't the only gameplay device for which prefabs are useful. Most traps are also composed of several objects working in concert with each other. Traps are a useful pacing device, even when they are easily noticed and avoided. Players will be on the lookout for other traps and the chance to lure enemies into them.
 
 One of the traps available is a simple swinging mace. We'll place one of these into Lokir's Tomb as an example.
 
-## Using a Prefab Mace Trap\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Traps_and_Prefabs&veaction=edit&section=8 "Edit section: Using a Prefab Mace Trap") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Traps_and_Prefabs&action=edit&section=8 "Edit section: Using a Prefab Mace Trap")\]
+## Using a Prefab Mace Trap
 
 Setting up a trap prefab isn't very different from the process involved with a ambush prefab. Follow along with these steps:
 
@@ -213,7 +204,7 @@ Test your trap in game several times. You may wish to tweak the placement of the
     Final placement of Mace Trap and Tripwire
     
 
-## Non-Prefab Traps\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Traps_and_Prefabs&veaction=edit&section=9 "Edit section: Non-Prefab Traps") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Traps_and_Prefabs&action=edit&section=9 "Edit section: Non-Prefab Traps")\]
+## Non-Prefab Traps
 
 Not all traps require prefabs or separately-placed triggers, such as the examples in _Figs 6.49a-d_ below. These can be placed directly into your space like any other object, and they should work automatically. Although they are not prefabs, these are still available in "**WarehouseTraps**" for your convenience.
 
@@ -242,10 +233,8 @@ You can also mix and match traps with different triggers, such as pressure plate
     Trap Rune Projectiles
     
 
-## Other Prefabs\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Traps_and_Prefabs&veaction=edit&section=10 "Edit section: Other Prefabs") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Traps_and_Prefabs&action=edit&section=10 "Edit section: Other Prefabs")\]
+## Other Prefabs
 
 Prefabs aren't only useful for traps and ambushes. There are [other types of prefabs](https://ck.uesp.net/wiki/Additional_Prefabs "Additional Prefabs") available, such as mining ore nodes or barred doors. Try this [optional tutorial](https://ck.uesp.net/wiki/Additional_Prefabs "Additional Prefabs") if you'd like to add some now. (Some are included in the example file)
 
 Now that your dungeon has some gameplay, it's time to start thinking about performance. We'll cover optimization in the next chapter - because no matter how brilliant your content may be, it's no fun if it doesn't run.
-
-<table><tbody><tr><th><b><a href="https://ck.uesp.net/wiki/CreationKit:Language_policy" title="CreationKit:Language policy">Language:</a></b></th><td><b><a>English</a></b> <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="fr"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Traps_and_Prefabs/fr" title="Bethesda Tutorial Traps and Prefabs/fr">français</a></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></td></tr></tbody></table>

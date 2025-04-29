@@ -1,13 +1,4 @@
-| Bethesda Tutorial Lights and FX |
-| --- |
-| Level Design Series, Chapter 8 |
-| [Return to Tutorial Hub](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials") |
-| [![LeftArrow.png](https://ck.uesp.net/w/images/9/97/LeftArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Optimization "Bethesda Tutorial Optimization") [Previous Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Optimization "Bethesda Tutorial Optimization") | [Next Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_World_Hookup "Bethesda Tutorial World Hookup")[![RightArrow.png](https://ck.uesp.net/w/images/c/cc/RightArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_World_Hookup "Bethesda Tutorial World Hookup") |
-| **Example Plugins:** |
-| [Initial](https://ck.uesp.net/w/index.php?title=Special:Upload&wpDestFile=LDOptimizationTutorialComplete.esp "LDOptimizationTutorialComplete.esp") | [Completed](https://ck.uesp.net/w/index.php?title=Special:Upload&wpDestFile=LDLightingTutorialComplete.esp "LDLightingTutorialComplete.esp") |
-| [Companion Video Tutorial](http://youtu.be/5fZoIpKcJ6I?hd=1) |
-
-## Overview\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Lights_and_FX&veaction=edit&section=1 "Edit section: Overview") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Lights_and_FX&action=edit&section=1 "Edit section: Overview")\]
+## Overview
 
 This chapter will guide you through the basics of lighting and [FX](https://ck.uesp.net/wiki/Glossary#FX "Glossary") placement in a dungeon. Users will learn:
 
@@ -16,7 +7,7 @@ This chapter will guide you through the basics of lighting and [FX](https://ck.u
 -   Achieving ambiance with FX and [ImageSpace](https://ck.uesp.net/wiki/ImageSpace "ImageSpace")
 -   Use of External Emittance to inherit time-of-day light coloring
 
-## Types of Lights\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Lights_and_FX&veaction=edit&section=2 "Edit section: Types of Lights") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Lights_and_FX&action=edit&section=2 "Edit section: Types of Lights")\]
+## Types of Lights
 
 There are four types of lights available in the Creation Kit. All lights are grouped together under **WorldObjects > Light** in the [Object Window](https://ck.uesp.net/wiki/Object_Window "Object Window"). They can be placed and manipulated like regular objects. Each type of light has its own properties.
 
@@ -52,7 +43,7 @@ Hemispherical lights are represented by a red half-sphere in the Creation Kit. T
     A spotlight. The red wireframe shows the area in which the spotlight will cast light.
     
 
-## Working With Lights\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Lights_and_FX&veaction=edit&section=3 "Edit section: Working With Lights") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Lights_and_FX&action=edit&section=3 "Edit section: Working With Lights")\]
+## Working With Lights
 
 Lighting a space, in its most basic form, is simple. Your goal is to provide enough illumination for the player to navigate and clearly make out critical elements such as levers, NPCs or loot. Lights will generally be placed next to in-world light sources such as torches, sky-holes, or bio-luminescent plants.
 
@@ -84,7 +75,7 @@ In Object Window, filter by **Default\***. Place **DefaultTorch01NS** near FXfir
     A visual bug caused by the hemishperical seam of a shadow-casting Omni light. Rotating the light can hide this seam and fix the glitch.
     
 
-## Using Effects and External Emittance\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Lights_and_FX&veaction=edit&section=4 "Edit section: Using Effects and External Emittance") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Lights_and_FX&action=edit&section=4 "Edit section: Using Effects and External Emittance")\]
+## Using Effects and External Emittance
 
 The Creation Kit ships with a number of Special Effects, or **"FX"**, that creators can use to establish mood and create convincing ambiance throughout a space. FX objects interact with light, so be sure you've done at least a rough pass of lighting with both shadow and non-shadow-casting lights in your space before proceeding.
 
@@ -136,7 +127,7 @@ You can preview how the time of day will affect this light by going to **file > 
     The time slider in the preferences window.
     
 
-## Lighting Templates and Imagespaces\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Lights_and_FX&veaction=edit&section=5 "Edit section: Lighting Templates and Imagespaces") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Lights_and_FX&action=edit&section=5 "Edit section: Lighting Templates and Imagespaces")\]
+## Lighting Templates and Imagespaces
 
 Another important element behind establishing the correct mood for your interior will be choosing the most appropriate **[Lighting Template](https://ck.uesp.net/wiki/Lighting_Template "Lighting Template")** and worldspace.
 

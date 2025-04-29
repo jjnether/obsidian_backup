@@ -1,13 +1,4 @@
-| Bethesda Tutorial World Hookup |
-| --- |
-| Level Design Series, Chapter 9 |
-| [Return to Tutorial Hub](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials") |
-| [![LeftArrow.png](https://ck.uesp.net/w/images/9/97/LeftArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Lights_and_FX "Bethesda Tutorial Lights and FX") [Previous Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Lights_and_FX "Bethesda Tutorial Lights and FX") | [Next Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Dungeon_Wrapup "Bethesda Tutorial Dungeon Wrapup")[![RightArrow.png](https://ck.uesp.net/w/images/c/cc/RightArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Dungeon_Wrapup "Bethesda Tutorial Dungeon Wrapup") |
-| **Example Plugins:** |
-| [Initial](https://ck.uesp.net/w/index.php?title=Special:Upload&wpDestFile=LDLightingTutorialComplete.esp "LDLightingTutorialComplete.esp") | [Completed](https://ck.uesp.net/w/index.php?title=Special:Upload&wpDestFile=LDWorldHookupTutorialComplete.esp "LDWorldHookupTutorialComplete.esp") |
-| [Companion Video Tutorial](http://youtu.be/kTSQaUx5eKY?hd=1) |
-
-## Overview\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_World_Hookup&veaction=edit&section=1 "Edit section: Overview") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_World_Hookup&action=edit&section=1 "Edit section: Overview")\]
+## Overview
 
 This chapter will guide you through connecting your dungeon to the outside world.
 
@@ -17,9 +8,9 @@ The reader will learn:
 -   How to create a load door
 -   Learn how to name your cell and place a mapmarker.
 
-## Connecting your dungeon to Skyrim\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_World_Hookup&veaction=edit&section=2 "Edit section: Connecting your dungeon to Skyrim") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_World_Hookup&action=edit&section=2 "Edit section: Connecting your dungeon to Skyrim")\]
+## Connecting your dungeon to Skyrim
 
-## Finding a good place to put your dungeon.\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_World_Hookup&veaction=edit&section=3 "Edit section: Finding a good place to put your dungeon.") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_World_Hookup&action=edit&section=3 "Edit section: Finding a good place to put your dungeon.")\]
+## Finding a good place to put your dungeon.
 
 [![](https://ck.uesp.net/w/images/thumb/8/8e/CellViewTamrielWorldspace.jpg/300px-CellViewTamrielWorldspace.jpg)](https://ck.uesp.net/wiki/File:CellViewTamrielWorldspace.jpg)
 
@@ -40,7 +31,7 @@ Now use the pieces **NorDwelling02ExtBaseC**, **NorDwelling02ExtBaseB** and a **
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:Protip.jpg"><img alt="Protip.jpg" src="https://ck.uesp.net/w/images/thumb/6/6a/Protip.jpg/48px-Protip.jpg" decoding="async" width="48" height="48" srcset="https://ck.uesp.net/w/images/6/6a/Protip.jpg 1.5x"></a></td><td>If the textures on some objects are flickering, especially the ones on the "<b>NorDwelling...</b>" pieces you should be able to fix it by setting "<b>View &gt; Depth Biasing</b>" on.</td></tr></tbody></table>
 
-## Creating a Load Door\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_World_Hookup&veaction=edit&section=4 "Edit section: Creating a Load Door") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_World_Hookup&action=edit&section=4 "Edit section: Creating a Load Door")\]
+## Creating a Load Door
 
 [![](https://ck.uesp.net/w/images/thumb/e/e4/IntExtDoorTeleportMarkers.jpg/300px-IntExtDoorTeleportMarkers.jpg)](https://ck.uesp.net/wiki/File:IntExtDoorTeleportMarkers.jpg)
 
@@ -56,7 +47,7 @@ If you're feeling brave you can tweak the navmesh in this exterior cell to bette
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:Protip.jpg"><img alt="Protip.jpg" src="https://ck.uesp.net/w/images/thumb/6/6a/Protip.jpg/48px-Protip.jpg" decoding="async" width="48" height="48" srcset="https://ck.uesp.net/w/images/6/6a/Protip.jpg 1.5x"></a></td><td>When you Finalize the navmesh a link gets created between connected doors, as well as cell borders in the exterior. This helps the game find out how to get from one place to another. This makes it possible for NPCs to navigate around the world, and also affects how Quest Markers display.</td></tr></tbody></table>
 
-## Naming your cell and placing a Map Marker\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_World_Hookup&veaction=edit&section=5 "Edit section: Naming your cell and placing a Map Marker") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_World_Hookup&action=edit&section=5 "Edit section: Naming your cell and placing a Map Marker")\]
+## Naming your cell and placing a Map Marker
 
 [![](https://ck.uesp.net/w/images/thumb/e/e6/LokirsTombMapMarker.jpg/300px-LokirsTombMapMarker.jpg)](https://ck.uesp.net/wiki/File:LokirsTombMapMarker.jpg)
 

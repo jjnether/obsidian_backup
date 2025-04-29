@@ -121,11 +121,11 @@ We can either play a scene through script (by setting it as a property and calli
 
 One nice way to get this scene going would be to create a new dialogue topic to encourage Bendu to admit his true feelings.
 
-Go back to the Dialogue Views tab in GSQ01, select the view we've got there, then add a new branch called 'GSQ01BenduAdmitFeelings'. Open up the topic, add a response (maybe 'I've seen the way you look at her, you should admit how you feel to her.'). To get the scene to start we first need to create a property on the response info script.
+Go back to the Dialogue Views tab in GSQ01, select the view we've got there, then add a new branch called 'GSQ01BenduAdmitFeelings'. Open up the topic, add a topic text (maybe 'I've seen the way you look at her, you should admit how you feel to her.') and a response. To get the scene to start we first need to create a property on the response info script.
 
-The Topic Info may already have a script attached (if not, simply create one). Selecting that script in the bottom-right panel of the Topic Info, click Properties and create one of type 'Scene' called GSQBenduGilfreScene. Edit its value so it points to your previously created scene. Then, in the End Script fragment, add the following code:
+Create the script by adding a comment to the end script fragment such as `;Scene` then compile. Selecting that script in the bottom-right panel of the Topic Info, click Properties and create one of type 'Scene' called GSQBenduGilfreScene01. Edit its value so it points to your previously created scene. Then, in the End Script fragment, add the following code:
 
-`GSQBenduGilfreScene.Start()`
+`GSQBenduGilfreScene01.Start()`
 
 **Note:** If you encounter errors with your scene script, you may need to comment out (with a semi-colon) or otherwise remove all code, then close and re-open your Quest following the creation of your script. Afterwards, you may create / set properties and write code as normal.
 
@@ -133,7 +133,7 @@ Now you're good to test.
 
 **Note:** If the quest has already been started in the save game you are testing with, You may find that the scene simply refuses to run. I believe that this is because the aliases are only filled when the quest starts and one of the actor aliases the scene uses is blank. A workaround for this is to stop and start the quest with the console:
 
-`StopQuest MSQ01 StartQuest MSQ01`
+`StopQuest GSQ01 StartQuest GSQ01`
 
 
 ### Alternative Addition more in the spirit of the quest:

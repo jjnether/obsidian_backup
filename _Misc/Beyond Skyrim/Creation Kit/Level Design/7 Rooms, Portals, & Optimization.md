@@ -1,13 +1,4 @@
-| Bethesda Tutorial Optimization |
-| --- |
-| Level Design Series, Chapter 7 |
-| [Return to Tutorial Hub](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials") |
-| [![LeftArrow.png](https://ck.uesp.net/w/images/9/97/LeftArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Traps_and_Prefabs "Bethesda Tutorial Traps and Prefabs") [Previous Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Traps_and_Prefabs "Bethesda Tutorial Traps and Prefabs") | [Next Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Lights_and_FX "Bethesda Tutorial Lights and FX")[![RightArrow.png](https://ck.uesp.net/w/images/c/cc/RightArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Lights_and_FX "Bethesda Tutorial Lights and FX") |
-| **Example Plugins:** |
-| [Initial](https://ck.uesp.net/w/index.php?title=Special:Upload&wpDestFile=LDAmbushesTrapsTutorialComplete.esp "LDAmbushesTrapsTutorialComplete.esp") | [Completed](https://ck.uesp.net/w/index.php?title=Special:Upload&wpDestFile=LDOptimizationTutorialComplete.esp "LDOptimizationTutorialComplete.esp") |
-| [Companion Video Tutorial](http://www.youtube.com/watch?v=acfuZiQh83Y) |
-
-## Overview\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Optimization&veaction=edit&section=1 "Edit section: Overview") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Optimization&action=edit&section=1 "Edit section: Overview")\]
+## Overview
 
 This chapter will guide you through optimizing a dungeon to enhance performance. The reader will learn:
 
@@ -15,7 +6,7 @@ This chapter will guide you through optimizing a dungeon to enhance performance.
 -   The tools available for optimization
 -   How to place room markers and portals
 
-## What is Optimization?\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Optimization&veaction=edit&section=2 "Edit section: What is Optimization?") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Optimization&action=edit&section=2 "Edit section: What is Optimization?")\]
+## What is Optimization?
 
 Objects are often [rendered](https://ck.uesp.net/wiki/Glossary#Rendering "Glossary") in games when they don't need to be, wasting precious performance. For example, if the player is in a room with walls on all sides, the player cannot see anything outside of the walls. Objects behind these walls don't need to be rendered. By default, however, such objects may render. See _Fig 7.1_ for an example. While the need to cull such objects may seem obvious to us, game engines sometimes have a hard time making decisions about what needs to be drawn.
 
@@ -23,7 +14,7 @@ In order to help the game know to not render anything outside the walls, we have
 
 Manual optimization is not always necessary - some spaces are very simple and have very little to gain. Remember that a space that performs well on your machine may run very poorly on another with a different hardware configuration. This tutorial will try and give you some familiarity with best practices to make your mod run well on as many machines as possible.
 
-## Build for Performance with Best Practices\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Optimization&veaction=edit&section=3 "Edit section: Build for Performance with Best Practices") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Optimization&action=edit&section=3 "Edit section: Build for Performance with Best Practices")\]
+## Build for Performance with Best Practices
 
 There are a number of guidelines you can keep in mind throughout building to avoid performance problems. Paying attention to these best practices will make your dungeon much easier to optimize.
 
@@ -66,7 +57,7 @@ FRAPS is a piece of software that allows you to capture video and screenshots in
     **Fig. 7.3:** References with red/purple shading have too many lights hitting them.
     
 
-## Room Markers and Portals\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Optimization&veaction=edit&section=4 "Edit section: Room Markers and Portals") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Optimization&action=edit&section=4 "Edit section: Room Markers and Portals")\]
+## Room Markers and Portals
 
 [![](https://ck.uesp.net/w/images/7/70/OcclusionDiagram.gif)](https://ck.uesp.net/wiki/File:OcclusionDiagram.gif)
 
@@ -74,13 +65,13 @@ FRAPS is a piece of software that allows you to capture video and screenshots in
 
 Room markers are simple shapes you can create which define an area as a room. Rooms, in essence, act as collectors. When culling, the renderer will treat everything inside another room as invisible, saving valuable processing power.
 
-## Room Markers\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Optimization&veaction=edit&section=5 "Edit section: Room Markers") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Optimization&action=edit&section=5 "Edit section: Room Markers")\]
+## Room Markers
 
 A **Room Marker**, sometimes called a **Roombound**, is a box used to group objects together, allowing Creation Engine to render or cull them as a group. We could create a large room marker which surrounds a room, for example. By default, standing within this marker would look normal - but once you step out of it, every object encompassed by the room marker would be culled, and become invisible.
 
 The boxes "A" and "B" in _Fig 7.4_ represent two Room Markers. The black dot is the player, and the shaded triangle illustrates the player's field of vision. With just those room markers, the player would only see the references contained within room "A". Thanks to portals, however, we can create logical links between room Markers.
 
-## Portals\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Optimization&veaction=edit&section=6 "Edit section: Portals") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Optimization&action=edit&section=6 "Edit section: Portals")\]
+## Portals
 
 A portal is a sort of doorway from one Room Marker to another. Without portals, the player in _Fig 7.4_ will see any reference contained within Room "A", but nothing within Room "B". There are two portals in that diagram, however: portal "**a**" and portal "**b**".
 
@@ -88,12 +79,11 @@ Because the player's view [frustum](https://ck.uesp.net/wiki/Glossary#Frustum "G
 
 Note that the player cannot see any part of portal "b". This means that any Room connected to that portal (none are pictured) will be culled.
 
-## Optimization Workflow\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Optimization&veaction=edit&section=7 "Edit section: Optimization Workflow") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Optimization&action=edit&section=7 "Edit section: Optimization Workflow")\]
+## Optimization Workflow
 
 Manual optimization with Room Markers and Portals can be difficult thing to understand. Let's go through the process with Lokir's Tomb to see it in action.
 
-## Step 1: Creating Room Markers\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Optimization&veaction=edit&section=8 "Edit section: Step 1: Creating Room Markers") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Optimization&action=edit&section=8 "Edit section: Step 1: Creating Room Markers")\]
-
+## Step 1: Creating Room Markers
 Before we begin, there are a couple quick set-up steps:
 
 1.  Break the long sight-line as mentioned above if you haven't already (_Fig 7.2_)
@@ -139,7 +129,7 @@ Try running the game now. You'll notice that things don't look right; each room 
     **Fig 7.5e**: All room markers lined up perfectly in orthographic top down view.
     
 
-## Step 2: Thinking With Portals\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Optimization&veaction=edit&section=9 "Edit section: Step 2: Thinking With Portals") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Optimization&action=edit&section=9 "Edit section: Step 2: Thinking With Portals")\]
+## Step 2: Thinking With Portals
 
 We'll create portals everywhere that a) two Room Markers meet and b) the player should be able to see from one room to the next. You can think of them as a sort of user-defined window. Try creating a portal now:
 
@@ -178,7 +168,7 @@ Note the white arrow now drawn from the portal to the center of the newly-linked
     **Fig 7.6c**: Two rooms linked to a co-planar portal. Note the white arrows.
     
 
-## Step 3: Finishing the Optimization Pass\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Optimization&veaction=edit&section=10 "Edit section: Step 3: Finishing the Optimization Pass") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Optimization&action=edit&section=10 "Edit section: Step 3: Finishing the Optimization Pass")\]
+## Step 3: Finishing the Optimization Pass
 
 With Room Markers in place, continue adding portals throughout LokirsTomb until every room is linked. This layout is relatively straightforward, and most problems can be diagnosed by simply running the space in-game and looking for areas where some or all of the objects you'd expect to see pop out of existence, usually because of a gap or overlap where two Room Markers meet.
 
