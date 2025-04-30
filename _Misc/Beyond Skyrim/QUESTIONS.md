@@ -1,2 +1,0 @@
-- What's a good workflow in terms of having the game open/closed? Can I make edits in CK with the game in the main menu?
-- I assume all extra files go along with the quest when submitting? (Dialogue Views, Scripts, SEQ files)

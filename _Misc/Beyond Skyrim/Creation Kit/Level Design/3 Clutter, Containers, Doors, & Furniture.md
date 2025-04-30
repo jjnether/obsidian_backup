@@ -1,13 +1,4 @@
-| Bethesda Tutorial Clutter |
-| --- |
-| Level Design Series, Chapter 3 |
-| [Return to Tutorial Hub](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials") |
-| [![LeftArrow.png](https://ck.uesp.net/w/images/9/97/LeftArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Layout_Part_2 "Bethesda Tutorial Layout Part 2") [Previous Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Layout_Part_2 "Bethesda Tutorial Layout Part 2") | [Next Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Navmesh "Bethesda Tutorial Navmesh")[![RightArrow.png](https://ck.uesp.net/w/images/c/cc/RightArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Navmesh "Bethesda Tutorial Navmesh") |
-| **Example Plugins:** |
-| [Initial](https://ck.uesp.net/w/index.php?title=Special:Upload&wpDestFile=LDLayoutPart2TutorialComplete.esp "LDLayoutPart2TutorialComplete.esp") | [Completed](https://ck.uesp.net/w/index.php?title=Special:Upload&wpDestFile=LDClutterTutorialComplete.esp "LDClutterTutorialComplete.esp") |
-| [Companion Video Tutorial](http://youtu.be/6RzxXWiqb8M?hd=1) |
-
-## Overview\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&veaction=edit&section=1 "Edit section: Overview") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&action=edit&section=1 "Edit section: Overview")\]
+## Overview
 
 In this chapter we will go over cluttering the dungeon with static and moveable objects, adding furniture and adding loot.
 
@@ -18,7 +9,7 @@ The reader will learn:
 -   Adding furniture
 -   Placing doors
 
-## Basic Clutter\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&veaction=edit&section=2 "Edit section: Basic Clutter") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&action=edit&section=2 "Edit section: Basic Clutter")\]
+## Basic Clutter
 
 Right now you have a very basic layout for the dungeon with empty rooms and repeating wall pieces. This section will give you some tips on how to nicely break up the space as well as personalizing the rooms to give the dungeon a cohesive feeling.
 
@@ -26,7 +17,7 @@ We'll begin by covering the many types of objects available and exploring severa
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:Protip.jpg"><img alt="Protip.jpg" src="https://ck.uesp.net/w/images/thumb/6/6a/Protip.jpg/48px-Protip.jpg" decoding="async" width="48" height="48" srcset="https://ck.uesp.net/w/images/6/6a/Protip.jpg 1.5x"></a></td><td>It's helpful to give every room a purpose or story when creating it. This will make it easier to clutter since you're just filling in what the room should have as opposed to just adding things to make the room look full. It is also obvious to the player when the room has a reason for existing.</td></tr></tbody></table>
 
-## Find & Replace: Swapping Repetitive Pieces\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&veaction=edit&section=3 "Edit section: Find & Replace: Swapping Repetitive Pieces") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&action=edit&section=3 "Edit section: Find & Replace: Swapping Repetitive Pieces")\]
+## Find & Replace: Swapping Repetitive Pieces
 
 The first and simplest way to add some variety to your rooms is by swapping out any repeating kit pieces. To do this you'll need to select the piece you want to replace and use the **Ctrl+F** hotkey which will bring up the **Search & Replace** prompt.
 
@@ -49,11 +40,11 @@ You can use Search & Replace on any object in the game to quickly check if it ha
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:InDepth.jpg"><img alt="InDepth.jpg" src="https://ck.uesp.net/w/images/thumb/0/0b/InDepth.jpg/48px-InDepth.jpg" decoding="async" width="48" height="48" srcset="https://ck.uesp.net/w/images/0/0b/InDepth.jpg 1.5x"></a></td><td>You may have noticed that there are three checkboxes at the bottom of the Search &amp; Replace dialog, with "<i>Selection Only</i>" being chosen by default. This is what you'll want most of the time, but you can also swap all instances of a piece by cell and worldspace. Less obviously, you can perform a swap on every object in the game by unchecking all three boxes. Be careful to only do this if you're absolutely sure! Ctrl+F operations cannot be undone.</td></tr></tbody></table>
 
-## Static Clutter\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&veaction=edit&section=4 "Edit section: Static Clutter") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&action=edit&section=4 "Edit section: Static Clutter")\]
+## Static Clutter
 
 Static pieces of clutter make up the majority of large objects in the game. They are placed in the editor and cannot be moved, interacted with, or otherwise influenced by the player. Statics may be items such as tables, platforms, book cases, rubble piles and the kit pieces we've been working with so far.
 
-### Placing Objects\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&veaction=edit&section=5 "Edit section: Placing Objects") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&action=edit&section=5 "Edit section: Placing Objects")\]
+### Placing Objects
 
 If you know what pieces you're looking for, you can use ctrl+D to duplicate a piece you already have in the scene and replace it with something else. This is a common workflow technique for advanced level designers, as it can be much faster than manually searching for each piece in the [Object Window](https://ck.uesp.net/wiki/Object_Window "Object Window") window.
 
@@ -80,7 +71,7 @@ Not all clutter has to add new items and obstacles to a space, however. Perfectl
 
 Feel free to add some other static clutter around the room to fill it out as you see fit. This room is to be the entrance to the tomb where people came to pay their respects. Try to find ways to support that through your clutter.
 
-## Scaling Objects\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&veaction=edit&section=6 "Edit section: Scaling Objects") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&action=edit&section=6 "Edit section: Scaling Objects")\]
+## Scaling Objects
 
 [![](https://ck.uesp.net/w/images/thumb/2/28/Pn_scalePrompt.jpg/250px-Pn_scalePrompt.jpg)](https://ck.uesp.net/wiki/File:Pn_scalePrompt.jpg)
 
@@ -90,7 +81,7 @@ Scale and rotation are useful tools while cluttering with static objects. Throug
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:Achtung.png"><img alt="Achtung.png" src="https://ck.uesp.net/w/images/f/f0/Achtung.png" decoding="async" width="32" height="32"></a></td><td>To maintain the proper look of a piece, you should only scale between 0.5 and 1.5. This rule of thumb preserves not only logical and visual consistency, but prevents the texel density of surfaces in an environment from becoming too disproportionate.</td></tr></tbody></table>
 
-### Scale An Object\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&veaction=edit&section=7 "Edit section: Scale An Object") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&action=edit&section=7 "Edit section: Scale An Object")\]
+### Scale An Object
 
 Next, we'll place some **ruinsFloorCandle...** objects around the entrance and use scaling and rotating to prevent them from looking the same. There are a few different ways to scale an object. Try each of these to find what you prefer.
 
@@ -113,11 +104,11 @@ Next, we'll place some **ruinsFloorCandle...** objects around the entrance and u
 3.  Drag the mouse to affect scale.
 4.  Press the **2** key to dismiss the scaling gizmo and resume normal selection.
 
-## Moveable Clutter\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&veaction=edit&section=8 "Edit section: Moveable Clutter") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&action=edit&section=8 "Edit section: Moveable Clutter")\]
+## Moveable Clutter
 
 _Moveable_, or _"dynamic"_ clutter are physics-enabled objects that the player can move around or interact with in some way. This kind of clutter gives the space life and allows the player to interact with the world making it feel more real. The different types are listed below. Note that objects with no physics data will never be movable, regardless of object type. (ToDo: explain what physics data is, and how you can detect whether an object has some).
 
-### Misc Item\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&veaction=edit&section=9 "Edit section: Misc Item") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&action=edit&section=9 "Edit section: Misc Item")\]
+### Misc Item
 
 Misc items are the most prominent type of moveable clutter in the game and includes things like plates, utensils, goblets and buckets.  
 
@@ -160,7 +151,7 @@ Place some misc items around the room, like the examples below:
     RuinsScissor
     
 
-### Moveable Statics\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&veaction=edit&section=10 "Edit section: Moveable Statics") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&action=edit&section=10 "Edit section: Moveable Statics")\]
+### Moveable Statics
 
 Moveable statics are pieces of clutter that the player can move, but cannot take. This includes things like bones, urn chunks and some rubble blocks.
 
@@ -204,7 +195,7 @@ Try placing some of the example items below around your level:
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:Protip.jpg"><img alt="Protip.jpg" src="https://ck.uesp.net/w/images/thumb/6/6a/Protip.jpg/48px-Protip.jpg" decoding="async" width="48" height="48" srcset="https://ck.uesp.net/w/images/6/6a/Protip.jpg 1.5x"></a></td><td>Interactivity can be both a blessing and a curse for player immersion. Where two visually-similar but differently-typed objects are adjacent, it damages immersion, as the player can take or use one, but not the other. If one skeleton in an area can be searched, all should be searchable. If you used a <i>RuinsFloorCandleLamp...</i> static, it should not be adjacent to -- or even in the same room as -- a <i>RuinsFloorCandleStand...</i> movable static, or the player will be asking "why can I only knock stands over when they have no candles on?"</td></tr></tbody></table>
 
-### Physics Settling\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&veaction=edit&section=11 "Edit section: Physics Settling") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&action=edit&section=11 "Edit section: Physics Settling")\]
+### Physics Settling
 
 [![](https://ck.uesp.net/w/images/thumb/f/fd/Pn_HavokButton.jpg/350px-Pn_HavokButton.jpg)](https://ck.uesp.net/wiki/File:Pn_HavokButton.jpg)
 
@@ -236,7 +227,7 @@ Pressing the **Run Havok Sim** button, pictured in _Fig. 3.15_, with a moveable 
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:Protip.jpg"><img alt="Protip.jpg" src="https://ck.uesp.net/w/images/thumb/6/6a/Protip.jpg/48px-Protip.jpg" decoding="async" width="48" height="48" srcset="https://ck.uesp.net/w/images/6/6a/Protip.jpg 1.5x"></a></td><td>It is much easier to use Havok settling to place an item at a realistic angle, than to rotate a static item and make sure it is resting correctly. So where there are movable and static versions of the same object, and you wish to place the static one to rest on an angled surface, it is often faster to place the movable version, settle it, then use Ctrl-F to convert it to the static version. <b>RuinsPot</b> and <b>RuinsPotStatic</b> are good examples of this.</td></tr></tbody></table>
 
-### Animating Objects\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&veaction=edit&section=12 "Edit section: Animating Objects") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&action=edit&section=12 "Edit section: Animating Objects")\]
+### Animating Objects
 
 Animating objects are a type of moveable static that the player cannot interact with, but provides particles or an animation. Some examples would be banners, fires or water drips. Placing fire effects in sconces is a great way to create light sources - although you will have to add the actual light-casting actor separately. This is covered in a [later tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Lights_and_FX "Bethesda Tutorial Lights and FX").
 
@@ -266,11 +257,11 @@ Place some animating objects around the rooms, such as the examples below.
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:Protip.jpg"><img alt="Protip.jpg" src="https://ck.uesp.net/w/images/thumb/6/6a/Protip.jpg/48px-Protip.jpg" decoding="async" width="48" height="48" srcset="https://ck.uesp.net/w/images/6/6a/Protip.jpg 1.5x"></a></td><td>It's possible to adjust the position of a physics-enabled object while simulation is toggled on. For small, precise changes, try holding alt and dragging on the object. This is especially useful for objects with multiple joints, such as corpses, as you can grab the individual "bones" in the rig.</td></tr></tbody></table>
 
-## Loot\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&veaction=edit&section=13 "Edit section: Loot") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&action=edit&section=13 "Edit section: Loot")\]
+## Loot
 
 Ah, loot. Searching for and acquiring new items is a core element of the Skyrim experience, and should be considered an integral part of your dungeon. Luckily, the Creation Kit includes several ways to populate your dungeon with loot, including loosely placed items, containers and leveled items. Let's consider some of the options we can work with.
 
-## Loose Loot\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&veaction=edit&section=14 "Edit section: Loose Loot") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&action=edit&section=14 "Edit section: Loose Loot")\]
+## Loose Loot
 
 Just about any object in the editor can be placed loosely in your space. This can serve the dual purpose of providing loot and visual interest to a space. Here are a few of the major object types at your disposal:
 
@@ -286,7 +277,7 @@ Just about any object in the editor can be placed loosely in your space. This ca
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:Protip.jpg"><img alt="Protip.jpg" src="https://ck.uesp.net/w/images/thumb/6/6a/Protip.jpg/48px-Protip.jpg" decoding="async" width="48" height="48" srcset="https://ck.uesp.net/w/images/6/6a/Protip.jpg 1.5x"></a></td><td>Don't Havok Settle is a great way to have objects appear to be mounted on walls. There are some examples at the final room in the south hall with some weapons "mounted" to the head sculptures.</td></tr></tbody></table>
 
-## Containers\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&veaction=edit&section=15 "Edit section: Containers") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&action=edit&section=15 "Edit section: Containers")\]
+## Containers
 
 Containers are objects like chests and urns that have an internal list of what the player can receive when looted. The chest fills itself when the cell is loaded. One of the major benefits of placing a chest is that most pre-made chests are designed to scale the loot to the player's level. That way you don't have to place separate objects to take the player's level in to account.
 
@@ -313,7 +304,7 @@ Place some containers around the room, such as the examples below. Note the "_Tr
     TreasRuinsUrnLarge02
     
 
-### Previewing Contents\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&veaction=edit&section=16 "Edit section: Previewing Contents") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&action=edit&section=16 "Edit section: Previewing Contents")\]
+### Previewing Contents
 
 The Creation Kit offers the ability to preview the contents of any given container at various [encounter zone](https://ck.uesp.net/wiki/Encounter_Zone "Encounter Zone") levels. This can be a useful way to get an idea of what sort of loot the player may see, which can be difficult to approximate in-game due to the randomized nature of most loot containers.
 
@@ -342,7 +333,7 @@ The Creation Kit offers the ability to preview the contents of any given contain
     **Fig. 3.21:** Loot Preview Window at Level 30
     
 
-## [Leveled Items](https://ck.uesp.net/wiki/LeveledItem "LeveledItem")\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&veaction=edit&section=17 "Edit section: Leveled Items") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&action=edit&section=17 "Edit section: Leveled Items")\]
+## [Leveled Items](https://ck.uesp.net/wiki/LeveledItem "LeveledItem")
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:NewFeature.jpg"><img alt="NewFeature.jpg" src="https://ck.uesp.net/w/images/thumb/d/dc/NewFeature.jpg/48px-NewFeature.jpg" decoding="async" width="48" height="48" srcset="https://ck.uesp.net/w/images/d/dc/NewFeature.jpg 1.5x"></a></td><td><a href="https://ck.uesp.net/wiki/LeveledItem" title="LeveledItem">Leveled items</a>, or "dummy" objects, are a new feature in the Creation Kit. These allow you to place loose items that will be leveled appropriately in a space. Read on for more information!</td></tr></tbody></table>
 
@@ -363,7 +354,7 @@ The Creation Kit features a number of Dummy objects. These are simple markers th
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:Achtung.png"><img alt="Achtung.png" src="https://ck.uesp.net/w/images/f/f0/Achtung.png" decoding="async" width="32" height="32"></a></td><td>Dummy items are counted as markers - so be sure you have the <b>"M"</b> key toggled so that you can see them!</td></tr></tbody></table>
 
-### Some Dummy Objects\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&veaction=edit&section=18 "Edit section: Some Dummy Objects") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&action=edit&section=18 "Edit section: Some Dummy Objects")\]
+### Some Dummy Objects
 
 The following are some of the dummy objects you can use. Try placing some around your dungeon and experiment with the different [Litem](https://ck.uesp.net/wiki/LeveledItem "LeveledItem") lists available. Remember - if you do not set a Leveled Item, nothing will appear.
 
@@ -406,9 +397,9 @@ Likewise, remember that the Dummy objects are only helpers, and know nothing abo
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:Achtung.png"><img alt="Achtung.png" src="https://ck.uesp.net/w/images/f/f0/Achtung.png" decoding="async" width="32" height="32"></a></td><td>To prevent Dummy items from being generated and then promptly settling through the furniture, place the dummies a little above the surface on which you intend for them to rest. Better for the player to hear the item drop a little, than to see it plunge through a solid tabletop to become inaccessible!</td></tr></tbody></table>
 
-## Furniture\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&veaction=edit&section=19 "Edit section: Furniture") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&action=edit&section=19 "Edit section: Furniture")\]
+## Furniture
 
-## Placing Markers\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&veaction=edit&section=20 "Edit section: Placing Markers") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&action=edit&section=20 "Edit section: Placing Markers")\]
+## Placing Markers
 
 When placing a furniture marker, it is important to make sure that it is facing the proper direction. This isn't always obvious, as with a chair. It's easy to accidentally place a bench that will seat NPCs facing into a wall, for example. The easiest way to check for this is with the 'M' hotkey which will toggle markers. Let's place a bench now.
 
@@ -439,7 +430,7 @@ When placing a furniture marker, it is important to make sure that it is facing 
     NorThroneShadow
     
 
-## Interactive Furniture\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&veaction=edit&section=21 "Edit section: Interactive Furniture") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&action=edit&section=21 "Edit section: Interactive Furniture")\]
+## Interactive Furniture
 
 Some furniture markers are interactive, such as crafting stations. These are placed in the world just like regular furniture markers. Place some interactive furniture around the level, such as the examples in _Fig. 3.35-3.37_. This kind of furniture is especially useful for creating a sense of life in NPC-populated dungeons, although we won't be using them as such in this example.
 
@@ -461,7 +452,7 @@ Some furniture markers are interactive, such as crafting stations. These are pla
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:Protip.jpg"><img alt="Protip.jpg" src="https://ck.uesp.net/w/images/thumb/6/6a/Protip.jpg/48px-Protip.jpg" decoding="async" width="48" height="48" srcset="https://ck.uesp.net/w/images/6/6a/Protip.jpg 1.5x"></a></td><td>Some of the crafting objects have tabletop versions as well. This is simply a version of the marker that can be placed on other objects but shares the same basic art. Be careful to line these items up with the floor properly, as to avoid NPCs (or the player) appearing sunken or floating while using them.</td></tr></tbody></table>
 
-## Doors\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&veaction=edit&section=22 "Edit section: Doors") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&action=edit&section=22 "Edit section: Doors")\]
+## Doors
 
 Doors simply open and close when activated by the player. They can optionally be locked at various difficulties, including requiring a [Key](https://ck.uesp.net/wiki/Keys "Keys") to open.
 
@@ -476,8 +467,7 @@ The various parts of the name are once again meaningful:
 -   MinUse - The base object has the "Minimal Use" checkbox checked, which means NPCs will avoid this door if possible. This is useful to prevent NPCs from wandering into the wrong areas, and possibly to prevent companions from rampaging through inside areas that the player has not yet explored, just to get to an outer balcony.
 -   Load - These doors are for teleporting to new areas. They typically do not open properly, and have only one side, and a slight "starting to open" animation.
 
-## Locking Doors & Containers\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&veaction=edit&section=23 "Edit section: Locking Doors & Containers") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&action=edit&section=23 "Edit section: Locking Doors & Containers")\]
-
+## Locking Doors & Containers
 [![](https://ck.uesp.net/w/images/thumb/4/45/Pn_lockingADoor.jpg/250px-Pn_lockingADoor.jpg)](https://ck.uesp.net/wiki/File:Pn_lockingADoor.jpg)
 
 **Fig. 3.38:** Locking a Door
@@ -492,15 +482,12 @@ Let's try locking an object in your dungeon. You can lock a door or a container;
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:Protip.jpg"><img alt="Protip.jpg" src="https://ck.uesp.net/w/images/thumb/6/6a/Protip.jpg/48px-Protip.jpg" decoding="async" width="48" height="48" srcset="https://ck.uesp.net/w/images/6/6a/Protip.jpg 1.5x"></a></td><td>Locking critical-path doors (<i>those that prevent forward progress through a space/quest</i>) is usually a bad idea unless you're providing a key somewhere. Likewise, it's generally best to avoid locking objects that wouldn't conceivably feature a keyhole, such as bags or barrels.</td></tr></tbody></table>
 
-## Cluttering Lokir's Tomb\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&veaction=edit&section=24 "Edit section: Cluttering Lokir's Tomb") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&action=edit&section=24 "Edit section: Cluttering Lokir's Tomb")\]
+## Cluttering Lokir's Tomb
 
 As you can see, there are many tools at your disposal for cluttering a space. Try employing everything you've learned here to flesh out the clutter in this, keeping in mind the purpose of each room and any story goals you may have. If you're stuck for ideas, try checking out other cells in the editor or load up the [example plugin](https://ck.uesp.net/w/index.php?title=Special:Upload&wpDestFile=LDClutterTutorialComplete.esp "LDClutterTutorialComplete.esp"), which shows a fully cluttered version of Lokir's Tomb.
 
 Once you're satisfied with the layout and clutter of the Tomb, you're ready to move onto making the space navigable for enemies and followers - covered in the [next tutorial: Navmesh!](https://ck.uesp.net/wiki/Bethesda_Tutorial_Navmesh "Bethesda Tutorial Navmesh")
 
-## Object Palettes (OPALs)\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&veaction=edit&section=25 "Edit section: Object Palettes (OPALs)") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Clutter&action=edit&section=25 "Edit section: Object Palettes (OPALs)")\]
-
+## Object Palettes (OPALs)
 _OPTIONAL_  
 While the Duplicate-and-Replace method described above is a fast way to place clutter (especially once you become familiar with the Creation Kit's naming conventions), you may also want to experiment with the [Object Palettes (OPAL)](https://ck.uesp.net/wiki/Object_Palettes "Object Palettes"), which allows you to create and manage collections of objects, and place them in the world directly. For more information, please refer to the tutorial on the [OPAL](https://ck.uesp.net/wiki/Object_Palettes "Object Palettes") page.
-
-<table><tbody><tr><th><b><a href="https://ck.uesp.net/wiki/CreationKit:Language_policy" title="CreationKit:Language policy">Language:</a></b></th><td><b><a>English</a></b> <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="fr"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Clutter/fr" title="Bethesda Tutorial Clutter/fr">français</a></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="ja"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Clutter/ja" title="Bethesda Tutorial Clutter/ja">日本語</a></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="pl"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Clutter/pl" title="Bethesda Tutorial Clutter/pl">polski</a></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></td></tr></tbody></table>

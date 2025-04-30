@@ -1,12 +1,4 @@
-| Bethesda Tutorial Dungeon Wrapup |
-| --- |
-| Level Design Series, Chapter 10 |
-| [Return to Tutorial Hub](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials") |
-| [![LeftArrow.png](https://ck.uesp.net/w/images/9/97/LeftArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_World_Hookup "Bethesda Tutorial World Hookup") [Previous Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_World_Hookup "Bethesda Tutorial World Hookup") | [Next Tutorial](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials")[![RightArrow.png](https://ck.uesp.net/w/images/c/cc/RightArrow.png)](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials") |
-| **Example Plugins:** |
-| [Initial](https://ck.uesp.net/w/index.php?title=Special:Upload&wpDestFile=LDWorldHookupTutorialComplete.esp "LDWorldHookupTutorialComplete.esp") | [Completed](https://ck.uesp.net/w/index.php?title=Special:Upload&wpDestFile=LDWrapUpTutorialComplete.esp "LDWrapUpTutorialComplete.esp") |
-
-## Overview\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Dungeon_Wrapup&veaction=edit&section=1 "Edit section: Overview") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Dungeon_Wrapup&action=edit&section=1 "Edit section: Overview")\]
+## Overview
 
 This chapter will show how to make an area ready to be used by radiant quests and to scale properly to the player's level. The reader will learn:
 
@@ -16,7 +8,7 @@ This chapter will show how to make an area ready to be used by radiant quests an
 -   Creating and configuring an **Encounter Zone**
 -   Setting the Music and audio space for a cell
 
-## Location Reference Types and Radiant Story\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Dungeon_Wrapup&veaction=edit&section=2 "Edit section: Location Reference Types and Radiant Story") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Dungeon_Wrapup&action=edit&section=2 "Edit section: Location Reference Types and Radiant Story")\]
+## Location Reference Types and Radiant Story
 
 [![](https://ck.uesp.net/w/images/thumb/5/51/LocRefTypes.jpg/400px-LocRefTypes.jpg)](https://ck.uesp.net/wiki/File:LocRefTypes.jpg)
 
@@ -94,7 +86,7 @@ Here we will place our last three markers, each of them XMarkerHeadings. The fir
     **Fig. 10.9:** Placement of the LocationEdge LocRefType.
     
 
-## It's all about Location\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Dungeon_Wrapup&veaction=edit&section=3 "Edit section: It's all about Location") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Dungeon_Wrapup&action=edit&section=3 "Edit section: It's all about Location")\]
+## It's all about Location
 
 A Location is the main way that Radiant Story uses to get everything it needs to create a quest. Locations can be found under **WorldData>Location**. Let's have a look at the BleakFallsBarrowLocation. On the left side of the panel we find several pieces of data.
 
@@ -135,7 +127,7 @@ We have all our Location RefTypes and are currently in the exterior cell, so let
 
 We will go over assigning this location to cells after we create an Encounter Zone.
 
-## Encounter Zones & Level scaling\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Dungeon_Wrapup&veaction=edit&section=4 "Edit section: Encounter Zones & Level scaling") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Dungeon_Wrapup&action=edit&section=4 "Edit section: Encounter Zones & Level scaling")\]
+## Encounter Zones & Level scaling
 
 An [Encounter Zone, or EncZone](https://ck.uesp.net/wiki/Encounter_Zone "Encounter Zone") as it is often written, is used to set the level scaling for an area. They can be found under **WorldData > Encounter Zone** in the object window. Let's have a look at the EncZone for Bleak Falls Barrow.
 
@@ -164,7 +156,7 @@ A view of the new LokirsTombZone.
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:Protip.jpg"><img alt="Protip.jpg" src="https://ck.uesp.net/w/images/thumb/6/6a/Protip.jpg/48px-Protip.jpg" decoding="async" width="48" height="48" srcset="https://ck.uesp.net/w/images/6/6a/Protip.jpg 1.5x"></a></td><td>The difficulty of an area is still subject to the LvlActors used there. Even if you set Min Level of a Dwarven dungeon to "0", the lowest level creature in the LvlActor is still around level 12.<p>Likewise, the Max Level is often left to the default determined by the LvlActors present in the area.</p></td></tr></tbody></table>
 
-## Hooking up the Location and Encounter Zone\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Dungeon_Wrapup&veaction=edit&section=5 "Edit section: Hooking up the Location and Encounter Zone") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Dungeon_Wrapup&action=edit&section=5 "Edit section: Hooking up the Location and Encounter Zone")\]
+## Hooking up the Location and Encounter Zone
 
 We've finished creating our Location and EncZone, but so far they aren't attached to anything. These two pieces of data are set on the Cells for our area, through the Cell Properties Window. This can be found under **World>Cells...** in the top bar. However, the easier way of using it is to **Right-Click** on the Cell you want to set the properties for and select **Edit** from the options that appear. This is the same Window used during the [previous tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_World_Hookup "Bethesda Tutorial World Hookup") to set the name of our cell.
 
@@ -172,7 +164,7 @@ We've finished creating our Location and EncZone, but so far they aren't attache
 
 Finding the Edit option in the Cell View.
 
-## Exterior Cells\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Dungeon_Wrapup&veaction=edit&section=6 "Edit section: Exterior Cells") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Dungeon_Wrapup&action=edit&section=6 "Edit section: Exterior Cells")\]
+## Exterior Cells
 
 Let's start by editing the LokirsTombExterior cell, which will be found in the _Tamriel_. All we need to do here is set the Location to "**LokirsTombLocation**" and hit "**Apply**". It should look like this now.
 
@@ -180,7 +172,7 @@ Let's start by editing the LokirsTombExterior cell, which will be found in the _
 
 Setting Location on LokirsTombExterior cell.
 
-## Interior Cells\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Dungeon_Wrapup&veaction=edit&section=7 "Edit section: Interior Cells") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Dungeon_Wrapup&action=edit&section=7 "Edit section: Interior Cells")\]
+## Interior Cells
 
 Next we will edit the Interior Cell, LokirsTomb either by changing the _World Space_ dropdown in the Cell Properties Window to " **Interiors**", which is located at the very top of the list. Then we can scroll down until we find the LokirsTomb Cell. Or locate it from Cell View window.
 
@@ -198,7 +190,7 @@ Setting EncZone on LokirsTomb cell.
 
 It's as simple as that. Now our Dungeon can be picked and used by Radiant Story for quests to take place here!
 
-## Setting up Music and Audio Space\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Dungeon_Wrapup&veaction=edit&section=8 "Edit section: Setting up Music and Audio Space") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Dungeon_Wrapup&action=edit&section=8 "Edit section: Setting up Music and Audio Space")\]
+## Setting up Music and Audio Space
 
 When you've run through the dungeon in game, you've probably noticed that it sounds very quiet. Let's go ahead and fix that while we are looking at the Cell Properties.
 

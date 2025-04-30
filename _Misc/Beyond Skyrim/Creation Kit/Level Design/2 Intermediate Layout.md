@@ -1,13 +1,4 @@
-| Bethesda Tutorial Layout Part 2                                                                                                                                                                                                                                                 |                                                                                                                                                                                                                                                      |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Level Design Series, Chapter 2                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                      |
-| [Return to Tutorial Hub](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials")                                                                                                                                                                                      |                                                                                                                                                                                                                                                      |
-| [![LeftArrow.png](https://ck.uesp.net/w/images/9/97/LeftArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Layout_Part_1 "Bethesda Tutorial Layout Part 1") [Previous Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Layout_Part_1 "Bethesda Tutorial Layout Part 1") | [Next Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Clutter "Bethesda Tutorial Clutter")[![RightArrow.png](https://ck.uesp.net/w/images/c/cc/RightArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Clutter "Bethesda Tutorial Clutter") |
-| **Example Plugins:**                                                                                                                                                                                                                                                            |                                                                                                                                                                                                                                                      |
-| [Initial](https://ck.uesp.net/w/index.php?title=Special:Upload&wpDestFile=LDLayoutPart1TutorialComplete.esp "LDLayoutPart1TutorialComplete.esp")                                                                                                                                | [Completed](https://ck.uesp.net/w/index.php?title=Special:Upload&wpDestFile=LDLayoutPart2TutorialComplete.esp "LDLayoutPart2TutorialComplete.esp")                                                                                                   |
-| [Companion Video Tutorial](http://youtu.be/p1Twdld0tLc?hd=1)                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                      |
-
-## Overview\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Layout_Part_2&veaction=edit&section=1 "Edit section: Overview") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Layout_Part_2&action=edit&section=1 "Edit section: Overview")\]
+## Overview
 
 This chapter delves a little deeper into layout technique. Specifically, working with the more organic "cave" kit.
 
@@ -17,17 +8,17 @@ The reader will learn:
 -   Working with an organic kit
 -   Working off the grid and using a Snap Reference
 
-## Organic Level Design\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Layout_Part_2&veaction=edit&section=2 "Edit section: Organic Level Design") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Layout_Part_2&action=edit&section=2 "Edit section: Organic Level Design")\]
+## Organic Level Design
 
 You can easily create levels by connecting kit pieces on the grid, all at 90 degree angles. This works well for "architectural" dungeons, such as Nord ruins or Imperial Towers. However, natural environments use more organic features, so as you create, you may find yourself wanting to go off the grid, especially when creating natural environments such as caves. Luckily, many of the kits available are built with such a workflow in mind. For this next section, we'll work in the Cave kit into the Nordic dungeon.
 
-## The Cave Kit\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Layout_Part_2&veaction=edit&section=3 "Edit section: The Cave Kit") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Layout_Part_2&action=edit&section=3 "Edit section: The Cave Kit")\]
+## The Cave Kit
 
 The Cave kit functions essentially like the Nordic Ruins kit - it's composed of a series of sub-kits that obey snapping rules - but the caves allow for more organic freedom, as seen throughout Skyrim. The versatility of this kit allows a designer to create just about any kind of chamber imaginable. However, working this way is a little different than the way we built the Nordic portion of this dungeon.
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:Protip.jpg"><img alt="Protip.jpg" src="https://ck.uesp.net/w/images/thumb/6/6a/Protip.jpg/48px-Protip.jpg" decoding="async" width="48" height="48" srcset="https://ck.uesp.net/w/images/6/6a/Protip.jpg 1.5x"></a></td><td>There are multiple Cave kits variations available: Ice, Mine and Caves. We'll be using the Green Cave kit. When searching in your object window, you can start all searches with the prefix <b>caveg*</b>, which will prevent Ice and Mine variations from appearing.</td></tr></tbody></table>
 
-## Creating a Shell\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Layout_Part_2&veaction=edit&section=4 "Edit section: Creating a Shell") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Layout_Part_2&action=edit&section=4 "Edit section: Creating a Shell")\]
+## Creating a Shell
 
 We're going to replace the final room of the Lokir's Tomb (the really big one) with a cave chamber. Delete the area pictured in _Fig. 2.1_ so that it looks more like _Fig. 2.2_
 
@@ -66,7 +57,7 @@ Arrange the loose pieces together as pictured in _Fig. 2.4_. (Hint: You need one
     The constructed cave shell
     
 
-## Transitions\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Layout_Part_2&veaction=edit&section=5 "Edit section: Transitions") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Layout_Part_2&action=edit&section=5 "Edit section: Transitions")\]
+## Transitions
 
 When working with multiple kits, you'll need to create transitions from one kit to the next. Some pieces exist specifically for this purpose (such as _NorHallBg1wayToCaveG01_), but if there isn't a piece available for what you had in mind, don't worry. You can easily make your own transitions, which have the advantage of being visually unique.
 
@@ -95,7 +86,7 @@ Once the transition area is created, turn**Snap-to-grid** [![SnapToGrid.jpg](htt
     The transition in place
     
 
-## Working Off the Grid\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Layout_Part_2&veaction=edit&section=6 "Edit section: Working Off the Grid") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Layout_Part_2&action=edit&section=6 "Edit section: Working Off the Grid")\]
+## Working Off the Grid
 
 In order to create more organic spaces, it's important to become comfortable working "off the grid". This doesn't mean that we're going to disregard snapping rules, however. Working off the grid means that we're going to be assembling components of the level independently of the main world grid, then using transitions, such as the one we've just created, to join them. This allows us to create much more natural-feeling spaces than are possible otherwise.
 
@@ -118,7 +109,7 @@ The Nordic Ruins we created in the [previous tutorial](https://ck.uesp.net/wiki/
     An example of spider-webbing
     
 
-## Working With Snap-to-Reference\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Layout_Part_2&veaction=edit&section=7 "Edit section: Working With Snap-to-Reference") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Layout_Part_2&action=edit&section=7 "Edit section: Working With Snap-to-Reference")\]
+## Working With Snap-to-Reference
 
 Placing an entire room off the grid is one thing, but it's no good if we can't work with that room once placed. The next exercise will show how that's possible - and is _critical_ to working off the grid.
 
@@ -132,7 +123,7 @@ What this has done is temporarily changed the global grid and angle orientation 
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:Achtung.png"><img alt="Achtung.png" src="https://ck.uesp.net/w/images/f/f0/Achtung.png" decoding="async" width="32" height="32"></a></td><td>Whenever you're ready to clear your snap reference and return to using the global grid, just <b>shift+Q</b> and click the red crosshair anywhere in the <a href="https://ck.uesp.net/wiki/Void" title="Void">grey void</a>.</td></tr></tbody></table>
 
-## Reshaping the Cave\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Layout_Part_2&veaction=edit&section=8 "Edit section: Reshaping the Cave") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Layout_Part_2&action=edit&section=8 "Edit section: Reshaping the Cave")\]
+## Reshaping the Cave
 
 What you have right now is a pretty standard large cave room. The cave kit is designed specifically to convert rooms such as this into more organic spaces. The idea is to create a space larger than we need and start eating into it with add-in pieces - so let's change the shape of this room a little bit by building inwards. Every kit in Skyrim is designed with this workflow in mind, but the cave kit exemplifies it.
 
@@ -184,7 +175,7 @@ Verticality in a level makes encounters more interesting than fighting in a larg
     The cave cliffs in place
     
 
-## Filling in the Gaps\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Layout_Part_2&veaction=edit&section=9 "Edit section: Filling in the Gaps") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Layout_Part_2&action=edit&section=9 "Edit section: Filling in the Gaps")\]
+## Filling in the Gaps
 
 Now that you've got gameplay space worked out, you'll probably notice large gaps that expose the grey void. You'll want to cover these up before you're done here. Here are the pieces we'll be using in this example, pictured in _Fig. 2.15_.
 
@@ -213,5 +204,3 @@ The pillar and boulders can be used for the larger gaps in the ceiling and wall.
     
 
 Once you're happy with the layout of this chamber and the general layout of the tomb, you're ready to move onto smaller details - clutter.
-
-<table><tbody><tr><th><b><a href="https://ck.uesp.net/wiki/CreationKit:Language_policy" title="CreationKit:Language policy">Language:</a></b></th><td><b><a>English</a></b> <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="fr"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Layout_Part_2/fr" title="Bethesda Tutorial Layout Part 2/fr">français</a></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="ja"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Layout_Part_2/ja" title="Bethesda Tutorial Layout Part 2/ja">日本語</a></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="pl"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Layout_Part_2/pl" title="Bethesda Tutorial Layout Part 2/pl">polski</a></span><span></span><span></span><span></span>&nbsp;• <span lang="ru"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Layout_Part_2/ru" title="Bethesda Tutorial Layout Part 2/ru">русский</a></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></td></tr></tbody></table>

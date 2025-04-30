@@ -35,8 +35,7 @@ Reference Aliases can be applied to any reference (invalid data like packages an
     -   Be aware that the last "source" alias that is filled will be the one that determines the final value for the specified "target" alias. The quest does not stop performing the force fill on the first match. In the previous example of picking NPC\_A if alive, otherwise NPC\_B, the alias for NPC\_B should be _first_ in the alias list, followed by the alias for NPC\_A. If the NPC\_B alias appears after the NPC\_A alias and fills unconditionally, while the NPC\_A alias fills conditionally, the value of the target alias will _always_ be NPC\_B. If they are reversed in order, then NPC\_B will fill the target alias, but then NPC\_A will overwrite the target alias' value if its conditions allow it to be filled.
 -   **Additional Valid Voice Types for Export**: This is used in cases where the alias's Fill Type (see below) does not give the editor enough information to determine what voice types are valid (for example, Location Alias Reference). Select a form list of voice types which the editor uses to limit any dialogue assigned to this alias (on scenes or through the [GetIsAliasRef](https://ck.uesp.net/wiki/GetIsAliasRef "GetIsAliasRef") condition).
 
-### Checkboxes:\[[edit](https://ck.uesp.net/w/index.php?title=Quest_Alias_Tab&veaction=edit&section=5 "Edit section: Checkboxes:") | [edit source](https://ck.uesp.net/w/index.php?title=Quest_Alias_Tab&action=edit&section=5 "Edit section: Checkboxes:")\]
-
+### Checkboxes:
 -   **Reserves Reference**: Once a reference is assigned to a "Reserved" alias by a quest, the game will not fill any other alias with this reference unless:
     -   A) The new alias is marked "Allow Reserved", or
     -   B) The new alias is a "From External" fill type.

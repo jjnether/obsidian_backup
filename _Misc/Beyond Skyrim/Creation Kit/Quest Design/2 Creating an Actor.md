@@ -20,9 +20,9 @@ Thankfully, a lot of the fields in the [[Actor Window]] are pretty self-explanat
 
 [![EmptyActor.png](https://ck.uesp.net/w/images/thumb/2/2c/EmptyActor.png/700px-EmptyActor.png)](https://ck.uesp.net/wiki/File:EmptyActor.png)
 
-- **ID:GSQBenduOlo** Just like with the quest ID, this needs to be unique across the game. Give him the ID GSQBenduOlo. (Note that IDs can't have spaces or special characters in them.)
-- **Name:Bendu Olo** The name that will be visible to the player. "Bendu Olo" in our case.
-- **Short Name:Bendu** How somebody familiar with this character might refer to them. This gets used by the radiant story system, which we'll come back to later. For now, just call him "Bendu".
+- **ID: GSQBenduOlo** Just like with the quest ID, this needs to be unique across the game. Give him the ID GSQBenduOlo. (Note that IDs can't have spaces or special characters in them.)
+- **Name: Bendu Olo** The name that will be visible to the player. "Bendu Olo" in our case.
+- **Short Name: Bendu** How somebody familiar with this character might refer to them. This gets used by the radiant story system, which we'll come back to later. For now, just call him "Bendu".
 - **Unique:** This is the only checkbox you need to worry about for now. It lets the engine know that there should only be one of this actor in the world (as opposed to a new type of animal we were making, for instance). Make sure this is checked.
 
 There are a few things we need to set up in the [[Traits Tab]], just to the right.

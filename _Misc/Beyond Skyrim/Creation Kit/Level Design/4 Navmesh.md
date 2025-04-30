@@ -1,13 +1,4 @@
-| Bethesda Tutorial Navmesh |
-| --- |
-| Level Design Series, Chapter 4 |
-| [Return to Tutorial Hub](https://ck.uesp.net/wiki/Category:Tutorials "Category:Tutorials") |
-| [![LeftArrow.png](https://ck.uesp.net/w/images/9/97/LeftArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Clutter "Bethesda Tutorial Clutter") [Previous Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Clutter "Bethesda Tutorial Clutter") | [Next Tutorial](https://ck.uesp.net/wiki/Bethesda_Tutorial_Encounters "Bethesda Tutorial Encounters")[![RightArrow.png](https://ck.uesp.net/w/images/c/cc/RightArrow.png)](https://ck.uesp.net/wiki/Bethesda_Tutorial_Encounters "Bethesda Tutorial Encounters") |
-| **Example Plugins:** |
-| [Initial](https://ck.uesp.net/w/index.php?title=Special:Upload&wpDestFile=LDClutterTutorialComplete.esp "LDClutterTutorialComplete.esp") | [Completed](https://ck.uesp.net/w/index.php?title=Special:Upload&wpDestFile=LDnavmeshTutorialComplete.esp "LDnavmeshTutorialComplete.esp") |
-| [Companion Video Tutorial](http://youtu.be/raM9TBZZyQY?hd=1) |
-
-## Overview\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Navmesh&veaction=edit&section=1 "Edit section: Overview") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Navmesh&action=edit&section=1 "Edit section: Overview")\]
+## Overview
 
 In this chapter we will go over creating a navmesh both manually and with automatic generation.
 
@@ -19,7 +10,7 @@ The reader will learn:
 -   Fixing navmesh warnings
 -   Generating basic cover
 
-## What is [Navmesh](https://ck.uesp.net/wiki/Category:Navmesh "Category:Navmesh")?\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Navmesh&veaction=edit&section=2 "Edit section: What is Navmesh?") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Navmesh&action=edit&section=2 "Edit section: What is Navmesh?")\]
+## What is [Navmesh](https://ck.uesp.net/wiki/Category:Navmesh "Category:Navmesh")?
 
 When an area has been built and cluttered, we need to determine where actors can navigate. This is where [navmesh](https://ck.uesp.net/wiki/Category:Navmesh "Category:Navmesh") comes in. Simply put, a navmesh is a collection of polygons that tells an actor where it can walk.
 
@@ -29,7 +20,7 @@ The navmesh editor is a robust tool - which can be frustrating to use at first. 
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:NewFeature.jpg"><img alt="NewFeature.jpg" src="https://ck.uesp.net/w/images/thumb/d/dc/NewFeature.jpg/48px-NewFeature.jpg" decoding="async" width="48" height="48" srcset="https://ck.uesp.net/w/images/d/dc/NewFeature.jpg 1.5x"></a></td><td>GECK users take note: not much in the way of navmeshing <i>by hand</i> has changed. There have, however, been additions to auto generation, such as the all-new "<i>Recast</i>" generation mode, which is covered in this tutorial. For more information, check the <a href="https://ck.uesp.net/wiki/Navmesh_Generation" title="Navmesh Generation">Navmesh Generation</a> page.<p>Users of the Oblivion and/or Morrowind Construction Set will note that <a href="https://ck.uesp.net/wiki/Navmesh" title="Navmesh">Navmesh</a> has entirely replaced the pathfinding system in those tools.</p></td></tr></tbody></table>
 
-## Auto-Generating Navmesh\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Navmesh&veaction=edit&section=3 "Edit section: Auto-Generating Navmesh") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Navmesh&action=edit&section=3 "Edit section: Auto-Generating Navmesh")\]
+## Auto-Generating Navmesh
 
 [![](https://ck.uesp.net/w/images/thumb/e/ed/Jb_NavmeshToolBar01a.jpg/500px-Jb_NavmeshToolBar01a.jpg)](https://ck.uesp.net/wiki/File:Jb_NavmeshToolBar01a.jpg)
 
@@ -70,14 +61,14 @@ Let's use [Recast](https://ck.uesp.net/wiki/Navmesh_Generation#Recast-Based_Gene
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:NewFeature.jpg"><img alt="NewFeature.jpg" src="https://ck.uesp.net/w/images/thumb/d/dc/NewFeature.jpg/48px-NewFeature.jpg" decoding="async" width="48" height="48" srcset="https://ck.uesp.net/w/images/d/dc/NewFeature.jpg 1.5x"></a></td><td>Sometimes you need to navmesh a large section of a level, but you don't want to delete other navmeshes in the level. You can hold CTRL+ALT and Left-Click and Drag Select all of the references in the cell that you want to navmesh. Once you have the references selected, click Recast Based Generation and navmesh will only be generated for those references.</td></tr></tbody></table>
 
-## Navmesh by Hand\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Navmesh&veaction=edit&section=4 "Edit section: Navmesh by Hand") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Navmesh&action=edit&section=4 "Edit section: Navmesh by Hand")\]
+## Navmesh by Hand
 
 Now that we have a navmesh created, we need to spend some time cleaning it up. The easiest and fastest way to do this is by hand. Before we begin the clean up process, take a minute to look at your navmesh and see where Recast Based generation didn't do so well.  
 
 If you're having trouble seeing your navmesh you can try one of the three Navmesh modes: Normal, Transparent, Navmesh Only. Press **"W"** to cycle through the three different modes, or use the toolbar buttons, pictured here:  
 [![Jb NavmeshViewMode.jpg](https://ck.uesp.net/w/images/b/ba/Jb_NavmeshViewMode.jpg)](https://ck.uesp.net/wiki/File:Jb_NavmeshViewMode.jpg)
 
-## Deleting Parts of a Navmesh\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Navmesh&veaction=edit&section=5 "Edit section: Deleting Parts of a Navmesh") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Navmesh&action=edit&section=5 "Edit section: Deleting Parts of a Navmesh")\]
+## Deleting Parts of a Navmesh
 
 When cleaning up automatically-generated navmesh, it's often best to begin by eliminating unnecessary segments of navmesh that have been placed on non-reachable areas. This will make it easier for us to see what's going on with the remaining navmesh afterward.
 
@@ -116,7 +107,7 @@ Once you've selected the Triangles and/or Vertices you wish to delete, press eit
     **Fig. 4.9b:** Navmesh, cave section removed
     
 
-## Creating a Navmesh Triangle\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Navmesh&veaction=edit&section=6 "Edit section: Creating a Navmesh Triangle") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Navmesh&action=edit&section=6 "Edit section: Creating a Navmesh Triangle")\]
+## Creating a Navmesh Triangle
 
 It's time now to create the navmesh in the cave section by hand.  
 
@@ -143,7 +134,7 @@ To create a Triangle, select all three of your disconnected, yellow verts by usi
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:InDepth.jpg"><img alt="InDepth.jpg" src="https://ck.uesp.net/w/images/thumb/0/0b/InDepth.jpg/48px-InDepth.jpg" decoding="async" width="48" height="48" srcset="https://ck.uesp.net/w/images/0/0b/InDepth.jpg 1.5x"></a></td><td>Notice that two vertices remain green/selected after creating the triangle. This makes it easier to create subsequent triangles. With two vertices selected, all you need to do to create another triangle is <b>CTRL+Right-Click</b>. A new vertex is created where you click and automatically creates a new triangle.</td></tr></tbody></table>
 
-## Navmesh the Cave Section\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Navmesh&veaction=edit&section=7 "Edit section: Navmesh the Cave Section") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Navmesh&action=edit&section=7 "Edit section: Navmesh the Cave Section")\]
+## Navmesh the Cave Section
 
 Now that we have our first triangle, we need to fill up the rest of the cave section with other triangles. The easiest way to do this is to select two vertices and **ctrl+Right-Click** to place a third vertex. This will automatically create a new triangle between the two selected vertices and the newly-placed one.
 
@@ -164,8 +155,7 @@ _(Note: your results may vary depending on how much your clutter matches that in
     Recast Navmesh, navmesh only
     
 
-## Navmesh the Nordic Stairs\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Navmesh&veaction=edit&section=8 "Edit section: Navmesh the Nordic Stairs") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Navmesh&action=edit&section=8 "Edit section: Navmesh the Nordic Stairs")\]
-
+## Navmesh the Nordic Stairs
 Before we move on to navmeshing the rest of the cell, let's look at the nordic stairs, _NorHallSm1wayStairs128_. Stairs are a typical problem area when using automatic generation. Your navmesh is probably disconnected here, as shown in _Fig 4.14a_.
 
 Luckily, the Creation Kit makes it easy to quickly join disconnected navmesh like this.
@@ -188,7 +178,7 @@ For this example, we want a clean edge at the top and bottom of the stairs. Foll
     **Fig. 4.14b:** Cleaned up stair navmesh
     
 
-## Navmesh the Rest of the Level\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Navmesh&veaction=edit&section=9 "Edit section: Navmesh the Rest of the Level") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Navmesh&action=edit&section=9 "Edit section: Navmesh the Rest of the Level")\]
+## Navmesh the Rest of the Level
 
 With the cave section navmeshed and the stairs connected you now know the essentials and are equipped to continue navmeshing the rest of the cell. Go ahead and navmesh the rest of the cell and if you run into any problems, the following pointers may come in handy.
 
@@ -241,7 +231,7 @@ _Fig 4.17_ shows approximately what your navmesh should look like after you're d
     **Fig. 4.18:** Final Navmesh
     
 
-## Fixing Navmesh Errors\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Navmesh&veaction=edit&section=10 "Edit section: Fixing Navmesh Errors") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Navmesh&action=edit&section=10 "Edit section: Fixing Navmesh Errors")\]
+## Fixing Navmesh Errors
 
 You need to always check your navmesh for errors after you're done navmeshing a cell. This is a relatively simple process.
 
@@ -271,7 +261,7 @@ You need to always check your navmesh for errors after you're done navmeshing a 
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:Protip.jpg"><img alt="Protip.jpg" src="https://ck.uesp.net/w/images/thumb/6/6a/Protip.jpg/48px-Protip.jpg" decoding="async" width="48" height="48" srcset="https://ck.uesp.net/w/images/6/6a/Protip.jpg 1.5x"></a></td><td>If you don't want to fix each error by hand, click through each bad triangle with the "Next Warning" button, then choose <b>"Yes"</b> to delete all of the problem triangles. This will let you know where to check the navmesh for missing coverage after the deletion.</td></tr></tbody></table>
 
-## Create Cover Edges\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Navmesh&veaction=edit&section=11 "Edit section: Create Cover Edges") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Navmesh&action=edit&section=11 "Edit section: Create Cover Edges")\]
+## Create Cover Edges
 
 Cover edges store data such as the height of a piece of cover, which NPCs use in combat and during regular pathfinding.
 
@@ -304,8 +294,6 @@ Here are a few pages you might want to reference during and after the tutorial, 
 
 A solid navmesh provides the foundation needed to set up good NPC and combat gameplay. In the next tutorial we'll deal with just that.
 
-## Known Issue\[[edit](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Navmesh&veaction=edit&section=12 "Edit section: Known Issue") | [edit source](https://ck.uesp.net/w/index.php?title=Bethesda_Tutorial_Navmesh&action=edit&section=12 "Edit section: Known Issue")\]
+## Known Issue
 
 There was an issue causing navmeshes in .ESPs to stop working if you travelled a few cells away from where they were placed. NPCs stopped moving and would not resume until the game was restarted. This issue was resolved with the 1.6 Title Update.
-
-<table><tbody><tr><th><b><a href="https://ck.uesp.net/wiki/CreationKit:Language_policy" title="CreationKit:Language policy">Language:</a></b></th><td><b><a>English</a></b> <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="fr"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Navmesh/fr" title="Bethesda Tutorial Navmesh/fr">français</a></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="ja"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Navmesh/ja" title="Bethesda Tutorial Navmesh/ja">日本語</a></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>&nbsp;• <span lang="pl"><a href="https://ck.uesp.net/wiki/Bethesda_Tutorial_Navmesh/pl" title="Bethesda Tutorial Navmesh/pl">polski</a></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></td></tr></tbody></table>
