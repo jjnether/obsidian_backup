@@ -8,12 +8,12 @@ kanban-plugin: board
 
 - [ ] [[451 ATC Update]]
 	- Update excel map with all variables @{2024-09-30}
-- [ ] [[Meralco]]
-	- also 108630/108631
-	@{2024-12-31}
+- [ ] [[Form6 Emulator]]
+	- 119407 - Clearwater Polk Elec
+	- 118682 - Prairie Land Elect Coop (Border States)
+	- 120518 - United Cooperative Services
 - [ ] **General Work**
 	- FREE GWI - 00932
-	- Ft Meade Testing
 	- Default 487 overcurrent program
 	- omicron training?
 	- 451 ATC rework
@@ -22,18 +22,16 @@ kanban-plugin: board
 
 ## Programming Spec
 
+- [ ] [[127998 - CenterPoint]]
+	- Waiting to review Nic's Programming Spec
+- [ ] [[117631 - Kennedy Space Center]]
+	- Programming Spec due 5/23
+	@{2025-08-26}
 
 
 ## Programming
 
-- [ ] [[Form6 Emulator]]
-	- 119407 - Clearwater Polk Elec
-	- 118682 - Prairie Land Elect Coop (Border States)
-	- 120518 - United Cooperative Services
 - [ ] [[119509 - Elk Grove Village Property]]
-- [ ] [[127998 - CenterPoint]]
-- [ ] [[119509 - Elk Grove Village Property]]
-- [ ] [[117631 - Kennedy Space Center]]
 
 
 ## FAT
@@ -65,6 +63,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,true,false,false,false],"new-line-trigger":"shift-enter","move-dates":true,"show-relative-date":true,"show-checkboxes":false,"full-list-lane-width":true,"show-set-view":false}
+{"kanban-plugin":"board","list-collapse":[false,false,false,false,false],"new-line-trigger":"shift-enter","move-dates":true,"show-relative-date":true,"show-checkboxes":false,"full-list-lane-width":true,"show-set-view":false}
 ```
 %%
