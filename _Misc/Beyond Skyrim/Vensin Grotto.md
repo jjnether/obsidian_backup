@@ -1,9 +1,6 @@
 - Quest priority? - placed this one at 50
-- Start Game Enabled
 
-
-
-- 10 - PC met the Spirits and was hinted toward Vensin Grotto
+- 0 - Initial
 - 20 - Vasenarus is killed
 	- end of quest
 - 30 - Vasenarus is convinced to kill his skeletons
@@ -25,6 +22,16 @@ defaultSetStageOnDeathRefAlias
 CompleteAllObjectives()
 Stop()
 
+int Property DialogueFlag Auto ; Default is 0
+
 tdetect
 defaultRefOnTrigger
 SCENE.start()
+Debug.Notification("")
+
+
+Scriptname CYRVensinGrottoVarScript extends Quest  Conditional
+int Property FLAG1 Auto Conditional; flag for FIND keyword in dialogue
+
+
+Utility.WaitGameTime(1.5)
