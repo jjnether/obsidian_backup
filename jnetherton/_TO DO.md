@@ -32,6 +32,7 @@ kanban-plugin: board
 ## Programming
 
 - [ ] [[119509 - Elk Grove Village Property]] @{2025-05-19}
+- [ ] [[128558 - Elk Grove]]
 
 
 ## FAT

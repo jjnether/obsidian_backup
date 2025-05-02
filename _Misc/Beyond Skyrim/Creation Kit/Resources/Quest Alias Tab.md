@@ -84,7 +84,7 @@ External Alias Reference
 
 Select another Quest, and then a Reference Alias from that quest. When this quest starts, it will fill this alias with whatever is currently in the selected alias.
 
--   -   An alias from a Kill Actor Event can fill this reference.
+-   An alias from a Kill Actor Event can fill this reference.
 
 <table><tbody><tr><td><a href="https://ck.uesp.net/wiki/File:Achtung.png"><img alt="Achtung.png" src="https://ck.uesp.net/w/images/f/f0/Achtung.png" decoding="async" width="32" height="32"></a></td><td>If the selected quest isn't running, or the selected alias is empty, or if the alias reference is inside a container, this alias will fail to fill.</td></tr></tbody></table>
 
