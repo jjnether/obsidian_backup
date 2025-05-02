@@ -204,6 +204,5 @@ LOGIC TO DO:
 - Disabled all unused IOC elements
 
 
-ASK:
-- watchdog timer?
-- IP settings?
+For hardware alarm:
+- power2, port1, port2
