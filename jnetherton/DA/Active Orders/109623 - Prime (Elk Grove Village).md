@@ -206,3 +206,7 @@ LOGIC TO DO:
 
 For hardware alarm:
 - power2, port1, port2
+
+Gateway:
+10.23.32.1
+/21
