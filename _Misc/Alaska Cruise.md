@@ -28,3 +28,5 @@ Dining reservation options:
 - Flexible any-time dining
 - Traditional (Fixed eating time) (5pm and 7:30pm)
 	- same waiting staff each time
+
+9:59pm anchorage to chicago - 8:25am
