@@ -1,4 +1,4 @@
-| Save                      | **Ctrl+S**                | Save the active plugin.                                                                                         |
+| eewSave                   | **Ctrl+S**                | Save the active plugin.                                                                                         |
 | ------------------------- | ------------------------- | --------------------------------------------------------------------------------------------------------------- |
 | Undo                      | **Ctrl+Z**                | Undo the last action in the current window or field.                                                            |
 | Redo                      | **Ctrl+Y**                | Redo the last Undone action.                                                                                    |
