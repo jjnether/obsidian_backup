@@ -21,5 +21,5 @@ Questions:
 - Distance between player and enemies for scene condition?
 - Default package for actors to move to certain point?
 - Default script to use a trigger box to activate a scene? Or to set stage for quest?
-- For unique actors, easiest way to populate all the fields (faction, AI package, inventory, etc) or do you just have to manually each time?
+- For unique actors, what's the easiest way to populate all the fields (faction, AI package, inventory, etc) or do you just have to manually each time?
 - How to do persuade dialogue? (What is the amulet, and what is the script fragment for?)
