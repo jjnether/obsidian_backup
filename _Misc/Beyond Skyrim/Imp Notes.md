@@ -15,11 +15,9 @@
 		- For our quest, we have to add the script (scripts tab, auto-fill)
 		- Then in a fragment, we can do: `(GetOwningQuest() as BSKDefaultSetStageAfterDelay).SetStageAfterGameTimeDelay(55,72)`
 			- “Treat this quest (`GetOwningQuest()`) as if it’s running a script named `BSKDefaultSetStageAfterDelay`.”
+- For starting combat:
+```
+CYRdunRenrijraKrinBanditFaction.SetEnemy(PlayerFaction)
+Alias_Renrijra.GetActorRef().StartCombat(Game.GetPlayer())
+```
 
-
-Questions:
-- Distance between player and enemies for scene condition?
-- Default package for actors to move to certain point?
-- Default script to use a trigger box to activate a scene? Or to set stage for quest?
-- For unique actors, what's the easiest way to populate all the fields (faction, AI package, inventory, etc) or do you just have to manually each time?
-- How to do persuade dialogue? (What is the amulet, and what is the script fragment for?)
