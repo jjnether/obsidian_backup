@@ -3,7 +3,12 @@
 - 0 - Initial
 - 5 - pc killed graverobber
 - 10 - encounter start
-- 15 - FIND keyword hit
+- 11 - FIND keyword hit -- 14
+- 12 - encounter end -- 15
+- 13 - PC talked to Septima -- 54
+- 15 - Necro 1,2 scene
+- 16 - Necro 3,4 scene
+- 17 - Necro 5, dog scene
 - 18 - vasenarus entrance scene
 - 19 - vas forcegreet
 - 20 - QUESTIONS hit
@@ -14,10 +19,6 @@
 - 25 - vas attack PC
 - 26 - vas is killed
 - 27 - vas killed skeletons, sad boi
-- 30 - Necro 1,2 scene
-- 31 - Necro 3,4 scene
-- 32 - Necro 5, dog scene
-- 54 - PC talked to Septima
 - 55 - PC will receive letter of gratitude, with the grotto cleared out
 
 CompleteAllObjectives()
@@ -44,3 +45,5 @@ EVENT onActivate(ObjectReference akActionRef)
      endif
 endEVENT
 ```
+
+GSD 20 == 1 AND (GSD 22 == 0 OR GSD 27 == 1) AND GSD 25 == 0

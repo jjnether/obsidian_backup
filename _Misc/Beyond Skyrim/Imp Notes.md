@@ -1,8 +1,10 @@
 - Use `Actor Property PlayerRef Auto` instead of `Game.GetPlayer()`
 - Use `Event OnInit()` for when something loads
 - `tmm 1` to Toggle map markers
+- `tfc` to toggle free-flying camera
 - `sgtm <value>`  to set timescale
 - `tdetect` to toggle AI detection
+- `player.moveto <NPCrefID>`
 - place `Stop()` at the end of a quest to stop the scripts from running
 - utility wait scripts should never be used in quest stages if possible. Use the `BSKDefaultSetStageAfterDelay` script instead
 - For calling functions in other scripts, you typecast:
