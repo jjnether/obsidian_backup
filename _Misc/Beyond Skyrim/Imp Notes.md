@@ -18,6 +18,15 @@
 - For starting combat:
 ```
 CYRdunRenrijraKrinBanditFaction.SetEnemy(PlayerFaction)
-Alias_Renrijra.GetActorRef().StartCombat(Game.GetPlayer())
+Alias_Renrijra.GetActorRef().StartCombat(PlayerRef)
 ```
+- Speech check: `player.setav speechcraft 100`
 
+
+```
+Debug.Trace("This message is written to the papyrus log file.")
+Debug.Notification("This message is displayed on the HUD menu.")
+Debug.MessageBox("This message is displayed in a message box.")
+Debug.CenterOnCell("QASmoke")
+Debug.DumpEventRegistrations(self)
+```

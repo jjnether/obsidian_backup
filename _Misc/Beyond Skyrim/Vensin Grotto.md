@@ -1,41 +1,32 @@
 - Quest priority? - placed this one at 50
 
 - 0 - Initial
+- 5 - pc killed graverobber
 - 10 - encounter start
 - 15 - FIND keyword hit
-- 20 - Vasenarus is killed
-	- end of quest
-- 30 - Vasenarus is convinced to kill his skeletons
-	- end of quest
-- 40 - PC read the graverobber note
-	- unlock dialogue with Septima Strabo
-- 50 - PC went to septima and reported the graverobbing
-- 55 - PC waited a few days and will receive letter of gratitude, with the grotto cleared out
-- 60 - end of quest
-
-
-
-CYRWICourier.SendLetterAlias(Alias_Letter)
-BSKDefaultSetStageAfterDelay 
-BSKDefaultSetStageOnDeath 
-defaultSetStageOnDeathRefAlias
-
+- 18 - vasenarus entrance scene
+- 19 - vas forcegreet
+- 20 - QUESTIONS hit
+- 21 - Vas pre-kill skeleton scene
+- 22 - Vas attacks skeletons
+- 23 - skeleton1 killed
+- 24 - skeleton2 killed
+- 25 - vas attack PC
+- 26 - vas is killed
+- 27 - vas killed skeletons, sad boi
+- 30 - Necro 1,2 scene
+- 31 - Necro 3,4 scene
+- 32 - Necro 5, dog scene
+- 54 - PC talked to Septima
+- 55 - PC will receive letter of gratitude, with the grotto cleared out
 
 CompleteAllObjectives()
-Stop()
 
 int Property DialogueFlag Auto ; Default is 0
 
 defaultRefOnTrigger
 SCENE.start()
 Debug.Notification("")
-
-
-Scriptname CYRVensinGrottoVarScript extends Quest  Conditional
-int Property FLAG1 Auto Conditional; flag for FIND keyword in dialogue
-
-
-Utility.WaitGameTime(1.5)
 
 
 Debug.Trace("This message is written to the papyrus log file.")
