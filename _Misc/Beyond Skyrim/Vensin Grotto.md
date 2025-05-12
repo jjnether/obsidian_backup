@@ -46,4 +46,5 @@ EVENT onActivate(ObjectReference akActionRef)
 endEVENT
 ```
 
-GSD 20 == 1 AND (GSD 22 == 0 OR GSD 27 == 1) AND GSD 25 == 0
+TO FIX:
+- Vasenarus foolhardy - intimidate check failure
