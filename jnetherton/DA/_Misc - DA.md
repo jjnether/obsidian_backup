@@ -30,6 +30,9 @@ LEA PT is typically 10000:1 ratio, but 651 LEA voltage inputs are detected at an
 
 ![Machine generated alternative text: Capacitive voltage divider Cable SEL-651R VY or VZ-terminal voltage input (8 Vac LEA input) ](DA-Misc-image1.png)
 
+Wiring for Open Delta PT's:
+![[Pasted image 20250513101817.png|300]]
+
 Motor boards operating modes:
 - Load Break
 	- 1 - Two Position Enc
