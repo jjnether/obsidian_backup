@@ -13,3 +13,8 @@ D94980182AYP
 - We should test to verify the system cannot enter auto if the manual tie way is in the open position, or if the motor tie way is in the closed position.
 
 - Is my voltage live/dead hysteresis too much?
+
+
+IS5 Microraptors:
+- username: admin
+- PW: GWLazer1!
