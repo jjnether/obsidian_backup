@@ -21,7 +21,7 @@ IS5 Microraptors:
 
 
 inject:
-- 3.984 V
+- 3.984 V (19.918 kV)
 
 
 CHANGES:
@@ -30,3 +30,5 @@ CHANGES:
 	- binary outputs
 - IP addresses
 - front panel typos
+
+149 kv
