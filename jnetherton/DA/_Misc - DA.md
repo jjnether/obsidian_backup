@@ -25,8 +25,8 @@ System voltage is typically given as L-L
 PT ratio applies to L-G - should get 120 VAC
 CT dot should be on the incoming side
 
-LEA PT is typically 10000:1 or 5000:1 ratio, but 651 LEA voltage inputs are detected at an 8:300 ratio. So total PT ratio for VS is     $266.66 = (\frac{10000}{1})(\frac{8}{300})$    OR      $133.33 = (\frac{5000}{1})(\frac{8}{300})$ for 5000:1
-- For 700 series and 400 series, it wants the actual PT ratio (10000 or 5000)
+LEA PT is typically 10000:1 or 5000:1 ratio, but 651 and 451 LEA voltage inputs are detected at an 8:300 ratio. So total PT ratio for VS is     $266.66 = (\frac{10000}{1})(\frac{8}{300})$    OR      $133.33 = (\frac{5000}{1})(\frac{8}{300})$ for 5000:1
+- For 751, it wants the actual PT ratio (10000 or 5000)
 
 ![Machine generated alternative text: Capacitive voltage divider Cable SEL-651R VY or VZ-terminal voltage input (8 Vac LEA input) ](DA-Misc-image1.png)
 
