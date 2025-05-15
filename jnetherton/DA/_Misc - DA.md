@@ -256,7 +256,7 @@ Default Control Temp settings:
 - Hygrostat - 10C / 65%RH
 
 Phenix Supplies:
-- PSU input can handle 125VDC, ,120VAC, and 240VAC
+- PSU input can handle 125VDC, 120VAC, and 240VAC
 - Output is 40A nominal, but can boost up to 60A for 5 sec (uses PS Boost wire as a signal to reduce charging to batteries for this)
 - DC Status is basically the equivalent of AC status - if AC is lost, this status will deassert
 	- Batt mode is the opposite of DC status - will assert when batteries are being used because lost AC
