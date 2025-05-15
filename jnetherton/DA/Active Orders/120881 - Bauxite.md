@@ -18,3 +18,7 @@ D94980182AYP
 IS5 Microraptors:
 - username: GWELECTRIC
 - PW: GWLazer1!
+
+
+inject:
+- 3.984 V
