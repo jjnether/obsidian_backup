@@ -22,3 +22,11 @@ IS5 Microraptors:
 
 inject:
 - 3.984 V
+
+
+CHANGES:
+- DNP map
+	- analogs, analog scaling
+	- binary outputs
+- IP addresses
+- front panel typos
