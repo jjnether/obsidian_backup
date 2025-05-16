@@ -15,7 +15,6 @@ kanban-plugin: board
 - [ ] **General Work**
 	- FREE GWI - 00932
 	- Default 487 overcurrent program
-	- omicron training?
 	- 451 ATC rework
 	- Form6 Testing
 
