@@ -30,5 +30,3 @@ CHANGES:
 	- binary outputs
 - IP addresses
 - front panel typos
-
-149 kv
