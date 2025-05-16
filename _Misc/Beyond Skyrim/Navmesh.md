@@ -1,12 +1,3 @@
-Banned Characters:
-- …
-- —
-- –
-- “
-- ”
-
-type `tmm 1` t toggle map markers
-
 ## Helpful for Navmesh
 
 | Name                      | Hotkey      | Description                                                              |
