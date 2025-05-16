@@ -77,7 +77,9 @@ Y = horizontal bushing (usually load side) (ct is always on this side)
 **Hot Line Tag**
 - When hot line tag is enabled if any phase minimum pick is exceeded all phases will immediately trip. If ground is not block while hot line tag is enabled exceeding the ground minimum pickup will also cause all the phases to trip. Enabling hot line tag automatically puts the control into one shot mode.
 
-Must enable Telnet in the port setting to communicate with a relay through ethernet
+---
+- Must enable Telnet in the port setting to communicate with a relay through ethernet
+- When setting up DNP binary outputs from a relay, ensure you enable control operations (DNPCL) on the relay (451)
 
 RTDS - real time digital simulation
 LPWD pickup at different levels depending on device, but all dropout at 5 PSI

@@ -46,5 +46,9 @@ EVENT onActivate(ObjectReference akActionRef)
 endEVENT
 ```
 
-TO FIX:
-- Vasenarus foolhardy - intimidate check failure
+- necro people
+	- disables onCellLoad if stage 55 was set
+- undead peeps
+	- disables onCellLoad if stage 55 was set UNLESS onReset has occurred
+- new undead
+	- initially disabled - enables on reset
