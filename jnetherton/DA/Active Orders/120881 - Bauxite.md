@@ -10,11 +10,6 @@ D94980182AYP
 - 045152111C0X1H741412X
 
 
-- We should test to verify the system cannot enter auto if the manual tie way is in the open position, or if the motor tie way is in the closed position.
-
-- Is my voltage live/dead hysteresis too much?
-
-
 IS5 Microraptors:
 - username: GWELECTRIC
 - PW: GWLazer1!
@@ -23,10 +18,9 @@ IS5 Microraptors:
 inject:
 - 3.984 V (19.918 kV)
 
-
-CHANGES:
-- DNP map
-	- analogs, analog scaling
-	- binary outputs
-- IP addresses
-- front panel typos
+iS5 CHANGES:
+- SS1 IP: 192.168.10.21
+- SS2 IP: 192.168.10.22
+- Static VLAN:
+	- Ports 1,2
+	- 44
