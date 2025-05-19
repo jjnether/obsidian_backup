@@ -185,12 +185,6 @@ Hit windows key, then type `\\BK-PRINTSERVER`, right click the printer you want 
 SF6 Ratings:
 ![[Pasted image 20240702102126.png]]
 
-
-**IS5 Ethernet Switch Setup**
-Default IP: `192.168.10.1`
-Username: `admin`
-PW: `admin`
-
 Default SEL Relay Port 5 IP: `192.168.1.2`
 Default FTP User: `2AC`
 FTP Password: `TAIL`

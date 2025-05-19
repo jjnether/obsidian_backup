@@ -13,6 +13,8 @@ D94980182AYP
 IS5 Microraptors:
 - username: GWELECTRIC
 - PW: GWLazer1!
+- customer username: BAUXITE
+- customer PW: Bauxite1!
 
 
 inject:
