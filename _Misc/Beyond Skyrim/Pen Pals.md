@@ -9,3 +9,7 @@ Stages:
 |       | Misc started              |
 |       | PC picks up letter to Rel |
 |       |                           |
+|       | lock HOWW - unlock DEAD   |
+|       | lock DEAD - unlock DEAD2  |
+|       | DIP hit                   |
+|       |                           |

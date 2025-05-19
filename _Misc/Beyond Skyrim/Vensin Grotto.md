@@ -1,4 +1,4 @@
-- Quest priority? - placed this one at 50
+CYRdunVensinGrotto
 
 - 0 - Initial
 - 5 - pc killed graverobber
@@ -49,6 +49,7 @@ endEVENT
 - necro people
 	- disables onCellLoad if stage 55 was set
 - undead peeps
-	- disables onCellLoad if stage 55 was set UNLESS onReset has occurred
+	- disables onCellLoad if stage 55 was set and no reset
+	- enabled if reset
 - new undead
-	- initially disabled - enables on reset
+	- initially disabled - enabled if reset
