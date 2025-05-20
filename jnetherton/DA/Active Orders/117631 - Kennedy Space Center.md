@@ -44,4 +44,10 @@ G&W Main-Tie-Main Auto Transfer Package, including:
 	▪ Factory assembled and tested.
 	▪ Synchronism Check for Return Transfers
 
-
+G&W LaZer communicating Main-Tie-Tie-Main automation scheme to prevent source paralleling via electronic 
+control interlocks.
+• SEL relays to facilitate the communication with Mirrored Bits messaging
+• RTAC Configuration and DNP map consolidation of the two (2) SEL 451 relays.
+• The exact automation system design will be discussed between G&W Electric and all project representatives 
+prior to implementation.
+• Transfer trip fault isolation and transfer restoration scheme
