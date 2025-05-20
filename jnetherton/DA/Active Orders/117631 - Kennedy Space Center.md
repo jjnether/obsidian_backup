@@ -8,10 +8,10 @@ D97FFFFF0L00
 	- SEL-2407 Clock
 	- SEL-3530 RTAC
 	- SEL-2725 Five port Ethernet Switch
-- Each contains an SEL-2800 serial transceiver
 D97FFFFF0M00
-- PN: A13413591JC0
-- MOT: 04515211XB3X1H741412X
+
+
+- - Each contains an SEL-2800 serial transceiver
 
 ## MB
 
@@ -51,3 +51,9 @@ control interlocks.
 • The exact automation system design will be discussed between G&W Electric and all project representatives 
 prior to implementation.
 • Transfer trip fault isolation and transfer restoration scheme
+
+Questions:
+- Can I ignore adding test mode?
+- Do I need to select delta for voltage sensing? Or do I just use VAY, VBY, etc
+- Am I ok to just treat one of the tie ways as normally closed?
+- Transfer trip fault isolation is referencing fault on the tie cable, right? Then just send a trip to isolate the tie cable
