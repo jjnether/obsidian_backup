@@ -87,4 +87,5 @@ Questions:
 
 
 
-- 2800 transceiver
+- we're gonna give them a patch panel per switch
+	- 
