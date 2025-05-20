@@ -22,25 +22,25 @@ D97FFFFF0M00
 
 ## MB
 
-|     | ATS-1          |     | ATS-2          |     |
-| --- | -------------- | --- | -------------- | --- |
-|     | Tx             | Rx  | Tx             | Rx  |
-| 1   | W1 52A         |     | W1 52A         |     |
-| 2   | W1 52B         |     | W1 52B         |     |
-| 3   | W5 52A         |     | W5 52A         |     |
-| 4   | W5 52B         |     | W5 52B         |     |
-| 5   | W2 LIVE        |     | W2 LIVE        |     |
-| 6   | W2 DEAD        |     | W2 DEAD        |     |
-| 7   | LOCKOUT        |     | LOCKOUT        |     |
-| 8   | AUTO ENABLED   |     | AUTO ENABLED   |     |
-| 9   | SET AUTO CMD   |     | SET AUTO CMD   |     |
-| 10  | RESET AUTO CMD |     | RESET AUTO CMD |     |
-| 11  | OPEN W1 CMD    |     | OPEN W1 CMD    |     |
-| 12  | CLOSE W1 CMD   |     | CLOSE W1 CMD   |     |
-| 13  | OPEN W5 CMD    |     | OPEN W5 CMD    |     |
-| 14  | CLOSE W5 CMD   |     | CLOSE W5 CMD   |     |
-| 15  |                |     |                |     |
-| 16  |                |     |                |     |
+|     | ATS-1            |     | ATS-2           |     |
+| --- | ---------------- | --- | --------------- | --- |
+|     | Tx               | Rx  | Tx              | Rx  |
+| 1   | W1 52A           |     | ==W1 52A==      |     |
+| 2   | W1 52B           |     | ==W1 52B==      |     |
+| 3   | W5 52A           |     | ==W5 52A==      |     |
+| 4   | W5 52B           |     | W5 52B          |     |
+| 5   | W1 LIVE          |     | ==W1 LIVE==     |     |
+| 6   | W1 DEAD          |     | ==W1 DEAD==     |     |
+| 7   | LOCKOUT          |     | ==LOCKOUT==     |     |
+| 8   | ==AUTO ENABLED== |     | AUTO ENABLED    |     |
+| 9   | SET AUTO CMD     |     | ==AUTO TOGGLE== |     |
+| 10  | RESET AUTO CMD   |     |                 |     |
+| 11  | ==OPEN W1 CMD==  |     | OPEN W1 CMD     |     |
+| 12  | ==CLOSE W1 CMD== |     | CLOSE W1 CMD    |     |
+| 13  | OPEN W5 CMD      |     | OPEN W5 CMD     |     |
+| 14  | CLOSE W5 CMD     |     | CLOSE W5 CMD    |     |
+| 15  |                  |     |                 |     |
+| 16  |                  |     |                 |     |
 
 
 
