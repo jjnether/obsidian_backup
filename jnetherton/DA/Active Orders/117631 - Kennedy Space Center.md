@@ -3,11 +3,11 @@
 
 D97FFFFF0L00
 - PN: A13413591JC0
-- MOT: 04515211XB3X1H741412X
+- MOT: 04515211XB3X1H741412X - 2 multimode
 - Uniquely Contains:
 	- SEL-2407 Clock
-	- SEL-3530 RTAC
-	- SEL-2725 Five port Ethernet Switch
+	- SEL-3530 RTAC - 2 single mode fibers
+	- SEL-2725 Five port Ethernet Switch - 3 RJ45, 1 multi mode, 1 single mode
 D97FFFFF0M00
 
 
