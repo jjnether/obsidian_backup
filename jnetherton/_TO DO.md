@@ -40,12 +40,11 @@ kanban-plugin: board
 
 - [ ] [[110307 - Fort Meade]]
 	- FAT 6/16 @{2025-01-21}
-- [ ] [[120881 - Bauxite]]
-	- FAT 5/19
 
 
 ## SAT/GWI
 
+- [ ] [[120881 - Bauxite]]
 
 
 ***
