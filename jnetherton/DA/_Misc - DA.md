@@ -82,7 +82,8 @@ Y = horizontal bushing (usually load side) (ct is always on this side)
 - When setting up DNP binary outputs from a relay, ensure you enable control operations (DNPCL) on the relay (451)
 
 RTDS - real time digital simulation
-LPWD pickup at different levels depending on device, but all dropout at 5 PSI
+LPWD pickup at different levels depending on device, but all dropout at 5 psi (34.5 kPa)
+Density switch drops out at 5.6 psi (38.7 kPa) at 68F (20C)
 
 Durham enclosure - no IP rating because only 5 sides - rating akin to NEMA 3R
 
