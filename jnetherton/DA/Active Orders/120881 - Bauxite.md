@@ -26,3 +26,5 @@ iS5 CHANGES:
 - Static VLAN:
 	- Ports 1,2
 	- 44
+
+CLARIFY in manual that they can manually parallel if they close all the motors then close the manual tie
