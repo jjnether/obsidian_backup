@@ -27,7 +27,6 @@ D97FFFFF0M00
 |          |     |          |     |
 |          |     |          |     |
 
-- open w1
-- close w1
-- open w5
-- close w5
+
+
+Listed features:
