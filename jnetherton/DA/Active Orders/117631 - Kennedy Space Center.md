@@ -11,7 +11,7 @@ D97FFFFF0L00
 D97FFFFF0M00
 
 
-- Each contains an SEL-2800 serial transceiver
+- Each contains an SEL-2800 serial transceiver - multimode
 - Ways 2-4 use Type 3 EZset VI controls
 - Ties are:
 	- ATS-1 W1
@@ -88,4 +88,11 @@ Questions:
 
 
 - we're gonna give them a patch panel per switch
-	- 
+- comm diagram
+- Address statuses
+	- MB will propagate the necessary statuses
+	- The redundancy they asked for won't do
+		- If they want redundancy, 
+	- We don't plan on operating one of the ties (should always be closed)
+- In order to facilitate the scheme with what we have now and not affect lead times, we'll take out test mode
+- We're going to remove extra statuses, and just put them on the 
