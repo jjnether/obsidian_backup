@@ -11,21 +11,36 @@ D97FFFFF0L00
 D97FFFFF0M00
 
 
-- - Each contains an SEL-2800 serial transceiver
+- Each contains an SEL-2800 serial transceiver
+- Ways 2-4 use Type 3 EZset VI controls
+- Ties are:
+	- ATS-1 W1
+	- ATS-2 W5
+- Sources are:
+	- ATS-1 W5
+	- ATS-2 W1
 
 ## MB
 
-| Switch 1 |     | Switch 2 |     |
-| -------- | --- | -------- | --- |
-| Tx       | Rx  | Tx       | Rx  |
-|          |     | W1 52A   |     |
-|          |     | W1 52B   |     |
-|          |     | W5 52A   |     |
-|          |     | W5 52B   |     |
-|          |     |          |     |
-|          |     |          |     |
-|          |     |          |     |
-|          |     |          |     |
+|     | Switch 1     |     | Switch 2     |     |
+| --- | ------------ | --- | ------------ | --- |
+|     | Tx           | Rx  | Tx           | Rx  |
+| 1   | W1 52A       |     | W1 52A       |     |
+| 2   | W1 52B       |     | W1 52B       |     |
+| 3   | W5 52A       |     | W5 52A       |     |
+| 4   | W5 52B       |     | W5 52B       |     |
+| 5   | W2 LIVE      |     | W2 LIVE      |     |
+| 6   | W2 DEAD      |     | W2 DEAD      |     |
+| 7   | LOCKOUT      |     | LOCKOUT      |     |
+| 8   | AUTO ENABLED |     | AUTO ENABLED |     |
+| 9   | OPEN         |     |              |     |
+| 10  |              |     |              |     |
+| 11  |              |     |              |     |
+| 12  |              |     |              |     |
+| 13  |              |     |              |     |
+| 14  |              |     |              |     |
+| 15  |              |     |              |     |
+| 16  |              |     |              |     |
 
 
 
@@ -57,3 +72,7 @@ Questions:
 - Do I need to select delta for voltage sensing? Or do I just use VAY, VBY, etc
 - Am I ok to just treat one of the tie ways as normally closed?
 - Transfer trip fault isolation is referencing fault on the tie cable, right? Then just send a trip to isolate the tie cable
+- Any idea why we wired 52A/52B 3 times redundant to the relay for each source/tie way?
+	- Quote says:
+		- Ways 1 and 5 are equipped with quantity three auxiliary Form C contacts wired to the control cabinet for use by the control.
+		- Ways 2, 3 and 4 are equipped with quantity two auxiliary Form C contacts wired to the control cabinet for use by the control.
