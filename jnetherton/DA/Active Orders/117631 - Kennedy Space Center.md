@@ -22,25 +22,25 @@ D97FFFFF0M00
 
 ## MB
 
-|     | Switch 1     |     | Switch 2     |     |
-| --- | ------------ | --- | ------------ | --- |
-|     | Tx           | Rx  | Tx           | Rx  |
-| 1   | W1 52A       |     | W1 52A       |     |
-| 2   | W1 52B       |     | W1 52B       |     |
-| 3   | W5 52A       |     | W5 52A       |     |
-| 4   | W5 52B       |     | W5 52B       |     |
-| 5   | W2 LIVE      |     | W2 LIVE      |     |
-| 6   | W2 DEAD      |     | W2 DEAD      |     |
-| 7   | LOCKOUT      |     | LOCKOUT      |     |
-| 8   | AUTO ENABLED |     | AUTO ENABLED |     |
-| 9   | OPEN         |     |              |     |
-| 10  |              |     |              |     |
-| 11  |              |     |              |     |
-| 12  |              |     |              |     |
-| 13  |              |     |              |     |
-| 14  |              |     |              |     |
-| 15  |              |     |              |     |
-| 16  |              |     |              |     |
+|     | ATS-1          |     | ATS-2        |     |
+| --- | -------------- | --- | ------------ | --- |
+|     | Tx             | Rx  | Tx           | Rx  |
+| 1   | W1 52A         |     | W1 52A       |     |
+| 2   | W1 52B         |     | W1 52B       |     |
+| 3   | W5 52A         |     | W5 52A       |     |
+| 4   | W5 52B         |     | W5 52B       |     |
+| 5   | W2 LIVE        |     | W2 LIVE      |     |
+| 6   | W2 DEAD        |     | W2 DEAD      |     |
+| 7   | LOCKOUT        |     | LOCKOUT      |     |
+| 8   | AUTO ENABLED   |     | AUTO ENABLED |     |
+| 9   | SET AUTO CMD   |     |              |     |
+| 10  | RESET AUTO CMD |     |              |     |
+| 11  | OPEN W1 CMD    |     |              |     |
+| 12  | CLOSE W1 CMD   |     |              |     |
+| 13  | OPEN W5 CMD    |     |              |     |
+| 14  | CLOSE W5 CMD   |     |              |     |
+| 15  |                |     |              |     |
+| 16  |                |     |              |     |
 
 
 
@@ -76,3 +76,11 @@ Questions:
 	- Quote says:
 		- Ways 1 and 5 are equipped with quantity three auxiliary Form C contacts wired to the control cabinet for use by the control.
 		- Ways 2, 3 and 4 are equipped with quantity two auxiliary Form C contacts wired to the control cabinet for use by the control.
+- Comms?
+	- Fiber patch panels?
+	- We only have 1 transceiver per switch, but if we do mirrored bits (per the quote, and MOT doesn't have IEC 61850), I believe I'll need two channels (so 2 transceivers per switch)
+	- Ethernet switch only has 2 fiber ports
+		- A port was not reserved for upstream communication to SCADA (fiber, separate connection from ATS-2 to ATS-1)
+			- So in total, we'll have 3 fiber lines running between ATS-2 and ATS-1, 2 for serial MB and 1 for SCADA DNP via TCP
+			- We could use the other fiber port on the RTAC to communicate to SCADA, but we still need 4 fiber ports on the switch
+				- 1 to connect to the RTAC, 2 for MB to ATS-2, and 1 for TCP DNP from ATS-2
