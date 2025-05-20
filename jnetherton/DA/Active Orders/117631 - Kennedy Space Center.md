@@ -22,25 +22,25 @@ D97FFFFF0M00
 
 ## MB
 
-|     | ATS-1          |     | ATS-2        |     |
-| --- | -------------- | --- | ------------ | --- |
-|     | Tx             | Rx  | Tx           | Rx  |
-| 1   | W1 52A         |     | W1 52A       |     |
-| 2   | W1 52B         |     | W1 52B       |     |
-| 3   | W5 52A         |     | W5 52A       |     |
-| 4   | W5 52B         |     | W5 52B       |     |
-| 5   | W2 LIVE        |     | W2 LIVE      |     |
-| 6   | W2 DEAD        |     | W2 DEAD      |     |
-| 7   | LOCKOUT        |     | LOCKOUT      |     |
-| 8   | AUTO ENABLED   |     | AUTO ENABLED |     |
-| 9   | SET AUTO CMD   |     |              |     |
-| 10  | RESET AUTO CMD |     |              |     |
-| 11  | OPEN W1 CMD    |     |              |     |
-| 12  | CLOSE W1 CMD   |     |              |     |
-| 13  | OPEN W5 CMD    |     |              |     |
-| 14  | CLOSE W5 CMD   |     |              |     |
-| 15  |                |     |              |     |
-| 16  |                |     |              |     |
+|     | ATS-1          |     | ATS-2          |     |
+| --- | -------------- | --- | -------------- | --- |
+|     | Tx             | Rx  | Tx             | Rx  |
+| 1   | W1 52A         |     | W1 52A         |     |
+| 2   | W1 52B         |     | W1 52B         |     |
+| 3   | W5 52A         |     | W5 52A         |     |
+| 4   | W5 52B         |     | W5 52B         |     |
+| 5   | W2 LIVE        |     | W2 LIVE        |     |
+| 6   | W2 DEAD        |     | W2 DEAD        |     |
+| 7   | LOCKOUT        |     | LOCKOUT        |     |
+| 8   | AUTO ENABLED   |     | AUTO ENABLED   |     |
+| 9   | SET AUTO CMD   |     | SET AUTO CMD   |     |
+| 10  | RESET AUTO CMD |     | RESET AUTO CMD |     |
+| 11  | OPEN W1 CMD    |     | OPEN W1 CMD    |     |
+| 12  | CLOSE W1 CMD   |     | CLOSE W1 CMD   |     |
+| 13  | OPEN W5 CMD    |     | OPEN W5 CMD    |     |
+| 14  | CLOSE W5 CMD   |     | CLOSE W5 CMD   |     |
+| 15  |                |     |                |     |
+| 16  |                |     |                |     |
 
 
 
@@ -84,3 +84,7 @@ Questions:
 			- So in total, we'll have 3 fiber lines running between ATS-2 and ATS-1, 2 for serial MB and 1 for SCADA DNP via TCP
 			- We could use the other fiber port on the RTAC to communicate to SCADA, but we still need 4 fiber ports on the switch
 				- 1 to connect to the RTAC, 2 for MB to ATS-2, and 1 for TCP DNP from ATS-2
+
+
+
+- 2800 transceiver
