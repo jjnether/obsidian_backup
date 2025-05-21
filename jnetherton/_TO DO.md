@@ -45,6 +45,7 @@ kanban-plugin: board
 ## SAT/GWI
 
 - [ ] [[120881 - Bauxite]]
+- [ ] [[120518 - United Coop]]
 
 
 ***

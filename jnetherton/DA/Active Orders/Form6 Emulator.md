@@ -49,7 +49,6 @@ Questions
 - REVIEW FRONT PANEL
 	- Do we want "not used" or just blank
 	- Maybe use spare PB's for ALT2/3?
-- CHECK LT05 (might be NA, but still exist in logic)
 
 Test Plan:
 - Do a compare with the 32-pin template and test any changed functionality

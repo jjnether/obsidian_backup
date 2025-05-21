@@ -1,0 +1,2 @@
+- Check LT05 is removed from CL3P and ULCL
+	- was previously PB lock, but should now be NA and not used anymore, check this too
