@@ -17,7 +17,6 @@
 
 
 NOTE:
-
 For ULCL3P (unlatch close - will refuse to close when held high), you must add any automation to this equation to allow the automation to take place when pushbuttons are locked
 
 
