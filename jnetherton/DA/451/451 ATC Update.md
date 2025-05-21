@@ -98,3 +98,21 @@ NOT ASV141 AND (NOT ALT07 OR PCT12Q) AND ((NOT ALT02 AND ASV061) OR (ASV055 AND 
 - not in lockout
 - S1 not in ITS or OBW
 - not in auto and 
+
+
+
+G&W to program SEL-451 to accommodate the below:
+
+1)    If an initial transfer has taken place and the load is being fed from the secondary source, the control will monitor the primary source for a return of healthy voltage.
+
+2)    Upon the return of healthy voltage on the primary source, the control will begin timing for a return transfer using the Return Transfer Timer as set by the user.
+
+3)    The return transfer shall be executed in one of the two following ways:
+
+a.    If the secondary source voltage remains healthy for the duration of the Return Transfer Timer, the control shall initiate a return transfer in the sequence as set by the user (Open Before Close or Close Before Open).
+
+b.    If there is a loss of the secondary source voltage during the Return Transfer Timer, the control shall initiate a return transfer in an Open Before Close sequence.
+
+4)    The control will only ever transfer from preferred source to alternate source if the preferred source is dead (following the Initial Transfer Sequence).  To comply with the City of Columbus requirements, the Initial Transfer Sequence setting must be set to Open Before Close.
+
+5)    Factory Acceptance Test (FAT) at G&W factory in Bolingbrook, IL to verify functionality of SEL-451 programming as per points 1)-4) above. G&W to host conference call with screensharing ability for City of Columbus to attend and witness FAT remotely.
