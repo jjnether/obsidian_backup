@@ -95,4 +95,4 @@ Questions:
 		- If they want redundancy, 
 	- We don't plan on operating one of the ties (should always be closed)
 - In order to facilitate the scheme with what we have now and not affect lead times, we'll take out test mode
-- We're going to remove extra statuses, and just put them on the 
+- We're going to remove extra statuses, and just put them on the terminal block
