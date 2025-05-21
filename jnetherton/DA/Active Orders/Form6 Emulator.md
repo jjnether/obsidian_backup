@@ -19,6 +19,7 @@ Changed:
 - LT5 (previously PB lock when low) removed from CL3P and ULCL equations
 - Removed `NOT (CLOSEA OR (CC3 OR CCA) AND LT03 OR 79CYA)` term from all ULCL equations
 	- isn't necessary and was blocking close sometimes
+	- ==DOUBLE CHECK WE WANT THIS REMOVED==
 - Changed single-ph close equations so user can close all 3 phases when in 1ph trip-3ph lockout mode
 - Changed TR3P equation so a PB press open only opens all 3 phases if in 3ph lockout or 3ph trip mode
 - Removed MV18 (operating mode) supervisory from SV42 (PB trip conditions)
@@ -49,6 +50,8 @@ Questions
 - REVIEW FRONT PANEL
 	- Do we want "not used" or just blank
 	- Maybe use spare PB's for ALT2/3?
+- edit SV21 so it only causes lockout when in 3ph or singleph mode for the right ULCL
+- Check that LT21 won't latch, then stay latched if there's some kind of ULCL (when testing united coop, I was seeing it latch, but user wouldn't know because it didn't do anything as it was blocked by ulcl)
 
 Test Plan:
 - Do a compare with the 32-pin template and test any changed functionality
