@@ -30,7 +30,9 @@ Fiber-Optic Ethernet
 - Yellow = Tx
 - White = Rx
 - Multi Mode (better)
--   Single Mode
+	- 100BASE-FX
+- Single Mode
+	- 100BASE-LX10
     - Many physical issues; stay away if possible
     - Can get dirty easily
     - Shape remains intact throughout the cable
