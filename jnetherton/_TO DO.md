@@ -13,10 +13,12 @@ kanban-plugin: board
 	- 118682 - Prairie Land Elect Coop (Border States)
 	- 120518 - United Cooperative Services
 - [ ] **General Work**
-	- FREE GWI - 00932
 	- Default 487 overcurrent program
 	- 451 ATC rework
 	- Form6 Testing
+	- Prime GWI?
+	- Bauxite GWI
+	- Bauxite SAT script
 
 
 ## Programming Spec
