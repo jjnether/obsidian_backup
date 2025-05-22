@@ -279,6 +279,7 @@ For production voltage calibration:
 - Relay configuration
 	- At least 2 current channels active (S, T)
 	- Voltage terminals assigned (V, Z)
-- voltage reference
-	- one has to be V, one has to be Z
-	- good pt ratio
+- Potential Transformer Data
+	- Proper PT ratio (133.33 or 266.66)
+- Voltage reference terminal selection
+	- One has to be V, one has to be Z
