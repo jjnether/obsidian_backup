@@ -274,3 +274,11 @@ For relay ground vs neutral overcurrent (from 651R manual):
 - If |IN| < 4.7A, IG uses IN
 	- provides for increased sensitivity at lower ground currents
 - If |IN| >= 4.7A, IG uses 3I0
+
+For production voltage calibration:
+- Relay configuration
+	- At least 2 current channels active (S, T)
+	- Voltage terminals assigned (V, Z)
+- voltage reference
+	- one has to be V, one has to be Z
+	- good pt ratio
