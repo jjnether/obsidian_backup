@@ -16,10 +16,9 @@
 
 Changed:
 - Added logic so all 3 phases are always selected when in single ph enable - 3 ph trip mode
-- LT5 (previously PB lock when low) removed from CL3P and ULCL equations
-- Removed `NOT (CLOSEA OR (CC3 OR CCA) AND LT03 OR 79CYA)` term from all ULCL equations
-	- isn't necessary and was blocking close sometimes
-	- ==DOUBLE CHECK WE WANT THIS REMOVED==
+- LT5 (previously PB lock when low) removed from CL3P equations
+- Removed `NOT (LT05 OR CLOSE3P OR CC3 AND LT03 OR 79CY3P)` term (and all similar) from ULCL equations
+	- This term is only used for to allow certain ways to close when PB lock is enabled (LT05=0), but we removed PB lock
 - Changed single-ph close equations so user can close all 3 phases when in 1ph trip-3ph lockout mode
 - Changed TR3P equation so a PB press open only opens all 3 phases if in 3ph lockout or 3ph trip mode
 - Removed MV18 (operating mode) supervisory from SV42 (PB trip conditions)

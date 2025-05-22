@@ -1,3 +1,2 @@
-- Check LT05 is removed from CL3P and ULCL
-	- was previously PB lock, but should now be NA and not used anymore, check this too
-- Might also need to remove that whole term, not just in ULCL3P, but in single phase too
+- Check `NOT (LT05 OR CLOSE3P OR CC3 AND LT03 OR 79CY3P)` term in ULCL3P to remove (and other ULCL equations)
+	- might just be easier to hardcode LT05 to 1, so this term doesn't affect anything. Will also be fine in CL3P

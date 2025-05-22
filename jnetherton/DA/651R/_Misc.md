@@ -19,8 +19,6 @@
 NOTE:
 For ULCL3P (unlatch close - will refuse to close when held high), you must add any automation to this equation to allow the automation to take place when pushbuttons are locked
 
-
-
 TRIP3P OR NOT (LT06 AND SV38 OR CLOSE3P) OR NOT (LT05 OR CLOSE3P OR CC3 AND LT03 OR 79CY3P [OR LT15 OR SV59T]{.mark}) OR SV22T AND MV17 <> 0.00 # 3-PH CLOSE UNLATCH
 
 **Sectionalizers**
