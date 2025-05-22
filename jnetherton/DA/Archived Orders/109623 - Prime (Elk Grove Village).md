@@ -1,6 +1,10 @@
 
 [file path](<file:///C:\Users\jnetherton\G&W Electric Co\US-PowerGridAutomation - Documents\_Lazer\109623 - Prime (Elk Grove Village)>)
 
+
+
+
+
 - Why does local ITS latch only reset if it's switch 1 (other than timeout) (PLT25R) - EDITED
 	- WAS `PLT25R := (PSV06 AND PSV07 AND (VB001 AND VB003) AND NOT LB01) OR PCT11Q`
 - Edited PSV16 for opening S2 also when LB01=1
