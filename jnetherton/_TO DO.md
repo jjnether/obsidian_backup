@@ -18,7 +18,6 @@ kanban-plugin: board
 	- Form6 Testing
 	- Prime GWI?
 	- Bauxite GWI
-	- Bauxite SAT script
 
 
 ## Programming Spec
