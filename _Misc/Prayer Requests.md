@@ -13,3 +13,5 @@ Dominique work
 Lysandra decisions on workers compensation
 Erica direction
 Logan stomach and military direction 
+
+Peter and Barb Reynolds kidnapped in Afghanistan 
