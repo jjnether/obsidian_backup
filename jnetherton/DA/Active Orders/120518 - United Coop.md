@@ -8,3 +8,4 @@
 
 TO DO:
 - DNP map guide
+- They want fault timestamp, so last time it tripped due to overcurrent - what do we have for this?
