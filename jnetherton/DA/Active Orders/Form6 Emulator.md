@@ -36,7 +36,7 @@ Changed:
 	- This was because the previous values used were PHASE_A/B/C, but these assert anytime TRIPA/B/C asserts, so they were asserting when opening via PB when in 1ph mode
 - Modified Change mode so it resets for each action
 - Added functionality so CLPU activates upon PB close if it sees the mechanism close
-- 
+- Added SV47 and SV48 to add a delay for PB open/close 2nd press (so it doesn't operate on the same processing cycle as the PB press, it should wait until after first press to then operate on a 2nd press)
 
 
 Questions
