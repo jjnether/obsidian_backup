@@ -154,3 +154,6 @@ MEETING NOTES:
 - HLT has two separate latches for remote and local
 - HLT doesn't have a separate 50, but a distinct time delay for HLT
 - repurpose ABC 51 curves for CLPU
+
+
+651 and 400
