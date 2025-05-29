@@ -36,6 +36,7 @@ Changed:
 	- This was because the previous values used were PHASE_A/B/C, but these assert anytime TRIPA/B/C asserts, so they were asserting when opening via PB when in 1ph mode
 - Modified Change mode so it resets for each action
 - Added functionality so CLPU activates upon PB close if it sees the mechanism close
+- 
 
 
 Questions
@@ -153,4 +154,3 @@ MEETING NOTES:
 - HLT has two separate latches for remote and local
 - HLT doesn't have a separate 50, but a distinct time delay for HLT
 - repurpose ABC 51 curves for CLPU
-- 
