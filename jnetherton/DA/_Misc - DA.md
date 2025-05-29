@@ -202,6 +202,8 @@ FTP Password: `TAIL`
 
 Additional Non Communicating Logic To Help Prevent Closing Into A Fault.  It will not preventing closing into all faults (3 phases faults will have to be closed into).
 This logic will apply to any device that auto closes.
+||
+V
 
 ---
 `SET LT01 := SV02T`
