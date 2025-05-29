@@ -131,6 +131,12 @@ U3
 400 A
 
 DESIGN TEMPLATE:
+- Template can be stored on 400 and 600-series devices, but not 700
+- When template is sent, it's like a "snapshot" of what the settings are in that template
+- When template is read, it compares the "snapshot" to the settings actually present in the device
+	- if they don't match (because someone sent settings without sending the template), it will prompt for a compare
+
+
 - Relay settings format:
 	- `[setting group label^setting name], e.g., [1^51G1JC]`
 - Design variable format: 
@@ -187,7 +193,9 @@ SF6 Ratings:
 ![[Pasted image 20240702102126.png]]
 
 Default SEL Relay Port 5 IP: `192.168.1.2`
-Default FTP User: `2AC`
+Default FTP User:
+- `2AC` for 400-series
+- FTPUSER (relay parameter), `FTPUSER` by default for 600-series
 FTP Password: `TAIL`
 **NOTE**: FTP connection requires Telnet to be active
 
