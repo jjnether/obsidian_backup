@@ -197,7 +197,7 @@ Default FTP User:
 - `2AC` for 400-series
 - FTPUSER (relay parameter), `FTPUSER` by default for 600-series
 FTP Password: `TAIL`
-**NOTE**: FTP connection requires Telnet to be active
+**NOTE**: FTP connection requires Telnet to be active?
 
 
 Additional Non Communicating Logic To Help Prevent Closing Into A Fault.  It will not preventing closing into all faults (3 phases faults will have to be closed into).
