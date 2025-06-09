@@ -17,7 +17,6 @@ kanban-plugin: board
 	- 451 ATC rework
 	- Form6 Testing
 	- Prime GWI?
-	- Bauxite GWI
 
 
 ## Programming Spec
@@ -48,6 +47,7 @@ kanban-plugin: board
 ## SAT/GWI
 
 - [ ] [[120881 - Bauxite]]
+	- GWI
 - [ ] [[120518 - United Coop]]
 
 
