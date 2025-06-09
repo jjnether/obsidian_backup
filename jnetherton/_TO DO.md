@@ -41,6 +41,8 @@ kanban-plugin: board
 
 - [ ] [[110307 - Fort Meade]]
 	- FAT 6/16 @{2025-01-21}
+- [ ] [[118892 - Pantex]]
+	- FAT 6/26
 
 
 ## SAT/GWI
