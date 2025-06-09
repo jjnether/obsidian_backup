@@ -14,4 +14,6 @@ Lysandra decisions on workers compensation
 Erica direction
 Logan stomach and military direction 
 
-Peter and Barb Reynolds kidnapped in Afghanistan 
+Peter and Barb Reynolds kidnapped in Afghanistan
+
+Ate Kay and Kuya Robert
