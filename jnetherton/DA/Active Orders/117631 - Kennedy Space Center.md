@@ -75,3 +75,6 @@ Emergency OBC on return transfer:
 	- if not in sync, prevents from closing
 	- live line dead bus
 	- add sync check default settings to programming spec
+
+- For 52B, use the aux 52B so it's not blocked when yellow handle is asserted
+- For hardwired, send 52a/52b, ac alarm, batt alarm, trsr, and blocked
