@@ -70,7 +70,7 @@ Emergency OBC on return transfer:
 - use case is if the ATC threw to generator, utility comes back and the healthy utility source timer starts timing, and the generator then drops out,  it should immediately transfer back to the utility rather than wait the remainder of the healthy source timer.  but it should do an OBC so it doesnt close the utility and parallel into a gen that is spinning down
 
 - Transfer trip fault isolation is referencing fault on the tie cable, right? Then just send a trip to isolate the tie cable
-- set fault target that prevents it from closing back in (add to lockout on both relays, asserts latch if either tie trips)
+	- set fault target that prevents it from closing back in (add to lockout on both relays, asserts latch if either tie trips)
 - sync check
 	- if not in sync, prevents from closing
 	- live line dead bus
