@@ -54,6 +54,7 @@ G&W Main-Tie-Main Auto Transfer Package, including:
 	▪ DNP 3.0 mapping for serial SCADA interfaces
 	▪ Analog voltage sensing inputs from PTs
 	▪ Block operations input (one per source)
+		- just use block signal from trident tank
 	▪ Synchronism Check for Return Transfers
 
 G&W LaZer communicating Main-Tie-Tie-Main automation scheme to prevent source paralleling via electronic 
