@@ -51,36 +51,17 @@ G&W Main-Tie-Main Auto Transfer Package, including:
 	▪ Manual override for local operation.
 	▪ Selectable time delays for initial transfer and return.
 	▪ Programmable return transfer sequence, open before close or close before open
-	▪ Test mode operations with push buttons to simulate loss of voltage for source 1 and 2
 	▪ DNP 3.0 mapping for serial SCADA interfaces
 	▪ Analog voltage sensing inputs from PTs
 	▪ Block operations input (one per source)
-	▪ SEL sequence of events recorder
-	▪ Factory assembled and tested.
 	▪ Synchronism Check for Return Transfers
 
 G&W LaZer communicating Main-Tie-Tie-Main automation scheme to prevent source paralleling via electronic 
 control interlocks.
 • SEL relays to facilitate the communication with Mirrored Bits messaging
 • RTAC Configuration and DNP map consolidation of the two (2) SEL 451 relays.
-• The exact automation system design will be discussed between G&W Electric and all project representatives 
-prior to implementation.
 • Transfer trip fault isolation and transfer restoration scheme
 
 Questions:
-- Can I ignore adding test mode?
 - Do I need to select delta for voltage sensing? Or do I just use VAY, VBY, etc
-- Am I ok to just treat one of the tie ways as normally closed?
 - Transfer trip fault isolation is referencing fault on the tie cable, right? Then just send a trip to isolate the tie cable
-- Any idea why we wired 52A/52B 3 times redundant to the relay for each source/tie way?
-	- Quote says:
-		- Ways 1 and 5 are equipped with quantity three auxiliary Form C contacts wired to the control cabinet for use by the control.
-		- Ways 2, 3 and 4 are equipped with quantity two auxiliary Form C contacts wired to the control cabinet for use by the control.
-- Comms?
-	- Fiber patch panels?
-	- We only have 1 transceiver per switch, but if we do mirrored bits (per the quote, and MOT doesn't have IEC 61850), I believe I'll need two channels (so 2 transceivers per switch)
-	- Ethernet switch only has 2 fiber ports
-		- A port was not reserved for upstream communication to SCADA (fiber, separate connection from ATS-2 to ATS-1)
-			- So in total, we'll have 3 fiber lines running between ATS-2 and ATS-1, 2 for serial MB and 1 for SCADA DNP via TCP
-			- We could use the other fiber port on the RTAC to communicate to SCADA, but we still need 4 fiber ports on the switch
-				- 1 to connect to the RTAC, 2 for MB to ATS-2, and 1 for TCP DNP from ATS-2
