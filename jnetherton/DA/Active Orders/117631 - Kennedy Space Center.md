@@ -74,4 +74,4 @@ Emergency OBC on return transfer:
 - sync check
 	- if not in sync, prevents from closing
 	- live line dead bus
-	- add sync check default settings 
+	- add sync check default settings to programming spec
