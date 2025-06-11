@@ -8,8 +8,11 @@
 120518 - United Cooperative Services
 - Pick Date - 3-12
 
-- 0651R229XGG8AE1113WWWW
+- 0651R229XGG8AE1113WWWW (border states)
 - 651R#CLAX
+	- dedicated front LED's for open/close/HLT
+	- toggle switch for HLT
+	- dedicated front PB's for open/close
 
 72513 - midwest - GWI - 32 pin template
 
