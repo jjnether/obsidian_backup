@@ -24,31 +24,33 @@ kanban-plugin: board
 - [ ] [[127998 - CenterPoint]]
 	- Waiting to review Nic's Programming Spec
 - [ ] [[117631 - Kennedy Space Center]]
-	- Programming Spec due 5/23
+	- Programming Spec sent to Nic to review
 	@{2025-08-26}
 
 
 ## Programming
 
-- [ ] [[119509 - Elk Grove Village Property]]
-	- Ordered before last one changed, need to see if they want everything identical
-	@{2025-05-19}
 - [ ] [[128558 - Elk Grove]]
 
 
 ## FAT
 
+- [ ] [[119509 - Elk Grove Village Property]]
+	- Tentative FAT scheduled - need to find out scope of FAT (if we're testing automation or not)
+	- FAT plan to write
+	@{2025-06-16}
 - [ ] [[110307 - Fort Meade]]
-	- FAT 6/16 @{2025-01-21}
+	- FAT 6/16 @{2025-06-16}
 - [ ] [[118892 - Pantex]]
-	- FAT 6/26
+	- Production programs done
+	- FAT plan sent
+	- Waiting for customer response on automation settings
 
 
 ## SAT/GWI
 
 - [ ] [[120881 - Bauxite]]
-	- GWI
-- [ ] [[120518 - United Coop]]
+	- GWI to write
 
 
 ***
