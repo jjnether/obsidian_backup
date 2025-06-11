@@ -35,22 +35,23 @@ kanban-plugin: board
 
 ## FAT
 
-- [ ] [[119509 - Elk Grove Village Property]]
-	- Tentative FAT scheduled - need to find out scope of FAT (if we're testing automation or not)
-	- FAT plan to write
-	@{2025-06-16}
 - [ ] [[110307 - Fort Meade]]
 	- FAT 6/16 @{2025-06-16}
 - [ ] [[118892 - Pantex]]
 	- Production programs done
 	- FAT plan sent
-	- Waiting for customer response on automation settings
+	- Waiting for customer response on automation settings @{2025-06-24}
+- [ ] [[119509 - Elk Grove Village Property]]
+	- Tentative FAT scheduled - need to find out scope of FAT (if we're testing automation or not)
+	- FAT plan to write
+	@{2025-07-08}
 
 
 ## SAT/GWI
 
 - [ ] [[120881 - Bauxite]]
 	- GWI to write
+	- Waiting on SAT dates and maybe PO for other SAT
 
 
 ***
