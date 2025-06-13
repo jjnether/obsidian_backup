@@ -68,6 +68,7 @@ MEETING NOTES:
 - Differences:
 	- HLT - initiate trip based on HLT activating - should not cause a trip
 - ==Blinking LED's when only one phase open==
+	- this might already be implemented?
 - design template should exactly match simplified setup
 - copy template settings from one group to another?
 - HLT - add definite time delay in ms
@@ -154,3 +155,7 @@ NOT (3PO OR SPO) AND NOT (SV13 AND SV41T) OR (3PO OR SPO) AND (SPO AND NOT SV13 
 50G2P - High current trip
 50G5P - CLPU
 50G6P - Minimum trip (same as 51 min. trip), only used for CLPU natural restoration, not used for tripping
+
+
+NOT (3PO OR SPO) AND NOT (SV13 AND SV41T) OR (3PO OR SPO) AND (SPO AND NOT SV13 AND SV01T OR SV13 AND SV41T) # CLOSE LED ON EXTERNAL PANEL
+- ALL CLOSED AND 
