@@ -45,7 +45,8 @@ Changed:
 Questions
 - Should we define a default DNP map? Maybe just use what we have for the 32-pin template?
 - When yellow handle is pulled on one phase, it trips all 3 if in 3ph LO mode, but only trips the one if in 1ph LO mode
-	- should we add this?
+	- ==should we add this?==
+	- For 32-pin default, 3-ph trip from yellow handle is directly controlled from the template setting
 -  If the the control shuts down due to low battery voltage before AC power is restored, and the connected energized recloser is CLOSED, it will only TRIP and LOCKOUT via front panel pushbutton command.
 	- can we do this?
 - Lockout LED (only one) is green on Form6, should we change ours to green? Also, it blinks when in 1ph-1LO mode and 1/2 phases are in lockout, but not all 3. Maybe implement if a phase is locked out, but not all 3 are, the locked out phases blink?
