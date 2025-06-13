@@ -42,6 +42,8 @@ Changed:
 - Added SV47 and SV48 to add a delay for PB open/close 2nd press (so it doesn't operate on the same processing cycle as the PB press, it should wait until after first press to then operate on a 2nd press)
 - Changed all 3 lockout LED's to green to match Form6
 - Edited SV21 so the 3-phase terms only assert when in 3-phase mode, and same for single phase
+- Moved NOT SV21 from SV13 to LT21 (more upstream on the close logic)
+	- Did this because close initiate was latching, but not executing close because SV21 was blocking, then when SV21 deasserted, it closed (not good)
 
 
 Questions
@@ -54,7 +56,6 @@ Questions
 - In the event of main microprocessor failure, the trip circuit can operate independent of the main microprocessor
 - REVIEW FRONT PANEL
 	- Maybe use spare PB's for ALT2/3?
-- Check that LT21 won't latch, then stay latched if there's some kind of ULCL (when testing united coop, I was seeing it latch, but user wouldn't know because it didn't do anything as it was blocked by ulcl)
 
 Test Plan:
 - Do a compare with the 32-pin template and test any changed functionality
@@ -66,7 +67,7 @@ DIFFERENCES:
 MEETING NOTES:
 - Differences:
 	- HLT - initiate trip based on HLT activating - should not cause a trip
-- Blinking LED's when only one phase open
+- ==Blinking LED's when only one phase open==
 - design template should exactly match simplified setup
 
 
@@ -81,7 +82,7 @@ Missing LED's
 
 TO CHECK:
 - HLT takes precedence over CLPU
-- Lockout is enabled for a bit on all 3 phases when just opening one phase
+- Lockout LED is enabled for a bit on all 3 phases when just opening one phase
 
 ---
 # FUNCTIONALITY
