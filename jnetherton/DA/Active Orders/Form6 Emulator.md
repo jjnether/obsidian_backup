@@ -47,6 +47,7 @@ Changed:
 - Replaced LT06 (HLT) with remote command logic and added new SV20 variable to replace LT06 throughout to add remote command logic for activating HLT
 - Changed SV35 so HLT activates upon overcurrent pickups rather than overcurrent timeouts
 - Added SV27 and edited TR3X equation for HLT trip delay
+- Added SV20 to 3ph and 1ph torque control equations so HLT overrides CLPU
 
 
 Questions
@@ -83,7 +84,6 @@ Missing LED's
 - Above minimum trip
 
 TO CHECK:
-- HLT takes precedence over CLPU
 - Lockout LED is enabled for a bit on all 3 phases when just opening one phase
 
 ---
@@ -96,7 +96,7 @@ TO CHECK:
 - Two separate latches - one for remote and one for local (toggle switch) - both need to be off to deactivate HLT
 - Activates upon any 51 element or high current trip picking up
 - HLT can have a definite time delay added, but no unique curve
-- ==Form6 HLT takes precedence over cold load pickup, non-reclosing, and fast trips disabled
+- HLT takes precedence over cold load pickup, non-reclosing, and fast trips disabled
 - ==If above ground pickup and below phase (ground trip only), trips all 3 phases on TCC1 or HLT definite time delay
 - ==HLT trips on TCC1 or Time delay whichever is faster. If unit trips on HLT time then all 3 phases operate and lockout. If trip on TCC1 then only phase involved trips and LO
  
