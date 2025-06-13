@@ -67,12 +67,10 @@ DIFFERENCES:
 MEETING NOTES:
 - Differences:
 	- HLT - initiate trip based on HLT activating - should not cause a trip
-- ==Blinking LED's when only one phase open==
-	- this might already be implemented?
 - design template should exactly match simplified setup
 - copy template settings from one group to another?
 - HLT - add definite time delay in ms
-- HLT has two separate latches for remote and local
+- HLT has two separate latches for remote and local - both 
 - HLT doesn't have a separate 50, but a distinct time delay for HLT
 - repurpose ABC 51 curves for CLPU
 
