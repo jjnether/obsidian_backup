@@ -62,6 +62,7 @@ Questions
 - Check MOT's and compare between the border states MOT, marketing, and the one in the cage
 	- what do we want as standard?
 	- ask SEL if they can give us a special spec which provides the extra IO and locks firmware, but as a standard offering, not for a specific customer
+- Maybe look into using an ABC 51 curve for HLT?
 
 Test Plan:
 - Do a compare with the 32-pin template and test any changed functionality
