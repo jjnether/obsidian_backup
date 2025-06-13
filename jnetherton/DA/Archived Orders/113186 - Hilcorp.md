@@ -17,3 +17,5 @@ P-N = 1.59 - sec
 Consistent across all ways, just too low
 all ways read 400-500 volts low from what we know is a good voltage measurement
 temperature - 50F
+
+![[Pasted image 20250613121008.png]]
