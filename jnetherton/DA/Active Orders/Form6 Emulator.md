@@ -41,6 +41,7 @@ Changed:
 - Added functionality so CLPU activates upon PB close if it sees the mechanism close
 - Added SV47 and SV48 to add a delay for PB open/close 2nd press (so it doesn't operate on the same processing cycle as the PB press, it should wait until after first press to then operate on a 2nd press)
 - Changed all 3 lockout LED's to green to match Form6
+- Edited SV21 so the 3-phase terms only assert when in 3-phase mode, and same for single phase
 
 
 Questions
@@ -53,7 +54,6 @@ Questions
 - In the event of main microprocessor failure, the trip circuit can operate independent of the main microprocessor
 - REVIEW FRONT PANEL
 	- Maybe use spare PB's for ALT2/3?
-- edit SV21 so it only causes lockout when in 3ph or singleph mode for the right ULCL
 - Check that LT21 won't latch, then stay latched if there's some kind of ULCL (when testing united coop, I was seeing it latch, but user wouldn't know because it didn't do anything as it was blocked by ulcl)
 
 Test Plan:
