@@ -40,6 +40,8 @@ Changed:
 - Modified Change mode so it resets for each action
 - Added functionality so CLPU activates upon PB close if it sees the mechanism close
 - Added SV47 and SV48 to add a delay for PB open/close 2nd press (so it doesn't operate on the same processing cycle as the PB press, it should wait until after first press to then operate on a 2nd press)
+- Changed all 3 lockout LED's to green and added logic so
+	- was originally 79LOA OR 79LO3P for a-phase
 
 
 Questions
