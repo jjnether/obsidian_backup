@@ -67,6 +67,7 @@ Test Plan:
 
 DIFFERENCES:
 - No alarm for 52A/B discrepancy (can do with 42-pin, but we only get 52A back with 32-pin)
+- No HLT specific curve
 
 MEETING NOTES:
 - Differences:
@@ -74,7 +75,6 @@ MEETING NOTES:
 - design template should exactly match simplified setup
 - copy template settings from one group to another?
 - HLT - add definite time delay in ms
-
 - HLT doesn't have a separate 50, but a distinct time delay for HLT
 - repurpose ABC 51 curves for CLPU
 
@@ -98,13 +98,9 @@ TO CHECK:
 ### HOT LINE TAG
 - All closing is disabled
 - One trip-to-lockout
-- Trips out all 3 phases no matter which mode
-- - HLT has two separate latches for remote and local - both need to be off to deactivate HLT
+- Trips out all 3 phases no matter which mode recloser is in
+- Two separate latches - one for remote and one for local (toggle switch) - both need to be off to deactivate HLT
 - ==Form6 takes precedence over cold load pickup, non-reclosing, and fast trips disabled
-- ==HLT opens all 3 phases independent mode or timing that defines the trip time
-- ==specific curve allowed to be programmed for HLT?
-- ==form 6 allowed activation from other sources, but only allowed deactivation when all sources are disabled
-	- ==may only be reset by the source that set it (if activated at the operator panel, must be deactivated there, and not by SCADA)
 - ==Add definite time delay for HLT elements?
 - ==HLT will act on whatever is fastest, active curve or time delay
 - ==If above ground pickup and below phase, trips all 3 phases on TCC1 or HLT definite time delay?
