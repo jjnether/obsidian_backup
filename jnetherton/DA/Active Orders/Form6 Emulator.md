@@ -159,3 +159,5 @@ NOT (3PO OR SPO) AND NOT (SV13 AND SV41T) OR (3PO OR SPO) AND (SPO AND NOT SV13 
 
 NOT (3PO OR SPO) AND NOT (SV13 AND SV41T) OR (3PO OR SPO) AND (SPO AND NOT SV13 AND SV01T OR SV13 AND SV41T) # CLOSE LED ON EXTERNAL PANEL
 - all phases closed AND NOT (close delay AND 2hz flasher)
+	- blinks if all phases closed and no close delay timing
+	- blinks if all phases closed and close delay timing
