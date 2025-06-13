@@ -12,3 +12,8 @@ P-N = 1.59 - sec
 - Fixed DNP points list
 	- Battery Test and Remote Trip
 - Removed SF6 from Trip logic
+
+2 in service - 1 starting in a couple months
+Consistent across all ways, just too low
+all ways read 400-500 volts low from what we know is a good voltage measurement
+temperature - 50F
