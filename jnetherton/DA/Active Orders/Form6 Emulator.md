@@ -44,8 +44,7 @@ Changed:
 - Edited SV21 so the 3-phase terms only assert when in 3-phase mode, and same for single phase
 - Moved NOT SV21 from SV13 to LT21 (more upstream on the close logic)
 	- Did this because close initiate was latching, but not executing close because SV21 was blocking, then when SV21 deasserted, it closed (not good)
-- Replaced LT06 with remote command logic for activating HLT, and added IN103 to LT06 logic throughout (effectively two separate latches for HLT)
-	- Added SV20 extra variable for HLT logic
+- Replaced LT06 (HLT) with remote command logic and added new SV20 variable to replace LT06 throughout to add remote command logic for activating HLT
 
 
 Questions
@@ -58,6 +57,9 @@ Questions
 - In the event of main microprocessor failure, the trip circuit can operate independent of the main microprocessor
 - REVIEW FRONT PANEL
 	- Maybe use spare PB's for ALT2/3?
+- Check MOT's and compare between the border states MOT, marketing, and the one in the cage
+	- what do we want as standard?
+	- ask SEL if they can give us a special spec which provides the extra IO and locks firmware, but as a standard offering, not for a specific customer
 
 Test Plan:
 - Do a compare with the 32-pin template and test any changed functionality
@@ -72,7 +74,7 @@ MEETING NOTES:
 - design template should exactly match simplified setup
 - copy template settings from one group to another?
 - HLT - add definite time delay in ms
-- HLT has two separate latches for remote and local - both need to be off to deactivate HLT
+
 - HLT doesn't have a separate 50, but a distinct time delay for HLT
 - repurpose ABC 51 curves for CLPU
 
@@ -97,7 +99,7 @@ TO CHECK:
 - All closing is disabled
 - One trip-to-lockout
 - Trips out all 3 phases no matter which mode
-- Can be activated only from toggle switch
+- - HLT has two separate latches for remote and local - both need to be off to deactivate HLT
 - ==Form6 takes precedence over cold load pickup, non-reclosing, and fast trips disabled
 - ==HLT opens all 3 phases independent mode or timing that defines the trip time
 - ==specific curve allowed to be programmed for HLT?
