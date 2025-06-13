@@ -62,25 +62,18 @@ Questions
 - Check MOT's and compare between the border states MOT, marketing, and the one in the cage
 	- what do we want as standard?
 	- ask SEL if they can give us a special spec which provides the extra IO and locks firmware, but as a standard offering, not for a specific customer
-- Maybe look into using an ABC 51 curve for HLT?
 
 Test Plan:
 - Do a compare with the 32-pin template and test any changed functionality
 - test basic but frequently used functions
 
-DIFFERENCES:
+Differences from Form6:
 - No alarm for 52A/B discrepancy (can do with 42-pin, but we only get 52A back with 32-pin)
-- No HLT specific curve
+- No HLT or CLPU specific curves (no other 51 curves available, can't use ABC curves either as they are used for single-ph logic)
 
 MEETING NOTES:
-- Differences:
-	- HLT - initiate trip based on HLT activating - should not cause a trip
 - design template should exactly match simplified setup
 - copy template settings from one group to another?
-- HLT - add definite time delay in ms
-- HLT doesn't have a separate 50, but a distinct time delay for HLT
-- repurpose ABC 51 curves for CLPU
-
 
 Missing LED's
 - No AC present (add display point)
