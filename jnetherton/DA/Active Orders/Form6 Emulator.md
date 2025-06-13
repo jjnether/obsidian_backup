@@ -70,7 +70,7 @@ MEETING NOTES:
 - design template should exactly match simplified setup
 - copy template settings from one group to another?
 - HLT - add definite time delay in ms
-- HLT has two separate latches for remote and local - both 
+- HLT has two separate latches for remote and local - both need to be off to deactivate HLT
 - HLT doesn't have a separate 50, but a distinct time delay for HLT
 - repurpose ABC 51 curves for CLPU
 
@@ -97,8 +97,7 @@ TO CHECK:
 - Trips out all 3 phases no matter which mode
 - Can be activated only from toggle switch
 - ==Form6 takes precedence over cold load pickup, non-reclosing, and fast trips disabled
-- ==HLT opens all 3 phases independent mode or timing that defines the trip time. If any one phase is already open and HLT is activate the other 2 phases will **NOT**  open.
-- ==HLT opens all 3 phases independent mode or timing that defines the trip time. If any one phase is already open and HLT is activate the other 2 phases will immediately open.
+- ==HLT opens all 3 phases independent mode or timing that defines the trip time
 - ==specific curve allowed to be programmed for HLT?
 - ==form 6 allowed activation from other sources, but only allowed deactivation when all sources are disabled
 	- ==may only be reset by the source that set it (if activated at the operator panel, must be deactivated there, and not by SCADA)
