@@ -45,6 +45,7 @@ Changed:
 - Moved NOT SV21 from SV13 to LT21 (more upstream on the close logic)
 	- Did this because close initiate was latching, but not executing close because SV21 was blocking, then when SV21 deasserted, it closed (not good)
 - Replaced LT06 (HLT) with remote command logic and added new SV20 variable to replace LT06 throughout to add remote command logic for activating HLT
+- Changed SV35 so HLT activates upon overcurrent pickups rather than overcurrent timeouts
 
 
 Questions
@@ -100,6 +101,7 @@ TO CHECK:
 - One trip-to-lockout
 - Trips out all 3 phases no matter which mode recloser is in
 - Two separate latches - one for remote and one for local (toggle switch) - both need to be off to deactivate HLT
+- Activates upon 51 element picking up or 
 - ==Form6 takes precedence over cold load pickup, non-reclosing, and fast trips disabled
 - ==Add definite time delay for HLT elements?
 - ==HLT will act on whatever is fastest, active curve or time delay
