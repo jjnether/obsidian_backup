@@ -40,8 +40,7 @@ Changed:
 - Modified Change mode so it resets for each action
 - Added functionality so CLPU activates upon PB close if it sees the mechanism close
 - Added SV47 and SV48 to add a delay for PB open/close 2nd press (so it doesn't operate on the same processing cycle as the PB press, it should wait until after first press to then operate on a 2nd press)
-- Changed all 3 lockout LED's to green and added logic so
-	- was originally 79LOA OR 79LO3P for a-phase
+- Changed all 3 lockout LED's to green to match Form6
 
 
 Questions
@@ -51,10 +50,8 @@ Questions
 	- For 32-pin default, 3-ph trip from yellow handle is directly controlled from the template setting
 -  If the the control shuts down due to low battery voltage before AC power is restored, and the connected energized recloser is CLOSED, it will only TRIP and LOCKOUT via front panel pushbutton command.
 	- can we do this?
-- Lockout LED (only one) is green on Form6, should we change ours to green? Also, it blinks when in 1ph-1LO mode and 1/2 phases are in lockout, but not all 3. Maybe implement if a phase is locked out, but not all 3 are, the locked out phases blink?
 - In the event of main microprocessor failure, the trip circuit can operate independent of the main microprocessor
 - REVIEW FRONT PANEL
-	- Do we want "not used" or just blank
 	- Maybe use spare PB's for ALT2/3?
 - edit SV21 so it only causes lockout when in 3ph or singleph mode for the right ULCL
 - Check that LT21 won't latch, then stay latched if there's some kind of ULCL (when testing united coop, I was seeing it latch, but user wouldn't know because it didn't do anything as it was blocked by ulcl)
