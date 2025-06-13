@@ -46,6 +46,7 @@ Changed:
 	- Did this because close initiate was latching, but not executing close because SV21 was blocking, then when SV21 deasserted, it closed (not good)
 - Replaced LT06 (HLT) with remote command logic and added new SV20 variable to replace LT06 throughout to add remote command logic for activating HLT
 - Changed SV35 so HLT activates upon overcurrent pickups rather than overcurrent timeouts
+- Added SV27 and edited TR3X equation for HLT trip delay
 
 
 Questions
@@ -101,11 +102,10 @@ TO CHECK:
 - One trip-to-lockout
 - Trips out all 3 phases no matter which mode recloser is in
 - Two separate latches - one for remote and one for local (toggle switch) - both need to be off to deactivate HLT
-- Activates upon 51 element picking up or 
+- Activates upon any 51 element or high current trip picking up
+- HLT can have a definite time delay added, but no unique curve
 - ==Form6 takes precedence over cold load pickup, non-reclosing, and fast trips disabled
-- ==Add definite time delay for HLT elements?
-- ==HLT will act on whatever is fastest, active curve or time delay
-- ==If above ground pickup and below phase, trips all 3 phases on TCC1 or HLT definite time delay?
+- ==If above ground pickup and below phase (ground trip only), trips all 3 phases on TCC1 or HLT definite time delay
 - ==HLT trips on TCC1 or Time delay whichever is faster. If unit trips on HLT time then all 3 phases operate and lockout. If trip on TCC1 then only phase involved trips and LO
  
 
@@ -119,8 +119,9 @@ TO CHECK:
 		- Forced -> setting enabled and Aph closed (template set pickup)
 - While CLPU is active, fast curves are disabled and puts a blinder on the delay curves (same curve, but won't trip until it exceeds the CLPU pickup)
 	- Uses template set mult. of min. trip settings as CLPU pickup
+- CLPU initiates upon PB close if it's enabled
 - ==Form6 has many options for CLPU such as minimum trip value time-current curve, reclose interval, and number of independent operations to lockout for each protection profile. Cold Load Pickup also includes TCC Multipliers, TCC Adders, Minimum Response Time, Time Dial Reset, and High Current Lockout. 
-- ==Form6 initiates CLPU upon PB close if it's enabled
+
 
 ### OPEN/CLOSE PUSHBUTTONS/LED'S
 - When in 3ph LO mode, all 3 phases are always selected
