@@ -69,6 +69,11 @@ MEETING NOTES:
 	- HLT - initiate trip based on HLT activating - should not cause a trip
 - ==Blinking LED's when only one phase open==
 - design template should exactly match simplified setup
+- copy template settings from one group to another?
+- HLT - add definite time delay in ms
+- HLT has two separate latches for remote and local
+- HLT doesn't have a separate 50, but a distinct time delay for HLT
+- repurpose ABC 51 curves for CLPU
 
 
 Missing LED's
@@ -149,15 +154,3 @@ NOT (3PO OR SPO) AND NOT (SV13 AND SV41T) OR (3PO OR SPO) AND (SPO AND NOT SV13 
 50G2P - High current trip
 50G5P - CLPU
 50G6P - Minimum trip (same as 51 min. trip), only used for CLPU natural restoration, not used for tripping
-
-
-
-MEETING NOTES:
-- copy template settings from one group to another?
-- HLT - add definite time delay in ms
-- HLT has two separate latches for remote and local
-- HLT doesn't have a separate 50, but a distinct time delay for HLT
-- repurpose ABC 51 curves for CLPU
-
-
-651 and 400
