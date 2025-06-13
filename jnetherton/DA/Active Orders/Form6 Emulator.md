@@ -44,6 +44,8 @@ Changed:
 - Edited SV21 so the 3-phase terms only assert when in 3-phase mode, and same for single phase
 - Moved NOT SV21 from SV13 to LT21 (more upstream on the close logic)
 	- Did this because close initiate was latching, but not executing close because SV21 was blocking, then when SV21 deasserted, it closed (not good)
+- Replaced LT06 with remote command logic for activating HLT, and added IN103 to LT06 logic throughout (effectively two separate latches for HLT)
+	- Added SV20 extra variable for HLT logic
 
 
 Questions
