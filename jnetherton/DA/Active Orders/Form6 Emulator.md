@@ -13,7 +13,8 @@
 	- dedicated front LED's for open/close/HLT
 	- toggle switch for HLT
 	- dedicated front PB's for open/close
-- 0651R
+- 0651R223XBA8AF1123XXXX (marketing form6)
+- 0651R22DXGAAAE1123ASXX (DA cage older form6)
 
 
 72513 - midwest - GWI - 32 pin template
