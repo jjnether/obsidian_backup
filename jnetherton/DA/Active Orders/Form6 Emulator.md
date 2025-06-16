@@ -13,6 +13,8 @@
 	- dedicated front LED's for open/close/HLT
 	- toggle switch for HLT
 	- dedicated front PB's for open/close
+- 0651R
+
 
 72513 - midwest - GWI - 32 pin template
 
