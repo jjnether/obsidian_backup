@@ -8,3 +8,5 @@ SEL 787 1 WAY OC - A13413579UH0
 SEL 0311L1HDD2251X4XX - A13413539RZ0
 
 PTR - 41.67?
+
+In the GWI we should be more specific and indicate exactly what points and if they are L-L or L-N
