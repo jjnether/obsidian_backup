@@ -74,7 +74,7 @@ Test Plan:
 Differences from Form6:
 - No alarm for 52A/B discrepancy (can do with 42-pin, but we only get 52A back with 32-pin)
 - No HLT or CLPU specific curves (no other 51 curves available, can't use ABC curves either as they are used for single-ph logic)
-- 3-ph trip from yellow handle is directly controlled from the template setting, whereas in the From6, when yellow handle is pulled on one phase, it trips all 3 if in 3ph LO mode, but only trips the one if in 1ph LO mode (forces yellow handle behavior based on which LO mode)
+- 3-ph trip from yellow handle is directly controlled from the template setting, whereas in the Form6, when yellow handle is pulled on one phase, it trips all 3 if in 3ph LO mode, but only trips the one if in 1ph LO mode (forces yellow handle behavior based on which LO mode)
 
 MEETING NOTES:
 - design template should exactly match simplified setup
