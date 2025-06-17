@@ -79,3 +79,11 @@ Emergency OBC on return transfer:
 
 - For 52B, use the aux 52B so it's not blocked when yellow handle is asserted
 - For hardwired, send 52a/52b, ac alarm, batt alarm, trsr, and blocked
+- Note that only requirement for auto is one utility way closed (no voltage requirement)
+	- double check conditions like both dead, one comes on, then the ohter
+- make sure live/dead has a dropout timer or something to account for blinks
+	- also make sure it accounts for coming back from blackout - needs to qualify live source
+- How do we handle one phase lost, because this is delta?
+	- what scenarios will this capture, and what might it not?
+	- make sure voltage ranges in template work with these considerations
+- For tie fault, blocking scheme 
