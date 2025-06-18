@@ -86,4 +86,5 @@ Emergency OBC on return transfer:
 - How do we handle one phase lost, because this is delta?
 	- what scenarios will this capture, and what might it not?
 	- make sure voltage ranges in template work with these considerations
-- For tie fault, blocking scheme 
+- For tie fault, blocking scheme so it blocks upstream and trips closest, then sends transfer trip to other side
+	- or saw fault current followed by loss of voltage, meaning it was interrupted upstream
