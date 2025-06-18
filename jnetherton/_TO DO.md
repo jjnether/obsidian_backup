@@ -21,9 +21,6 @@ kanban-plugin: board
 
 ## Programming Spec
 
-- [ ] [[117631 - Kennedy Space Center]]
-	- Programming Spec sent to Nic to review
-	@{2025-08-26}
 - [ ] [[127998 - CenterPoint]]
 	- Waiting to review Nic's Programming Spec
 - [ ] [[128558 - Elk Grove]]
@@ -31,6 +28,9 @@ kanban-plugin: board
 
 ## Programming
 
+- [ ] [[117631 - Kennedy Space Center]]
+	- Programming Spec sent to rep
+	@{2025-08-26}
 
 
 ## FAT
@@ -45,6 +45,7 @@ kanban-plugin: board
 	- Tentative FAT scheduled - need to find out scope of FAT (if we're testing automation or not)
 	- FAT plan to write
 	@{2025-07-08}
+- [ ] [[117244 - Camp Humphreys]] @{2025-10-07}
 
 
 ## SAT/GWI
