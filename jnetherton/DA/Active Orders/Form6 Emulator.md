@@ -58,8 +58,6 @@ Changed:
 
 Questions
 - Should we define a default DNP map? Maybe just use what we have for the 32-pin template?
-- REVIEW FRONT PANEL
-	- Maybe use spare PB's for ALT2/3?
 
 Test Plan:
 - Do a compare with the 32-pin template and test any changed functionality
