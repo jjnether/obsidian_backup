@@ -95,8 +95,6 @@ TO CHECK:
 - Activates upon any 51 element or high current trip picking up
 - HLT can have a definite time delay added, but no unique curve
 - HLT takes precedence over cold load pickup, non-reclosing, and fast trips disabled
-- ==If above ground pickup and below phase (ground trip only), trips all 3 phases on TCC1 or HLT definite time delay
-- ==HLT trips on TCC1 or Time delay whichever is faster. If unit trips on HLT time then all 3 phases operate and lockout. If trip on TCC1 then only phase involved trips and LO
  
 
 ### COLD LOAD PICKUP
