@@ -58,14 +58,8 @@ Changed:
 
 Questions
 - Should we define a default DNP map? Maybe just use what we have for the 32-pin template?
--  If the the control shuts down due to low battery voltage before AC power is restored, and the connected energized recloser is CLOSED, it will only TRIP and LOCKOUT via front panel pushbutton command.
-	- can we do this?
-- In the event of main microprocessor failure, the trip circuit can operate independent of the main microprocessor
 - REVIEW FRONT PANEL
 	- Maybe use spare PB's for ALT2/3?
-- Check MOT's and compare between the border states MOT, marketing, and the one in the cage
-	- what do we want as standard?
-	- ask SEL if they can give us a special spec which provides the extra IO and locks firmware, but as a standard offering, not for a specific customer
 
 Test Plan:
 - Do a compare with the 32-pin template and test any changed functionality
