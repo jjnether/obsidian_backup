@@ -66,7 +66,9 @@ Test Plan:
 Differences from Form6:
 - No alarm for 52A/B discrepancy (can do with 42-pin, but we only get 52A back with 32-pin)
 - No HLT or CLPU specific curves (no other 51 curves available, can't use ABC curves either as they are used for single-ph logic)
-- 3-ph trip from yellow handle is directly controlled from the template setting, whereas in the Form6, when yellow handle is pulled on one phase, it trips all 3 if in 3ph LO mode, but only trips the one if in 1ph LO mode (forces yellow handle behavior based on which LO mode)
+- Our yellow handle behavior can be controlled, where for the form6 it's based on which mode it's in
+	- 3-ph trip from yellow handle is directly controlled from the template setting, whereas in the Form6, when yellow handle is pulled on one phase, it trips all 3 if in 3ph LO mode, but only trips the one if in 1ph LO mode (forces yellow handle behavior based on which LO mode)
+- Form6 has many options for CLPU such as minimum trip value time-current curve, reclose interval, and number of independent operations to lockout for each protection profile. Cold Load Pickup also includes TCC Multipliers, TCC Adders, Minimum Response Time, Time Dial Reset, and High Current Lockout. 
 
 MEETING NOTES:
 - design template should exactly match simplified setup
@@ -108,7 +110,6 @@ TO CHECK:
 - While CLPU is active, fast curves are disabled and puts a blinder on the delay curves (same curve, but won't trip until it exceeds the CLPU pickup)
 	- Uses template set mult. of min. trip settings as CLPU pickup
 - CLPU initiates upon PB close if it's enabled
-- ==Form6 has many options for CLPU such as minimum trip value time-current curve, reclose interval, and number of independent operations to lockout for each protection profile. Cold Load Pickup also includes TCC Multipliers, TCC Adders, Minimum Response Time, Time Dial Reset, and High Current Lockout. 
 
 
 ### OPEN/CLOSE PUSHBUTTONS/LED'S
