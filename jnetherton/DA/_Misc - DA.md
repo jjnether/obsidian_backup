@@ -293,9 +293,3 @@ For production voltage calibration:
 	- Proper PT ratio (133.33 or 266.66)
 - Voltage reference terminal selection
 	- One has to be V, one has to be Z
-
-
-gwi 00420
-
-
-202306010014r
