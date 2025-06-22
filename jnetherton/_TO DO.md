@@ -40,6 +40,7 @@ kanban-plugin: board
 	- FAT plan sent
 	- Waiting for customer response on automation settings @{2025-06-24}
 - [ ] [[119509 - Elk Grove Village Property]]
+	- Production Program in the folder
 	- FAT plan to write
 	@{2025-07-08}
 - [ ] [[117244 - Camp Humphreys]] @{2025-10-07}
