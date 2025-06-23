@@ -17,3 +17,6 @@ Logan stomach and military direction
 Peter and Barb Reynolds kidnapped in Afghanistan
 
 Ate Kay and Kuya Robert
+
+Jo's Katie - Brain and Kidney Tumors
+Jo's grandpa health
