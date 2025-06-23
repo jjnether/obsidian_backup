@@ -41,7 +41,8 @@ kanban-plugin: board
 	- Waiting for customer response on automation settings @{2025-06-24}
 - [ ] [[119509 - Elk Grove Village Property]]
 	- Production Program in the folder
-	- FAT plan to write
+	- FAT plan sent
+	- GWI?
 	@{2025-07-08}
 - [ ] [[117244 - Camp Humphreys]] @{2025-10-07}
 
