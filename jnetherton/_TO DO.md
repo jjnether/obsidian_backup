@@ -51,7 +51,7 @@ kanban-plugin: board
 
 - [ ] [[120881 - Bauxite]]
 	- GWI to write
-	- Waiting on SAT dates and maybe PO for other SAT
+	- SAT sent
 
 
 ***
