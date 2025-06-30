@@ -1,7 +1,6 @@
 Lysandra brother and mom relationship
 - Matteos
 Belen dad new job
-Regan's house search
 Physical healing
 - Lukas
 - Lysandra
@@ -20,4 +19,4 @@ Ate Kay and Kuya Robert
 
 Jo's Katie - Brain and Kidney Tumors
 Jo's grandpa health
-Jo orthodontist 
+Jo orthodontist
