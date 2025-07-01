@@ -34,3 +34,7 @@ COMMISSIONING:
 - Batteries were put in the switches
 - Was given SFP's to install
 - No comms up yet - will have to advise them on setting up the managed network switches in the future
+
+Things for customer to note following commissioning:
+- IP addresses (relay and GOOSE) and settings in managed ethernet switches
+- Automation timings (initial/return transfer timers)
