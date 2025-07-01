@@ -27,3 +27,10 @@ iS5 CHANGES:
 	- 44
 
 CLARIFY in manual that they can manually parallel if they close all the motors then close the manual tie
+
+
+COMMISSIONING:
+- Talked to Zach in person
+- Batteries were put in the switches
+- Was given SFP's to install
+- No comms up yet - will have to advise them on setting up the managed network switches in the future
