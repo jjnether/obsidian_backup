@@ -135,6 +135,9 @@ DESIGN TEMPLATE:
 - When template is sent, it's like a "snapshot" of what the settings are in that template
 - When template is read, it compares the "snapshot" to the settings actually present in the device
 	- if they don't match (because someone sent settings without sending the template), it will prompt for a compare
+	- When read, then the settings editor will show the template settings, not necessarily the settings present on the relay
+		- This is why it will prompt for a compare if there is a discrepancy, in case you want to update the template to the changes and resend to the relay as the "new" template
+- If template is not read, settings editor will show settings currently on the relay
 
 
 - Relay settings format:
