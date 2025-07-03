@@ -42,6 +42,7 @@ Motor boards operating modes:
 - Fault Interrupter
 	- 5 - Enc
 	- 6 - IF
+For reprogramming an encoder motor, see GWI 523-369 pg 12
 
 **SEL terminal commands:**
 (SELboot) `FID` - check SELboot and firmware
