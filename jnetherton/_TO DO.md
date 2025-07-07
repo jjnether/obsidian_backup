@@ -21,9 +21,6 @@ kanban-plugin: board
 
 ## Programming Spec
 
-- [ ] [[127998 - CenterPoint]]
-	- IED Wizard Templates
-	- control panels
 - [ ] [[128558 - Elk Grove]]
 
 
@@ -32,6 +29,9 @@ kanban-plugin: board
 - [ ] [[117631 - Kennedy Space Center]]
 	- Programming Spec sent to rep
 	@{2025-08-26}
+- [ ] [[127998 - CenterPoint]]
+	- IED Wizard Templates
+	- control panels
 
 
 ## FAT
