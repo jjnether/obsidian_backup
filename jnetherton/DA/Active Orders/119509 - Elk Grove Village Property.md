@@ -3,3 +3,26 @@
 
 Original - SA 109623
 
+Relay IP
+- switch 1 - 192.168.1.11
+- switch 2 - 192.168.1.12
+RTAC IP
+- switch 1 - 192.168.1.2
+- switch 2 - 192.168.1.3
+Ethernet Switch IP
+- switch 1 - 192.168.10.1
+- switch 2 - 192.168.10.2
+
+RTAC username/pw - GWELECTRIC/GWLazer1!
+
+nominal = 34500/19920
+
+ANALOGS
+Voltage (5000:1)
+- 3.5 - 17500
+- 3.6 - 18000
+- 3.7 - 18500
+Current (1000:1)
+- .10 - 100
+- .11 - 110
+- .12 - 120
