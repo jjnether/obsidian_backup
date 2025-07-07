@@ -22,7 +22,8 @@ kanban-plugin: board
 ## Programming Spec
 
 - [ ] [[127998 - CenterPoint]]
-	- Waiting to review Nic's Programming Spec
+	- IED Wizard Templates
+	- control panels
 - [ ] [[128558 - Elk Grove]]
 
 
