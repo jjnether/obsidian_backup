@@ -29,4 +29,4 @@ Current (1000:1)
 
 OVERCURRENT
 .1 - U3 - 1 time dial
-- inject 200 - 1.39 s
+- inject .2/200 - 1.39 s
