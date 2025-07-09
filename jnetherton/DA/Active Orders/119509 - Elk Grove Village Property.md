@@ -35,4 +35,4 @@ OVERCURRENT
 
 
 NOTE:
-- double check fault 
+- double check fault, then manual close, then trying to trip - not tripping?
