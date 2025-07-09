@@ -36,3 +36,7 @@ OVERCURRENT
 
 NOTE:
 - double check fault, then manual close, then trying to trip - not tripping?
+
+
+CHANGES:
+- ULTR logic
