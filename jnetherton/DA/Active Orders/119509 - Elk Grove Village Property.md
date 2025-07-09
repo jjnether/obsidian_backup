@@ -28,5 +28,7 @@ Current (1000:1)
 - .12 - 120
 
 OVERCURRENT
-.1 - U3 - 1 time dial
+51P - .1 - U3 - 1 time dial
 - inject .2/200 - 1.39 s
+50P - .97
+- inject 1/1000
