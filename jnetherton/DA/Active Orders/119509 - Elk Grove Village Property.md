@@ -32,3 +32,7 @@ OVERCURRENT
 - inject .2/200 - 1.39 s
 50P - .97
 - inject 1/1000
+
+
+NOTE:
+- double check fault 
