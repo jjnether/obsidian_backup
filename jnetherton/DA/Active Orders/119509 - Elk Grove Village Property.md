@@ -40,3 +40,4 @@ NOTE:
 
 CHANGES:
 - ULTR logic
+- disable unused ports on network switch
