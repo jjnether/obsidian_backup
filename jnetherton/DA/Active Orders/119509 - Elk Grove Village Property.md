@@ -41,3 +41,7 @@ NOTE:
 CHANGES:
 - ULTR logic
 - disable unused ports on network switch
+
+THINGS TO DO AT COMISSIONING:
+- Disable unused ethernet ports on network switch
+- RCF's - push new program logic
