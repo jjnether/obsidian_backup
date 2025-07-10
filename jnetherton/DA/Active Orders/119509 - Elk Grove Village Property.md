@@ -34,14 +34,15 @@ OVERCURRENT
 - inject 1/1000
 
 
-NOTE:
-- double check fault, then manual close, then trying to trip - not tripping?
-
 
 CHANGES:
 - ULTR logic
-- disable unused ports on network switch
+- added blocking override PB assertion timer
 
 THINGS TO DO AT COMISSIONING:
 - Disable unused ethernet ports on network switch
-- RCF's - push new program logic
+- push new program logic which includes:
+	- program changes
+	- RCF's
+	- protection settings
+- Update RTAC IP
