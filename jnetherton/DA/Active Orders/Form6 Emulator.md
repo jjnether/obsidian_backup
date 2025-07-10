@@ -1,6 +1,8 @@
 
 [file path](<file:///C:\Users\jnetherton\G&W Electric Co\US-PowerGridAutomation - Documents\_Lazer\Products\FORM 6 EMULATOR>)
 
+NOTE - add hotline tag board to standard MOT
+
 119407 - Clearwater Polk Elec
 - Skim tested and shipped
 118682 - PRAIRIE LAND ELECT COOP (Border States)
