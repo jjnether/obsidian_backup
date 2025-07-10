@@ -1,6 +1,8 @@
 Office Phone: (708) 297-3769
 Work Phone: (708) 402-8777
 
+The original acronym "LaZer" was "Loop Automation System Equals Restoration".  The S was later changed to a Z by marketing (Larry Arends) to make it more catchy. Today it doesn't refer to one specific solution or software, but rather to the whole suite of automation solutions that G&W offers.
+
 When shipping with FedEx, use FedEx acct # 060428751 for savings
 
 `U:\_ISO\GWI\523\GWI523-369CD.zip`
