@@ -40,19 +40,17 @@ kanban-plugin: board
 	- Production programs done
 	- FAT plan sent
 	- Waiting for customer response on automation settings @{2025-06-24}
-- [ ] [[119509 - Elk Grove Village Property]]
-	- Production Program in the folder
-	- FAT plan sent
-	- GWI?
-	@{2025-07-08}
 - [ ] [[117244 - Camp Humphreys]] @{2025-10-07}
 
 
 ## SAT/GWI
 
+- [ ] [[119509 - Elk Grove Village Property]]
+	- Waiting for SAT date
+	- GWI?
 - [ ] [[120881 - Bauxite]]
 	- GWI to write
-	- SAT sent
+	- waiting for 2nd SAT date
 
 
 ***
