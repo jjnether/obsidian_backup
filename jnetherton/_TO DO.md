@@ -9,14 +9,12 @@ kanban-plugin: board
 - [ ] [[451 ATC Update]]
 	- Update excel map with all variables @{2024-09-30}
 - [ ] [[Form6 Emulator]]
-	- 119407 - Clearwater Polk Elec
-	- 118682 - Prairie Land Elect Coop (Border States)
-	- 120518 - United Cooperative Services
+	- Logic completed
+	- Need to finish template
+	- Waiting on marketing to borrow 651R2 for testing
+	- Will borrow a HLT board from Jason to add as part of standard package
 - [ ] **General Work**
 	- Default 487 overcurrent program
-	- 451 ATC rework
-	- Form6 Testing
-	- Prime GWI?
 
 
 ## Programming Spec
@@ -36,9 +34,6 @@ kanban-plugin: board
 
 ## FAT
 
-- [ ] [[118892 - Pantex]]
-	- Production programs done
-	- FAT plan sent@{2025-06-24}
 - [ ] [[125287 - West River Electric]] @{2025-08-13}
 - [ ] [[117244 - Camp Humphreys]] @{2025-10-07}
 
