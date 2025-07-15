@@ -38,8 +38,8 @@ kanban-plugin: board
 
 - [ ] [[118892 - Pantex]]
 	- Production programs done
-	- FAT plan sent
-	- Waiting for customer response on automation settings @{2025-06-24}
+	- FAT plan sent@{2025-06-24}
+- [ ] [[125287 - West River Electric]] @{2025-08-13}
 - [ ] [[117244 - Camp Humphreys]] @{2025-10-07}
 
 
