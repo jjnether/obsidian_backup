@@ -31,10 +31,12 @@ Control Panel
 	- For each element, rather than `Point Id`, use `Control Panel Pt Name` to route proper status (does not specify station, but station will be specified on the map itself)
 - To have a pushbutton route to a specific control panel:
 	- In pushbutton PMacro settings, edit `Menu File` and navigate to the proper `.cplt` file (may have to change folders)
+	- If using a pushbutton already in a control panel (to )
 - To add multiple stations (up to 4) to a control panel (or template):
 	- add each station name to each point id (or control panel pt name for templates)
 	- inside the control panel (or template), list the name of the point in the control panel pt name as usual, but now put a prefix referencing which station
 		- ie. #2,IN101 - this is for the station listed in point id 2
+- To have 
 
 For Custom Dialogue Boxes:
 - Add a command-state strings under point resources in STC explorer
