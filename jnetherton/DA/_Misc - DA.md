@@ -60,6 +60,9 @@ For reprogramming an encoder motor, see GWI 523-369 pg 12
 `R_S` - factory reset
 `GOO` - check GOOSE settings - look for bad GOOSE signal (will say expired in a column)
 
+For level 3 access, use CAL
+CLARKE
+
 
 **For 651 and 351:**
 `CON <#>` - connect to remote bit
