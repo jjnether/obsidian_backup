@@ -4,3 +4,5 @@
 POD - 108557
 
 - I know this had a good POD, however when we test please be sure to verify the system operates as intended when SPE is enabled and disabled (during normal operations, LOV, and OC events (including single phase lockout))
+- To enter auto, must have good comms, not HLT, one source open and the other closed.
+	- This could result in entering auto and it immediately timing for an initial transfer or a return transfer to a preferred source
