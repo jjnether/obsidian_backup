@@ -16,8 +16,6 @@ POD - 108557
 	- double check this if we keep LOV logic?
 - ==No Sync Check
 	- do we need it?
-- MV32? - seems to just be locked to 0 with the template for some reason?
-	- I think used to control which side (Y/Z) is considered source side
-- ==A none-live alternate source does not prevent the initial transfer timer from counting
+- ==A none-live alternate source does prevent the initial transfer timer from counting
 	- should it?
 	- Previously, I did: After the initial transfer delay period has expired, the relay will verify voltage is live (voltage on all 3 phases is above the user settable live voltage threshold) on the other utility feed. If the other utility feed is live, the dead utility feed way will open.
