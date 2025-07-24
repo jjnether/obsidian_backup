@@ -34,3 +34,4 @@ POD - 108557
 - ensure lockout kicking out of auto is rising edge of lockout
 - Will system still work if one control is in group 1 and another is in group 2?
 	- add some kind of check for this
+	- same check for auto/manual return and preferred/non-preferred, both are preferred?
