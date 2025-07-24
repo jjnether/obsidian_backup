@@ -15,9 +15,10 @@ POD - 108557
 - For LOV tripping, there was extra wording in the programming spec regarding the ATS logic always executing before LOV logic and the LOV will only trip if alternate source not available/stable and reclosers are not in auto
 	- double check this if we keep LOV logic?
 - ==No Sync Check
-	- do we need it?
+	- add it if time allows
 - ==A dead alternate source does prevent the initial transfer timer from counting
-	- should it?
+	- we actually want it to time even if alternate source is dead, but it doesn't transfer until it's live 
+		- add dropout of a couple cycles to prevent blips
 	- Previously, I did: After the initial transfer delay period has expired, the relay will verify voltage is live (voltage on all 3 phases is above the user settable live voltage threshold) on the other utility feed. If the other utility feed is live, the dead utility feed way will open.
 - LT30/LB04 - auto return
 - LT31/LB05 - Manual return
@@ -30,3 +31,4 @@ POD - 108557
 	- description of auto/manual return functions
 	- OBC vs CBO
 - For non-preferred mode, maybe it shouldn't allow any selection of a preferred source?
+- ensure lockout kicking out of auto is rising edge of lockout
