@@ -8,4 +8,6 @@ POD - 108557
 	- This could result in entering auto and it immediately timing for an initial transfer or a return transfer to a preferred source
 - A manual recloser operation (close/open) issued remotely from SCADA will kick out of auto
 	- should it?
-	- should local commands also kick out of auto? - or 
+	- should local commands also kick out of auto? - or maybe I think local commands won't go through as pushbuttons may not work while in auto?
+- Note that while the recloser is in the cycle state and is timing for a reclose, the auto transfer timing logic is not active. The recloser will either resume transfer logic timing if the recloser successfully clears the fault, or it will be kicked out of auto mode if the recloser locks out due to a permanent fault.
+	- check this
