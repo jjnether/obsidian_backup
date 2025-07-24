@@ -2,6 +2,7 @@
 [file path](<file:///C:\Users\jnetherton\G&W Electric Co\US-PowerGridAutomation - Documents\_Lazer\125287 - West River Electric>)
 
 POD - 108557
+- what is settings group 1 vs group 2?
 
 - I know this had a good POD, however when we test please be sure to verify the system operates as intended when SPE is enabled and disabled (during normal operations, LOV, and OC events (including single phase lockout))
 - To enter auto, must have good comms, not HLT, one source open and the other closed.
@@ -15,3 +16,5 @@ POD - 108557
 	- double check this if we keep LOV logic?
 - No Sync Check
 	- do we need it?
+- MV32? - seems to just be locked to 0 with the template for some reason?
+	- I think used to control which side (Y/Z) is considered source side
