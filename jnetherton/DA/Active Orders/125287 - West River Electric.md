@@ -11,3 +11,7 @@ POD - 108557
 	- should local commands also kick out of auto? - or maybe I think local commands won't go through as pushbuttons may not work while in auto?
 - Note that while the recloser is in the cycle state and is timing for a reclose, the auto transfer timing logic is not active. The recloser will either resume transfer logic timing if the recloser successfully clears the fault, or it will be kicked out of auto mode if the recloser locks out due to a permanent fault.
 	- check this
+- For LOV tripping, there was extra wording in the programming spec regarding the ATS logic always executing before LOV logic and the LOV will only trip if alternate source not available/stable and reclosers are not in auto
+	- double check this if we keep LOV logic?
+- No Sync Check
+	- do we need it?
