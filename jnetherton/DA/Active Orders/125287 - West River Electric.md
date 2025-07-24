@@ -16,7 +16,7 @@ POD - 108557
 	- double check this if we keep LOV logic?
 - ==No Sync Check
 	- do we need it?
-- ==A none-live alternate source does prevent the initial transfer timer from counting
+- ==A dead alternate source does prevent the initial transfer timer from counting
 	- should it?
 	- Previously, I did: After the initial transfer delay period has expired, the relay will verify voltage is live (voltage on all 3 phases is above the user settable live voltage threshold) on the other utility feed. If the other utility feed is live, the dead utility feed way will open.
 - LT30/LB04 - auto return
