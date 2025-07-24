@@ -19,4 +19,9 @@ POD - 108557
 - ==A none-live alternate source does prevent the initial transfer timer from counting
 	- should it?
 	- Previously, I did: After the initial transfer delay period has expired, the relay will verify voltage is live (voltage on all 3 phases is above the user settable live voltage threshold) on the other utility feed. If the other utility feed is live, the dead utility feed way will open.
-- Manual return to normal setting doesn't appear to exist at all? It should be a setting that kicks out of auto mode after an initial transfer (no matter preferred or non-preferred mode)
+- LB04 - auto return
+- LB05 - Manual return
+- LB06 - no pref. source mode selected
+- Moved battery problem LED to display point, and changed it to loss of comms LED
+- re-enable reclosing
+- re-enable fast curve
