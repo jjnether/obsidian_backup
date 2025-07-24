@@ -29,4 +29,4 @@ POD - 108557
 - ==should add to program. spec:
 	- description of auto/manual return functions
 	- OBC vs CBO
-- For preferred source mode, when you hit to d
+- For non-preferred mode, maybe it shouldn't allow any selection of a preferred source?
