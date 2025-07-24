@@ -19,9 +19,14 @@ POD - 108557
 - ==A none-live alternate source does prevent the initial transfer timer from counting
 	- should it?
 	- Previously, I did: After the initial transfer delay period has expired, the relay will verify voltage is live (voltage on all 3 phases is above the user settable live voltage threshold) on the other utility feed. If the other utility feed is live, the dead utility feed way will open.
-- LB04 - auto return
-- LB05 - Manual return
-- LB06 - no pref. source mode selected
+- LT30/LB04 - auto return
+- LT31/LB05 - Manual return
+- LT32/LB06 - no pref. source mode selected
+	- should move these local bits instead to template?
 - Moved battery problem LED to display point, and changed it to loss of comms LED
 - re-enable reclosing
 - re-enable fast curve
+- ==should add to program. spec:
+	- description of auto/manual return functions
+	- OBC vs CBO
+- For preferred source mode, when you hit to d
