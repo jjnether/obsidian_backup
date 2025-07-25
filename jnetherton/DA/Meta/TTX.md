@@ -23,5 +23,3 @@ DONE:
 	- Did not change the processing cycle intervals
 
 ---
-
-- HMI
