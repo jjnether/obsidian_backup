@@ -27,9 +27,6 @@ POD - 108557
 - Moved battery problem LED to display point, and changed it to loss of comms LED
 - re-enable reclosing
 - re-enable fast curve
-- ==should add to program. spec:
-	- description of auto/manual return functions
-	- OBC vs CBO
 - For non-preferred mode, maybe it shouldn't allow any selection of a preferred source?
 - ensure lockout kicking out of auto is rising edge of lockout
 - Will system still work if one control is in group 1 and another is in group 2?
