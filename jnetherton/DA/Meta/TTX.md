@@ -25,7 +25,7 @@ DONE:
 ---
 WEEK OF 8/4
 
-- For template, read a couple with the template and see if things match (rounding errors and missing settings are ok to see). If they match, we can save time by not sending again at the end
+- For template, read a couple with the template and see if things match (rounding errors and missing settings are ok to see). If they match, we can save time by not sending again at the end, assuming the compare looks good also
 
 Things to check:
 - RTAC firmware/updates to push?
@@ -34,3 +34,4 @@ Things to check:
 - Any 6-way switch label or program updates?
 - Check PTX alarms here?
 	- Same PTX alarms for MCUPs?
+- How to handle As Left file if we decide template push was good and we don't need to send again?
