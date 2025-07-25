@@ -35,3 +35,4 @@ POD - 108557
 - Will system still work if one control is in group 1 and another is in group 2?
 	- add some kind of check for this
 	- same check for auto/manual return and preferred/non-preferred, both are preferred?
+- 52A3P - If we have the time we might want to update the logic to be more secure and use the status point that also incorporates current readings incase we have issues with the mechanism or wiring making it look like the contacts are open ,but in reality they are not because we see current.
