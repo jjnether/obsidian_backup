@@ -13,7 +13,6 @@ POD - 108557
 - Note that while the recloser is in the cycle state and is timing for a reclose, the auto transfer timing logic is not active. The recloser will either resume transfer logic timing if the recloser successfully clears the fault, or it will be kicked out of auto mode if the recloser locks out due to a permanent fault.
 	- check this
 - For LOV tripping, there was extra wording in the programming spec regarding the ATS logic always executing before LOV logic and the LOV will only trip if alternate source not available/stable and reclosers are not in auto
-	- double check this if we keep LOV logic?
 - ==No Sync Check
 	- add it if time allows
 - ==A dead alternate source does prevent the initial transfer timer from counting
@@ -33,3 +32,4 @@ POD - 108557
 	- add some kind of check for this
 	- same check for auto/manual return and preferred/non-preferred, both are preferred?
 - 52A3P - If we have the time we might want to update the logic to be more secure and use the status point that also incorporates current readings incase we have issues with the mechanism or wiring making it look like the contacts are open ,but in reality they are not because we see current.
+- Need to add functionality for Manual return mode to also work in non-preferred source mode
