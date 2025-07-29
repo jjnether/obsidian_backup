@@ -39,6 +39,14 @@ LT - LIQUID TEMP (HIGH TEMP)
 
 - For template, read a couple with the template and see if things match (rounding errors and missing settings are ok to see). If they match, we can save time by not sending again at the end, assuming the compare looks good also
 - Need to operate all ways (including load breaks)
+	- issue is always close to open and when it's hot (we'll still test at normal)
+	- moto
+	- lots of resistance - when you think it should flip over, it doesn't
+		- about halfway, you'll hear a click if it's gonna have issues
+	- it's not the purpose of my visit, and I'm not the subject matter expert
+	- If everything is good, don't mark on the check sheet
+	- If something is hard to operate, make a note
+	- If something isn't operating, make a note and we'll send to quality
 
 - Change labels for standalone switch
 
