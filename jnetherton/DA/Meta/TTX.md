@@ -48,6 +48,8 @@ RTAC
 - 192.68.3.2 (front port)
 - IP setup
 	- upstream IP in RTAC program to be pushed
+		- use EPMS SERVERS.txt in building 1 folder for these IP's
+		- Don't touch the HMI or DCIM connections when editing IP's
 	- IP of RTAC itself
 		- check building 1 folder for FDM file for RTAC IP's
 			- ![[Pasted image 20250729101218.png]]
