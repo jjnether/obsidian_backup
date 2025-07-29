@@ -28,12 +28,17 @@ WEEK OF 8/4
 Rosendin (REI)
 BVPI
 
+On patch panel in MVS:
+- 1 - HMI
+- 2 - COMMA
+- 3 - COMMB
+
+VS - VACUUM SWITCH (PRESSURE)
+LL - LIQUID LEVEL (LOW OIL)
+LT - LIQUID TEMP (HIGH TEMP)
+
 - For template, read a couple with the template and see if things match (rounding errors and missing settings are ok to see). If they match, we can save time by not sending again at the end, assuming the compare looks good also
 - Need to operate all ways (including load breaks)
-
-Things to check:
-- Check PTX alarms here?
-	- Same PTX alarms for MCUPs?
 
 - Change labels for standalone switch
 
