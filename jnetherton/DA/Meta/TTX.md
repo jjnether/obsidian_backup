@@ -75,7 +75,7 @@ SETTINGS READ:
 	- There may be rounding differences, but those are ok. It should be obvious if there are differences we don't want
 
 
-To edit PTX or breaker names:
+To edit PTX or source breaker names:
 - right click tag button
 - property substitution window
 - collapse them all to make it more readable
