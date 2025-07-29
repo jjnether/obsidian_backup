@@ -61,6 +61,7 @@ Simulating
 	- Can set limits with the limit button after hitting the analog point
 
 IED Wizard
+- Reference IED Wizard presentation from Survalent UC 2024
 - Need to set template path from STC Explorer>File>Application Preferences
 	- templates can be created with the template application (open from inside the template folder)
 - Before creating new IED, ensure station structure is made (create all levels of stations except for the specific IED)
