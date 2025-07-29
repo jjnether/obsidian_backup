@@ -34,7 +34,7 @@ Things to check:
 - Any 6-way switch label or program updates?
 - Check PTX alarms here?
 	- Same PTX alarms for MCUPs?
-- How to handle As Left file if we decide template push was good and we don't need to send again?
+
 
 
 RTAC
@@ -49,8 +49,12 @@ RTAC
 - IP setup
 	- upstream IP in RTAC program to be pushed
 		- use EPMS SERVERS.txt in building 1 folder for these IP's
-		- Don't touch the HMI or DCIM connections when editing IP's
+		- Don't touch the HMI or DCIM connections in the program when editing IP's
 	- IP of RTAC itself
 		- check building 1 folder for FDM file for RTAC IP's
 			- ![[Pasted image 20250729101218.png]]
 		- .192 is /26 for subnet mask
+
+SETTINGS READ:
+- For each data hall for the first couple or so, read with the template and see if there are any differences
+	- There may be rounding differences
