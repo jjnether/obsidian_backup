@@ -25,17 +25,17 @@ DONE:
 ---
 WEEK OF 8/4
 
+Rosendin (REI)
+BVPI
+
 - For template, read a couple with the template and see if things match (rounding errors and missing settings are ok to see). If they match, we can save time by not sending again at the end, assuming the compare looks good also
 - Need to operate all ways (including load breaks)
 
 Things to check:
-- How to handle label inconsistency with MB TLED's if I see them?
-- Any Standalone switch label or program updates?
-- Any 6-way switch label or program updates?
 - Check PTX alarms here?
 	- Same PTX alarms for MCUPs?
 
-
+- Change labels for standalone switch
 
 RTAC
 - 1.1\program developemnt\RTAC and HMI\...
@@ -54,7 +54,21 @@ RTAC
 		- check building 1 folder for FDM file for RTAC IP's
 			- ![[Pasted image 20250729101218.png]]
 		- .192 is /26 for subnet mask
+- Change HMI timeout to 0 on front page of web HMI
+- Assigned default page to HMI diagram
 
 SETTINGS READ:
 - For each data hall for the first couple or so, read with the template and see if there are any differences
-	- There may be rounding differences
+	- There may be rounding differences, but those are ok. It should be obvious if there are differences we don't want
+
+
+To edit PTX or breaker names:
+- right click tag button
+- property substitution window
+- collapse them all to make it more readable
+- open the Name: label
+- edit text as needed
+- for which loop column you need, reference ComPort to FieldDevice excel sheet in the TTX folder
+
+
+- Maybe have techs start going through
