@@ -77,6 +77,17 @@ IED Wizard
 	- Hit Save IED
 - To create IED template:
 	- Have .xls excel sheet prepared with a name format similar to `SEL_700GT_DNP_v1.0_CPE_20250715` in the IedTemplates folder
-	- Open TemplateMaker
+	- Open `TemplateMaker.exe`
+	- Fill out fields for new template
+		- For manufacturer, ie. SEL/SEL  -  For Device, ie. 700GT/700GT
+		- Protocol `DNP` and RTU type `Other`
+		- For the version, put your extra info you'd like in the name ie. V1.0_CPE_20250715
+		- Select the excel file, hit `edit template` (even if there's nothing to edit), then save and exit excel sheet
+		- Hit `save template` and add your version to the end of the generated name (so all the files names match) (ie. SEL_751A_3PH_DNP_V1.0_CPE_20250715)
+		- You should now see the prepared `.xls` excel sheet, the saved `.iedans` file, and a generated `.iedsde` file, all with the same name in the IedTemplates folder
+			- There may also be a generated `.iedini` file
+			- IEDINI – contains the configuration (manufacture/model)
+			- IEDSDE – contains point definitions
+			- IEDANS – answer file (point enable/disable checkbox values)
 
 For Survalent Sales support: Anjali Mittal amittal@survalent.com
