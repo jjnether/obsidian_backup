@@ -75,5 +75,8 @@ IED Wizard
 	- Hit next, then put in an address for the DNP for this device
 	- Hit next twice, then put the device IP in host name and the DNP port to be used (20000 by default)
 	- Hit Save IED
+- To create IED template:
+	- Have .xls excel sheet prepared with a name format similar to `SEL_700GT_DNP_v1.0_CPE_20250715` in the IedTemplates folder
+	- Open TemplateMaker
 
 For Survalent Sales support: Anjali Mittal amittal@survalent.com
