@@ -29,10 +29,26 @@ WEEK OF 8/4
 - Need to operate all ways (including load breaks)
 
 Things to check:
-- RTAC firmware/updates to push?
 - How to handle label inconsistency with MB TLED's if I see them?
 - Any Standalone switch label or program updates?
 - Any 6-way switch label or program updates?
 - Check PTX alarms here?
 	- Same PTX alarms for MCUPs?
 - How to handle As Left file if we decide template push was good and we don't need to send again?
+
+
+RTAC
+- 1.1\program developemnt\RTAC and HMI\...
+	- update firmware like normal
+	- update runtime
+		- hit button next ot push button
+		- go to "upload hmi runtime binary" tab
+		- choose file to upload
+- open newest rev of diagram builder file (rev 2 currently) and send
+- 192.68.3.2 (front port)
+- IP setup
+	- upstream IP in RTAC program to be pushed
+	- IP of RTAC itself
+		- check building 1 folder for FDM file for RTAC IP's
+			- ![[Pasted image 20250729101218.png]]
+		- .192 is /26 for subnet mask
