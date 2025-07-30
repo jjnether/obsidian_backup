@@ -34,6 +34,3 @@ POD - 108557
 - 52A3P - If we have the time we might want to update the logic to be more secure and use the status point that also incorporates current readings incase we have issues with the mechanism or wiring making it look like the contacts are open ,but in reality they are not because we see current.
 - Need to add functionality for Manual return mode to also work in non-preferred source mode
 - Make sure to add logic for emergency OBC
-
-
-Just a temporary setup to see what's going on
