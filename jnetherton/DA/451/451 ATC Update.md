@@ -9,6 +9,8 @@ QUESTIONS:
 	- emergency transfer is when we're on the alternate source, and we lose it, but the primary is back
 	- should always be an OBC because we don't want to close into whatever caused us to lose the alternate
 - Might want to add a block where if source 1 is open and dead and source 2 is closed and live, we can't close the live source into the dead source (vice versa for S1 live and S2 dead)
+	- Can just add sync check for this
+	- Check Bob's changes on Twin River Casino project for reference
 
 
 -   Protection logic
