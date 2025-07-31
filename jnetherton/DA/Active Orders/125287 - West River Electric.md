@@ -36,3 +36,4 @@ POD - 108557
 - Make sure to add logic for emergency OBC
 - ==When in no pref. mode (LT32 = 1), if both sources are lost, it will not restore
 	- should it?
+- For emergency OBC, should the open happen initially
