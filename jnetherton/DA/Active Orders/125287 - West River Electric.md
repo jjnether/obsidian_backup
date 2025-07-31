@@ -36,4 +36,6 @@ POD - 108557
 - Make sure to add logic for emergency OBC
 - ==When in no pref. mode (LT32 = 1), if both sources are lost, it will not restore
 	- should it?
-- For emergency OBC, should the open happen initially
+- For an initial transfer, maybe we should make it so the initial open happens regardless of if there's voltage present on the alternate source?
+	- the transfer will time even if the alternate source is dead, but it won't start the transfer until the source goes live
+	- might want the open to happen anyways to isolate, sort of like a 27 trip?
