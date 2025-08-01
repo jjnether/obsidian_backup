@@ -23,7 +23,6 @@ POD - 108557
 - LT31/LB05 - Manual return
 - LT32/LB06 - no pref. source mode selected
 	- should move these local bits instead to template?
-- Moved battery problem LED to display point, and changed it to loss of comms LED
 - re-enable reclosing
 - re-enable fast curve
 - For non-preferred mode, maybe it shouldn't allow any selection of a preferred source?
@@ -35,7 +34,6 @@ POD - 108557
 - Need to add functionality for Manual return mode to also work in non-preferred source mode
 - Make sure to add logic for emergency OBC
 - ==When in no pref. mode (LT32 = 1), if both sources are lost, it will not restore
-	- should it?
-- For an initial transfer, maybe we should make it so the initial open happens regardless of if there's voltage present on the alternate source?
-	- the transfer will time even if the alternate source is dead, but it won't start the transfer until the source goes live
-	- might want the open to happen anyways to isolate, sort of like a 27 trip?
+	- Shouldn't it restore once a healthy source comes online?
+- Maybe 30 cycles for hysteresis for live/dead source?
+	- This may only be needed if we stick to the fact that it will time for a transfer regardless of alternate source being live/dead
