@@ -68,7 +68,7 @@ RTAC
 			- ![[Pasted image 20250729101218.png]]
 		- .192 is /26 for subnet mask
 - Change HMI timeout to 0 on front page of web HMI
-- Assigned default page to HMI diagram
+- Assign default page to HMI diagram
 
 SETTINGS READ:
 - For each data hall for the first couple or so, read with the template and see if there are any differences
@@ -84,5 +84,4 @@ To edit PTX or source breaker names:
 - for which loop column you need, reference ComPort to FieldDevice excel sheet in the TTX folder
 
 
-- Maybe have techs start going through
 - 2EY1.MVS.H01 - potentially do L2 as it was RMA'd and will be set in place maybe 8/13
