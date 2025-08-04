@@ -58,7 +58,7 @@ RTAC
 		- go to "upload hmi runtime binary" tab
 		- choose file to upload
 - open newest rev of diagram builder file (rev 2 currently) and send
-- 192.68.3.2 (front port)
+- 192.168.3.2 (front port)
 - IP setup
 	- upstream IP in RTAC program to be pushed
 		- use EPMS SERVERS.txt in building 1 folder for these IP's
