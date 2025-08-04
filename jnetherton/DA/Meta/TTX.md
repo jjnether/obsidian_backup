@@ -54,7 +54,7 @@ RTAC
 - 1.1\program developemnt\RTAC and HMI\...
 	- update firmware like normal
 	- update runtime
-		- hit button next ot push button
+		- hit button next to push button
 		- go to "upload hmi runtime binary" tab
 		- choose file to upload
 - open newest rev of diagram builder file (rev 2 currently) and send
@@ -85,5 +85,4 @@ To edit PTX or source breaker names:
 
 
 - Maybe have techs start going through
-- Needs tech names and contact info to enter into orientation spreadsheet
 - 2EY1.MVS.H01 - potentially do L2 as it was RMA'd and will be set in place maybe 8/13
