@@ -88,4 +88,4 @@ To edit PTX or source breaker names:
 
 Secondary Injection
 - Voltage 3V - 
-- Current .3A - 
+- Current .03A - 
