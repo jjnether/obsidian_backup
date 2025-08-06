@@ -87,5 +87,5 @@ To edit PTX or source breaker names:
 - 2EY1.MVS.H01 - potentially do L2 as it was RMA'd and will be set in place maybe 8/13
 
 Secondary Injection
-- Voltage 3V - 
+- Voltage 3.38V - 
 - Current .03A - 
