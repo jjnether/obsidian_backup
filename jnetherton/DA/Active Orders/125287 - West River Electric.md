@@ -37,3 +37,12 @@ POD - 108557
 	- Shouldn't it restore once a healthy source comes online?
 - Maybe 30 cycles for hysteresis for live/dead source?
 	- This may only be needed if we stick to the fact that it will time for a transfer regardless of alternate source being live/dead
+
+
+
+SV62 AND NOT SV62T AND LT28 AND F_TRIG VB003 AND NOT VB001 # EMERGENCY OBC
+- timing for return transfer
+- return transfer hasn't timed out
+- local live source
+- we just lost remote live source
+- good comms
