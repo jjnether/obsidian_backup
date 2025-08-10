@@ -15,6 +15,7 @@ kanban-plugin: board
 	- Will borrow a HLT board from Jason to add as part of standard package
 - [ ] **General Work**
 	- Default 487 overcurrent program
+	- REMINDER: Pantex cancelled flight - tell Simon to add to invoice cost
 
 
 ## Programming Spec
