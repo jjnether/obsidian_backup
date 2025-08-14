@@ -86,3 +86,8 @@ To edit PTX or source breaker names:
 Secondary Injection
 - Voltage 3.38V - 
 - Current .03A - 
+
+NOTE:
+- Observed that if there's a COMM A failure but COMM B is working and you try to test auto mode, when you send a command to kick it back to manual (either PB or remotely), it will give an auto failure. However, it does not do this if there's a COMM B failure, but COMM A is functioning (so we tested by just swapping A and B)
+	- This is a hole in the logic, but talked to Bob, and we'll probably leave it as it's an edge case and not harmful
+- MCUP7 and MCUP8 - test set was injecting lower and fluctuating values - couldn't get it working, so just looked for the right phase with voltage, then moved on
