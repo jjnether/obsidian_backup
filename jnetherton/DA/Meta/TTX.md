@@ -83,9 +83,6 @@ To edit PTX or source breaker names:
 - edit text as needed
 - for which loop column you need, reference ComPort to FieldDevice excel sheet in the TTX folder
 
-
-- 2EY1.MVS.H01 - potentially do L2 as it was RMA'd and will be set in place maybe 8/13
-
 Secondary Injection
 - Voltage 3.38V - 
 - Current .03A - 
