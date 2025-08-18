@@ -57,6 +57,7 @@ Changed:
 - Added SV27 and edited TR3X equation for HLT trip delay
 - Added SV20 to 3ph and 1ph torque control equations so HLT overrides CLPU
 
+(SV14T AND MV18 <> 1) OR (SV44T AND PB12_PUL AND MV22 = 1 AND MV18 <> 1) # PB PANEL TRIP CONDITIONS
 
 Questions
 - Should we define a default DNP map? Maybe just use what we have for the 32-pin template?
