@@ -13,6 +13,10 @@ kanban-plugin: board
 	- Need to finish template
 	- Waiting on marketing to borrow 651R2 for testing
 	- Will borrow a HLT board from Jason to add as part of standard package
+	- 127072
+	- 126589
+	- 122658
+	- 122602
 - [ ] **General Work**
 	- Default 487 overcurrent program
 	- REMINDER: Pantex cancelled flight - tell Simon to add to invoice cost
@@ -21,6 +25,8 @@ kanban-plugin: board
 ## Programming Spec
 
 - [ ] [[128558 - Elk Grove]]
+- [ ] 122658 - SOMC
+- [ ] 127715 - Hilcorp
 
 
 ## Programming
