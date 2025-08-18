@@ -7,12 +7,9 @@ POD - 108557
 - I know this had a good POD, however when we test please be sure to verify the system operates as intended when SPE is enabled and disabled (during normal operations, LOV, and OC events (including single phase lockout))
 - To enter auto, must have good comms, not HLT, one source open and the other closed.
 	- This could result in entering auto and it immediately timing for an initial transfer or a return transfer to a preferred source
-- A manual recloser operation (close/open) issued remotely from SCADA will kick out of auto
-	- should it?
-	- should local commands also kick out of auto? - or maybe I think local commands won't go through as pushbuttons may not work while in auto?
+- A manual recloser operation (close/open) issued locally or remotely from SCADA will kick out of auto
 - Note that while the recloser is in the cycle state and is timing for a reclose, the auto transfer timing logic is not active. The recloser will either resume transfer logic timing if the recloser successfully clears the fault, or it will be kicked out of auto mode if the recloser locks out due to a permanent fault.
-	- check this
-- For LOV tripping, there was extra wording in the programming spec regarding the ATS logic always executing before LOV logic and the LOV will only trip if alternate source not available/stable and reclosers are not in auto
+- ==For LOV tripping, there was extra wording in the programming spec regarding the ATS logic always executing before LOV logic and the LOV will only trip if alternate source not available/stable and reclosers are not in auto
 - ==No Sync Check
 	- add it if time allows
 - ==A dead alternate source does prevent the initial transfer timer from counting
