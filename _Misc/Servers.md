@@ -36,7 +36,6 @@ To update all containers at once:
 
 `docker system prune` - a more complete pruning
 
-8889990121
 For setting up Dynamic DNS
 - Go to Control Panel>Connectivity>External Access>DDNS then Add
 - For service provider, use Synology
