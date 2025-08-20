@@ -29,6 +29,7 @@ POD - 108557
 	- Shouldn't it restore once a healthy source comes online?
 - Maybe 30 cycles for hysteresis for live/dead source?
 	- This may only be needed if we stick to the fact that it will time for a transfer regardless of alternate source being live/dead
+- Maybe add a timer for if preferred source or any modes are out of sync?
 
 
 
