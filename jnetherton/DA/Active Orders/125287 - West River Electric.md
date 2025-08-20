@@ -18,16 +18,10 @@ POD - 108557
 		- add dropout of a couple cycles to prevent blips
 	- Previously, I did: After the initial transfer delay period has expired, the relay will verify voltage is live (voltage on all 3 phases is above the user settable live voltage threshold) on the other utility feed. If the other utility feed is live, the dead utility feed way will open.
 - For non-preferred mode, maybe it shouldn't allow any selection of a preferred source?
-- ensure lockout kicking out of auto is rising edge of lockout
-- Will system still work if one control is in group 1 and another is in group 2?
-	- add some kind of check for this
-	- same check for auto/manual return and preferred/non-preferred, both are preferred?
 - 52A3P - If we have the time we might want to update the logic to be more secure and use the status point that also incorporates current readings incase we have issues with the mechanism or wiring making it look like the contacts are open ,but in reality they are not because we see current.
-- Need to add functionality for Manual return mode to also work in non-preferred source mode
-- Make sure to add logic for emergency OBC
+- ==Need to add functionality for Manual return mode to also work in non-preferred source mode
 - Maybe 30 cycles for hysteresis for live/dead source?
 	- This may only be needed if we stick to the fact that it will time for a transfer regardless of alternate source being live/dead
-- Maybe add a timer for if preferred source or any modes are out of sync?
 
 
 
