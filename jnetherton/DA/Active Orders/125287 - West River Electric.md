@@ -39,3 +39,6 @@ SV62 AND NOT SV62T AND LT28 AND F_TRIG VB003 AND NOT VB001 # EMERGENCY OBC
 - local live source
 - we just lost remote live source
 - good comms
+
+
+(LT27 AND VB002 AND NOT VB001 OR LT32) AND LT31 # EXTRA TERMS FOR RST29
