@@ -25,28 +25,25 @@ POD - 108557
 - 52A3P - If we have the time we might want to update the logic to be more secure and use the status point that also incorporates current readings incase we have issues with the mechanism or wiring making it look like the contacts are open ,but in reality they are not because we see current.
 - Need to add functionality for Manual return mode to also work in non-preferred source mode
 - Make sure to add logic for emergency OBC
-- ==When in no pref. mode (LT32 = 1), if both sources are lost, it will not restore
-	- Shouldn't it restore once a healthy source comes online?
 - Maybe 30 cycles for hysteresis for live/dead source?
 	- This may only be needed if we stick to the fact that it will time for a transfer regardless of alternate source being live/dead
 - Maybe add a timer for if preferred source or any modes are out of sync?
 
 
 
-SV47 := SV62 AND NOT SV62T AND LT27 AND NOT 52A3P AND NOT VB003 AND NOT VB001 # EMERGENCY OBC
+SV47 := SV62 AND LT27 AND NOT 52A3P AND NOT VB003 AND NOT VB001 # EMERGENCY OBC
 - timing for return transfer
-- return transfer hasn't timed out
 - preferred source
 - open
-- we just lost remote live source
+- remote source dead
 - good comms
 
 SV54 := MV31 = 0.00 AND 52A3P AND (VB002 AND NOT VB001) # RTID
 
 SV57 := SV61T AND VB003 AND NOT VB001 AND NOT 52A3P # CLOSE REMOTE SWITCH
-SV58 := SV62T AND (MV31 = 1.00 OR (52A3P AND MV31 = 0.00 AND SV54T)) AND LT27 # TRIP REMOTE SWITCH
+SV58 := SV62T AND (MV31 = 1.00 OR (52A3P AND MV31 = 0.00 AND SV54T)) AND LT27 OR SV47T AND VB002 AND NOT VB001 # TRIP REMOTE SWITCH
 
-SV59 := (SV62T AND (MV31 = 1.00 AND NOT VB002 OR MV31 = 0.00) AND LT27 OR VB006) AND NOT VB001 # ATC CLOSE
+SV59 := (SV62T AND (MV31 = 1.00 AND NOT VB002 OR MV31 = 0.00) AND LT27 OR VB006 OR SV47T AND NOT VB002) AND NOT VB001 # ATC CLOSE
 SV60 := (SV61T AND VB003 OR VB007) AND NOT VB001 # ATC TRIP
 
 SV61 := (LT27 OR LT32) AND NOT LT28 AND LT29 AND NOT (79CY3P OR 79CYA OR 79CYB OR 79CYC OR SV55T) # INITAL TRANSFER DELAY
