@@ -1,6 +1,8 @@
 
 [file path](<file:///C:\Users\jnetherton\G&W Electric Co\US-PowerGridAutomation - Documents\_Lazer\125287 - West River Electric>)
 
+Primary Voltage (L-N) - 14400
+
 POD - 108557
 - what is settings group 1 vs group 2?
 
