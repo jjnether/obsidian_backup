@@ -26,6 +26,7 @@ kanban-plugin: board
 - [ ] [[128558 - Elk Grove]]
 - [ ] [[122658 - SOMC]] @{2025-10-17}
 - [ ] [[127715 - Hilcorp]] @{2026-08-18}
+- [ ] [[129223 - Amazon Rowan]] @{2026-06-04}
 
 
 ## Programming
