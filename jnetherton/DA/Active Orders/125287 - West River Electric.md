@@ -49,4 +49,4 @@ MV31 - 1 = OBC
 MV32 - 1 = Y SOURCE
 
 ==ADD DEAD LINE VOLTAGE FOR SUPERVISING CLOSING (NOT PARALLELING)
-- DON'T 
+- For parallel blocking, allow closing live line and dead bus, but don't allow live bus dead line (backfeeding substation)
