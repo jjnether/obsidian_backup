@@ -157,6 +157,7 @@ DESIGN TEMPLATE:
 		- `S1^51S1TD` represents the Set 1 51S1TD setting to be defined
 		- `UV^S1_51S1TD` represents the variable that will be sent to the setting
 - **^****** represents a setting or line of logic that is set to be defined in the template
+- For assigning a Y or N setting to a math variable, set the math variable equal to something like `([UV^1_E25] = Y)*1`
 
 For commissioning expense reports:
 - Change Expense Type to `Field Svc Billable - SWGR [5195]`
