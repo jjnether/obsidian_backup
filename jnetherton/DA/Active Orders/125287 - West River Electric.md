@@ -52,4 +52,9 @@ MV32 - 1 = Y SOURCE
 - For parallel blocking, allow closing live line and dead bus, but don't allow live bus dead line (backfeeding substation)
 
 CLOSE AND SV20
-- 
+- ALLOW MANUAL PARALLELING? (MV05 = 1)
+	- if yes, it will let user use PB or remote commands to close a live line and dead bus (sync check optional)
+	- if no, it will block any manual closing of live line and dead bus
+	- live bus and dead line will always be blocked
+- ENABLE SYNC CHECK?
+	- applies to both CBO transfer and manual paralleling (if enabled)
