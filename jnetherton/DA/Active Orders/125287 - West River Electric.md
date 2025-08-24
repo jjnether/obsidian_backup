@@ -58,3 +58,6 @@ CLOSE AND SV20
 	- live bus and dead line will always be blocked
 - ENABLE SYNC CHECK?
 	- applies to both CBO transfer and manual paralleling (if enabled)
+
+
+Block if load is live OR load and line are live and (no paralleling enabled or sync check enabled and bad sync check)
