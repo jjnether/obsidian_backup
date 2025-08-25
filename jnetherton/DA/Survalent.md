@@ -90,5 +90,8 @@ IED Wizard
 			- IEDINI – contains the configuration (manufacture/model)
 			- IEDSDE – contains point definitions
 			- IEDANS – answer file (point enable/disable checkbox values)
-
+Tables:
+- If getting errors about table mismatch (such as ScsData, LfData, LfEdit, etc.), you need to correct table values:
+	- Open SrvAdjust, hit the top left, then hold CTRL+SHIFT and click Tables
+	- ![[Pasted image 20250825092004.png|500]]
 For Survalent Sales support: Anjali Mittal amittal@survalent.com
