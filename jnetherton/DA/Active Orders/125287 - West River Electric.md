@@ -41,5 +41,5 @@ MV31 - 1 = OBC
 MV32 - 1 = Y SOURCE
 
 
-- When both sources are lost, it will immediately transfer upon seeing the alternate source live for even 30 cyc
-- send hlt status to other switch? - currently they can enter, but it will exit after 1 sec
+- Make customer aware that when they enable auto, they need to make sure it stays enabled
+	- could disable after 1 sec due to settings mismatch - did this to save GOOSE bandwidth
