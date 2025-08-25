@@ -39,3 +39,6 @@ SV62 := LT28 AND LT29 AND NOT LT32 # STABLE/HEALTHY SOURCE/ RETURN TRANSFER TIME
 
 MV31 - 1 = OBC
 MV32 - 1 = Y SOURCE
+
+
+When both sources are lost, it will immediately transfer upon seeing the alternate source live for even 30 cyc
