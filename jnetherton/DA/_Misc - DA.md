@@ -59,6 +59,8 @@ For reprogramming an encoder motor, see GWI 523-369 pg 12
 - Use `SHO` for set logic - i.e. `SHO 2` - shows set 2
 `R_S` - factory reset
 `GOO` - check GOOSE settings - look for bad GOOSE signal (will say expired in a column)
+`CLO` - Close (651)
+`OPE` - Open (651)
 
 For level 3 access, use CAL
 CLARKE
