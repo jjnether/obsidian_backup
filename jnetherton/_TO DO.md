@@ -41,7 +41,6 @@ kanban-plugin: board
 
 ## FAT
 
-- [ ] [[125287 - West River Electric]] @{2025-08-13}
 - [ ] [[117244 - Camp Humphreys]] @{2025-10-07}
 
 
