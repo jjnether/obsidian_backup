@@ -78,6 +78,8 @@ then
 Z = vertical bushing (usually line/source side)
 Y = horizontal bushing (usually load side) (ct is always on this side)
 
+Trident SR's bring back a "PWR STATUS" (both 0VDC and 24VDC) which indicates that the power feedthru is getting 24VDC. This then means that power is getting fed to all the necessary parts of the Trident SR electronics
+
 **Bypass Mode**
 - This mode is intended to be used when device(s) cannot coordinate with the upstream device. In this mode fault targets will be set, but the overcurrent protection elements will be blocked from tripping the recloser.
 	- Basically, if two switches are too close to coordinate, one may be in bypass mode
