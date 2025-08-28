@@ -91,3 +91,10 @@ Emergency OBC on return transfer:
 - Setup MAX PARALLEL timer alarm in each switch - ATS1 alarm will trip ATS1 tie, and ATS2 alarm will trip ATS2 tie if ATS1 tie didn't trip
 	- Use ALT01 for alarm latch
 	- Customer request
+- Use RB08 as a toggle for return transfers
+	- If return transfers are disabled, will it get knocked out of auto after an initial operation?
+	- Customer request
+- Add an uncommanded operation alarm and add it to the target LED's
+	- Use TLED21
+	- Customer request
+- NEED TO REVIEW CUSTOMER SOO's
