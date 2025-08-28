@@ -88,3 +88,6 @@ Emergency OBC on return transfer:
 	- make sure voltage ranges in template work with these considerations
 - For tie fault, blocking scheme so it blocks upstream and trips closest, then sends transfer trip to other side
 	- or saw fault current followed by loss of voltage, meaning it was interrupted upstream
+- Setup MAX PARALLEL timer alarm in each switch - ATS1 alarm will trip ATS1 tie, and ATS2 alarm will trip ATS2 tie if ATS1 tie didn't trip
+	- Use ALT01 for alarm latch
+	- Customer request
